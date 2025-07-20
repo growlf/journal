@@ -1,0 +1,1 @@
+See [SyncThing](https://docs.syncthing.net/intro/getting-started.html)

@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"19fef68ced535ae9","type":"text","text":"Internet","x":18,"y":-660,"width":250,"height":60},
+		{"id":"d2aa0351382c2286","x":-460,"y":-660,"width":400,"height":900,"type":"file","file":"YetiCraft/Lab Setup/The Stack.md"},
+		{"id":"c1c2cdec6c160312","x":18,"y":-550,"width":250,"height":50,"color":"5","type":"file","file":"YetiCraft/Lab Setup/Hardware.md"},
+		{"id":"afe5438fd1414516","x":18,"y":-440,"width":250,"height":50,"color":"5","type":"file","file":"YetiCraft/Lab Setup/Proxmox.md"}
+	],
+	"edges":[
+		{"id":"267f99fdfee0a643","fromNode":"19fef68ced535ae9","fromSide":"bottom","toNode":"c1c2cdec6c160312","toSide":"top"},
+		{"id":"14656a976b46a1f2","fromNode":"c1c2cdec6c160312","fromSide":"bottom","toNode":"afe5438fd1414516","toSide":"top"}
+	]
+}
