@@ -40,3 +40,4 @@ Creation date: Monday April 4th 2022 11:18:30
 - [[Nextcloud]] - All 'round collaboration tool
 - [[Leantime]] Project management (calendar, project, tickets)
 - [[Mail server]]
+- [[Tailscale]]

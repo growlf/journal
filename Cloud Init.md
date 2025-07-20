@@ -33,6 +33,7 @@ qm set 9000 --ide2 local-lvm:cloudinit
 # Setup the network
 qm set 9000 --ipconfig0 ip=dhcp
 qm set 9000 --searchdomain yeticraft.net
+qm set 9000 --nameserver 10.10.0.4
 # Create the user
 qm set 9000 --ciuser nexus --cipassword 'nexus'
 qm set 9000 --sshkeys ~/.ssh/vm_keys
@@ -48,4 +49,4 @@ Then create a VM using the template like so:
 ```bash
 qm clone 9000 201 --name "new-ubuntu-vm"
 ```
-To use the CEPHFS drives instead, I am guessing that I would simply need to change where I import the image to, and also the following commands that reference it.
+To use the CEPHFS drives instead (replace `local-lvm` with `ceph-pool`), I am guessing that I would simply need to change where I import the image to, and also the following commands that reference it.
