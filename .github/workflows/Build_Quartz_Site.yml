@@ -1,6 +1,13 @@
+# This workflow builds and deploys the Quartz site to GitHub Pages.
+# It is triggered on a schedule, on pushes to the main branch, version tags, and releases.
+# It also allows manual triggering with an input for the environment.
+# The workflow consists of two jobs: build and deploy.
+#
+# Based on https://github.com/marketplace/actions/build-quartz-for-github-pages
+#
 name: Build Quartz Site
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Triggers the workflow on every 1AM Monday UTC, on pushes to main, version tagged, or release branches,
   schedule:
     - cron: '0 1 * * 1'
   push:
@@ -16,16 +23,27 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'The environment to deploy to'
+        required: true
+        default: 'production'
+
+# Permissions required for the workflow
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Concurrency ensures that only one workflow run is active at a time for the same group
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Define the jobs for the workflow
 jobs:
+
+  # Build and Deploy Quartz Site from the obsidian /docs folder
   build:
     runs-on: ubuntu-latest
     steps:
@@ -44,6 +62,8 @@ jobs:
           page_title: "Journal of The NetYeti"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+
+  # Deploy the built site to GitHub Pages
   deploy:
     runs-on: ubuntu-latest
     needs: build
