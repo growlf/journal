@@ -70,7 +70,7 @@ jobs:
           quartz_layout: .github/quartz/quartz.layout.ts
           quartz_icon: .github/quartz/icon.png
           quartz_banner: .github/quartz/og-image.png
-          quartz_favicon: .github/quartz/favicon.png
+          quartz_favicon: .github/quartz/faviconicon.png
           quartz_custom_css: .github/quartz/custom.scss
           # See https://github.com/marketplace/actions/build-quartz-for-github-pages
 
