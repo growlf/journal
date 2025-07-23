@@ -24,3 +24,5 @@ To insert the data or time use the command palette ( Ctrl+P ) the type `date` or
 		- Select a note or Enter a new name - to create a new note.
 		- add a `|` and some text to create an alias `[[definitions|DEF]]` will look like [[definitions|DEF]]
 		- 
+## Publishing to GitHub
+Consider using [[GitHub-Quartz-Obsidian-workflow]] to automatically publish your content to a public audience on a *huge* platform, complete with SSL and versioning control.
