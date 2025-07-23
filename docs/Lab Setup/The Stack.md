@@ -3,6 +3,8 @@ tags:
   - lab
   - projects
 Creation date: Monday April 4th 2022 11:18:30
+aliases:
+  - Home Lab
 ---
 ## 1) Infrastructure tools:
 1) [[Hardware]] - Router, server hardware, storage hardware, wifi
