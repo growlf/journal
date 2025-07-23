@@ -71,7 +71,6 @@ jobs:
           quartz_icon: .github/quartz/icon.png
           quartz_banner: .github/quartz/og-image.png
           quartz_favicon: .github/quartz/favicon.png
-          quartz_banner: .github/quartz/banner.png
           quartz_custom_css: .github/quartz/custom.scss
           # See https://github.com/marketplace/actions/build-quartz-for-github-pages
 
