@@ -13,12 +13,13 @@ aliases:
 	- [ProxMox Scripts](https://community-scripts.github.io/ProxmoxVE/scripts) - for awesome extras, LXCs "ready to go", etc
 4) [[Apt Cacher]] - Speed up deployments and reduce bandwidth to the internet
 5) [[Technitium]] - Internal DNS
-6) [[Homepage]] - A place to link to "all the things" (the one ring)
-7) [[Wireguard]] - Remote, secure, access
-8) [[Registry]] with Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options
-9) [[PXEBoot]] - for staging and thick clients- [[Portainer]] and/or [[Komodo]]
+6) [[Vaultwarden]] - Secrets management
+7) [[Homepage]] - A place to link to "all the things" (the one ring)
+8) [[Wireguard]] - Remote, secure, access
+9) [[Registry]] with Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options
+10) [[PXEBoot]] - for staging and thick clients- [[Portainer]] and/or [[Komodo]]
 ## 2) Documentation, Wiki, and Web
-- [[BookStack]] - Wiki and KB
+- [[BookStack]] - Wiki and KB or [[GitHub-Quartz-Obsidian-workflow]] (great for personal journaling)
 - [[Wordpress]] - Main web presence
 - [[Obsidian]] - Notes and mindstorming
 - [[Draw.io]] and [[Google Drive]]
