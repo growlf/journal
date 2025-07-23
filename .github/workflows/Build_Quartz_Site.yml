@@ -71,10 +71,10 @@ jobs:
           quartz_icon: .github/quartz/icon.png
           quartz_banner: .github/quartz/og-image.png
           quartz_favicon: .github/quartz/favicon.png
-          quartz_logo: .github/quartz/logo.png
-          quartz_logo_dark: .github/quartz/logo-dark.png
-          quartz_logo_light: .github/quartz/logo-light.png
-          quartz_logo_small: .github/quartz/logo-small.png
+          quartz_banner: .github/quartz/banner.png
+          quartz_custom_css: .github/quartz/custom.scss
+          # See https://github.com/marketplace/actions/build-quartz-for-github-pages
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
