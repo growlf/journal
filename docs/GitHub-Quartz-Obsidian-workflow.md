@@ -25,7 +25,7 @@ Commit all of your changes and push them up to your repository.  Watch the actio
 git add -A && git commit -m 'updates from obsidian' && git push
 ```
 
-- If you want to customize your theme, look at my [quartz](.github/quartz) folder for an example, or look at the links below here.
+- If you want to customize your theme, look at my [quartz](https://github.com/growlf/journal/tree/main/.github/quartz) folder for an example, or look at the links below here.
 ## Links
 My inspiration and ability, as always, comes from those that have already pioneerd what I am using.  This project is no different.  Checkout these sources:
 1) [GitHub marketplace actions - Build Quartz](https://github.com/marketplace/actions/build-quartz-for-github-pages)
