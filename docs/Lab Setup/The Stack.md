@@ -10,8 +10,7 @@ aliases:
 1) [[Hardware]] - Router, server hardware, storage hardware, wifi
 2) [[Domain]] - registrar, etc
 3) [[Proxmox]] - Start here! Everything gets built off of this.
-	- [ProxMox Scripts](https://community-scripts.github.io/ProxmoxVE/scripts) - for awesome extras, LXCs "ready to go", etc
-4) [[Apt Cacher]] - Speed up deployments and reduce bandwidth to the internet
+4) [[Apt Cacher NG]] - Speed up deployments and reduce bandwidth to the internet
 5) [[Technitium]] - Internal DNS
 6) [[Vaultwarden]] - Secrets management
 7) [[Homepage]] - A place to link to "all the things" (the one ring)
