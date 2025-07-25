@@ -20,7 +20,8 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 7) [[Homepage]] - A place to link to "all the things" (the one ring)
 8) [[Wireguard]] - Remote, secure, access
 9) [[Registry]] with Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options
-10) [[PXEBoot]] - for staging and thick clients- [[Portainer]] and/or [[Komodo]]
+10) [[PXEBoot]] - for staging and thick clients
+11) [[Portainer]] and [[Docker]]
 ## 2) Documentation, Wiki, and Web
 - [[GitHub-Quartz-Obsidian]] (great for personal journaling)
 - [[Wordpress]] - Main web presence

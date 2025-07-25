@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Tricks/Docker/Smoother Updates.md",
+                "file": "docs/Lab Setup/The Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Smoother Updates"
+              "title": "The Stack"
             }
           }
         ],
@@ -194,6 +194,8 @@
   },
   "active": "132659d76ab475a9",
   "lastOpenFiles": [
+    "docs/Tools/Docker.md",
+    "docs/Lab Setup/The Stack.md",
     "docs/index.md",
     "docs/Tricks/Docker/Smoother Updates.md",
     "docs/Tricks/Docker",
@@ -201,7 +203,6 @@
     "docs/Tools/index.md",
     "docs/Lab Setup/Cloud Init.md",
     "docs/Glossary/Hardware.md",
-    "docs/Lab Setup/The Stack.md",
     "docs/Glossary/GithubWorkflow.md",
     "docs/Glossary/GIT.md",
     "docs/Tools/Technitium.md",
