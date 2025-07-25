@@ -13,8 +13,7 @@ After much struggle with attempting to publish my [[Obsidian]] journal to an exi
 ## Step 1
 Create a public [GitHub](https://github.com/) project and add a `docs` folder to it, a license, etc.   Then clone it to your local system (yes, even on Windows).
 ## Step 2
-Open your [Obsidian](https://obsidian.md/download) instance and add a new vault that points at the cloned project's `docs` folder.  Add an `index` page.  Make note named, literally, `index` - lowercase (it is an issue with the quartz workflow that it is so specific).
-Add the [Community Plugin](https://help.obsidian.md/community-plugins) for [GIT](https://publish.obsidian.md/git-doc/Installation)
+Open your [Obsidian](https://obsidian.md/download) instance and add a new vault that points at the cloned project's `docs` folder.  Add an `index` page.  Make note named, literally, `index` - lowercase (it is an issue with the quartz workflow that it is so specific).  Now add the [Community Plugin](https://help.obsidian.md/community-plugins) for [GIT](https://publish.obsidian.md/git-doc/Installation). This will enable easy updates to your repository from within the Obsidian interface.
 ## Step 3
 Add the magic in! Create a `.github/workflows` directory next to the `docs` directory in your locally cloned project, and then add [the buiild script](https://raw.githubusercontent.com/growlf/journal/refs/heads/main/.github/workflows/Build_Quartz_Site.yml) to it.  Simply down load the file into the folder as `.github/workflows/Build_Quartz_Site.yml`.
 ## Step 4
