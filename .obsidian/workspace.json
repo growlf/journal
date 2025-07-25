@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Tricks/Docker/Smoother Updates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Smoother Updates"
             }
           }
         ],
@@ -194,6 +194,10 @@
   },
   "active": "132659d76ab475a9",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/Tricks/Docker/Smoother Updates.md",
+    "docs/Tricks/Docker",
+    "docs/Tricks",
     "docs/Tools/index.md",
     "docs/Lab Setup/Cloud Init.md",
     "docs/Glossary/Hardware.md",
@@ -208,7 +212,6 @@
     "docs/Tools/NtopNG.md",
     "docs/Tools/Nextcloud.md",
     "docs/Tools/GitHub-Quartz-Obsidian.md",
-    "docs/index.md",
     "docs/Tools/BookStack.md"
   ]
 }
