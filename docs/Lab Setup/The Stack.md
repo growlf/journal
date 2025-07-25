@@ -38,9 +38,13 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 - [[Discord]] - Social
 - [[Slack]] - Optinal social
 - [[SSH]] - Remote access and administration
+- [[Mail server]] - MailU ?
 ## Other Useful services
 - [[WorkAdventure]] - For social hybrid scenarios as well as possible contact tool
 - [[Nextcloud]] - All 'round collaboration tool
 - [[Leantime]] Project management (calendar, project, tickets)
-- [[Mail server]]
-- [[Tailscale]]
+- [[Tailscale]] - VPN for everyone
+- [Leantime](https://leantime.io/) [Openproject](https://www.openproject.org/)- Project management
+- [ESPHome](https://esphome.io/index.html)- 
+- HomeAssistant
+- NodeRed
