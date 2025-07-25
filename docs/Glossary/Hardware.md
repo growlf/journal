@@ -1,3 +1,8 @@
+---
+tags: 
+Creation date: Monday April 4th 2022 11:18:30
+---
+---
 ## Servers
 Typical server hardware that I use are Dell R630's with 128GB RAM, 40 cores, 8TB storage from Amazon renewed (at approximately $450 each as of this writing).  I started with Raspberry Pis, graga-sale systems, and cheap micro-itx systems off of E-Bay.  Power-wise, and space-wise the Del servers are for more efficient in the long run.  Noise, on the other hand, not so much.
 ## Storage

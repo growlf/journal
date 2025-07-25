@@ -7,7 +7,7 @@ tags:
 Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
-A full-featured DNS soloution. My favorite option for a local or split-dns.
+A fully featured DNS solution. My personal favorite option for a local or split-DNS.
 
 Links:
 - [Technitium](https://technitium.com/) homepage

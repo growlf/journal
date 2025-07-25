@@ -1,3 +1,10 @@
+---
+tags:
+  - github
+  - projects
+Creation date: Monday April 4th 2022 11:18:30
+---
+---
 As in [GitHub](https://github.com) - but certainly not limited to just that well known remote repository.  Git is a free and open-source distributed version control system (DVCS) designed to manage changes in source code during software development. It allows multiple developers to collaborate on the same project efficiently by tracking modifications, enabling easy reversion to previous versions, and facilitating the merging of different contributions.
 
 Key aspects of Git:

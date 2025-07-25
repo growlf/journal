@@ -9,6 +9,8 @@ Creation date: Monday April 4th 2022 11:18:30
 aliases:
   - Home Lab
 ---
+---
+
 ## 1) Infrastructure tools:
 The basics of our lab.  Start with 1 and finish with 10.  Doing them in order kinda helps.
 1) [[journal/docs/Glossary/Hardware|Hardware]] - Router, server hardware, storage hardware, WiFi, etc
