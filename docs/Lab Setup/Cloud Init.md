@@ -46,7 +46,7 @@ qm set 9000 --serial0 socket --vga serial0
 qm template 9000
 ```
 ### Create a VM
-Then create a VM using the template like so:
+Then create a VM using the new template like so:
 ```bash
 qm clone 9000 201 --name "new-ubuntu-vm"
 ```
