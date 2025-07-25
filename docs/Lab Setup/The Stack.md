@@ -19,7 +19,7 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 9) [[Registry]] with Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options
 10) [[PXEBoot]] - for staging and thick clients- [[Portainer]] and/or [[Komodo]]
 ## 2) Documentation, Wiki, and Web
-- [[BookStack]] - Wiki and KB or [[GitHub-Quartz-Obsidian-workflow]] (great for personal journaling)
+- [[GitHub-Quartz-Obsidian]] (great for personal journaling)
 - [[Wordpress]] - Main web presence
 - [[Obsidian]] - Notes and mindstorming
 - [[Draw.io]] and [[Google Drive]]
@@ -27,7 +27,7 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 - [[Proxmox Backup Server]]
 - [[SyncThing]] - File backup and sharing/collaberating
 - [[RSync]] - System backup solution
-- [[FileBrowser Quantum]] - Easy file access tool for various other services/apps
+- [[FileBrowser Quantum]] - Easy file access tool for various other services/apps (can be added to any LXC or VM that does not have a file access GUI but needs one)
 ## 4) Monitoring Tools
 - [[NtopNG]] - IDS, monitoring, alerting, and debugging
 - [[NetalertX]] - monitoring
@@ -45,6 +45,6 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 - [[Leantime]] Project management (calendar, project, tickets)
 - [[Tailscale]] - VPN for everyone
 - [Leantime](https://leantime.io/) [Openproject](https://www.openproject.org/)- Project management
-- [ESPHome](https://esphome.io/index.html)- 
-- HomeAssistant
-- NodeRed
+- [ESPHome](https://esphome.io/index.html)- Easy deployment to ESP32 and similar IoT hardware
+- HomeAssistant - Home automation
+- NodeRed - Process flow

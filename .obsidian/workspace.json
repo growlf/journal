@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d474d6f5208eaef3",
+        "id": "e9c4c69db1db33f2",
         "type": "tabs",
         "children": [
           {
-            "id": "cfe0a61d93dc7b4d",
+            "id": "c168fb9d3965c97d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
-                "bFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
-                "aRef": ""
+                "file": "docs/Tools/GitHub-Quartz-Obsidian.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: obsidian_askpass.sh"
+              "icon": "lucide-file",
+              "title": "GitHub-Quartz-Obsidian"
             }
           }
         ]
@@ -177,6 +177,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfe0a61d93dc7b4d",
-  "lastOpenFiles": []
+  "active": "c168fb9d3965c97d",
+  "lastOpenFiles": [
+    "docs/Lab Setup/Cloud Init.md",
+    "docs/Lab Setup/The Stack.md",
+    "docs/Tools/Apt Cacher NG.md",
+    "docs/Tools/BookStack.md",
+    "docs/index.md"
+  ]
 }

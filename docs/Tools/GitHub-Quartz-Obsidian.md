@@ -13,18 +13,14 @@ After much struggle with attempting to publish my [[Obsidian]] journal to an exi
 ## Step 1
 Create a public [GitHub](https://github.com/) project and add a `docs` folder to it, a license, etc.   Then clone it to your local system (yes, even on Windows).
 ## Step 2
-Open your [Obsidian](https://obsidian.md/download) instance and add a new vault that points at the cloned project's `docs` folder.  Add an `index` page.  Make note named, literally, `index` - lowercase (it is an issue with quartz that it is so specific).
+Open your [Obsidian](https://obsidian.md/download) instance and add a new vault that points at the cloned project's `docs` folder.  Add an `index` page.  Make note named, literally, `index` - lowercase (it is an issue with the quartz workflow that it is so specific).
+Add the [Community Plugin](https://help.obsidian.md/community-plugins) for [GIT](https://publish.obsidian.md/git-doc/Installation)
 ## Step 3
 Add the magic in! Create a `.github/workflows` directory next to the `docs` directory in your locally cloned project, and then add [the buiild script](https://raw.githubusercontent.com/growlf/journal/refs/heads/main/.github/workflows/Build_Quartz_Site.yml) to it.  Simply down load the file into the folder as `.github/workflows/Build_Quartz_Site.yml`.
 ## Step 4
-Commit all of your changes and push them up to your repository.  Watch the actions kick in - and on the `deploy` task, it will even tell you where it got published to. 
+Commit all of your changes and push them up to your repository.  Watch the actions kick in and on the `deploy` task, it will also tell you where it got published to. 
 ## Notes
 - You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as, which is `growlf.github.io/journal`)
-- Every time you are done with editing and adding locally, just run the [[git]] commands to stage, commit, and push the content up - and a few minutes later your site will be published. For me, on my Linux distro, it is simply an executable script in my `.local/bin` that runs the following commands:
-```bash
-git add -A && git commit -m 'updates from obsidian' && git push
-```
-
 - If you want to customize your theme, look at my [quartz](https://github.com/growlf/journal/tree/main/.github/quartz) folder for an example, or look at the links below here.
 ## Links
 My inspiration and ability, as always, comes from those that have already pioneerd what I am using.  This project is no different.  Checkout these sources:
