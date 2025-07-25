@@ -1,5 +1,5 @@
 # Journal
-My personal journal in technology ...and other things.
+My personal journal in technology ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - using [[GitHub-Quartz-Obsidian]] to publish it.
 
 ## Recent Project Focuses
 - [[Lab Setup/Cloud Init]] - A *needed* thing for Proxmox VMs
