@@ -8,7 +8,7 @@ tags:
 Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
-After much struggle with attempting to publish my [[Obsidian]] journal to an existing [[BookStack]] instance, I found that [[Quartz]] is an amazing solution for getting my content in front of folx.  What follows is the successful part of my journey (so that you can use it on your own Journals as well.)
+After much struggle with attempting to publish my [[journal/docs/Tools/Obsidian]] journal to an existing [[BookStack]] instance, I found that [[Quartz]] is an amazing solution for getting my content in front of folx.  What follows is the successful part of my journey (so that you can use it on your own Journals as well.)
 
 ## Step 1
 Create a public [GitHub](https://github.com/) project and add a `docs` folder to it, a license, etc.   Then clone it to your local system (yes, even on Windows).
@@ -25,4 +25,4 @@ Commit all of your changes and push them up to your repository.  Watch the actio
 My inspiration and ability, as always, comes from those that have already pioneerd what I am using.  This project is no different.  Checkout these sources:
 1) [GitHub marketplace actions - Build Quartz](https://github.com/marketplace/actions/build-quartz-for-github-pages)
 2) [Quartz](https://quartz.jzhao.xyz/)
-3) [Obsidian](https://obsidian.md/download) - the source, but also my own thoughts on [[Obsidian]]
+3) [Obsidian](https://obsidian.md/download) - the source, but also my own thoughts on [[journal/docs/Tools/Obsidian]]

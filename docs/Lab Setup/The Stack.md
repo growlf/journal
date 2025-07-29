@@ -27,7 +27,7 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 ## 2) Documentation, Wiki, and Web
 - [[GitHub-Quartz-Obsidian]] (great for personal journaling)
 - [[Wordpress]] - Main web presence
-- [[Obsidian]] - Notes and mindstorming
+- [[journal/docs/Tools/Obsidian]] - Notes and mindstorming
 - [[Draw.io]] and [[Google Drive]]
 ## 3) Backups and File Access
 - [[Proxmox Backup Server]]
