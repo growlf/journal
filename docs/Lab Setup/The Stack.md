@@ -40,7 +40,7 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 - [[LibreNMS]] - monitoring and alerting
 - [[Grafana]] with [[Prometheus]], [[Promtail]], and [[CAdvisor]] (and others)
 ## Standalone/external configs/services/apps
-- [[email]] - alerts, updates, etc 
+- [[Email]] - alerts, updates, etc 
 - [[Discord]] - Social
 - [[Slack]] - Optinal social
 - [[SSH]] - Remote access and administration

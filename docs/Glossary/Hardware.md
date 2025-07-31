@@ -1,6 +1,13 @@
 ---
-tags: 
+tags:
+  - glossary
 Creation date: Monday April 4th 2022 11:18:30
+aliases:
+  - server
+  - storage
+  - router
+  - switch
+  - ethernet
 ---
 ---
 ## Servers

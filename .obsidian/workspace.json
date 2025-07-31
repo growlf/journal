@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73aa679df81493b8",
+        "id": "308aefbeeba9e5e1",
         "type": "tabs",
         "children": [
           {
-            "id": "d36ebc7f94b1dcbd",
+            "id": "0747f82e54984904",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/data.json",
+                "bFile": ".obsidian/plugins/obsidian-git/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "diff",
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -178,8 +178,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d36ebc7f94b1dcbd",
+  "active": "0747f82e54984904",
   "lastOpenFiles": [
+    "docs/index.md",
     "docs/Glossary/email.md",
     "docs/Lab Setup/The Stack.md",
     "docs/Tools/HomeAssistant.md",
@@ -191,7 +192,6 @@
     "docs/Glossary/GIT.md",
     "docs/Glossary/GithubWorkflow.md",
     "docs/Glossary/Domain.md",
-    "docs/index.md",
     "docs/Tricks/Smoother Updates.md",
     "docs/Tricks/GitHub-Quartz-Obsidian.md",
     "docs/Tools/WorkAdventure.md",

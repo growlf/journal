@@ -2,7 +2,11 @@
 tags:
   - github
   - projects
+  - glossary
 Creation date: Monday April 4th 2022 11:18:30
+Documentation: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+aliases:
+  - version control system
 ---
 ---
 As in [GitHub](https://github.com) - but certainly not limited to just that well known remote repository.  Git is a free and open-source distributed version control system (DVCS) designed to manage changes in source code during software development. It allows multiple developers to collaborate on the same project efficiently by tracking modifications, enabling easy reversion to previous versions, and facilitating the merging of different contributions.
