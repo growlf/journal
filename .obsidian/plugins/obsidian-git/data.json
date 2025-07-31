@@ -1,5 +1,5 @@
 {
-  "commitMessage": "vault backup: {{date}}",
+  "commitMessage": "Obsidian edits from {{hostname}} at {{date}}",
   "autoCommitMessage": "Obsidian updates from {{hostname}} at {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
