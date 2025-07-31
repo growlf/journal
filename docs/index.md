@@ -16,6 +16,6 @@ My personal journal in technology ...and other things.  I am using [[journal/doc
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I instruct at Bellingham Technical College, consult with clients, and am an avid supporter of all things fun+community+educational. I am also a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a 501.c3 dedicated to many of the things that I hold dear.
 
 ### Friends and Peers
-[Lili](https://itsvivianmill.github.io/) - Student, coder, sysadmin, and passionate technology explorer.
-[Josh](https://joshbuker.com/) - Technology connoisseur and all around  awesome dude.
-[Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.
+- [Lili](https://itsvivianmill.github.io/) - Student, coder, sysadmin, and passionate technology explorer.
+- [Josh](https://joshbuker.com/) - Technology connoisseur and all around  awesome dude.
+- [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.

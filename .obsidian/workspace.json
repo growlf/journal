@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Glossary/DNS.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "index"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "18d81f6064c537cd",
   "lastOpenFiles": [
+    "docs/Glossary/DNS.md",
     "docs/index.md",
     "docs/Drawing1.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
@@ -222,7 +223,6 @@
     "docs/Glossary/email.md",
     "docs/Tools/HomeAssistant.md",
     "docs/Tools/index.md",
-    "docs/Glossary/DNS.md",
     "docs/Tools/Proxmox.md",
     "docs/Tools/Beszel.md",
     "docs/Glossary/Hardware.md",
