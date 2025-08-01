@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7a650a2ef8fd27cb",
+        "id": "2804683a535f9d56",
         "type": "tabs",
         "children": [
           {
-            "id": "bdf38c3a7acd8133",
+            "id": "e614fb2a7e994d0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Tricks/Excalidraw and Templates.md",
-                "mode": "preview",
+                "file": "docs/index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Excalidraw and Templates"
+              "title": "index"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#lab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Add Link to New Page and Open"
+              "title": "Outgoing links"
             }
           },
           {
@@ -141,13 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Add Link to New Page and Open"
+              "title": "Outline"
             }
           },
           {
@@ -176,62 +174,56 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false,
-      "systemsculpt-ai:Open SystemSculpt Chat": false,
-      "systemsculpt-ai:Open SystemSculpt Chat History": false,
-      "systemsculpt-ai:Open SystemSculpt Janitor": false,
-      "systemsculpt-ai:Open Similar Notes Panel": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfb830bb59a82847",
+  "active": "e614fb2a7e994d0b",
   "lastOpenFiles": [
-    "docs/Tricks/Drawing1.excalidraw.md",
+    "docs/Glossary/DNS.md",
     "docs/Tricks/Excalidraw and Templates.md",
-    "docs/index.md",
-    "docs/Assets/Drawing1.excalidraw.svg",
-    "docs/Assets",
-    "docs/Tricks/GitHub-Quartz-Obsidian.md",
+    "docs/Tricks/Drawing1.excalidraw.md",
+    "docs/Tools/Shell.md",
+    "docs/Tools/HomeAssistant.md",
+    "docs/Tools/Ansible.md",
+    "docs/Glossary/Mark Down.md",
     "docs/Glossary/LLM.md",
-    "docs/Glossary/Hardware.md",
-    "docs/Tricks/Untitled.md",
-    "Templates/Quick.md",
-    "Templates",
-    "SystemSculpt/Extractions",
-    "SystemSculpt/Attachments",
-    "SystemSculpt/System Prompts",
-    "SystemSculpt/Recordings",
-    "SystemSculpt/Saved Chats",
-    "SystemSculpt/Chats",
-    "SystemSculpt",
+    "docs/Glossary/Github Workflow.md",
+    "docs/Glossary/Email.md",
     "docs/Gizmos/Gizmos.md",
     "docs/Gizmos",
-    "docs/Glossary/DNS.md",
-    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
-    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
-    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
-    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg",
-    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.svg",
-    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
-    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "docs/Assets/Drawing1.excalidraw.svg",
+    "docs/Assets",
+    "Templates/Quick.md",
+    "Templates",
+    "SystemSculpt",
+    "Excalidraw/system-design.excalidrawlib",
+    "Excalidraw/software-architecture.excalidrawlib",
+    "Excalidraw/drwnio.excalidrawlib",
+    "Excalidraw/decision-flow-control.excalidrawlib",
+    "Excalidraw/data-viz.excalidrawlib",
+    "Excalidraw/architecture-diagram-components.excalidrawlib",
+    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
+    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.md",
+    "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.svg",
+    "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.md",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
+    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.svg",
+    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
-    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
-    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
-    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
-    "Excalidraw/Scripts/Downloaded/Connect elements.md",
-    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.md",
-    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
-    "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.md",
-    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.md",
-    "docs/Lab Setup/The Stack.md"
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md"
   ]
 }

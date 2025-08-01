@@ -19,6 +19,6 @@ I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among oth
 
 ### Friends and Peers
 Without friends and peers, where is the fun of discovery?  Sharing is caring, and the following (growing) list of cool folx are also into the sharing spirit of what the do.  Check 'em out.'
-- [Lili](https://itsvivianmill.github.io/) - Student, coder, sysadmin, and passionate technology explorer.
+- [Lili](https://itsvivianmill.github.io/Journal) - Student, coder, sysadmin, and passionate technology explorer.
 - [Josh](https://joshbuker.com/) - Technology connoisseur and all around  awesome dude.
 - [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.
