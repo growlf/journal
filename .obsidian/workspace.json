@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Excalidraw and Templates.md",
-                "mode": "source",
+                "file": "docs/Tricks/Excalidraw and Templates.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,13 +185,13 @@
       "systemsculpt-ai:Open Similar Notes Panel": false
     }
   },
-  "active": "bdf38c3a7acd8133",
+  "active": "dfb830bb59a82847",
   "lastOpenFiles": [
+    "docs/Tricks/Drawing1.excalidraw.md",
+    "docs/Tricks/Excalidraw and Templates.md",
     "docs/index.md",
-    "docs/Excalidraw and Templates.md",
     "docs/Assets/Drawing1.excalidraw.svg",
     "docs/Assets",
-    "Excalidraw/Drawing1.excalidraw.md",
     "docs/Tricks/GitHub-Quartz-Obsidian.md",
     "docs/Glossary/LLM.md",
     "docs/Glossary/Hardware.md",

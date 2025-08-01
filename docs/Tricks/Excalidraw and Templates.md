@@ -7,7 +7,9 @@ modification date: Thursday 31st July 2025 18:06:43
 
 Testing templates and basic Excalidraw diagram implementation.
 ![[Drawing1.excalidraw.svg]]
-# Untitled
+# [[Drawing1.excalidraw]]
+
+Untitled
 
 > [!quote] Nothing is so strong as gentleness. Nothing is so gentle as real strength.
 > — Frances de Sales
