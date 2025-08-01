@@ -15,6 +15,7 @@ aliases:
 - [DF-Robot](https://www.dfrobot.com/)
 - [RaspberryPi](https://www.raspberrypi.com/)
 - [WaveShare](https://www.waveshare.com/)
+- [PiShop](https://www.pishop.us/)
 - [Meshtastic Map](https://meshtastic.pugetmesh.org/?lat=48.85861640881589&lng=237.38365173339847&zoom=11)
 ### Communication
 - [T-Deck Plus](https://lilygo.cc/products/t-deck-plus-meshtastic?_pos=2&_sid=971c3a5f9&_ss=r)

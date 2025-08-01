@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "be0b7e46f7480240",
+        "id": "7a650a2ef8fd27cb",
         "type": "tabs",
         "children": [
           {
-            "id": "18d81f6064c537cd",
+            "id": "bdf38c3a7acd8133",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Excalidraw and Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Excalidraw and Templates"
             }
           }
         ]
@@ -177,28 +177,42 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "systemsculpt-ai:Open SystemSculpt Chat": false,
+      "systemsculpt-ai:Open SystemSculpt Chat History": false,
+      "systemsculpt-ai:Open SystemSculpt Janitor": false,
+      "systemsculpt-ai:Open Similar Notes Panel": false
     }
   },
-  "active": "18d81f6064c537cd",
+  "active": "bdf38c3a7acd8133",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/Excalidraw and Templates.md",
+    "docs/Assets/Drawing1.excalidraw.svg",
+    "docs/Assets",
+    "Excalidraw/Drawing1.excalidraw.md",
+    "docs/Tricks/GitHub-Quartz-Obsidian.md",
+    "docs/Glossary/LLM.md",
+    "docs/Glossary/Hardware.md",
+    "docs/Tricks/Untitled.md",
+    "Templates/Quick.md",
+    "Templates",
+    "SystemSculpt/Extractions",
+    "SystemSculpt/Attachments",
+    "SystemSculpt/System Prompts",
+    "SystemSculpt/Recordings",
+    "SystemSculpt/Saved Chats",
+    "SystemSculpt/Chats",
+    "SystemSculpt",
     "docs/Gizmos/Gizmos.md",
     "docs/Gizmos",
-    "docs/Glossary/Hardware.md",
-    "docs/index.md",
     "docs/Glossary/DNS.md",
-    "docs/Drawing1.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
     "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
     "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
     "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
     "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
-    "Excalidraw/system-design.excalidrawlib",
-    "Excalidraw/architecture-diagram-components.excalidrawlib",
-    "Excalidraw/drwnio.excalidrawlib",
-    "Excalidraw/data-viz.excalidrawlib",
-    "Excalidraw/decision-flow-control.excalidrawlib",
-    "Excalidraw/software-architecture.excalidrawlib",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.svg",
     "Excalidraw/Scripts/Downloaded/Add Next Step in Process.svg",
     "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
@@ -212,20 +226,12 @@
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
     "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
     "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
-    "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
     "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.md",
     "Excalidraw/Scripts/Downloaded/Convert freedraw to line.md",
     "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
     "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.md",
     "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "docs/Lab Setup/The Stack.md",
-    "Excalidraw",
-    "docs/Glossary/email.md",
-    "docs/Tools/HomeAssistant.md",
-    "docs/Tools/index.md",
-    "docs/Tools/Proxmox.md"
+    "docs/Lab Setup/The Stack.md"
   ]
 }
