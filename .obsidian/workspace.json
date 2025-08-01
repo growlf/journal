@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Gizmos/Gizmos.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gizmos"
+              "title": "index"
             }
           }
         ]
@@ -180,11 +180,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dfb830bb59a82847",
+  "active": "18d81f6064c537cd",
   "lastOpenFiles": [
+    "docs/Gizmos/Gizmos.md",
     "docs/Gizmos",
     "docs/Glossary/Hardware.md",
-    "docs/Gizmos/Gizmos.md",
     "docs/index.md",
     "docs/Glossary/DNS.md",
     "docs/Drawing1.excalidraw.md",
@@ -226,7 +226,6 @@
     "docs/Glossary/email.md",
     "docs/Tools/HomeAssistant.md",
     "docs/Tools/index.md",
-    "docs/Tools/Proxmox.md",
-    "docs/Tricks/Docker"
+    "docs/Tools/Proxmox.md"
   ]
 }
