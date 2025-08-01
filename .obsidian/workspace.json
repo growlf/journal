@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Gizmos/Gizmos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Gizmos"
             }
           }
         ]
@@ -180,10 +180,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "18d81f6064c537cd",
+  "active": "dfb830bb59a82847",
   "lastOpenFiles": [
-    "docs/Glossary/DNS.md",
+    "docs/Gizmos",
+    "docs/Glossary/Hardware.md",
+    "docs/Gizmos/Gizmos.md",
     "docs/index.md",
+    "docs/Glossary/DNS.md",
     "docs/Drawing1.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
     "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
@@ -224,8 +227,6 @@
     "docs/Tools/HomeAssistant.md",
     "docs/Tools/index.md",
     "docs/Tools/Proxmox.md",
-    "docs/Tools/Beszel.md",
-    "docs/Glossary/Hardware.md",
     "docs/Tricks/Docker"
   ]
 }
