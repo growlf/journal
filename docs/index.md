@@ -5,7 +5,7 @@ Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
 # Journal
-My personal journal in technology ...and other things.  I am using [[journal/docs/Tools/Obsidian]] to generate and maintain this journal - using [[GitHub-Quartz-Obsidian]] to publish it.
+My personal journal in technology ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - using [[GitHub-Quartz-Obsidian]] to publish it.
 
 ## Recent Project Focuses
 - [[Gizmos]] - beginning to add my gadgetry to this blog.  This will be an ongoing task. LOL
@@ -18,7 +18,7 @@ My personal journal in technology ...and other things.  I am using [[journal/doc
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I instruct at Bellingham Technical College, consult with clients, and am an avid supporter of all things fun+community+educational. I am also a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a 501.c3 dedicated to many of the things that I hold dear.
 
 ### Friends and Peers
-Without friends and peers, where is the fun of discovery?  Sharing is caring, and the following (growing) list of cool folx are also into the sharing spirit of what the do.  Check 'em out.'
+Without friends and peers, where is the fun of discovery?  Sharing is caring, and the following (growing) list of cool folx are also into the sharing spirit of what the do.  Check 'em out.
 - [Lili](https://itsvivianmill.github.io/Journal) - Student, coder, sysadmin, and passionate technology explorer.
 - [Josh](https://joshbuker.com/) - Technology connoisseur and all around  awesome dude.
 - [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.

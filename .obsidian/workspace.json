@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2804683a535f9d56",
+        "id": "3c194cbef8d92528",
         "type": "tabs",
         "children": [
           {
-            "id": "e614fb2a7e994d0b",
+            "id": "668d865a5eba4e5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -177,8 +177,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e614fb2a7e994d0b",
+  "active": "668d865a5eba4e5a",
   "lastOpenFiles": [
+    "docs/Tools/Obsidian.md",
+    "journal/docs/Tools/Obsidian.md",
+    "Templates/Quick.md",
+    "docs/index.md",
+    "journal/docs/Tools",
+    "journal/docs",
+    "journal",
     "docs/Glossary/DNS.md",
     "docs/Tricks/Excalidraw and Templates.md",
     "docs/Tricks/Drawing1.excalidraw.md",
@@ -193,15 +200,11 @@
     "docs/Gizmos",
     "docs/Assets/Drawing1.excalidraw.svg",
     "docs/Assets",
-    "Templates/Quick.md",
     "Templates",
     "SystemSculpt",
     "Excalidraw/system-design.excalidrawlib",
     "Excalidraw/software-architecture.excalidrawlib",
     "Excalidraw/drwnio.excalidrawlib",
-    "Excalidraw/decision-flow-control.excalidrawlib",
-    "Excalidraw/data-viz.excalidrawlib",
-    "Excalidraw/architecture-diagram-components.excalidrawlib",
     "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
     "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.md",
     "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.svg",
@@ -221,9 +224,6 @@
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
-    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
-    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md"
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md"
   ]
 }
