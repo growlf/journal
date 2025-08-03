@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Tricks/Wireguard Search Domain.md",
+                "file": "docs/Tricks/GitHub-Quartz-Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireguard Search Domain"
+              "title": "GitHub-Quartz-Obsidian"
             }
           }
         ]
@@ -112,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Tricks/GitHub-Quartz-Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from GitHub-Quartz-Obsidian"
             }
           },
           {
@@ -140,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/Tricks/GitHub-Quartz-Obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of GitHub-Quartz-Obsidian"
             }
           },
           {
@@ -183,13 +185,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "668d865a5eba4e5a",
+  "active": "a88b789daac0d534",
   "lastOpenFiles": [
-    "docs/Tools/Wireguard.md",
+    "docs/Tools/Obsidian.md",
     "docs/Tricks/Wireguard Search Domain.md",
+    "docs/Tools/Wireguard.md",
     "docs/index.md",
     "Templates/Quick.md",
-    "docs/Tools/Obsidian.md",
     "journal/docs/Tools/Obsidian.md",
     "journal/docs/Tools",
     "journal/docs",
