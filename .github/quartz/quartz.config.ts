@@ -54,6 +54,7 @@ const config: QuartzConfig = {
         background: "linear-gradient(90deg, #5E81AC, #B48EAD)",
         backgroundSize: "100% 100%",
         backgroundPosition: "center"
+      }
     },
   },
   plugins: {
