@@ -25,5 +25,5 @@ Commit all of your changes and push them up to your repository.  Watch the actio
 My inspiration and ability, as always, comes from those that have already pioneerd what I am using.  This project is no different.  Checkout these sources:
 1) [GitHub marketplace actions - Build Quartz](https://github.com/marketplace/actions/build-quartz-for-github-pages)
 2) [Quartz](https://quartz.jzhao.xyz/)
-3) [Obsidian](https://obsidian.md/download) - the source, but also my own thoughts on [[journal/docs/Tools/Obsidian]]
+3) [Obsidian](https://obsidian.md/download) - the source, and also my *own* thoughts on [[Obsidian]]
 4) [Themes!!!](https://github.com/saberzero1/quartz-themes)
