@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Tricks/Wireguard Search Domain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Wireguard Search Domain"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "668d865a5eba4e5a",
   "lastOpenFiles": [
-    "Templates/Quick.md",
     "docs/index.md",
+    "docs/Tricks/Wireguard Search Domain.md",
+    "Templates/Quick.md",
     "docs/Tools/Obsidian.md",
     "journal/docs/Tools/Obsidian.md",
     "journal/docs/Tools",
@@ -229,7 +230,6 @@
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
-    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md"
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md"
   ]
 }
