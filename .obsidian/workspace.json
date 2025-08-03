@@ -185,8 +185,9 @@
   },
   "active": "668d865a5eba4e5a",
   "lastOpenFiles": [
-    "docs/index.md",
+    "docs/Tools/Wireguard.md",
     "docs/Tricks/Wireguard Search Domain.md",
+    "docs/index.md",
     "Templates/Quick.md",
     "docs/Tools/Obsidian.md",
     "journal/docs/Tools/Obsidian.md",
@@ -229,7 +230,6 @@
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
     "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
-    "Excalidraw/Scripts/Downloaded/Boolean Operations.md"
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md"
   ]
 }

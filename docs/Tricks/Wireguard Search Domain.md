@@ -4,7 +4,7 @@ tags:
   - wireguard
   - vpn
   - networking
-Creation date: 
+Creation date: Monday April 4th 2022 11:18:30
 modification date: 
 Documentation:
 ---
@@ -26,3 +26,4 @@ To:
 ||DNS = 10.X.X.X bellinghammakerspace.org|
 
 And the resolve issue was, pardon the pun, resolved!
+NOTE: yes, I ignored the commas, it seems the config saved it that way anyway when I changed it on the Wireguard server config through [[Wireguard|WG-Dashboard]].
