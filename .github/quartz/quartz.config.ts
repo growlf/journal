@@ -48,13 +48,6 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
       },
-      h1: {
-        textcolor: "#915700ff",
-        textshadow: "0 1px 2px rgba(0, 0, 0, 0.1)",
-        background: "linear-gradient(90deg, #5E81AC, #B48EAD)",
-        backgroundSize: "100% 100%",
-        backgroundPosition: "center"
-      }
     },
   },
   plugins: {
