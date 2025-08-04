@@ -11,8 +11,7 @@ Creation date: Monday April 4th 2022 11:18:30
 -----
 The following is a quick-guide to generating a clean instance-template for use for your [[Proxmox]] virtual machines.
 ### Download an 'img'
-First, select an image from [the list](https://cloud-images.ubuntu.com/daily/server/releases/
-Then, download the selected cloud-init image (I chose the latest release of the minimal/noble-numbat)
+First, select an appropriate image from [the list](https://cloud-images.ubuntu.com/daily/server/releases/noble/release/). Then, download the selected cloud-init image (I chose the latest release of Noble Numbat).
 ```bash
 # Download the cloud image to the local storeage
 wget -P /var/lib/vz/template/iso/ https://cloud-images.ubuntu.com/minimal/releases/noble/release/ubuntu-24.04-minimal-cloudimg-amd64.img
@@ -46,8 +45,9 @@ qm set 9000 --serial0 socket --vga serial0
 qm template 9000
 ```
 ### Create a VM
-Then create a VM using the new template like so:
+Then I created a VM using the new template like so:
 ```bash
 qm clone 9000 201 --name "new-ubuntu-vm"
 ```
 To use the CEPHFS drives instead (replace `local-lvm` with `ceph-pool`), I am guessing that I would simply need to change where I import the image to, and also the following commands that reference it.
+A quick test confirms that this works on the CEPH volumes as well.  Now to see if I can work this into my [[Ansible]] playbooks as well for better automation and server management.

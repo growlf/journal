@@ -13,7 +13,7 @@ aliases:
 
 ## 1) Infrastructure tools:
 The basics of our lab.  Start with 1 and finish with 10.  Doing them in order kinda helps.
-1) [[journal/docs/Glossary/Hardware|Hardware]] - Router, server hardware, storage hardware, WiFi, etc
+1) [[Hardware]] - Router, server hardware, storage hardware, WiFi, etc
 2) [[Domain]] - registrar, etc
 3) [[Proxmox]] - This will be the home of "all the things"
 4) [[Apt Cacher NG]] - Speed up deployments and reduce bandwidth to the internet
@@ -27,7 +27,7 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 ## 2) Documentation, Wiki, and Web
 - [[GitHub-Quartz-Obsidian]] (great for personal journaling)
 - [[Wordpress]] - Main web presence
-- [[journal/docs/Tools/Obsidian]] - Notes and mindstorming
+- [[Obsidian]] - Notes, mind-storming, and apparently journaling with [[GitHub-Quartz-Obsidian]]
 - [[Draw.io]] and [[Google Drive]]
 ## 3) Backups and File Access
 - [[Proxmox Backup Server]]
