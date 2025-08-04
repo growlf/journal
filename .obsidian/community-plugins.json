@@ -2,9 +2,5 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "templater-obsidian",
-  "buttons",
-  "auto-template-trigger",
-  "obsidian-style-settings",
-  "drawio-obsidian",
-  "3d-graph"
+  "auto-template-trigger"
 ]
