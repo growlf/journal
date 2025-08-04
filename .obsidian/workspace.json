@@ -11,12 +11,14 @@
             "id": "2ac2ddd372369a47",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "banner.png"
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "banner"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -139,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "banner.png",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of banner"
+              "title": "Outline of index"
             }
           },
           {
@@ -180,10 +182,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a88b789daac0d534",
+  "active": "2ac2ddd372369a47",
   "lastOpenFiles": [
-    "banner.md",
     "banner.png",
+    "banner.md",
     "Excalidraw/Drawing 2025-08-04 12.29.11.excalidraw.md",
     "docs/Gizmos/Gizmos.md",
     "Untitled Diagram.svg",
