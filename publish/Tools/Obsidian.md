@@ -10,7 +10,9 @@ Creation date: Monday April 4th 2022 11:18:30
 
 My layout is fairly simple.  I have a vault with the following directory structure:
 
-Only the `publish` directory gets published due to my settings in my `.github/workflow` files.  This allows me to keep my templates and source files (such as Excalidraw files) out of the journal publishing, but still keep them in the same repository.![[osidian-directory-layout.png]]
+![[osidian-directory-layout.png]]
+
+Only the `publish` directory gets published due to my settings in my `.github/workflow` files.  This allows me to keep my templates and source files (such as Excalidraw files) out of the journal publishing, but still keep them in the same repository.
 ## Publishing to GitHub
 I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a public audience on a *huge* platform, complete with SSL and versioning control.
 
