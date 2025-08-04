@@ -1,0 +1,8 @@
+{
+  "buttons-styles@@button-background@@light": "#FF0000",
+  "buttons-styles@@button-background@@dark": "#FF0000",
+  "buttons-styles@@button-box-shadow@@light": "#757575",
+  "buttons-styles@@button-box-shadow@@dark": "#000000",
+  "buttons-styles@@button-border@@light": "#000000",
+  "buttons-styles@@button-border@@dark": "#000000"
+}

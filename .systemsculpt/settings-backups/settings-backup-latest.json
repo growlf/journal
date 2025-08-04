@@ -54,7 +54,8 @@
       "endpoint": "http://10.10.0.13:11434/v1",
       "apiKey": "''",
       "isEnabled": true,
-      "lastTested": 1754008998526
+      "lastTested": 1754291475511,
+      "failureCount": 0
     }
   ],
   "modelFilterSettings": {
@@ -70,9 +71,9 @@
   },
   "favoriteChats": [],
   "activeProvider": {
-    "id": "systemsculpt",
-    "name": "SystemSculpt",
-    "type": "native"
+    "id": "custom-frank-1754008956471",
+    "name": "Frank",
+    "type": "custom"
   },
   "templateHotkey": "/",
   "enableTemplateHotkey": true,
@@ -130,5 +131,7 @@
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
   "lastAutomaticBackup": 1754268901411,
-  "selectedModelProviders": []
+  "selectedModelProviders": [
+    "custom-frank-1754008956471"
+  ]
 }

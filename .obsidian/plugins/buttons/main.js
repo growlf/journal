@@ -1089,7 +1089,10 @@ var createArgumentObject = (source) => {
     "class",
     "folder",
     "prompt",
-    "actions"
+    "actions",
+    "width",
+    "height",
+    "align"
   ]);
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -1097,72 +1100,26 @@ var createArgumentObject = (source) => {
     const key = split[0]?.toLowerCase();
     if (!key)
       continue;
-    if (key === "actions") {
+    if (key === "name") {
+      const parseLines = [line.replace(/^name\s*/, "")];
+      let destructor = parseMultiLine(lines, i, parseLines);
+      if (destructor.parseValue[0] == "{") {
+        acc[key] = destructor.parseValue.slice(1, -1).trim();
+      } else {
+        acc[key] = destructor.parseValue.trim();
+      }
+      i = destructor.i;
+    } else if (key === "actions") {
       const jsonLines = [line.replace(/^actions\s*/, "")];
-      let bracketCount = 0;
-      let braceCount = 0;
-      let inString = false;
-      let escaped = false;
-      for (const char of jsonLines[0]) {
-        if (escaped) {
-          escaped = false;
-          continue;
-        }
-        if (char === "\\") {
-          escaped = true;
-          continue;
-        }
-        if (char === '"' && !escaped) {
-          inString = !inString;
-          continue;
-        }
-        if (!inString) {
-          if (char === "[")
-            bracketCount++;
-          else if (char === "]")
-            bracketCount--;
-          else if (char === "{")
-            braceCount++;
-          else if (char === "}")
-            braceCount--;
-        }
-      }
-      while ((bracketCount > 0 || braceCount > 0) && i + 1 < lines.length) {
-        i++;
-        const nextLine = lines[i];
-        jsonLines.push(nextLine);
-        for (const char of nextLine) {
-          if (escaped) {
-            escaped = false;
-            continue;
-          }
-          if (char === "\\") {
-            escaped = true;
-            continue;
-          }
-          if (char === '"' && !escaped) {
-            inString = !inString;
-            continue;
-          }
-          if (!inString) {
-            if (char === "[")
-              bracketCount++;
-            else if (char === "]")
-              bracketCount--;
-            else if (char === "{")
-              braceCount++;
-            else if (char === "}")
-              braceCount--;
-          }
-        }
-      }
-      const jsonString = jsonLines.join("\n").trim();
+      let destructor = parseMultiLine(lines, i, jsonLines);
       try {
-        acc[key] = JSON.parse(jsonString);
+        new import_obsidian.Notice(`Actions: ${destructor.parseValue}`, 0);
+        acc[key] = JSON.parse(destructor.parseValue);
       } catch (e) {
-        new import_obsidian.Notice("Error: Malformed JSON in actions field. Please check your chain button syntax.", 4e3);
         acc[key] = [];
+        new import_obsidian.Notice(`Error: Malformed JSON in actions field. Please check your chain button syntax.`, 4e3);
       }
+      i = destructor.i;
     } else if (key === "action") {
       const actionLines = [line.replace(/^action\s*/, "")];
       while (i + 1 < lines.length) {
@@ -1217,6 +1174,71 @@ async function getNewArgs(app, position) {
 }
 var wrapAround = (value, size) => {
   return (value % size + size) % size;
+};
+var parseMultiLine = (lines, iStart, parseLinesStart) => {
+  let i = iStart;
+  let parseLines = parseLinesStart;
+  let bracketCount = 0;
+  let braceCount = 0;
+  let inString = false;
+  let escaped = false;
+  let parseValue;
+  for (const char of parseLines[0]) {
+    if (escaped) {
+      escaped = false;
+      continue;
+    }
+    if (char === "\\") {
+      escaped = true;
+      continue;
+    }
+    if (char === '"' && !escaped) {
+      inString = !inString;
+      continue;
+    }
+    if (!inString) {
+      if (char === "[")
+        bracketCount++;
+      else if (char === "]")
+        bracketCount--;
+      else if (char === "{")
+        braceCount++;
+      else if (char === "}")
+        braceCount--;
+    }
+  }
+  while ((bracketCount > 0 || braceCount > 0) && i + 1 < lines.length) {
+    i++;
+    const nextLine = lines[i];
+    parseLines.push(nextLine);
+    for (const char of nextLine) {
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+      if (char === "\\") {
+        escaped = true;
+        continue;
+      }
+      if (char === '"' && !escaped) {
+        inString = !inString;
+        continue;
+      }
+      if (!inString) {
+        if (char === "[")
+          bracketCount++;
+        else if (char === "]")
+          bracketCount--;
+        else if (char === "{")
+          braceCount++;
+        else if (char === "}")
+          braceCount--;
+      }
+    }
+  }
+  const parseString = parseLines.join("\n").trim();
+  parseValue = parseString;
+  return { parseValue, i };
 };
 
 // src/events.ts
@@ -2142,7 +2164,30 @@ var createButton = ({
   if (args.customtextcolor) {
     button.style.color = args.customtextcolor;
   }
-  button.innerHTML = args.name;
+  import_obsidian16.MarkdownRenderer.render(app, args.name, button, app.workspace.getActiveFile()?.path || "", null);
+  let numberOfLines = args.name.split("\n").length;
+  let paddingTop = "auto";
+  let paddingBottom = "auto";
+  let alignment = args.align?.split(" ") || ["center", "middle"];
+  if (args.height) {
+    if (alignment.includes("top")) {
+      alignment = alignment.filter((a) => a !== "top");
+      paddingBottom = parseFloat(args.height) - 1.2 * numberOfLines + "em";
+    } else if (alignment.includes("bottom")) {
+      alignment = alignment.filter((a) => a !== "bottom");
+      paddingTop = parseFloat(args.height) - 1.2 * numberOfLines + "em";
+    } else {
+      alignment = alignment.filter((a) => a !== "middle");
+      paddingTop = (parseFloat(args.height) - 1.2 * numberOfLines) / 2 + "em";
+      paddingBottom = (parseFloat(args.height) - 1.2 * numberOfLines) / 2 + "em";
+    }
+  }
+  if (args.width) {
+    args.width += "em";
+  } else {
+    args.width = "auto";
+  }
+  button.innerHTML = `<div style='width: ${args.width};padding-top: ${paddingTop};padding-bottom: ${paddingBottom};text-align: ${alignment[0] || "center"};line-height: 1.2em;'>${button.innerHTML.slice(14, -4)}</div>`;
   args.id ? button.setAttribute("id", args.id) : "";
   button.on("click", "button", () => {
     clickOverride ? clickOverride.click(...clickOverride.params) : clickHandler(app, args, inline, id);
@@ -4808,7 +4853,31 @@ var ButtonWidget = class extends import_view.WidgetType {
         const name = args.name;
         const className = args.class;
         const color = args.color;
-        this.el.innerText = name || "";
+        this.el.innerHTML = "";
+        import_obsidian19.MarkdownRenderer.render(this.app, args.name, this.el, this.app.workspace.getActiveFile()?.path || "", null);
+        let numberOfLines = args.name.split("\n").length;
+        let paddingTop = "auto";
+        let paddingBottom = "auto";
+        let alignment = args.align?.split(" ") || ["center", "middle"];
+        if (args.height) {
+          if (alignment.includes("top")) {
+            alignment = alignment.filter((a) => a !== "top");
+            paddingBottom = parseFloat(args.height) - 1.2 * numberOfLines + "em";
+          } else if (alignment.includes("bottom")) {
+            alignment = alignment.filter((a) => a !== "bottom");
+            paddingTop = parseFloat(args.height) - 1.2 * numberOfLines + "em";
+          } else {
+            alignment = alignment.filter((a) => a !== "middle");
+            paddingTop = (parseFloat(args.height) - 1.2 * numberOfLines) / 2 + "em";
+            paddingBottom = (parseFloat(args.height) - 1.2 * numberOfLines) / 2 + "em";
+          }
+        }
+        if (args.width) {
+          args.width += "em";
+        } else {
+          args.width = "auto";
+        }
+        this.el.innerHTML = `<div style='width: ${args.width};padding-top: ${paddingTop};padding-bottom: ${paddingBottom};text-align: ${alignment[0] || "center"};line-height: 1.2em;'>${this.el.innerHTML.slice(14, -4)}</div>`;
         if (className) {
           this.el.addClass(className);
         }
