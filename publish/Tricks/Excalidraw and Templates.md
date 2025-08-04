@@ -6,7 +6,7 @@ modification date: Thursday 31st July 2025 18:06:43
 << [[2025-07-30]] | [[2025-08-01]] >>
 
 Testing templates and basic Excalidraw diagram implementation.
-![[Drawing1.excalidraw.svg]]
+![[publish/Tricks/Drawing1.excalidraw.svg]]
 # [[Drawing1.excalidraw]]
 
 Untitled
