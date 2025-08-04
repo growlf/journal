@@ -1,7 +1,8 @@
 ---
-tags: 
-Creation date: <% tp.file.creation_date() %>
-modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+tags:
+  - about
+Creation date: Monday April 4th 2022 11:18:30
+modification date: Thursday 31st July 2025 18:06:43
 Documentation: 
 aliases:
 ---
