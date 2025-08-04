@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Permanent Marker",
-        body: "Source Sans Pro",
+        body: "Space Grotesk",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -38,14 +38,14 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#2E3440",
+          light: "#252527",
           lightgray: "#3B4252",
           gray: "#ECEFF4",
           darkgray: "#D8DEE9",
-          dark: "#ECEFF4",
-          secondary: "#5E81AC",
-          tertiary: "#B48EAD",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          dark: "#4234ffff",
+          secondary: "#c01430ff",
+          tertiary: "#b90e9aff",
+          highlight: "rgba(189, 212, 58, 0.4)",
         },
       },
     },
