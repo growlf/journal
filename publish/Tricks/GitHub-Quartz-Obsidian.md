@@ -11,7 +11,7 @@ Creation date: Monday April 4th 2022 11:18:30
 After much struggle with attempting to publish my [[Obsidian]] journal to an existing BookStack instance, I found that [[Quartz]] is an amazing solution for getting my content in front of folx yet keeping it easy to update with my favorite note-taking app.  What follows is the successful part of my journey (so that you can use it on your own Journals as well.)
 
 ## Step 1
-I created a public [GitHub](https://github.com/) project and added a `publish` folder to it, a LICENSE, README.md, .gitignore, etc.   Then clone it to your local system. Yes, this whole process even works on Windows and Mac.
+I created a public [GitHub](https://github.com/) project and added a LICENSE, README.md, .gitignore, etc.   Also created a `publish` folder in it. Then cloned it to my local system. Yes, I live on Linux systems but this whole process works on Windows and Mac just as easily.
 ## Step 2
 I opened my [Obsidian](https://obsidian.md/download) instance and added a new vault that points at the cloned project's folder.  I added a default landing page - `index` - to the `publish` folder.  NOTE: named literally, `index` - lowercase (it is an issue with the quartz workflow that it is so specific).  Now I added the [Community Plugin](https://help.obsidian.md/community-plugins) for [GIT](https://publish.obsidian.md/git-doc/Installation). This enables easy updates to my repository from within the Obsidian interface itself. This *does* require that I have [[Git]] properly installed on my system.
 ## Step 3
