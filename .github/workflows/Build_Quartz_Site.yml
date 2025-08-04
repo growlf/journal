@@ -69,7 +69,6 @@ jobs:
           quartz_config: .github/quartz/quartz.config.ts
           quartz_layout: .github/quartz/quartz.layout.ts
           quartz_icon: .github/quartz/icon.png
-          quartz_banner: .github/quartz/icon.png
           quartz_custom_css: .github/quartz/custom.scss
           quartz_banner: banner.png
           # See https://github.com/marketplace/actions/build-quartz-for-github-pages
