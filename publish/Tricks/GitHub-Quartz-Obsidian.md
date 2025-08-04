@@ -8,7 +8,9 @@ tags:
 Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
-After much struggle with attempting to publish my [[Obsidian]] journal to an existing BookStack instance, I found that [[Quartz]] is an amazing solution for getting my content in front of folx yet keeping it easy to update with my favorite note-taking app.  What follows is the successful part of my journey (so that you can use it on your own Journals as well.)
+After much struggle with attempting to publish my [[Obsidian]] journal to an existing BookStack instance, I found that [[Quartz]] is an amazing solution for getting my content in front of folx yet keeping it easy to update with my favorite note-taking app - for FREE!  Using [GitHub Pages](https://pages.github.com/), you get free hosting, version control, and automatic SSL security.  
+
+What follows is the successful part of my journey (so that you can use it on your own Journals as well.)
 
 ## Step 1
 I created a public [GitHub](https://github.com/) project and added a LICENSE, README.md, .gitignore, etc.   Also created a `publish` folder in it. Then cloned it to my local system. Yes, I live on Linux systems but this whole process works on Windows and Mac just as easily.
@@ -24,8 +26,8 @@ On the `deploy` task in GitHub's `Actions`, it will also tell you where it got p
 - You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as)
 - If you want to customize your theme, look at my [quartz](https://github.com/growlf/journal/tree/main/.github/quartz) folder for a rough example, or look at the links below here.
 ## Links
-My inspiration and ability, as always, comes from those that have already pioneerd what I am using.  This project is no different.  Checkout these sources:
+My inspiration and ability, as always, comes from those that have already pioneered what I am using.  This project is no different.  Checkout these resources:
 1) [GitHub marketplace actions - Build Quartz](https://github.com/marketplace/actions/build-quartz-for-github-pages)
 2) [Quartz](https://quartz.jzhao.xyz/)
 3) [Obsidian](https://obsidian.md/download) - the source, and also my *own* thoughts on [[Obsidian]]
-4) [Themes!!!](https://github.com/saberzero1/quartz-themes) - but also a different way to implement Quartz rendering for Github Pages, but slightly more customizable and manual.
+4) [Themes!!!](https://github.com/saberzero1/quartz-themes) - but also a different way to implement Quartz rendering for [GitHub Pages](https://pages.github.com/), but with slightly more customization and manual configuration.
