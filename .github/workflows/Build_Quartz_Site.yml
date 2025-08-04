@@ -7,9 +7,7 @@
 #
 name: Build Quartz Site
 on:
-  # Triggers the workflow on every 1AM Monday UTC, on pushes to main, version tagged, or release branches,
-  schedule:
-    - cron: '0 1 * * 1'
+
   push:
     branches:
       - main
@@ -75,9 +73,7 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          # The path to the directory containing the built site
-          path: ./publish
+
 
   # Deploy the built site to GitHub Pages
   deploy:
