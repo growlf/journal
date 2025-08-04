@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/DNS Service Records.md",
+                "file": "publish/Tricks/GitHub-Quartz-Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS Service Records"
+              "title": "GitHub-Quartz-Obsidian"
             }
           }
         ],
@@ -197,16 +197,16 @@
   },
   "active": "263d88d9b07e9d2a",
   "lastOpenFiles": [
-    "publish/Tricks/Wireguard Search Domain.md",
-    "publish/Tricks/DNS Service Records.md",
-    "publish/Tricks/Smoother Updates.md",
+    "publish/Glossary/GIT.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
+    "publish/Tricks/DNS Service Records.md",
+    "publish/Tricks/Wireguard Search Domain.md",
+    "publish/Tricks/Smoother Updates.md",
     "publish/Tools/Apt Cacher NG.md",
     "publish/Tricks/Drawing1.excalidraw.svg",
     "publish/Tricks/Drawing1.excalidraw.md",
     "publish/Tricks/Excalidraw and Templates.md",
     "BookStack.md",
-    "publish/Glossary/GIT.md",
     "publish/Tools/Obsidian.md",
     "Assets/osidian-directory-layout.md",
     "publish/Tools/osidian-directory-layout.png",
