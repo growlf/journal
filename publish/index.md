@@ -6,7 +6,7 @@ Creation date: Monday April 4th 2022 11:18:30
 ---
 ![[banner.png]]
 # Journal
-My personal journal in technology ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - using [[GitHub-Quartz-Obsidian]] to publish it.
+My personal journal of technology-land adventures ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - using [[GitHub-Quartz-Obsidian]] to publish it.
 
 ## Recent Project Focuses
 - [[Gizmos]] - beginning to add my gadgetry to this blog.  This will be an ongoing task. LOL
