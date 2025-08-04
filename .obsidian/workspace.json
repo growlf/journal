@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "publish/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           }
         ]
@@ -180,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfb830bb59a82847",
+  "active": "2ac2ddd372369a47",
   "lastOpenFiles": [
+    "README.md",
     "publish",
     "publish/index.md",
-    "README.md",
     "publish/Lab Setup/The Stack.md",
     "publish/Tools/Proxmox.md",
     "publish/Glossary/Domain.md",
@@ -227,7 +227,6 @@
     "SystemSculpt/Recordings/2025-08-04_07-33-01-994Z.webm",
     "Untitled.canvas",
     "journal/docs/Tools",
-    "journal/docs",
-    "journal"
+    "journal/docs"
   ]
 }
