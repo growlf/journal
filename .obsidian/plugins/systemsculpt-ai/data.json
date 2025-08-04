@@ -129,6 +129,6 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 1754180933377,
+  "lastAutomaticBackup": 1754268901411,
   "selectedModelProviders": []
 }

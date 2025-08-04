@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3c194cbef8d92528",
+        "id": "45021c443078a3bf",
         "type": "tabs",
         "children": [
           {
-            "id": "668d865a5eba4e5a",
+            "id": "5168b36981039c7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Tricks/GitHub-Quartz-Obsidian.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "GitHub-Quartz-Obsidian"
+              "title": "New tab"
             }
           }
         ]
@@ -112,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Tricks/GitHub-Quartz-Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GitHub-Quartz-Obsidian"
+              "title": "Outgoing links"
             }
           },
           {
@@ -141,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Tricks/GitHub-Quartz-Obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GitHub-Quartz-Obsidian"
+              "title": "Outline"
             }
           },
           {
@@ -185,8 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "668d865a5eba4e5a",
+  "active": "5168b36981039c7f",
   "lastOpenFiles": [
+    "docs/Tricks/GitHub-Quartz-Obsidian.md",
     "docs/Tools/Obsidian.md",
     "docs/Tricks/Wireguard Search Domain.md",
     "docs/Tools/Wireguard.md",
@@ -231,7 +226,6 @@
     "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
     "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md"
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg"
   ]
 }

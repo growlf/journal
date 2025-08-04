@@ -129,6 +129,12 @@
   "automaticBackupsEnabled": true,
   "automaticBackupInterval": 24,
   "automaticBackupRetentionDays": 30,
-  "lastAutomaticBackup": 1754268901411,
-  "selectedModelProviders": []
+  "lastAutomaticBackup": 1754180933377,
+  "selectedModelProviders": [],
+  "_backupMeta": {
+    "type": "automatic",
+    "timestamp": 1754268901406,
+    "createdAt": "2025-08-04T00:55:01.406Z",
+    "version": "1.0"
+  }
 }
