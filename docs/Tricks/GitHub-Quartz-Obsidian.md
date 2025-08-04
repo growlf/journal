@@ -26,4 +26,4 @@ My inspiration and ability, as always, comes from those that have already pionee
 1) [GitHub marketplace actions - Build Quartz](https://github.com/marketplace/actions/build-quartz-for-github-pages)
 2) [Quartz](https://quartz.jzhao.xyz/)
 3) [Obsidian](https://obsidian.md/download) - the source, and also my *own* thoughts on [[Obsidian]]
-4) [Themes!!!](https://github.com/saberzero1/quartz-themes)
+4) [Themes!!!](https://github.com/saberzero1/quartz-themes) - but also a different way to implement Quartz rendering for Github Pages, but slightly more customizable and manual.
