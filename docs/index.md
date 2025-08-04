@@ -15,7 +15,7 @@ My personal journal in technology ...and other things.  I am using [[Obsidian]] 
 - [[Lab Setup/Cloud Init]] - This is mostly done and moving to my background tasks.
 - [[The Stack]] - The tech stack I most often use or implement/manage/maintain. This is now fairly defined at a medium to high level.  Continuing updates will occur as I add specifics to individual pages.  Dropping this to background tasks now.
 ## Who am I?
-I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I instruct at Bellingham Technical College, consult with clients, and am an avid supporter of all things fun+community+educational. I am also a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a 501.c3 non-profit organization dedicated to many of the things that I hold dear.
+I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I started in technology early in life and never slowed down or stopped. After years of working in the industry, I now instruct at Bellingham Technical College, consult with clients, and am an avid supporter of all things fun+community+educational. I am also a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a 501.c3 non-profit organization dedicated to many of the things that I hold dear.
 
 ### Friends, Peers, and Students
 Without friends and peers, where is the fun of discovery?  Sharing is caring, and the following (growing) list of cool folx are also into the sharing spirit of what the do.  Check 'em out.
