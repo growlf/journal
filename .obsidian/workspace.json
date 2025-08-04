@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7ce207cd83599149",
+        "id": "629c0144cfab1087",
         "type": "tabs",
         "children": [
           {
-            "id": "8cc0588af212f3cc",
+            "id": "ec22ccd9168235c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Lab Setup/The Stack.md",
+                "file": "docs/Tricks/Excalidraw and Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Stack"
+              "title": "Excalidraw and Templates"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Lab Setup/The Stack.md",
+                "file": "docs/Tricks/Excalidraw and Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Stack"
+              "title": "Outgoing links from Excalidraw and Templates"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Lab Setup/The Stack.md",
+                "file": "docs/Tricks/Excalidraw and Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Stack"
+              "title": "Outline of Excalidraw and Templates"
             }
           },
           {
@@ -185,8 +185,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8cc0588af212f3cc",
+  "active": "ec22ccd9168235c6",
   "lastOpenFiles": [
+    "docs/Tricks/Drawing1.excalidraw.svg",
+    "docs/Tricks/Drawing1.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Add Next Step in Process.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to New Page and Open.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
+    "Untitled.canvas",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
+    "docs/Lab Setup/The Stack.md",
     "docs/index.md",
     "docs/Lab Setup/Cloud Init.md",
     "docs/Tricks/GitHub-Quartz-Obsidian.md",
@@ -200,15 +212,12 @@
     "journal",
     "docs/Glossary/DNS.md",
     "docs/Tricks/Excalidraw and Templates.md",
-    "docs/Tricks/Drawing1.excalidraw.md",
     "docs/Tools/Shell.md",
     "docs/Tools/HomeAssistant.md",
     "docs/Tools/Ansible.md",
     "docs/Glossary/Mark Down.md",
     "docs/Glossary/LLM.md",
     "docs/Glossary/Github Workflow.md",
-    "docs/Glossary/Email.md",
-    "docs/Gizmos/Gizmos.md",
     "docs/Gizmos",
     "docs/Assets/Drawing1.excalidraw.svg",
     "docs/Assets",
@@ -218,20 +227,11 @@
     "Excalidraw/software-architecture.excalidrawlib",
     "Excalidraw/drwnio.excalidrawlib",
     "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
-    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.md",
     "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.svg",
-    "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.md",
     "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
-    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
     "Excalidraw/Scripts/Downloaded/Convert freedraw to line.svg",
-    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
-    "Excalidraw/Scripts/Downloaded/Connect elements.md",
     "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
-    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
-    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
-    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
-    "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg"
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg"
   ]
 }
