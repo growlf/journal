@@ -184,12 +184,13 @@
   },
   "active": "2ac2ddd372369a47",
   "lastOpenFiles": [
+    "docs/Assets/banner.png",
+    "docs/index.md",
     "banner.png",
     "banner.md",
     "Excalidraw/Drawing 2025-08-04 12.29.11.excalidraw.md",
     "docs/Gizmos/Gizmos.md",
     "Untitled Diagram.svg",
-    "docs/index.md",
     "docs/Tricks/GitHub-Quartz-Obsidian.md",
     "Templates/Quick.md",
     "docs/Tools/Proxmox.md",
@@ -228,7 +229,6 @@
     "Templates",
     "SystemSculpt",
     "Excalidraw/system-design.excalidrawlib",
-    "Excalidraw/software-architecture.excalidrawlib",
-    "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.svg"
+    "Excalidraw/software-architecture.excalidrawlib"
   ]
 }
