@@ -17,16 +17,16 @@ I created a public [GitHub](https://github.com/) project and added a LICENSE, RE
 ## Step 2
 I opened my [Obsidian](https://obsidian.md/download) instance and added a new vault that points at the cloned project's folder.  I added a default landing page - `index` - to the `publish` folder.  NOTE: named literally, `index` - lowercase (it is an issue with the quartz workflow that it is so specific).  Now I added the [Community Plugin](https://help.obsidian.md/community-plugins) for [GIT](https://publish.obsidian.md/git-doc/Installation) to my [[Obsidian]] instance as well. This enables easy updates to my repository from within the Obsidian interface itself. This *does* require that I have [[Git]] properly installed on my system, however.
 ## Step 3
-Add the magic in! I created a `.github/workflows` directory next to the `publish` directory in my locally cloned project, and then added [the buiild script](https://raw.githubusercontent.com/growlf/journal/refs/heads/main/.github/workflows/Build_Quartz_Site.yml) to it.  Simply download the file into the folder as `.github/workflows/Build_Quartz_Site.yml`.  Creating the directory `.github/workflows` first, because it did not exist automatically.
+Add the magic in! I created a `.github/workflows` directory next to the `publish` directory in my locally cloned project, and then added [the buiild script](https://raw.githubusercontent.com/growlf/journal/refs/heads/main/.github/workflows/Build_Quartz_Site.yml) to it.  Simply download the file into the folder as `.github/workflows/Build_Quartz_Site.yml`.  I created the directory `.github/workflows` in my local repository folder first, because it did not exist automatically.
 ## Step 4
-Committed all of my changes and pushed them up to my repository, sat back and watched the actions kick in. Because part of the `Build_Quartz_Site.yml` script includes a step that utilizes `actions/configure-pages@v5`, I did not even need to do any other configuraton to my account or repo to get the publishing process to work automatically. 
+Committed all of my changes and pushed them up to my repository, sat back and watched the actions kick in. Because part of the `Build_Quartz_Site.yml` script includes a step that utilizes `actions/configure-pages@v5`, I did not even need to do any other configuration to my account or repository to get the publishing process to work automatically. 
 
 On the `deploy` task in GitHub's `Actions`, it will also tell you where it got published to. By default, it will be `https://<your account name>.github.io/<your repo name>` - which for me is `growlf.github.io/journal`
 ## Notes
-- You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as)
+- You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as).  Follow the docs on GitHub for that.
 - If you want to customize your theme, look at my [quartz](https://github.com/growlf/journal/tree/main/.github/quartz) folder for a rough example, or look at the links below here.
 ## Links
-My inspiration and ability, as always, comes from those that have already pioneered what I am using.  This project is no different.  Checkout these resources:
+My inspiration and ability, as so often is the case, comes from those that have already pioneered what I am using.  This project is no different.  Checkout these resources:
 1) [GitHub marketplace actions - Build Quartz](https://github.com/marketplace/actions/build-quartz-for-github-pages)
 2) [Quartz](https://quartz.jzhao.xyz/)
 3) [Obsidian](https://obsidian.md/download) - the source, and also my *own* thoughts on [[Obsidian]]
