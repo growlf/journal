@@ -11,10 +11,14 @@
             "id": "2ac2ddd372369a47",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -178,11 +182,12 @@
   },
   "active": "2ac2ddd372369a47",
   "lastOpenFiles": [
+    "index.md",
+    "README.md",
     "Lab Setup/The Stack.md",
     "Tools/Proxmox.md",
     "Glossary/Domain.md",
     "Glossary/Hardware.md",
-    "index.md",
     "Lab Setup/Cloud Init.md",
     "Tools/WorkAdventure.md",
     "Tools/Ansible.md",
@@ -207,7 +212,6 @@
     "Tools/SyncThing.md",
     "Tools/Shell.md",
     "Tools/Semaphore.md",
-    "Tools/Portainer.md",
     "Tools",
     "Lab Setup",
     "Glossary",
