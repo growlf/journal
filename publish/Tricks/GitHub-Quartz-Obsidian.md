@@ -17,9 +17,11 @@ I opened my [Obsidian](https://obsidian.md/download) instance and added a new va
 ## Step 3
 Add the magic in! I created a `.github/workflows` directory next to the `publish` directory in my locally cloned project, and then added [the buiild script](https://raw.githubusercontent.com/growlf/journal/refs/heads/main/.github/workflows/Build_Quartz_Site.yml) to it.  Simply down load the file into the folder as `.github/workflows/Build_Quartz_Site.yml`.
 ## Step 4
-Commited all of my changes and pushed them up to my repository, sat back and watched the actions kick in. On the `deploy` task in GitHub's `Actions`, it will also tell you where it got published to. It will be `https://<your account name>.github.io/<your repo name>` by default.
+Committed all of my changes and pushed them up to my repository, sat back and watched the actions kick in. Because part of the `Build_Quartz_Site.yml` script includes a step that utilizes `actions/configure-pages@v5`, I did not even need to do any other configuraton to my account or repo to get the publishing process to work automatically. 
+
+On the `deploy` task in GitHub's `Actions`, it will also tell you where it got published to. By default, it will be `https://<your account name>.github.io/<your repo name>` - which for me is `growlf.github.io/journal`
 ## Notes
-- You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as, which for me is `growlf.github.io/journal`)
+- You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as)
 - If you want to customize your theme, look at my [quartz](https://github.com/growlf/journal/tree/main/.github/quartz) folder for a rough example, or look at the links below here.
 ## Links
 My inspiration and ability, as always, comes from those that have already pioneerd what I am using.  This project is no different.  Checkout these sources:
