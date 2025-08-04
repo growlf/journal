@@ -77,7 +77,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # The path to the directory containing the built site
-          path: publish
+          path: ./publish
 
   # Deploy the built site to GitHub Pages
   deploy:
