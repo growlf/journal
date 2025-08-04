@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tools/Obsidian.md",
+                "file": "publish/Tricks/GitHub-Quartz-Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "GitHub-Quartz-Obsidian"
             }
           }
         ],
@@ -195,11 +195,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfb830bb59a82847",
+  "active": "263d88d9b07e9d2a",
   "lastOpenFiles": [
+    "BookStack.md",
+    "publish/Tricks/GitHub-Quartz-Obsidian.md",
+    "publish/Glossary/GIT.md",
+    "publish/Tools/Obsidian.md",
     "Assets/osidian-directory-layout.md",
     "publish/Tools/osidian-directory-layout.png",
-    "publish/Tools/Obsidian.md",
     "publish/index.md",
     "Assets/banner.md",
     "publish/banner.png",
@@ -214,7 +217,6 @@
     "publish/Tools/WorkAdventure.md",
     "publish/Tools/Ansible.md",
     "publish/Gizmos/Gizmos.md",
-    "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "Templates/Quick.md",
     "Assets/Drawing1.excalidraw.svg",
     "banner.png",
@@ -229,7 +231,6 @@
     "publish/Tools/Wireguard.md",
     "publish/Tools/Vaultwarden.md",
     "publish/Tools/Technitium.md",
-    "publish/Tools/SyncThing.md",
     "publish/Tools",
     "publish/Lab Setup",
     "publish/Glossary",
