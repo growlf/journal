@@ -65,7 +65,16 @@ This seems like a great time to load a [Grafana Labs Dashboards](https://grafana
 
 I browsed through the available dashboards, setting the filters for 'prometheus' as the data-source and 'Docker' as the category... selected a dashboard or three to try out. Each dashboard has a numeric ID that can then be imported on the Grafana Dashboards panel.
 
-### Proxmox Data
+### Proxmox Server Data
+
+Found [this](https://github.com/prometheus-pve/prometheus-pve-exporter/) little gem. Just run it in your docker system, and feed it some valid credentials from the Proxmox, and WHEEEE!  There is a related dashboard as well.
+
+### Generic Server Metrics
+
+Getting the drive space, RAM, CPU load, network bandwidth / interface, etc...
+### Alerting
+
+
 
 ### Links
 - [Loki](https://grafana.com/docs/loki/latest/)
