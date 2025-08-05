@@ -9,9 +9,10 @@ Creation date: Monday April 4th 2022 11:18:30
 My personal journal of technology-land adventures ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - using [[GitHub-Quartz-Obsidian]] to publish it.
 
 ## Recent Project Focuses
-- [[Gizmos]] - beginning to add my gadgetry to this blog.  This will be an ongoing task. LOL
-- [[Ansible]]!  ...*sigh* ... adding this as a "new" focus tomorrow even though I have been poking it along for a while now ;)
+- [[Ansible]]!  ...*sigh* ... adding this as a "new" focus even though I have been poking it along for a while now ;)  This just resurfacing as a primary driver for various reasons.
+- [[Grafana]] - for alerting, monitoring, debugging, just plain-le-entertaining animated graphs... etc
 - [[WorkAdventure]] - a cool social communication tool with so much more to offer for hybrid events.  Still having some issues getting the voice and video to work outside the LAN.
+- [[Gizmos]] - beginning to add my gadgetry to this blog.  Not to be confused with my [[Hardware]] - which is a tad more stable and less likely to change from day to day.  This will be an ongoing task. LOL
 ### Background Focus
 - [[Cloud Init]] - This is mostly done and moving to my background tasks.
 - [[The Stack]] - The tech stack I most often use or implement/manage/maintain. This is now fairly defined at a medium to high level.  Continuing updates will occur as I add specifics to individual pages.  Dropping this to background tasks now.
