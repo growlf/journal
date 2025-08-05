@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ac2ddd372369a47",
+            "id": "263d88d9b07e9d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Obsidian"
             }
-          },
-          {
-            "id": "263d88d9b07e9d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "publish/Tools/Docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +182,12 @@
   },
   "active": "263d88d9b07e9d2a",
   "lastOpenFiles": [
+    "publish/Tools/osidian-directory-layout.png",
+    "publish/Tools/Obsidian.md",
+    "Assets/osidian-directory-layout.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
+    "publish/index.md",
+    "publish/Tools/Docker.md",
     "publish/Glossary/GIT.md",
     "publish/Tricks/DNS Service Records.md",
     "publish/Tricks/Wireguard Search Domain.md",
@@ -207,10 +197,6 @@
     "publish/Tricks/Drawing1.excalidraw.md",
     "publish/Tricks/Excalidraw and Templates.md",
     "BookStack.md",
-    "publish/Tools/Obsidian.md",
-    "Assets/osidian-directory-layout.md",
-    "publish/Tools/osidian-directory-layout.png",
-    "publish/index.md",
     "Assets/banner.md",
     "publish/banner.png",
     "publish/banner 1.png",
@@ -229,8 +215,6 @@
     "banner.png",
     "docs/index.md",
     "publish/Tricks",
-    "publish/Tools/index.md",
-    "publish/Tools/Wireguard.md",
     "publish/Tools",
     "publish/Lab Setup",
     "publish/Glossary",
@@ -239,7 +223,6 @@
     "Assets",
     "docs/Assets/banner.png",
     "Untitled Diagram.svg",
-    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
     "SystemSculpt/Recordings/2025-08-04_07-33-01-994Z.webm",
     "Untitled.canvas",
     "journal/docs/Tools",
