@@ -63,7 +63,7 @@ After a quick look at the data through Grafana's Explore tab - I can see that th
 ### Docker Dashboard
 This seems like a great time to load a [Grafana Labs Dashboards](https://grafana.com/grafana/dashboards) and see the beginning of the usefulness of this set of tools. I'll build my own later and customize it specifically to my needs but, for now, this is the easiest and fastest way to get some joy. 
 
-I browsed through the available dashboards, setting the filters for 'prometheus' as the data-source and 'Docker' as the category... selected a dashboard or three to try out. Each dashboard has a numeric ID that can then be imported on the Grafana Dashboards panel.
+I browsed through the available dashboards, setting the filters for 'Prometheus' as the data-source and 'Docker' as the category... selected a dashboard or three to try out. Each dashboard has a numeric ID that can then be imported on the Grafana Dashboards panel.
 
 ### Proxmox Server Data
 
@@ -74,12 +74,13 @@ Found [this](https://github.com/prometheus-pve/prometheus-pve-exporter/) little 
 Getting the drive space, RAM, CPU load, network bandwidth / interface, etc...
 ### Alerting
 
-
+This is next. Alerting can be done from multiple 
 
 ### Links
 - [Loki](https://grafana.com/docs/loki/latest/)
 - [Prometheus](https://grafana.com/docs/grafana/latest/datasources/prometheus/) and/or [InfluxDB](https://docs.influxdata.com/influxdb/v2/install/use-docker-compose/)
 	- [Prometheus config docs](https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
+	- [DNS Service Discovery](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#dns_sd_config)
 - Node Exporter
 	- https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/prometheus-config-examples/docker-compose-linux/
 - cAdvisor
@@ -87,6 +88,8 @@ Getting the drive space, RAM, CPU load, network bandwidth / interface, etc...
 - [Grafana Labs Dashboards](https://grafana.com/grafana/dashboards)
 - https://blog.devops.dev/a-beginners-guide-to-monitoring-docker-swarm-with-grafana-7def8ed5843f
 - [Proxmox Exteran Metrics](https://pve.proxmox.com/wiki/External_Metric_Server) with [InfluxDB](https://docs.influxdata.com/influxdb/v2/install/use-docker-compose/)
+- Proxmox_pve_exporter
+	- https://blog.devops.dev/just-do-grafana-monitor-proxmox-with-prometheus-23312d3e8349
 Specific dashboards:
 - [Docker Swarm and Grafana](https://grafana.com/grafana/dashboards/609-docker-swarm-container-overview/)
 - https://grafana.com/grafana/dashboards/11939-ssc-services-2/
