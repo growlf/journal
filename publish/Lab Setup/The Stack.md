@@ -26,31 +26,28 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 11) [[Portainer]] and [[Docker]]
 ## 2) Documentation, Wiki, and Web
 - [[GitHub-Quartz-Obsidian]] (great for personal journaling)
-- [[Wordpress]] - Main web presence
+- [[Wordpress]] or [[DjangoCMS]]- Main web presence
 - [[Obsidian]] - Notes, mind-storming, and apparently journaling with [[GitHub-Quartz-Obsidian]]
-- [[Draw.io]] and [[Google Drive]]
+- Draw.io and Google Drive
 ## 3) Backups and File Access
 - [[Proxmox Backup Server]]
 - [[SyncThing]] - File backup and sharing/collaberating
-- [[RSync]] - System backup solution
-- [[FileBrowser Quantum]] - Easy file access tool for various other services/apps (can be added to any LXC or VM that does not have a file access GUI but needs one)
+- RSync - System backup solution
+- [FileBrowser Quantum](https://github.com/gtsteffaniak/filebrowser) - Easy file access tool for various other services/apps (can be added to any LXC or VM that does not have a file access GUI but needs one)
 ## 4) Monitoring Tools
 - [[NtopNG]] - IDS, monitoring, alerting, and debugging
-- [[NetalertX]] - monitoring
-- [[LibreNMS]] - monitoring and alerting
-- [[Grafana]] with [[Prometheus]], [[Promtail]], and [[CAdvisor]] (and others)
+- [[Grafana]] with all the extras and supporting cast
 ## Standalone/external configs/services/apps
-- [[Email]] - alerts, updates, etc 
-- [[Discord]] - Social
-- [[Slack]] - Optinal social
-- [[SSH]] - Remote access and administration
-- [[Mail server]] - MailU ?
+- Email - alerts, updates, etc. Mail server - MailU ?
+- Discord - Social
+- Slack - Optinal social
+- SSH - Remote access and administration
 ## Other Useful services
 - [[WorkAdventure]] - For social hybrid scenarios as well as possible contact tool
 - [[Nextcloud]] - All 'round collaboration tool
-- [[Leantime]] Project management (calendar, project, tickets)
+- [Leantime](https://docs.leantime.io/) - Project management (calendar, project, tickets)
 - [[Tailscale]] - VPN for everyone
 - [Leantime](https://leantime.io/) [Openproject](https://www.openproject.org/)- Project management
 - [ESPHome](https://esphome.io/index.html)- Easy deployment to ESP32 and similar IoT hardware
-- HomeAssistant - Home automation
-- NodeRed - Process flow
+- [HomeAssistant](https://www.home-assistant.io/docs/) or [N8N](https://docs.n8n.io/) - Home automation
+- [NodeRed](https://nodered.org/docs/) or [N8N](https://docs.n8n.io/) - Process flow
