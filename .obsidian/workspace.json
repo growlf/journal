@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Lab Setup/The Stack.md",
+                "file": "publish/Tools/Grafana.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Stack"
+              "title": "Grafana"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "382b5071344f7d6e",
   "lastOpenFiles": [
-    "Discord.md",
     "publish/Lab Setup/The Stack.md",
+    "Discord.md",
     "Slack.md",
     "publish/Tools/Tailscale.md",
     "publish/Tools/Proxmox Backup Server.md",

@@ -16,13 +16,14 @@ To tie together all of the services necessary to completely monitor all resource
 NOTE: None of these demonstration links to anything in the `yeticraft.net` domain are real. So don't expect them to work for you.  When I spin up my home lab, it generates DNS entries for my LXCs, Containers, and VMS that are entirely behind the lab firewall - not to mention they are only temporary.
 
 ## The Journey
+This one is fairly lengthy, so get a cup of tea, have a sit on the comfy chair and take your time reading through this.
 
 ### Grafana
 I started with installing Grafana as a standalone [[LXC]] on my [[Proxmox]] server using a [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana). It looks like it is running fine at http://grafana.yeticraft.net:3000/. Nothing there though.  I need some data first.
 ### Prometheus
 I then installed [Prometheus](https://community-scripts.github.io/ProxmoxVE/scripts?id=prometheus) the same way. I logged into the resultant LXC and edited the `/etc/prometheus/prometheus.yml` file as [described](https://prometheus.io/docs/prometheus/latest/getting_started/), to monitor itself. It was mostly already there though - just minor additions. I then configured a connection to it in Grafana by going to `connections` in Grafana and configuring the connection for it from the rather large list of options. 
 
-Using the well known property `prometheus_target_interval_length_seconds` as a query focus, I can see that it is working. A bit borng... but seems to be accumulating data about itself just fine.
+Using the well known property `prometheus_target_interval_length_seconds` as a query focus, I can see that it is working. A bit boring... but seems to be accumulating data about itself just fine. http://prometheus.yeticraft.net:9090/
 ### CAdvisor
 Lets monitor some [[Docker]] containers. That should be more exciting!
 
@@ -44,9 +45,27 @@ sudo docker run \
   --device=/dev/kmsg \
   gcr.io/cadvisor/cadvisor:${VERSION:-latest}
 ```
-And then immediately went to the web interface at `http://dock1.yeticraft.net:8080/` - it works! My, there is a lot of good info in there!
+And then immediately went to the web interface at http://dock1.yeticraft.net:8080/ - it works! My, there is a lot of good info in there!
 
-A good 20 minutes of playing around it CAdvisor's interface later, I followed the [storage instructions](https://github.com/google/cadvisor/blob/master/docs/storage/prometheus.md) to get the data into [[Prometheus]] and thus into my lovely [[Grafana]].
+A good 20 minutes of playing around it CAdvisor's interface later, I followed the [storage instructions](https://github.com/google/cadvisor/blob/master/docs/storage/prometheus.md) to get all of that lovely data into [[Prometheus]] and thus into my friendly [[Grafana]] interface. Opening a terminal to the Prometheus container, I added the following to it's scrape config list:
+```yaml
+  - job_name: 'cadvisor'
+    scrape_interval: 5s # Adjust as needed
+    static_configs:
+      - targets: ['dock1.yeticraft.net:8080'] # Replace 'cadvisor' with the hostname or IP of your cAdvisor instance
+```
+Then restarted the daemon like so:
+```bash
+systemctl daemon-reload && systemctl restart prometheus
+```
+After a quick look at the data through Grafana's Explore tab - I can see that there is definitely data coming in!
+
+### Docker Dashboard
+This seems like a great time to load a [Grafana Labs Dashboards](https://grafana.com/grafana/dashboards) and see the beginning of the usefulness of this set of tools. I'll build my own later and customize it specifically to my needs but, for now, this is the easiest and fastest way to get some joy. 
+
+I browsed through the available dashboards, setting the filters for 'prometheus' as the data-source and 'Docker' as the category... selected a dashboard or three to try out. Each dashboard has a numeric ID that can then be imported on the Grafana Dashboards panel.
+
+### Proxmox Data
 
 ### Links
 - [Loki](https://grafana.com/docs/loki/latest/)
