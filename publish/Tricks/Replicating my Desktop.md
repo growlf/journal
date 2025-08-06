@@ -17,7 +17,7 @@ Recently, I discovered the laptop that I was using had somehow been upgraded fro
 
 Well, heck. Not sure how I managed this, especially when I frequently advise others not to do such a thing, but here I am. I blame the gremlins that take over my fingers during late night stints on the keyboard. They are generally the culprits. 
 
-Since I am still an avid Ubuntu user and not yet converted to something like NixOS, I need to replicate my install with the older (and supported) Ubuntu 24.04 - like I thought I still was using.  The following is the journal of that unexpected journey.
+Since I am still an avid Ubuntu user and not yet converted to something like [NixOS](https://nixos.org/), I need to replicate my install with the older (and supported) [Ubuntu 24.04](https://releases.ubuntu.com/noble/) - like I thought I still was using.  The following is the journal of that unexpected journey.
 
 ## The Journey Begins
 I am not going to format this system till I ***know*** that I have a fool-proof solution to get me back up and running in a very short period of time - i.e. less than an hour or so.  While twiddling away on a solution that may take a day or three to create and have absolute faith in, I cannot afford actual down time on my daily driver.
@@ -35,12 +35,59 @@ cat packages.txt | awk -F'/' '{print $1}' > reinstall_list.txt
 ```
 Storing that on my local NAS for later.
 
-### Safetynet
-Ok, but what about the "one-off" packages that I downloaded the deb-file for or did some sort of manual thing with `make`?  ...and, *cough*, any snaps I accidentally allowed in?  Not even starting the conversation about all of the UI and other customizations that I tend to do to my desktop, ***sigh***.  How will I know for certain that everything was copied before I format and have no recourse? 
+### Safety Net
+OK, but what about the "one-off" packages that I downloaded the deb-file for or did some sort of manual thing with `make`?  ...and, *cough*, any snaps I accidentally allowed in?  Not even starting the conversation about all of the UI and other customization's that I tend to do to my desktop, ***sigh***.  How will I know for certain that everything was copied before I format and have no recourse? 
 
-One thing at a time. Lets get a VM setup that I can test on.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated a quick instance to throw things at and made a snapshot so that I can roll back to the last stage when things go wrong.
+One thing at a time. Lets get a VM setup that I can test on.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
 
 I *could* have used an `autoinstall.yml` as described [here](https://linuxconfig.org/how-to-write-and-perform-ubuntu-unattended-installations-with-autoinstall) and [here](https://nsg.cc/post/2024/autoinstall/), but I am in a hurry to get things moving. Besides, I suspect I can apply all of my steps easily to this option again later when I re-try for the umpteenth time - later on.  I just selected my usual config options manually.
 
-Ok, the system is up, running, my ssh-keys are installed, and I am literally logging out of the GUI now to start the process through [[Ansible]].
-### Automation with Ansible
+OK, the system is up, running, my ssh-keys are installed
+```bash
+wget -O ~/.ssh/authorized_keys https://github.com/growlf.keys
+sudo apt install openssh-server -y
+```
+and I am logging out of the GUI now to start the process remotely through [[ssh]]. Anything I can do over SSH, I can later do with [[Ansible]].
+### The Apps
+Logging into the test system with ssh, execute the following:
+- add the apt proxy and misc debs to the system - use `scp` to copy them to the other system
+```bash
+scp -r scp/* wight:/tmp/
+```
+- Log into the target over [[ssh]] and begin the process:
+```bash
+sudo mv rebuild/00aptproxy.conf /etc/apt/apt.conf.d/
+sudo add-apt-repository multiverse -y
+sudo add-apt-repository restricted -y
+sudo add-apt-repository ppa:dotnet/backports
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl nano git -y
+curl -fsSL https://get.docker.com | sudo sh
+sudo usermod -aG docker ${USER}
+sudo snap install signal-desktop
+sudo apt install /tmp/code_1.102.3-1753759567_amd64.deb -y
+sudo apt install /tmp/discord-0.0.104.deb -y
+sudo apt install /tmp/obsidian_1.8.10_amd64.deb -y
+sudo apt install /tmp/google-chrome-stable_current_amd64.deb -y
+sudo apt install /tmp/Modrinth\ App_0.10.3_amd64.deb -y
+sudo apt install /tmp/warp-terminal_0.2025.07.30.08.12.stable.02_amd64.deb -y
+sudo apt install /tmp/zoom_amd64.deb -y
+sudo apt install $( cat /tmp/reinstall_packages_list.txt ) -y 
+```
+- Install [[TailScale]]
+```bash
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+sudo apt-get update
+sudo apt-get install tailscale
+```
+- install Teams
+```bash
+sudo mkdir -p /etc/apt/keyrings
+sudo wget -qO /etc/apt/keyrings/teams-for-linux.asc https://repo.teamsforlinux.de/teams-for-linux.asc
+sh -c 'echo "Types: deb\nURIs: https://repo.teamsforlinux.de/debian/\nSuites: stable\nComponents: main\nSigned-By: /etc/apt/keyrings/teams-for-linux.asc\nArchitectures: amd64" | sudo tee /etc/apt/sources.list.d/teams-for-linux-packages.sources'
+sudo apt update && sudo apt install teams-for-linux -y
+sudo reboot
+```
+YTBD from existing system (then I will compare the installed packages):
+- cnrdrvcups-ufr2lt-us - my Cannon printer driver
