@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tools/Grafana.md",
+                "file": "publish/Tricks/Replicating my Desktop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grafana"
+              "title": "Replicating my Desktop"
             }
           }
         ]
@@ -182,6 +182,10 @@
   },
   "active": "382b5071344f7d6e",
   "lastOpenFiles": [
+    "publish/index.md",
+    "publish/Lab Setup/Cloud Init.md",
+    "publish/Tricks/Replicating my Desktop.md",
+    "publish/Tools/Grafana.md",
     "publish/Lab Setup/The Stack.md",
     "Discord.md",
     "Slack.md",
@@ -192,8 +196,6 @@
     "publish/Tools/Registry.md",
     "publish/Glossary/PXEBoot.md",
     "publish/Tools/Homepage.md",
-    "publish/index.md",
-    "publish/Tools/Grafana.md",
     "publish/Tools/Prometheus.md",
     "publish/Glossary/LXC.md",
     "publish/Tools/Proxmox.md",
@@ -208,8 +210,6 @@
     "publish/Tricks/Smoother Updates.md",
     "publish/Tools/Apt Cacher NG.md",
     "publish/Tricks/Drawing1.excalidraw.svg",
-    "publish/Tricks/Drawing1.excalidraw.md",
-    "publish/Tricks/Excalidraw and Templates.md",
     "publish/banner.png",
     "publish/banner 1.png",
     "publish",

@@ -47,7 +47,7 @@ sudo docker run \
 ```
 And then immediately went to the web interface at http://dock1.yeticraft.net:8080/ - it works! My, there is a lot of good info in there!
 
-A good 20 minutes of playing around it CAdvisor's interface later, I followed the [storage instructions](https://github.com/google/cadvisor/blob/master/docs/storage/prometheus.md) to get all of that lovely data into [[Prometheus]] and thus into my friendly [[Grafana]] interface. Opening a terminal to the Prometheus container, I added the following to it's scrape config list:
+A good 20 minutes of playing around CAdvisor's interface later, I read the [storage instructions](https://github.com/google/cadvisor/blob/master/docs/storage/prometheus.md) to get all of that lovely data into [[Prometheus]] and thus into my friendly [[Grafana]] interface. Opening a terminal to the Prometheus container, I added the following to it's scrape config list:
 ```yaml
   - job_name: 'cadvisor'
     scrape_interval: 5s # Adjust as needed
