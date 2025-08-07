@@ -93,3 +93,6 @@ sudo reboot
 YTBD from existing system (then I will compare the installed packages):
 - cnrdrvcups-ufr2lt-us - my Cannon printer driver
 - Settings, keys, syncthing config, etc
+	I made a complete backup, of course (just in case), and will be considering using a `zfs send` option in the future.
+
+Taking a break and getting back to work on my [[Grafana]] project for a few.

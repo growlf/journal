@@ -69,6 +69,41 @@ I browsed through the available dashboards, setting the filters for 'Prometheus'
 
 Found [this](https://github.com/prometheus-pve/prometheus-pve-exporter/) little gem. Just run it in your docker system, and feed it some valid credentials from the Proxmox, and WHEEEE!  There is a related dashboard as well.
 
+### Linux Node Data
+Added node exporters to all of my Linux servers with this [guide](https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/prometheus-config-examples/noagent_linuxnode/#monitoring-a-linux-host-using-prometheus-and-node_exporter) and this [guide](https://prometheus.io/docs/guides/node-exporter/).  I created an install script that just adds it to the system as a service like so:
+```bash
+#!/bin/sh
+
+### Download and install the linux node exporter
+wget -P /tmp/exporter https://github.com/prometheus/node_exporter/releases/download/v1.9.1/node_exporter-1.9.1.linux-amd64.tar.gz
+tar xvfz /tmp/exporter/node_exporter-*.*-amd64.tar.gz -C /tmp/exporter
+sudo mv /tmp/exporter/node_exporter-1.9.1.linux-amd64/node_exporter /usr/local/bin/
+sudo ufw allow 9100/tcp
+sudo firewall-cmd --add-port=9100/tcp --permanent && sudo firewall-cmd --reload
+
+### Create the system user, service file, enable it, and start it
+sudo useradd --no-create-home --shell /bin/false node_exporter
+sudo tee -a /etc/systemd/system/node-exporter.service > /dev/null << 'EOF'
+[Unit]
+Description=Prometheus Node Exporter
+After=network.target
+
+[Service]
+User=node_exporter
+Group=node_exporter
+Type=simple
+ExecStart=/usr/local/bin/node_exporter
+
+[Install]
+WantedBy=multi-user.target
+EOF
+sudo chmod +x /etc/systemd/system/node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl enable node-exporter.service
+sudo systemctl start node-exporter.service
+sudo systemctl status node-exporter.service
+```
+I prefer to run the exporter directly as a binary service instead of as a container because it seems more stable and will be available sooner than if it waits for docker and it's other stacks to load (or if docker is offline for some reason).
 ### Generic Server Metrics
 
 Getting the drive space, RAM, CPU load, network bandwidth / interface, etc...
@@ -90,6 +125,8 @@ This is next. Alerting can be done from multiple
 - [Proxmox Exteran Metrics](https://pve.proxmox.com/wiki/External_Metric_Server) with [InfluxDB](https://docs.influxdata.com/influxdb/v2/install/use-docker-compose/)
 - Proxmox_pve_exporter
 	- https://blog.devops.dev/just-do-grafana-monitor-proxmox-with-prometheus-23312d3e8349
+- Linux Host Exporter
+	- https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/prometheus-config-examples/noagent_linuxnode/#monitoring-a-linux-host-using-prometheus-and-node_exporter
 Specific dashboards:
 - [Docker Swarm and Grafana](https://grafana.com/grafana/dashboards/609-docker-swarm-container-overview/)
 - https://grafana.com/grafana/dashboards/11939-ssc-services-2/

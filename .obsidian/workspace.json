@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Replicating my Desktop.md",
+                "file": "publish/Tools/Grafana.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Replicating my Desktop"
+              "title": "Grafana"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "382b5071344f7d6e",
   "lastOpenFiles": [
-    "publish/Glossary/ssh.md",
     "publish/Tricks/Replicating my Desktop.md",
+    "publish/Glossary/ssh.md",
     "publish/Tools/Ansible.md",
     "publish/index.md",
     "publish/Lab Setup/Cloud Init.md",
