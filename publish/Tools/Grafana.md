@@ -104,12 +104,14 @@ sudo systemctl start node-exporter.service
 sudo systemctl status node-exporter.service
 ```
 I prefer to run the exporter directly as a binary service instead of as a container because it seems more stable and will be available sooner than if it waits for docker and it's other stacks to load (or if docker is offline for some reason).
+
+I imported the related dashboard ( # `10180`) in my Grafana instance and immediately had some beautiful graphs of each of my nodes.
 ### Generic Server Metrics
 
 Getting the drive space, RAM, CPU load, network bandwidth / interface, etc...
 ### Alerting
 
-This is next. Alerting can be done from multiple 
+This is next. Alerting can be done from multiple methods - both Prometheus and Grafana support it.  Ill be detailing this a bit more soon.
 
 ### Links
 - [Loki](https://grafana.com/docs/loki/latest/)
