@@ -11,14 +11,12 @@
             "id": "382b5071344f7d6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "publish/Tricks/Docker on LXC.md",
-                "mode": "source",
-                "source": false
+                "file": "publish/Tricks/zfs_mp.png"
               },
-              "icon": "lucide-file",
-              "title": "Docker on LXC"
+              "icon": "lucide-image",
+              "title": "zfs_mp"
             }
           }
         ]
@@ -182,11 +180,11 @@
   },
   "active": "dfb830bb59a82847",
   "lastOpenFiles": [
-    "publish/Tricks/Pasted image 20250809131624.png",
-    "publish/Tricks/Pasted image 20250809131333.png",
+    "publish/Tricks/zfs_dir.png",
+    "publish/Tricks/zfs_mp.png",
+    "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/proxmox_zfs_sub.png",
     "publish/index.md",
-    "publish/Tricks/Docker on LXC.md",
     "publish/Tools/Grafana.md",
     "publish/Tricks/Replicating my Desktop.md",
     "publish/Glossary/ssh.md",
@@ -224,7 +222,6 @@
     "publish/Gizmos",
     "publish/banner.png",
     "Assets",
-    "docs/Assets/banner.png",
     "SystemSculpt/Recordings/2025-08-04_07-33-01-994Z.webm",
     "Untitled.canvas",
     "journal/docs/Tools",
