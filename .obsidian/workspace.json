@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Tricks/Docker on LXC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Docker on LXC"
             }
           }
         ]
@@ -180,13 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "382b5071344f7d6e",
+  "active": "dfb830bb59a82847",
   "lastOpenFiles": [
+    "publish/Tricks/proxmox_zfs_sub.png",
+    "publish/index.md",
+    "publish/Tricks/Docker on LXC.md",
     "publish/Tools/Grafana.md",
     "publish/Tricks/Replicating my Desktop.md",
     "publish/Glossary/ssh.md",
     "publish/Tools/Ansible.md",
-    "publish/index.md",
     "publish/Lab Setup/Cloud Init.md",
     "publish/Lab Setup/The Stack.md",
     "Discord.md",
@@ -207,8 +209,6 @@
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/Tools/Docker.md",
     "publish/Glossary/GIT.md",
-    "publish/Tricks/DNS Service Records.md",
-    "publish/Tricks/Wireguard Search Domain.md",
     "publish/Tricks/Drawing1.excalidraw.svg",
     "publish/banner.png",
     "publish/banner 1.png",
