@@ -130,6 +130,7 @@ This is next. Alerting can be done from multiple methods - both Prometheus and G
 - Linux Host Exporter
 	- https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/prometheus-config-examples/noagent_linuxnode/#monitoring-a-linux-host-using-prometheus-and-node_exporter
 - SMTP [configuration](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#smtp) - Example environment section in the `compose.yml`:
+
   ```yaml
       GF_SMTP_ENABLED: "true"
       GF_SMTP_HOST: "smtp.gmail.com:587"
@@ -139,6 +140,7 @@ This is next. Alerting can be done from multiple methods - both Prometheus and G
       GF_SMTP_FROM_ADDRESS: "grafana@yourdomain.tld"
       GF_SMTP_FROM_NAME: "Grafana Alerts"
 ```
+
 Specific dashboards:
 - [Docker Swarm and Grafana](https://grafana.com/grafana/dashboards/609-docker-swarm-container-overview/)
 - https://grafana.com/grafana/dashboards/11939-ssc-services-2/
