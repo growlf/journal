@@ -129,9 +129,18 @@ This is next. Alerting can be done from multiple methods - both Prometheus and G
 	- https://blog.devops.dev/just-do-grafana-monitor-proxmox-with-prometheus-23312d3e8349
 - Linux Host Exporter
 	- https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/prometheus-config-examples/noagent_linuxnode/#monitoring-a-linux-host-using-prometheus-and-node_exporter
+- SMTP [configuration](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#smtp) - Example environment section in the `compose.yml`:
+  ```yaml
+      GF_SMTP_ENABLED: "true"
+      GF_SMTP_HOST: "smtp.gmail.com:587"
+      GF_SMTP_USER: "no_reply@bellinghammakerspace.org"
+      GF_SMTP_PASSWORD: """your_smtp_password"""
+      GF_SMTP_SKIP_VERIFY: "false"
+      GF_SMTP_FROM_ADDRESS: "grafana@bellinghammakerspace.org"
+      GF_SMTP_FROM_NAME: "Grafana Alerts"
+```
 Specific dashboards:
 - [Docker Swarm and Grafana](https://grafana.com/grafana/dashboards/609-docker-swarm-container-overview/)
 - https://grafana.com/grafana/dashboards/11939-ssc-services-2/
 - https://community.grafana.com/t/promtail-config-and-setup-for-docker-swarm-containers/136766/9
-
-
+- https://grafana.com/grafana/dashboards/13679-mikrotik-mktxp-exporter/
