@@ -133,10 +133,10 @@ This is next. Alerting can be done from multiple methods - both Prometheus and G
   ```yaml
       GF_SMTP_ENABLED: "true"
       GF_SMTP_HOST: "smtp.gmail.com:587"
-      GF_SMTP_USER: "no_reply@bellinghammakerspace.org"
+      GF_SMTP_USER: "no_reply@yourdomain.tld"
       GF_SMTP_PASSWORD: """your_smtp_password"""
       GF_SMTP_SKIP_VERIFY: "false"
-      GF_SMTP_FROM_ADDRESS: "grafana@bellinghammakerspace.org"
+      GF_SMTP_FROM_ADDRESS: "grafana@yourdomain.tld"
       GF_SMTP_FROM_NAME: "Grafana Alerts"
 ```
 Specific dashboards:
