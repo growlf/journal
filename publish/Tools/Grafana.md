@@ -145,5 +145,8 @@ Specific dashboards:
 - [Docker Swarm and Grafana](https://grafana.com/grafana/dashboards/609-docker-swarm-container-overview/)
 - https://grafana.com/grafana/dashboards/11939-ssc-services-2/
 - https://community.grafana.com/t/promtail-config-and-setup-for-docker-swarm-containers/136766/9
+In use:
 - https://grafana.com/grafana/dashboards/13679-mikrotik-mktxp-exporter/
 	- https://github.com/akpw/mktxp#getting-started
+- https://grafana.com/grafana/dashboards/17139-mikrotik-loki-logs/
+- https://grafana.com/grafana/dashboards/3590-grafana-internals/
