@@ -9,6 +9,7 @@ modification date:
 Documentation: 
 aliases:
   - Ubuntu release EOL
+  - rebuild
 ---
 ---
 To be clear - this idea of "replicating" is more of an "oh no! I need to downgrade! But, there is no clear path!" ...and I decided that making an automation process to generate my system would be a good test of my DevOps skills anyhow. 
@@ -24,14 +25,14 @@ I am not going to format this system till I ***know*** that I have a fool-proof 
 ### Getting a list of Installed Packages
 I guess step one is to get a list of all of my installed packages, since I will want to make sure I have all of them **re**installed. To do that, we can use any one of several tools. In this case, however, I am going to use the old and sure way:
 ```bash
-apt list --manual-installed > ~/packages.txt
+apt list --manual-installed > /tmp/packages.txt
 ```
 
 This generated a reasonable list of packages that I had manually added after the system was staged. I do not need all of the automatic ones or upgrades, etc.  Also, I will need to modify this list a bit to remove all of the 'oracular' mentions (and versions) and simply boil it down to just the package names. If you were simply looking for a "reinstall" using something like `dpkg --get-selections` might be a better option, but I am going to be downgrading to an older release and this would collide. Badly.
 
 So, to parse the part I want out and have a nice simple list of packages to reinstall:
 ```bash
-cat packages.txt | awk -F'/' '{print $1}' > reinstall_list.txt
+cat /tmp/packages.txt | awk -F'/' '{print $1}' > /tmp/reinstall_list.txt
 ```
 Storing that on my local NAS for later.
 
