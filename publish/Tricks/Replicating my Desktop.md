@@ -43,7 +43,7 @@ One thing at a time. Lets get a VM setup that I can test on.  Using my trusty [[
 
 I *could* have used an `autoinstall.yml` as described [here](https://linuxconfig.org/how-to-write-and-perform-ubuntu-unattended-installations-with-autoinstall) and [here](https://nsg.cc/post/2024/autoinstall/), but I am in a hurry to get things moving. Besides, I suspect I can apply all of my steps easily to this option again later when I re-try for the umpteenth time - later on.  I just selected my usual config options manually.
 
-OK, the system is up, running, my ssh-keys are installed
+OK, the system is up, running, my ssh-keys are installed for remote access (my private keys will be copied later with the rest of my personal data)
 ```bash
 wget -O ~/.ssh/authorized_keys https://github.com/growlf.keys
 sudo apt install openssh-server -y
