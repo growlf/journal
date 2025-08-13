@@ -14,16 +14,16 @@ aliases:
 ---
 To be clear - this idea of "replicating" is more of an "oh no! I need to downgrade! But, there is no clear path!" ...and I decided that making an automation process to generate my system would be a good test of my DevOps skills anyhow. 
 
-Recently, I discovered the laptop that I was using had somehow been upgraded from the LTS version of Ubuntu to the extremely short lived 24.10 release - which just hit EOL. To make matters worse, I chose (for various reasons) to use [ZFS](https://pve.proxmox.com/wiki/ZFS_on_Linux) during my initial installation - and guess what is not supported in 25.04. You guessed it, [ZFS](https://pve.proxmox.com/wiki/ZFS_on_Linux). I am not willing to give up my features.
+Recently, I discovered the laptop that I was using had somehow been upgraded from the LTS version of Ubuntu to the extremely short lived 24.10 release - which just hit EOL. To make matters worse, I chose (for various reasons) to use [[ZFS]] during my initial installation - and guess what is not supported in 25.04. You guessed it,[[ZFS]]. I am not willing to give up my features.
 
-Well, heck. Not sure how I managed this, especially when I frequently advise others not to do such a thing, but here I am. I blame the gremlins that take over my fingers during late night stints on the keyboard. They are generally the culprits. 
+Well, heck. Not sure how I managed this, but here I am. I blame the gremlins that take over my fingers during late night stints on the keyboard. They are generally the culprits. 
 
-Since I am still an avid Ubuntu user and not yet converted to something like [NixOS](https://nixos.org/), I need to replicate my install with the older (and supported) [Ubuntu 24.04](https://releases.ubuntu.com/noble/) - like I thought I still was using.  The following is the journal of that unexpected journey.
+Since I am still an avid Ubuntu user and not yet converted to something like [NixOS](https://nixos.org/), I need to replicate my install with the older (and much more supported) [Ubuntu 24.04](https://releases.ubuntu.com/noble/) LTS - like I thought I was still using.  The following is the journal of that unexpected journey to recovery.
 
 ## The Journey Begins
 I am not going to format this system till I ***know*** that I have a fool-proof solution to get me back up and running in a very short period of time - i.e. less than an hour or so.  While twiddling away on a solution that may take a day or three to create and have absolute faith in, I cannot afford actual down time on my daily driver.
 
-Using `deje-dupe`, I made a backup to my [[NAS]] - just to be safe.
+Using `deje-dupe`, I made a backup to my [[NAS]] - just to be safe. I made another using [[ZFS Backup]].  Just my user directory/zvol and a couple of known data directories, the OS will be handled with a fresh install. 
 ### Getting a list of Installed Packages
 I guess step one is to get a list of all of my installed packages, since I will want to make sure I have all of them **re**installed. To do that, we can use any one of several tools. In this case, however, I am going to use the old and sure way:
 ```bash
@@ -120,3 +120,24 @@ Personal files/settings and customization from existing system (then I will comp
 - `.zshrc`, `.bashrc`, etc
 
 Taking a break and getting back to work on my [[Grafana]] project for a few.
+
+### Notes
+I wrote a quick script to capture the info from each of my systems as I went along so that I could compare them:
+```bash
+#!/usr/bin/env bash
+
+# Get the system info and set the raget dir with it
+TARGET=$(hostname)
+DIR="~/Projects/rebuild/${TARGET}"
+
+# Ensure the target dir exists
+mkdir -p ${DIR}
+
+# Copy the info over
+dconf dump / > ${DIR}/dconf_dump_${TARGET}.ini
+cp ~/.zshrc ${DIR}/
+cp ~/.bashrc ${DIR}/
+cp -r ~/.vscode ${DIR}/
+cp ~/.bash_logout ${DIR}/
+```
+My `~/Projects` folder is synched between the two systems, so this allows easy use of `meld` to compare the outcomes.

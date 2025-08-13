@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/ZFS Backup.md",
+                "file": "publish/Tricks/Replicating my Desktop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZFS Backup"
+              "title": "Replicating my Desktop"
             }
           }
         ]
@@ -182,11 +182,12 @@
   },
   "active": "382b5071344f7d6e",
   "lastOpenFiles": [
+    "publish/Glossary/ZFS.md",
     "publish/Tricks/Replicating my Desktop.md",
+    "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/ZFS Backup.md",
     "publish/Glossary/NAS.md",
     "publish/Tools/Grafana.md",
-    "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/proxmox_zfs_sub.png",
     "publish/Tricks/zfs_mp.png",
     "publish/Tricks/zfs_dir.png",
@@ -211,7 +212,6 @@
     "publish/Tools/osidian-directory-layout.png",
     "Assets/osidian-directory-layout.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
-    "publish/Tools/Docker.md",
     "publish/Tricks/Drawing1.excalidraw.svg",
     "publish/banner.png",
     "publish/banner 1.png",
