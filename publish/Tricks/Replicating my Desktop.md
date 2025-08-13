@@ -48,7 +48,7 @@ OK, the system is up, running, my ssh-keys are installed for remote access (my p
 wget -O ~/.ssh/authorized_keys https://github.com/growlf.keys
 sudo apt install openssh-server -y
 ```
-and I am logging out of the GUI now to start the process remotely through [[ssh]]. Anything I can do over SSH, I can later do with [[Ansible]].
+and I am logging out of the GUI now to start the process remotely through [[ssh]]. Anything I can do over SSH, I can later automate with [[Ansible]].
 ### The Apps
 Logging into the test system with ssh, execute the following:
 - add the apt proxy and misc debs to the system - use `scp` to copy them to the other system
