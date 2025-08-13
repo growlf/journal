@@ -22,6 +22,8 @@ Since I am still an avid Ubuntu user and not yet converted to something like [Ni
 
 ## The Journey Begins
 I am not going to format this system till I ***know*** that I have a fool-proof solution to get me back up and running in a very short period of time - i.e. less than an hour or so.  While twiddling away on a solution that may take a day or three to create and have absolute faith in, I cannot afford actual down time on my daily driver.
+
+Using `deje-dupe`, I made a backup to my [[NAS]] - just to be safe.
 ### Getting a list of Installed Packages
 I guess step one is to get a list of all of my installed packages, since I will want to make sure I have all of them **re**installed. To do that, we can use any one of several tools. In this case, however, I am going to use the old and sure way:
 ```bash
