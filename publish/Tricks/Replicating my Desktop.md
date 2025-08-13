@@ -34,12 +34,23 @@ So, to parse the part I want out and have a nice simple list of packages to rein
 ```bash
 cat /tmp/packages.txt | awk -F'/' '{print $1}' > /tmp/reinstall_list.txt
 ```
+A small edit or two to remove unwanted lines here and there, such as the first line that is not a package, and a few packages that I just don't need or are referenced/installed manually from `.deb` files instead.
+
 Storing that on my local NAS for later.
 
 ### Safety Net
 OK, but what about the "one-off" packages that I downloaded the deb-file for or did some sort of manual thing with `make`?  ...and, *cough*, any snaps I accidentally allowed in?  Not even starting the conversation about all of the UI and other customization's that I tend to do to my desktop, ***sigh***.  How will I know for certain that everything was copied before I format and have no recourse? 
 
-One thing at a time. Lets get a VM setup that I can test on.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
+I do know that a lot of my settings are stored in `dconf`, so a quick backup of that to a dump file is a good idea.
+```bash
+dconf dump / > /tmp/dconf_dump_current.ini
+```
+And then copy that to my NAS.  I can use that to restore many of my settings on the new system after everything is installed on it with
+```bash
+dconf load < /tmp/dconf_dump_current.ini
+```
+
+Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
 
 I *could* have used an `autoinstall.yml` as described [here](https://linuxconfig.org/how-to-write-and-perform-ubuntu-unattended-installations-with-autoinstall) and [here](https://nsg.cc/post/2024/autoinstall/), but I am in a hurry to get things moving. Besides, I suspect I can apply all of my steps easily to this option again later when I re-try for the umpteenth time - later on.  I just selected my usual config options manually.
 
@@ -57,15 +68,20 @@ scp -r scp/* wight:/tmp/
 ```
 - Log into the target over [[ssh]] and begin the process:
 ```bash
+# Add my local apt proxy and expected repos
 sudo mv rebuild/00aptproxy.conf /etc/apt/apt.conf.d/
 sudo add-apt-repository multiverse -y
 sudo add-apt-repository restricted -y
 sudo add-apt-repository ppa:dotnet/backports
 sudo apt update && sudo apt upgrade -y
+# Basic required tools
 sudo apt install curl nano git -y
+# Install Docker
 curl -fsSL https://get.docker.com | sudo sh
 sudo usermod -aG docker ${USER}
+# Install Signal (no deb available?)
 sudo snap install signal-desktop
+# Manual .deb downloads installs
 sudo apt install /tmp/code_1.102.3-1753759567_amd64.deb -y
 sudo apt install /tmp/discord-0.0.104.deb -y
 sudo apt install /tmp/obsidian_1.8.10_amd64.deb -y
@@ -73,6 +89,7 @@ sudo apt install /tmp/google-chrome-stable_current_amd64.deb -y
 sudo apt install /tmp/Modrinth\ App_0.10.3_amd64.deb -y
 sudo apt install /tmp/warp-terminal_0.2025.07.30.08.12.stable.02_amd64.deb -y
 sudo apt install /tmp/zoom_amd64.deb -y
+# Everything else - this takes a few
 sudo apt install $( cat /tmp/reinstall_packages_list.txt ) -y 
 ```
 - Install [[TailScale]]
@@ -92,10 +109,12 @@ sudo apt auto-remove -y
 sudo reboot
 ```
 
+So far so good.  Minor errors with some packages left in the main list that collided like `fuse` or a printer driver which I removed from the list (about 8 of them), but then everything worked.
 ### Yet To Be Done
-From existing system (then I will compare the installed packages):
+Personal files/settings and customization from existing system (then I will compare the installed packages):
 - cnrdrvcups-ufr2lt-us - my Cannon printer driver
 - Settings, keys, Syncthing config, etc
 	I made a complete backup, of course (just in case), and will be considering using a `zfs send` option in the future.
+- `.zshrc`, `.bashrc`, etc
 
 Taking a break and getting back to work on my [[Grafana]] project for a few.
