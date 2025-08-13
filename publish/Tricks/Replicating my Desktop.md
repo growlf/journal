@@ -47,7 +47,7 @@ dconf dump / > /tmp/dconf_dump_current.ini
 ```
 And then copy that to my NAS.  I can use that to restore many of my settings on the new system after everything is installed on it with
 ```bash
-dconf load < /tmp/dconf_dump_current.ini
+dconf load / < /tmp/dconf_dump_current.ini
 ```
 
 Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
