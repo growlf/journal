@@ -140,4 +140,4 @@ cp ~/.bashrc ${DIR}/
 cp -r ~/.vscode ${DIR}/
 cp ~/.bash_logout ${DIR}/
 ```
-My `~/Projects` folder is synched between the two systems, so this allows easy use of `meld` to compare the outcomes.
+My `~/Projects` folder is synced between the two systems, so this allows easy use of `meld` to compare the outcomes.  The `.vscode` entry is probably a mistake and should be replaced with using the `git` account signin option instead.  It was way larger than I anticipated.  Though, I DO still want it ti auto sign in as my user without me manually configuring it.
