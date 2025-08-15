@@ -6,5 +6,4 @@ aliases:
 ---
 ---
 Testing embedded Excalidraw images.
-![[banner]]
-![[osidian-directory-layout]]
+![[banner 1]]
