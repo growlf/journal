@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/TBD.md",
-                "mode": "preview",
+                "file": "publish/index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TBD"
+              "title": "index"
             }
           },
           {
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -185,25 +186,26 @@
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
+      "graph:Open graph view": false,
       "3d-graph:3D Graph": false
     }
   },
   "active": "1ead1e7aba26de13",
   "lastOpenFiles": [
-    "publish/banner.png",
-    "publish/TBD.md",
+    "publish/Lab Setup/Cloud Init.md",
     "publish/index.md",
+    "publish/Tricks/Replicating my Desktop.md",
+    "publish/Lab Setup/The Stack.md",
+    "publish/TBD.md",
+    "publish/banner.png",
     "publish/Glossary/Email.md",
     "publish/Kanban-1755215659387.md",
-    "publish/Lab Setup/The Stack.md",
-    "publish/Tricks/Replicating my Desktop.md",
     "Board/Kanban-1755215419001.md",
     "Board",
     "publish/Glossary/ZFS.md",
@@ -216,7 +218,6 @@
     "publish/Tricks/zfs_dir.png",
     "publish/Glossary/ssh.md",
     "publish/Tools/Ansible.md",
-    "publish/Lab Setup/Cloud Init.md",
     "Discord.md",
     "Slack.md",
     "publish/Tools/Tailscale.md",

@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "type": "folder",
-      "ctime": 1755215377982,
-      "path": "publish",
-      "title": "Journal"
+      "type": "file",
+      "ctime": 1755218131702,
+      "path": "publish/index.md",
+      "title": "Start"
     }
   ]
 }
