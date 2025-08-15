@@ -2,5 +2,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "templater-obsidian",
-  "auto-template-trigger"
+  "auto-template-trigger",
+  "obsidian-tasks-plugin",
+  "3d-graph"
 ]

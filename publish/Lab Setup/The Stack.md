@@ -25,7 +25,7 @@ The basics of our lab.  Start with 1 and finish with 10.  Doing them in order ki
 10) [[PXEBoot]] - for staging and thick clients
 11) [[Portainer]] and [[Docker]]
 ## 2) Documentation, Wiki, and Web
-- [[GitHub-Quartz-Obsidian]] (great for personal journaling)
+Great for personal journaling
 - [[Wordpress]] or [[DjangoCMS]]- Main web presence
 - [[Obsidian]] - Notes, mind-storming, and apparently journaling with [[GitHub-Quartz-Obsidian]]
 - Draw.io and Google Drive

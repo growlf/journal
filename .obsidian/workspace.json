@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "382b5071344f7d6e",
+            "id": "1ead1e7aba26de13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Replicating my Desktop.md",
+                "file": "publish/TBD.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBD"
+            }
+          },
+          {
+            "id": "ca1c829f09eb1ea9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "publish/TBD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Replicating my Desktop"
+              "title": "TBD"
             }
           }
         ]
@@ -177,13 +191,21 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "3d-graph:3D Graph": false
     }
   },
-  "active": "382b5071344f7d6e",
+  "active": "1ead1e7aba26de13",
   "lastOpenFiles": [
-    "publish/Glossary/ZFS.md",
+    "publish/index.md",
+    "publish/TBD.md",
+    "publish/Glossary/Email.md",
+    "publish/Kanban-1755215659387.md",
+    "publish/Lab Setup/The Stack.md",
     "publish/Tricks/Replicating my Desktop.md",
+    "Board/Kanban-1755215419001.md",
+    "Board",
+    "publish/Glossary/ZFS.md",
     "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/ZFS Backup.md",
     "publish/Glossary/NAS.md",
@@ -191,11 +213,9 @@
     "publish/Tricks/proxmox_zfs_sub.png",
     "publish/Tricks/zfs_mp.png",
     "publish/Tricks/zfs_dir.png",
-    "publish/index.md",
     "publish/Glossary/ssh.md",
     "publish/Tools/Ansible.md",
     "publish/Lab Setup/Cloud Init.md",
-    "publish/Lab Setup/The Stack.md",
     "Discord.md",
     "Slack.md",
     "publish/Tools/Tailscale.md",
@@ -207,11 +227,7 @@
     "publish/Tools/Homepage.md",
     "publish/Tools/Prometheus.md",
     "publish/Glossary/LXC.md",
-    "publish/Tools/Proxmox.md",
-    "publish/Tools/Obsidian.md",
     "publish/Tools/osidian-directory-layout.png",
-    "Assets/osidian-directory-layout.md",
-    "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/Tricks/Drawing1.excalidraw.svg",
     "publish/banner.png",
     "publish/banner 1.png",
@@ -227,7 +243,6 @@
     "Assets",
     "SystemSculpt/Recordings/2025-08-04_07-33-01-994Z.webm",
     "Untitled.canvas",
-    "journal/docs/Tools",
-    "journal/docs"
+    "journal/docs/Tools"
   ]
 }
