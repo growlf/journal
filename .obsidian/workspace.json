@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Tools/Harbor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Harbor"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
+    "publish/index.md",
+    "publish/Tools/Harbor.md",
     "publish/Glossary/ZFS.md",
     "publish/Glossary/ssh.md",
     "publish/Glossary/PXEBoot.md",
@@ -197,7 +199,6 @@
     "publish/Glossary/Email.md",
     "publish/Glossary/Domain.md",
     "publish/Glossary/DNS.md",
-    "publish/index.md",
     "publish/Tricks/Proxmox Commandline.md",
     "_templates/Base.md",
     "publish/Tricks/Docker on LXC.md",
@@ -213,7 +214,6 @@
     "docs/Lab Setup",
     "docs/Glossary",
     "docs",
-    "Tasks Plugin - Review and check your Statuses 2025-08-14 22-42-51.md",
     "publish/banner.png",
     "Board",
     "publish/Tricks/proxmox_zfs_sub.png",
