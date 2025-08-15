@@ -12,4 +12,5 @@ aliases:
 ---
 
 - [ ] Test Tasks plugin 📅 2025-08-14 ⏫ 🆔 m1agbk 🏁 delete
-- [ ]  Create todo list for all pages and tasks 🆔 j76tj8 ⛔ m1agbk 🔼 🏁 delete ➕ 2025-08-14 🛫 2025-08-15  
+- [ ]  Create todo list for all pages and tasks 🆔 j76tj8 ⛔ m1agbk 🔼 🏁 delete ➕ 2025-08-14 🛫 2025-08-15 ^[footnote about tasks]
+
