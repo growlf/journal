@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Tricks/Obsidian Plugins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Obsidian Plugins"
             }
           }
         ]
@@ -183,19 +183,20 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
+    "publish/Tools/Obsidian.md",
+    "publish/Tricks/Obsidian Plugins.md",
+    "publish/index.md",
+    "publish/Tricks/Excalidraw Test.md",
     "publish/banner.png",
     "publish/banner.svg",
     "publish/banner.svg",
     "_assets/banner 1.md",
     "_assets/banner.md",
-    "publish/Tricks/Excalidraw Test.md",
-    "publish/index.md",
     "publish/Glossary/ZFS.md",
     "_assets/osidian-directory-layout.md",
     "_assets/osidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.png",
-    "publish/Tools/Obsidian.md",
     "publish/Tools/Harbor.md",
     "publish/Glossary/ssh.md",
     "publish/Glossary/PXEBoot.md",

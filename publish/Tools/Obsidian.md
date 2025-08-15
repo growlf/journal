@@ -16,16 +16,13 @@ Only the `publish` directory gets published due to my settings in my `.github/wo
 ## Publishing to GitHub
 I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a public audience on a *huge* platform, complete with SSL and versioning control.
 
-### Plugins I Like
-- [Excalidraw](https://excalidraw-obsidian.online/Welcome)
-- [DataView](https://blacksmithgu.github.io/obsidian-dataview/)
-- [Git](https://publish.obsidian.md/git-doc/Start+here)
-- [Tasks](https://publish.obsidian.md/tasks/Introduction)
 ## Links
+- [[Obsidian Plugins]]
 - [Obsidian Help](https://help.obsidian.md/Plugins/Templates)
 - [Timeblocking](https://thesweetsetup.com/timeblocking-in-obsidian/)
 - [Time date Format](https://momentjs.com/docs/#/displaying/format/)
 - [Organizing Notes](https://papierlos-studieren.net/en/2021/04/04/organize-notes-in-obsidian-my-workflow/)
 - [[GitHub-Quartz-Obsidian]]
 ### ToDo
-- [ ] Find out if better embedding and publish with Quartz is possible for Excalidraw SVGs
+- [ ] Find out if better embedding and publishing with Quartz is possible for Excalidraw SVGs
+- [ ] Document best practices for using Excalidraw with my publishing workflow
