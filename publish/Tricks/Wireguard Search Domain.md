@@ -15,15 +15,17 @@ I continually ran into the issue that I could not resolve system names over the 
 
 So, for my local Bellingham Makerspace VPN config, I switched the DNS entry from:
 
-|   |   |
-|---|---|
-||DNS = 10.X.X.X|
+
+```sh
+DNS = 10.X.X.X
+```
 
 To:
 
-|   |   |
-|---|---|
-||DNS = 10.X.X.X bellinghammakerspace.org|
+```sh
+DNS = 10.X.X.X,bellinghammakerspace.org
+```
 
 And the resolve issue was, pardon the pun, resolved!
-NOTE: yes, I ignored the commas, it seems the config saved it that way anyway when I changed it on the Wireguard server config through [[Wireguard|WG-Dashboard]].
+
+NOTE: yes, it may look like it disappears after you import it, but it seems that it did update the config when I check with `resolvectl` afterwards. Server config done with [[Wireguard|WG-Dashboard]].

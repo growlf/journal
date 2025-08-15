@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Obsidian Plugins.md",
+                "file": "publish/Tricks/Wireguard Search Domain.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Obsidian Plugins"
+              "title": "Wireguard Search Domain"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
-    "publish/Tools/Obsidian.md",
     "publish/Tricks/Obsidian Plugins.md",
+    "publish/Tools/Obsidian.md",
     "publish/index.md",
     "publish/Tricks/Excalidraw Test.md",
     "publish/banner.png",
