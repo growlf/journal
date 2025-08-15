@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Excalidraw Test.md",
+                "file": "publish/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Excalidraw Test"
+              "title": "index"
             }
           }
         ]
@@ -183,11 +183,13 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
-    "publish/Tricks/banner 1.md",
-    "publish/index.md",
+    "publish/banner.png",
     "publish/banner.svg",
+    "publish/banner.svg",
+    "_assets/banner 1.md",
     "_assets/banner.md",
     "publish/Tricks/Excalidraw Test.md",
+    "publish/index.md",
     "publish/Glossary/ZFS.md",
     "_assets/osidian-directory-layout.md",
     "_assets/osidian-directory-layout.svg",
@@ -212,19 +214,16 @@
     "_templates/Base.md",
     "publish/Tricks/Docker on LXC.md",
     "publish/Lab Setup/Cloud Init.md",
-    "README.md",
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",
     "docs/Glossary",
     "docs",
-    "publish/banner.png",
     "Board",
     "publish/Tricks/proxmox_zfs_sub.png",
     "publish/Tricks/zfs_mp.png",
     "publish/Tricks/zfs_dir.png",
     "publish/Tricks/Drawing1.excalidraw.svg",
-    "publish/banner 1.png",
     "publish",
     "publish/Tricks",
     "publish/Tools",
