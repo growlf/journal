@@ -15,3 +15,6 @@ aliases:
 - [[ZFS Backup]]
 - [[NAS]]
 - [[Replicating my Desktop|rebuild]]
+### ToDo
+- [ ] Document ZFS purpose and value in todays world of tech
+- [ ] Demonstrate ZFS commandline tricks such as sending snapshots, fast volume creation and manipulation, NFS options, etc

@@ -12,4 +12,6 @@ Documentation: https://heimdalsecurity.com/blog/what-is-pxe-boot/
 aliases:
 ---
 ---
+### ToDo
 
+- [ ] Document what is PXE and netbooting etc. Purpose and value, etc

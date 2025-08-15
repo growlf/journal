@@ -2,7 +2,7 @@
   "folderSpecificTemplates": [
     {
       "folderPath": "_templates",
-      "templateName": "Quick"
+      "templateName": "Base"
     }
   ],
   "disablePrompt": false,

@@ -9,5 +9,6 @@ modification date:
 Documentation: https://linuxcontainers.org/lxc/introduction/
 aliases:
 ---
-
-
+### ToDo
+- [ ] Fill in the LXC page.  Why, what, how, etc.  🔼 
+- [ ] Links from LXC to Tricks page - [[Proxmox Commandline]] 🔼 

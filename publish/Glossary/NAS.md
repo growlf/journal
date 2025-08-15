@@ -11,4 +11,7 @@ Documentation: https://www.ibm.com/think/topics/network-attached-storage
 aliases:
 ---
 ---
+### ToDo
+
+- [ ] Document NAS - very important to have one, list types, purposes, howtos
 
