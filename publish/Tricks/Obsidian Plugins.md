@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - documentation
+  - cms
+  - obsidian
 Creation date: 2025-08-15 13:41
 modification date: 
 Documentation: 
