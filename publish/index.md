@@ -30,6 +30,11 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 Most of us can generally be found on the [Cascade Steam Discord](http://hub.cascadesteam.org/), if you want to meet and chat with us.
 
 ---
+## Status
+Bellow is a set of tools that (currently) only works correctly in Obsidian and allows me to see what needs updating and where I have been focusing. At the moment Quartz does not support the two [[Obsidian]] plugins that I am using to generate the content - but that is also a ToDo.
+- [ ] Resolve issue with Quartz publishing method that does not support the Dataview plugin
+- [ ] Resolve issue with Quartz publishing method that does not support the Tasks plugin
+
 ### Recent Changes / Additions
 ```dataview
 TABLE change[0] as "Action", change[1] as "Date"
