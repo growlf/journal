@@ -56,6 +56,13 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
+      },
+      {
+        "symbol": "+",
+        "name": "Waiting",
+        "nextStatusSymbol": "/",
+        "availableAsCommand": false,
+        "type": "TODO"
       }
     ]
   },

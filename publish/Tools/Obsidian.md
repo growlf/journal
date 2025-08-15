@@ -16,6 +16,11 @@ Only the `publish` directory gets published due to my settings in my `.github/wo
 ## Publishing to GitHub
 I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a public audience on a *huge* platform, complete with SSL and versioning control.
 
+### Plugins I Like
+- Excalidraw
+- DataView
+- Git
+- Tasks
 ## Links
 - [Obsidian Help](https://help.obsidian.md/Plugins/Templates)
 - [Timeblocking](https://thesweetsetup.com/timeblocking-in-obsidian/)

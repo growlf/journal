@@ -25,3 +25,11 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 - [Viv](https://itsvivianmill.github.io/journal), [Lili](https://lynxee123.github.io/journal/), [Ricky](http://rigunkes.github.io/Journal/) - Student's with amazing passion and drive to become technology professionals. DISCLAIMER: not all students are listed, as each must personally give permission to list them *and* have a site to point to (it's a [FERPA](https://studentprivacy.ed.gov/ferpa) thing). This is also a nudge to my students who are not yet listed. ;)
 - [Josh](https://joshbuker.com/) - Technology connoisseur and all around  awesome dude.
 - [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.
+
+---
+## ToDo
+My task lists from my pages and notes.  
+```tasks
+not done
+
+```
