@@ -11,12 +11,14 @@
             "id": "00d93816cac7ffce",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "_assets/osidian-directory-layout.md"
+                "file": "publish/Tricks/Excalidraw Test.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "osidian-directory-layout"
+              "icon": "lucide-file",
+              "title": "Excalidraw Test"
             }
           }
         ]
@@ -181,14 +183,16 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
+    "publish/Glossary/ZFS.md",
+    "publish/Tricks/Excalidraw Test.md",
     "_assets/osidian-directory-layout.md",
+    "_assets/osidian-directory-layout.svg",
     "_assets/banner.md",
     "publish/Tools/osidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.png",
     "publish/Tools/Obsidian.md",
     "publish/Tools/Harbor.md",
     "publish/index.md",
-    "publish/Glossary/ZFS.md",
     "publish/Glossary/ssh.md",
     "publish/Glossary/PXEBoot.md",
     "publish/Glossary/NAS.md",
@@ -208,7 +212,6 @@
     "publish/Lab Setup/Cloud Init.md",
     "README.md",
     "Tasks Plugin - Review and check your Statuses 2025-08-14 22-44-26.md",
-    "docs/Tools/Shell.md",
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",
@@ -223,7 +226,6 @@
     "publish/banner 1.png",
     "publish",
     "_assets/Drawing1.excalidraw.svg",
-    "banner.png",
     "publish/Tricks",
     "publish/Tools",
     "publish/Lab Setup",
