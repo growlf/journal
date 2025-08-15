@@ -1,5 +1,9 @@
 ---
-tags: 
+tags:
+  - docker
+  - orchestration
+  - automation
+  - ci/cd
 Creation date: 2025-08-15 15:16
 Documentation: 
 aliases:
