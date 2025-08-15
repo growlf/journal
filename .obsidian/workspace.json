@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Wireguard Search Domain.md",
+                "file": "publish/Tools/Obsidian.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireguard Search Domain"
+              "title": "Obsidian"
             }
           }
         ]
@@ -183,18 +183,19 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
-    "publish/Tricks/Obsidian Plugins.md",
+    "publish/_assets/osidian-directory-layout.md",
     "publish/Tools/Obsidian.md",
     "publish/index.md",
+    "publish/banner.svg",
+    "publish/_assets/banner.md",
+    "publish/_assets/banner.svg",
+    "publish/Tricks/Wireguard Search Domain.md",
+    "publish/Tricks/Obsidian Plugins.md",
     "publish/Tricks/Excalidraw Test.md",
     "publish/banner.png",
-    "publish/banner.svg",
-    "publish/banner.svg",
     "_assets/banner 1.md",
-    "_assets/banner.md",
     "publish/Glossary/ZFS.md",
-    "_assets/osidian-directory-layout.md",
-    "_assets/osidian-directory-layout.svg",
+    "publish/_assets/osidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.png",
     "publish/Tools/Harbor.md",
@@ -213,8 +214,6 @@
     "publish/Glossary/DNS.md",
     "publish/Tricks/Proxmox Commandline.md",
     "_templates/Base.md",
-    "publish/Tricks/Docker on LXC.md",
-    "publish/Lab Setup/Cloud Init.md",
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",
@@ -224,7 +223,6 @@
     "publish/Tricks/proxmox_zfs_sub.png",
     "publish/Tricks/zfs_mp.png",
     "publish/Tricks/zfs_dir.png",
-    "publish/Tricks/Drawing1.excalidraw.svg",
     "publish",
     "publish/Tricks",
     "publish/Tools",
