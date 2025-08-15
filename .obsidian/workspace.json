@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Glossary/ZFS.md",
+                "file": "publish/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZFS"
+              "title": "index"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "00d93816cac7ffce",
   "lastOpenFiles": [
+    "publish/Glossary/ZFS.md",
     "publish/Glossary/ssh.md",
     "publish/Glossary/PXEBoot.md",
     "publish/Glossary/NAS.md",
@@ -213,7 +214,6 @@
     "docs/Glossary",
     "docs",
     "Tasks Plugin - Review and check your Statuses 2025-08-14 22-42-51.md",
-    "Tasks Plugin - Review and check your Statuses 2025-08-14 22-41-16.md",
     "publish/banner.png",
     "Board",
     "publish/Tricks/proxmox_zfs_sub.png",

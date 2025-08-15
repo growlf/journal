@@ -27,6 +27,12 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 - [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.
 
 ---
+```dataview
+TABLE change[0] as "Action", change[1] as "Date"
+FLATTEN list( list("modified", file.mtime), list("created", file.ctime)) as change
+SORT change[1] DESC
+LIMIT 20
+```
 ## ToDo
 My task lists from my pages and notes.  
 ```tasks

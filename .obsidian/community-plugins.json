@@ -4,5 +4,6 @@
   "templater-obsidian",
   "auto-template-trigger",
   "obsidian-tasks-plugin",
-  "3d-graph"
+  "3d-graph",
+  "dataview"
 ]
