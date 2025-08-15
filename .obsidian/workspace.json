@@ -23,12 +23,14 @@
             "id": "d9e85c1066dc3c50",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "publish/_assets/obsidian-directory-layout.md"
+                "file": "publish/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "obsidian-directory-layout"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -194,13 +196,13 @@
   },
   "active": "d9e85c1066dc3c50",
   "lastOpenFiles": [
+    "publish/_assets/obsidian-directory-layout.md",
     "publish/Tools/Obsidian.md",
     "publish/index.md",
     "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/ZFS Backup.md",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/zfs_mp.png",
-    "publish/_assets/obsidian-directory-layout.md",
     "publish/banner.svg",
     "publish/_assets/banner.md",
     "publish/_assets/banner.svg",
