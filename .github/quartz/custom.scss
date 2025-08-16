@@ -2,11 +2,6 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-.page {
-  margin: 0 auto;
-  & article {
-    & > h1 {
-      font-size: 2rem;
-      text-shadow: 3px 3px 5px grey;
-    }
-}}
+.article-title {
+    text-shadow: 3px 3px 5px rgb(33, 53, 35);
+}
