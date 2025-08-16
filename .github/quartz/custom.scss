@@ -18,6 +18,9 @@ div.popover-hint {
 }
 
 code[data-theme*=\ ] {
-    background-color: rgb(11, 26, 7);
+    background-color: #333333;
 }
 
+code[data-theme*=\ ] span {
+    color: #46ff7c;
+}

@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cbf37b0324cc4182",
+        "id": "ec8a3b17cbbaac74",
         "type": "tabs",
         "children": [
           {
-            "id": "00d93816cac7ffce",
+            "id": "589ccffc77478e2d",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "publish/_assets/zfs_mp.png"
-              },
-              "icon": "lucide-image",
-              "title": "zfs_mp"
-            }
-          },
-          {
-            "id": "d9e85c1066dc3c50",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "publish/_assets/banner.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "banner"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,10 +177,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d9e85c1066dc3c50",
+  "active": "589ccffc77478e2d",
   "lastOpenFiles": [
-    "publish/index.md",
+    "publish/_assets/zfs_mp.png",
     "publish/_assets/banner.md",
+    "publish/index.md",
     "publish/Glossary/LLM.md",
     "publish/Glossary/Hardware.md",
     "publish/Glossary/Github Workflow.md",
@@ -210,7 +196,6 @@
     "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/ZFS Backup.md",
     "publish/_assets/zfs_dir.png",
-    "publish/_assets/zfs_mp.png",
     "publish/banner.svg",
     "publish/_assets/banner.svg",
     "publish/Tricks/Wireguard Search Domain.md",
@@ -227,7 +212,6 @@
     "publish/Glossary/PXEBoot.md",
     "publish/Glossary/NAS.md",
     "publish/Glossary/Mark Down.md",
-    "publish/Glossary/LXC.md",
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",
