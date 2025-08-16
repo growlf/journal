@@ -3,10 +3,6 @@
 
 // put your custom CSS here!
 
-[saved-theme='light'] h1, h2, h3, h4, h5, h6, thead{
-    text-shadow: 3px 3px 5px #0970139a;
-}
-
 [saved-theme='dark']  h1, h2, h3, h4, h5, h6, thead{
     text-shadow: 0px 0px 8px #63d4af9a;
 }
@@ -21,6 +17,10 @@
 }
 [saved-theme='dark'] h4 {
     color: #34b360;
+}
+
+[saved-theme='light'] h1, h2, h3, h4, h5, h6, thead{
+    text-shadow: 3px 3px 5px #0970139a;
 }
 
 div.popover-hint {
