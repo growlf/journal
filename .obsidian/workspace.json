@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/GitHub-Quartz-Obsidian.md",
+                "file": "publish/Glossary/LLM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub-Quartz-Obsidian"
+              "title": "LLM"
             }
           }
         ],
@@ -196,6 +196,14 @@
   },
   "active": "d9e85c1066dc3c50",
   "lastOpenFiles": [
+    "publish/Glossary/Hardware.md",
+    "publish/Glossary/Github Workflow.md",
+    "publish/Glossary/GIT.md",
+    "publish/Glossary/Email.md",
+    "publish/Glossary/Domain.md",
+    "publish/Glossary/DNS.md",
+    "publish/Gizmos/Gizmos.md",
+    "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/index.md",
     "publish/_assets/banner.md",
     "publish/_assets/obsidian-directory-layout.md",
@@ -222,14 +230,6 @@
     "publish/Glossary/Mark Down.md",
     "publish/Glossary/LXC.md",
     "publish/Tools/DownDetector.md",
-    "publish/Glossary/LLM.md",
-    "publish/Glossary/Hardware.md",
-    "publish/Glossary/Github Workflow.md",
-    "publish/Glossary/GIT.md",
-    "publish/Glossary/Email.md",
-    "publish/Glossary/Domain.md",
-    "publish/Glossary/DNS.md",
-    "publish/Tricks/Proxmox Commandline.md",
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",

@@ -21,3 +21,5 @@ aliases:
 - [T-Deck Plus](https://lilygo.cc/products/t-deck-plus-meshtastic?_pos=2&_sid=971c3a5f9&_ss=r)
 	- [Puget Mesh](https://pugetmesh.org/meshtastic/)
 	- [Meshtastic](https://meshtastic.org/docs/software/meshtastic-ui/#supported-devices)
+### ToDo
+- [ ] Fill out more data on each resource in Gizmos and some of the specific devices I have used / am using and for what.

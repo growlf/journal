@@ -12,7 +12,6 @@ aliases:
   - POP3
 ---
 ---
-
 Email is a requirement for almost any network environment. It is used for communication and collaboration, alerting, and more.  You will need it for domain registration, and for most 3rd party service accounts.
 
 Having a local SMTP mail server as a relay can help facilitate better alerts from local services and status watchdog apps, etc.

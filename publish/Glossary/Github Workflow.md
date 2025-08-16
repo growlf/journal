@@ -11,5 +11,5 @@ Documentation: https://github.com/features/actions
 aliases:
   - GitHub Actions
 ---
------
-If you have not used [GitHub Workflows](https://docs.github.com/en/actions/how-tos/writing-workflows) yet, it really dose make life easier.  It also tends to promote a better CI/Cd workflow ethos.  Infrastructure As Code - IAC.
+---
+If you have not used [GitHub Workflows](https://docs.github.com/en/actions/how-tos/writing-workflows) yet, it really does make life easier.  It also tends to promote a better CI/Cd workflow ethos.  Infrastructure As Code - IAC.
