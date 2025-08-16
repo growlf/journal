@@ -5,6 +5,7 @@ Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
 ![[banner.svg]]
+
 My personal journal of technology-land adventures ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - then [[GitHub-Quartz-Obsidian]] to publish it.  I write from a standpoint of a technology professional, but also a student - always curious and always learning. I strongly believe in "asking the stupid questions" because if not Me, then who will. There is always someone in the audience that is either too shy or afraid to ask "that" question that "should be obvious".
 
 ## Current Projects/Focuses
