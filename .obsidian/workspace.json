@@ -23,14 +23,12 @@
             "id": "d9e85c1066dc3c50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "publish/index.md",
-                "mode": "source",
-                "source": false
+                "file": "publish/_assets/banner.md"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "excalidraw-icon",
+              "title": "banner"
             }
           }
         ],
@@ -196,8 +194,8 @@
   },
   "active": "d9e85c1066dc3c50",
   "lastOpenFiles": [
-    "publish/_assets/banner.md",
     "publish/index.md",
+    "publish/_assets/banner.md",
     "publish/_assets/obsidian-directory-layout.md",
     "publish/Tools/Obsidian.md",
     "publish/Tricks/Docker on LXC.md",
