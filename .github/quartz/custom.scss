@@ -2,14 +2,16 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-h1.article-title {
-    text-shadow: 3px 3px 5px #0970139a;
+h1, h2, h3, h4, h5, h6, thead{
+    color: var(--dark);
+    text-shadow: 3px 3px 5px var(--dark);
 }
+
 div.popover-hint {
     background-color: #015b0a0d;
     padding: 15px;
     border-radius: 15px;
     border-color: black;
     border-width: 1px;
-    box-shadow: 3px 3px 7px #000000b3;
+    box-shadow: 3px 3px 7px var(--dark);
 }
