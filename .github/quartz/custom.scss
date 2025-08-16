@@ -4,7 +4,7 @@
 // put your custom CSS here!
 
 [saved-theme=light] code[data-theme*=\ ] h1, h2, h3, h4, h5, h6, thead{
-    //color: var(--dark);
+    color: #90ffc4;
     text-shadow: 3px 3px 5px #0970139a;
 }
 
@@ -13,7 +13,11 @@
 }
 
 [saved-theme=dark] h3 {
-    color: #25b156;
+    color: #48d378;
+}
+
+[saved-theme=dark] h4 {
+    color: #34b360;
 }
 
 
