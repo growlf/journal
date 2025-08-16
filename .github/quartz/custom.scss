@@ -8,22 +8,21 @@
     text-shadow: 3px 3px 5px #0970139a;
 }
 
+[saved-theme=dark] code[data-theme*=\ ] h1, h2, h3, h4, h5, h6, thead{
+    text-shadow: 0px 0px 8px #63d4af9a;
+}
 [saved-theme=dark] h1 {
     color: #90ffc4;
 }
-
 [saved-theme=dark] h2 {
     color: #6cff9f;
 }
-
 [saved-theme=dark] h3 {
     color: #48d378;
 }
-
 [saved-theme=dark] h4 {
     color: #34b360;
 }
-
 
 div.popover-hint {
     background-color: #015b0a0d;
