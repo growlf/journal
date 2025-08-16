@@ -21,5 +21,5 @@ pvesh create /cluster/sdn/vnets/myvnet/subnets --subnet 192.168.1.0/24 --type su
 - [ ] Add container commandline code🔽 
 
 ### Links
-- ...
+- [HowTo vlan](https://www.virtualizationhowto.com/2025/01/proxmox-network-configuration-for-beginners-including-vlans/)
 ### TODO
