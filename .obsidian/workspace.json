@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Tricks/GitHub-Quartz-Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "GitHub-Quartz-Obsidian"
             }
           }
         ],
@@ -196,8 +196,8 @@
   },
   "active": "d9e85c1066dc3c50",
   "lastOpenFiles": [
-    "publish/_assets/banner.md",
     "publish/index.md",
+    "publish/_assets/banner.md",
     "publish/_assets/obsidian-directory-layout.md",
     "publish/Tools/Obsidian.md",
     "publish/Tricks/Docker on LXC.md",
