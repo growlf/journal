@@ -17,10 +17,18 @@ div.popover-hint {
     box-shadow: 3px 3px 7px #000000b3;
 }
 
-code[data-theme*=\ ] {
+[saved-theme=light] code[data-theme*=\ ] {
     background-color: #333333;
 }
 
-code[data-theme*=\ ] span {
+[saved-theme=dark] code[data-theme*=\ ] {
+    background-color: #1a1a1a;
+}
+
+[saved-theme=light] code[data-theme*=\ ] span {
     color: #46ff7c;
+}
+
+[saved-theme=dark] code[data-theme*=\ ] span {
+    color: #288f47;
 }
