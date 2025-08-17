@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Lab/Systems/Arc.md",
+                "file": "publish/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arc"
+              "title": "index"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "4149920cdcfdaf7f",
   "lastOpenFiles": [
-    "publish/Lab/Systems/Sliver.md",
     "publish/Lab/Systems/Arc.md",
+    "publish/Lab/Systems/Sliver.md",
     "publish/Lab/Systems/Sylph.md",
     "daily/Me.md",
     "publish/Lab/Systems/Nexus.md",
