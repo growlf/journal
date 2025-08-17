@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Community/BMS.md",
+                "file": "daily/2025-08-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BMS"
+              "title": "2025-08-17"
             }
           }
         ]
@@ -182,11 +182,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dfb830bb59a82847",
+  "active": "4149920cdcfdaf7f",
   "lastOpenFiles": [
+    "publish/Community/BMS.md",
     "publish/Community",
     "publish/Community/BLUG/index.md",
-    "publish/Community/BMS.md",
     "daily/2025-08-17.md",
     "publish/index.md",
     "publish/Tools/Ansible.md",
@@ -227,7 +227,6 @@
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",
-    "docs/Glossary",
     "publish/Tricks/proxmox_zfs_sub.png",
     "Untitled.canvas"
   ]
