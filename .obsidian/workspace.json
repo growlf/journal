@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Glossary/Domain.md",
+                "file": "publish/Tools/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Domain"
+              "title": "Obsidian"
             }
           }
         ]
@@ -184,10 +184,18 @@
   },
   "active": "4149920cdcfdaf7f",
   "lastOpenFiles": [
-    "publish/Lab/The Stack.md",
-    "publish/Glossary/Hardware.md",
-    "daily/2025-08-17.md",
+    "publish/Tools/SyncThing.md",
+    "journal/docs/Tools/Obsidian.md",
+    "publish/Tools/Obsidian.md",
+    "journal/docs/Tools",
+    "journal/docs",
+    "journal",
     "publish/index.md",
+    "daily/2025-08-17.md",
+    "publish/Tools/Proxmox.md",
+    "publish/Lab/The Stack.md",
+    "publish/Glossary/Domain.md",
+    "publish/Glossary/Hardware.md",
     "publish/Lab/Systems/Arc.md",
     "publish/Lab/Systems/Sliver.md",
     "publish/Lab/Systems/Sylph.md",
@@ -208,12 +216,7 @@
     "BLUG",
     "publish/_assets/banner.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
-    "publish/Tools/Obsidian.md",
-    "publish/Tricks/Proxmox Commandline.md",
     "publish/_assets/zfs_mp.png",
-    "publish/Glossary/LLM.md",
-    "publish/Glossary/Github Workflow.md",
-    "publish/Glossary/GIT.md",
     "publish/_assets/zfs_dir.png",
     "publish/banner.svg",
     "publish/_assets/banner.svg",
@@ -225,10 +228,7 @@
     "docs/Tools",
     "docs/Lab Setup",
     "docs/Glossary",
-    "docs",
-    "Board",
     "publish/Tricks/proxmox_zfs_sub.png",
-    "publish",
     "Untitled.canvas"
   ]
 }
