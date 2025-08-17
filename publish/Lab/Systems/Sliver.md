@@ -10,7 +10,7 @@ aliases:
 ---
 # Desktop
 An Intel NUC 8 Performance-G Kit (NUC8i7HVK) - Core i7 100W
-It still runs excellent, cost next to nothing, and with Linux - kix some butt.
+It still runs excellent, cost me next to nothing to purchase and near nothing to run, and with Linux - it be kixing some butt.
 ### Links
 - No longer available except on eBay etc
 ### TODO
