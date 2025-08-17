@@ -14,7 +14,7 @@ aliases:
 ---
 To be clear - this idea of "replicating" is more of an "oh no! I need to downgrade! But, there is no clear path!" ...and I decided that making an automation process to generate my system would be a good test of my DevOps skills anyhow. 
 
-Recently, I discovered the laptop that I was using had somehow been upgraded from the LTS version of Ubuntu to the extremely short lived 24.10 release - which just hit EOL. To make matters worse, I chose (for various reasons) to use [[ZFS]] during my initial installation - and guess what is not supported in 25.04. You guessed it,[[ZFS]]. I am not willing to give up my features.
+Recently, I discovered the laptop that I was using had somehow been upgraded from the LTS version of Ubuntu to the extremely short lived 24.10 release - which just hit EOL. To make matters worse, I chose (for various reasons) to use [[ZFS]] during my initial installation - and guess what is not supported in 25.04. You guessed it, [[ZFS]]. I am not willing to give up my features.
 
 Well, heck. Not sure how I managed this, but here I am. I blame the gremlins that take over my fingers during late night stints on the keyboard. They are generally the culprits. 
 

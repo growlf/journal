@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Proxmox Commandline.md",
+                "file": "daily/2025-08-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxmox Commandline"
+              "title": "2025-08-17"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#lab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Gizmos/Gizmos.md",
+                "file": "publish/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Gizmos"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -141,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "publish/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           },
           {
@@ -181,11 +182,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "589ccffc77478e2d",
+  "active": "a88b789daac0d534",
   "lastOpenFiles": [
-    "publish/_assets/zfs_mp.png",
-    "publish/_assets/banner.md",
+    "publish/Tricks/Replicating my Desktop.md",
+    "daily/Me.md",
+    "daily/2025-08-17.md",
+    "daily/2025-07-28.md",
+    "daily/2025-07-27.md",
+    "daily/2025-07-22.md",
+    "daily/2025-07-19.md",
+    "daily/2025-07-18.md",
+    "daily/2025-07-17.md",
+    "daily",
+    "BLUG/July 16th.md",
+    "BLUG",
     "publish/index.md",
+    "publish/_assets/banner.md",
+    "publish/Tricks/GitHub-Quartz-Obsidian.md",
+    "publish/Tools/Obsidian.md",
+    "publish/Tricks/Proxmox Commandline.md",
+    "publish/_assets/zfs_mp.png",
     "publish/Glossary/LLM.md",
     "publish/Glossary/Hardware.md",
     "publish/Glossary/Github Workflow.md",
@@ -194,28 +210,16 @@
     "publish/Glossary/Domain.md",
     "publish/Glossary/DNS.md",
     "publish/Gizmos/Gizmos.md",
-    "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/_assets/obsidian-directory-layout.md",
-    "publish/Tools/Obsidian.md",
     "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/ZFS Backup.md",
     "publish/_assets/zfs_dir.png",
     "publish/banner.svg",
     "publish/_assets/banner.svg",
-    "publish/Tricks/Wireguard Search Domain.md",
-    "publish/Tricks/Obsidian Plugins.md",
-    "publish/Tricks/Excalidraw Test.md",
     "publish/banner.png",
-    "_assets/banner 1.md",
-    "publish/Glossary/ZFS.md",
     "publish/_assets/obsidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.svg",
     "publish/Tools/osidian-directory-layout.png",
-    "publish/Tools/Harbor.md",
-    "publish/Glossary/ssh.md",
-    "publish/Glossary/PXEBoot.md",
-    "publish/Glossary/NAS.md",
-    "publish/Glossary/Mark Down.md",
     "docs/Tricks",
     "docs/Tools",
     "docs/Lab Setup",
@@ -225,8 +229,6 @@
     "publish/Tricks/proxmox_zfs_sub.png",
     "publish",
     "publish/Tricks",
-    "publish/Tools",
-    "publish/Lab Setup",
     "Untitled.canvas"
   ]
 }
