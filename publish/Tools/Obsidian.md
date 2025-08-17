@@ -5,10 +5,9 @@ tags:
 Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
-
 # Working with Obsidian
 
-My layout is fairly simple.  I have a vault with the following directory structure:
+My layout is fairly simple.  I have a vault with the following directory structure (the relevant parts at least):
 
 ![[obsidian-directory-layout.svg]]
 
@@ -24,5 +23,7 @@ I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a p
 - [Organizing Notes](https://papierlos-studieren.net/en/2021/04/04/organize-notes-in-obsidian-my-workflow/)
 - [[GitHub-Quartz-Obsidian]]
 ### ToDo
-- [ ] Find out if better embedding and publishing with Quartz is possible for Excalidraw SVGs
-- [ ] Document best practices for using Excalidraw with my publishing workflow
+- [x] Find out if better embedding and publishing with Quartz is possible for Excalidraw SVGs ✅ 2025-08-17
+      Done! Embeded the drawings themselves into the `_assets` folder and configured Excalidraw to auto-save an `.svg` next to it. Then just reference that `.svg` in my pages.
+- [x] Document best practices for using Excalidraw with my publishing workflow ✅ 2025-08-17
+      Done! See above.
