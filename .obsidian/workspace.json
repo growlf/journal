@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Glossary/Hardware.md",
+                "file": "publish/Glossary/Domain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hardware"
+              "title": "Domain"
             }
           }
         ]
@@ -185,6 +185,7 @@
   "active": "4149920cdcfdaf7f",
   "lastOpenFiles": [
     "publish/Lab/The Stack.md",
+    "publish/Glossary/Hardware.md",
     "daily/2025-08-17.md",
     "publish/index.md",
     "publish/Lab/Systems/Arc.md",
@@ -211,7 +212,6 @@
     "publish/Tricks/Proxmox Commandline.md",
     "publish/_assets/zfs_mp.png",
     "publish/Glossary/LLM.md",
-    "publish/Glossary/Hardware.md",
     "publish/Glossary/Github Workflow.md",
     "publish/Glossary/GIT.md",
     "publish/_assets/zfs_dir.png",
