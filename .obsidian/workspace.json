@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "daily/2025-08-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2025-08-17"
             }
           }
         ]
@@ -184,6 +184,7 @@
   },
   "active": "4149920cdcfdaf7f",
   "lastOpenFiles": [
+    "publish/index.md",
     "publish/Lab/Systems/Arc.md",
     "publish/Lab/Systems/Sliver.md",
     "publish/Lab/Systems/Sylph.md",
@@ -203,7 +204,6 @@
     "daily",
     "BLUG/July 16th.md",
     "BLUG",
-    "publish/index.md",
     "publish/_assets/banner.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/Tools/Obsidian.md",
