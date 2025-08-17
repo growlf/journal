@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2025-08-17.md",
+                "file": "publish/Glossary/Hardware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-17"
+              "title": "Hardware"
             }
           }
         ]
@@ -184,6 +184,8 @@
   },
   "active": "4149920cdcfdaf7f",
   "lastOpenFiles": [
+    "publish/Lab/The Stack.md",
+    "daily/2025-08-17.md",
     "publish/index.md",
     "publish/Lab/Systems/Arc.md",
     "publish/Lab/Systems/Sliver.md",
@@ -192,7 +194,6 @@
     "publish/Lab/Systems/Nexus.md",
     "publish/Lab/Systems/Gearbox.md",
     "publish/Lab/Systems/Intercepter.md",
-    "daily/2025-08-17.md",
     "publish/Lab/Systems",
     "publish/Tricks/Replicating my Desktop.md",
     "daily/2025-07-28.md",
@@ -213,7 +214,6 @@
     "publish/Glossary/Hardware.md",
     "publish/Glossary/Github Workflow.md",
     "publish/Glossary/GIT.md",
-    "publish/Glossary/Email.md",
     "publish/_assets/zfs_dir.png",
     "publish/banner.svg",
     "publish/_assets/banner.svg",

@@ -21,3 +21,11 @@ I generally use [Cat5E](https://www.google.com/search?q=what+is+a+cat5e+cable&nu
 
 ### Toys
 Things that just make life interesting and/or are just too cool not to play with. I moved this entry to its own folder now, because it will grow... alot. Checkout my [[Gizmos]].
+### Personal Hardware and Home-lab
+To get an idea of what I use in my personal testing lab, here are a few of the devices:
+- [[Arc]]
+- [[Gearbox]]
+- [[Intercepter]]
+- [[Nexus]]
+- [[Sliver]]
+- [[Sylph]]
