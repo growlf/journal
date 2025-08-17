@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Community/BMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "BMS"
             }
           }
         ]
@@ -182,10 +182,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4149920cdcfdaf7f",
+  "active": "dfb830bb59a82847",
   "lastOpenFiles": [
-    "publish/Tools/Ansible.md",
+    "publish/Community",
+    "publish/Community/BLUG/index.md",
+    "publish/Community/BMS.md",
+    "daily/2025-08-17.md",
     "publish/index.md",
+    "publish/Tools/Ansible.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/Tools/Obsidian.md",
     "publish/_assets/obsidian-directory-layout.md",
@@ -194,7 +198,6 @@
     "journal/docs/Tools",
     "journal/docs",
     "journal",
-    "daily/2025-08-17.md",
     "publish/Tools/Proxmox.md",
     "publish/Lab/The Stack.md",
     "publish/Glossary/Domain.md",
@@ -211,11 +214,8 @@
     "daily/2025-07-28.md",
     "daily/2025-07-27.md",
     "daily/2025-07-22.md",
-    "daily/2025-07-19.md",
-    "daily/2025-07-18.md",
-    "daily/2025-07-17.md",
     "daily",
-    "BLUG",
+    "publish/Community/BLUG",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/banner.svg",
