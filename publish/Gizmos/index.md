@@ -5,6 +5,7 @@ Creation date:
 aliases:
   - toys
   - gadgets
+  - gizmos
 ---
 ---
 

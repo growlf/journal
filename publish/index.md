@@ -13,7 +13,7 @@ Updated fairly constantly as my attention shifts due to work, mentee questions, 
 1) [[Grafana]] - for alerting, monitoring, debugging, just plain-le-entertaining animated graphs... etc
 2) [[Ansible]]!  ...*sigh* ... adding this as a "new" focus even though I have been poking it along for a while now ;)  This just resurfacing as a primary driver for various reasons.
 3) [[WorkAdventure]] - a cool social communication tool with so much more to offer for hybrid events.  Still having some issues getting the voice and video to work outside the LAN.
-4) [[Gizmos]] - beginning to add my gadgetry to this blog.  Not to be confused with my [[Hardware]] - which is a tad more stable and less likely to change from day to day.  This will be an ongoing task. LOL
+4) [[publish/Gizmos/index]] - beginning to add my gadgetry to this blog.  Not to be confused with my [[Hardware]] - which is a tad more stable and less likely to change from day to day.  This will be an ongoing task. LOL
 5) Journaling.  Setting and example of documenting my experiences and sharing what I learn as I go.
 ### Background Focuses
 - [[Cloud Init]] - This is mostly done and moving to my background tasks.
