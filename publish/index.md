@@ -50,8 +50,9 @@ SORT change[1] DESC
 LIMIT 20
 ```
 ### ToDo
-My task lists from my pages and notes.  
+My task list accumulated from my pages and notes:
 ```tasks
 not done
-
+sort by priority
+limit 10
 ```
