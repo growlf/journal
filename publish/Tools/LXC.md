@@ -1,0 +1,19 @@
+---
+tags:
+  - docker
+  - orchestration
+  - automation
+  - proxmox
+  - linux
+  - lxc
+Creation date: 2025-08-17 18:15
+Documentation: 
+aliases:
+---
+---
+# Linux Containers
+This an advanced virtualization technology that utilizes key features of the Linux kernel to create lightweight and efficient isolated environments for running multiple applications on a single host system. This technology uses Linux kernel features, such as cgroups (control groups) and namespaces, to manage system resources and provide process isolation.
+### Links
+- [Docs](https://linuxcontainers.org/distrobuilder/docs/latest/tutorials/use/)
+- [Redhat notes](https://www.redhat.com/en/blog/exploring-containers-lxc)
+### TODO

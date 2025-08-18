@@ -5,6 +5,7 @@ tags:
 Creation date: 2025-08-17 16:18
 Documentation: 
 aliases:
+  - BLUG
 ---
 ---
 # Bellingham Linux Users Group

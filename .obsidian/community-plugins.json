@@ -5,5 +5,9 @@
   "auto-template-trigger",
   "obsidian-tasks-plugin",
   "3d-graph",
-  "dataview"
+  "dataview",
+  "power-mode",
+  "ollama-chat",
+  "vector-search",
+  "ollama"
 ]
