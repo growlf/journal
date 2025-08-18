@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Community/BLUG/index.md",
-                "mode": "source",
-                "source": true
+                "file": "publish/Lab/Systems/Arc.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Arc"
             }
           }
         ]
@@ -184,6 +184,9 @@
   },
   "active": "bc95b76e26385d1a",
   "lastOpenFiles": [
+    "publish/Community/BMS.md",
+    "publish/Community/BLUG/July 16th.md",
+    "publish/Community/BLUG/index.md",
     "publish/index.md",
     "publish/Tools/Apt Cacher NG.md",
     "daily/2025-08-17.md",
@@ -199,11 +202,8 @@
     "Excalidraw/Drawing 2025-08-17 22.25.54.md",
     "Excalidraw/Drawing 2025-08-17 22.25.54.svg",
     "publish/Glossary/LXC.md",
-    "publish/Community/BMS.md",
     "publish/Tools/PVE Monitor-All.md",
     "publish/Tools/LXC.md",
-    "publish/Community/BLUG/index.md",
-    "publish/Community/BLUG/July 16th.md",
     "publish/Community",
     "publish/Tools/Ansible.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
