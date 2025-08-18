@@ -9,5 +9,6 @@
   "power-mode",
   "ollama-chat",
   "vector-search",
-  "ollama"
+  "ollama",
+  "dataview-publisher"
 ]
