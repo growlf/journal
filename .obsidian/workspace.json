@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2025-08-17.md",
+                "file": "publish/Tools/Apt Cacher NG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-17"
+              "title": "Apt Cacher NG"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "apt",
+                "query": "apt-cacher",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
