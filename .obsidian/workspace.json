@@ -11,10 +11,14 @@
             "id": "6f0c1321aa8f29c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "publish/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -180,8 +184,8 @@
   },
   "active": "6f0c1321aa8f29c2",
   "lastOpenFiles": [
-    "publish/Community/BMS.md",
     "daily/2025-08-17.md",
+    "publish/Community/BMS.md",
     "publish/Tools/PVE Monitor-All.md",
     "publish/Tools/LXC.md",
     "publish/index.md",
