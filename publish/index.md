@@ -39,26 +39,7 @@ Most of us can generally be found on the [Cascade Steam Discord](http://hub.casc
 ---
 ## Status
 Bellow is a set of tools that (currently) only works correctly in Obsidian and allows me to see what needs updating and where I have been focusing. At the moment Quartz does not support the two [[Obsidian]] plugins that I am using to generate the content - so, that is also a set of ToDos (like you will see throughout my other pages).
-- [ ] Resolve issue with Quartz publishing method that does not support the Dataview plugin
-- [ ] Resolve issue with Quartz publishing method that does not support the Tasks plugin
-
-### Recent Changes / Additions
-```dataview
-TABLE change[0] as "Action", change[1] as "Date"
-FLATTEN list( list("modified", file.mtime), list("created", file.ctime)) as change
-SORT change[1] DESC
-LIMIT 20
-```
-```dataview-publisher
-
-```
-
-### ToDo
-My task list accumulated from my pages and notes:
-```tasks
-not done
-sort by priority
-limit 10
-```
-
-`=this.file.link`
+- [x] Resolve issue with Quartz publishing method that does not support the Dataview plugin. ✅ 2025-08-18
+      Does not appear to be possible. Moved to hidden page.
+- [x] Resolve issue with Quartz publishing method that does not support the Tasks plugin ✅ 2025-08-18
+      Does not appear to be possible. Moved to hidden page.
