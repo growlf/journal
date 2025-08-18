@@ -40,6 +40,11 @@
       "name": "Caption selection",
       "prompt": "Act as a writer. Create only one single heading for the whole text that is giving a good understanding of what the reader can expect. Output only the caption and nothing else, do not chat, no preamble, get to the point. Your format should be ## Caption.",
       "model": "llama2"
+    },
+    {
+      "name": "Expand selection2",
+      "prompt": "Act as a writer. Expand the text by adding more details while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "model": "llama3.1:latest"
     }
   ]
 }
