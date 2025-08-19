@@ -11,12 +11,14 @@
             "id": "db8a271f192dda9a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "publish/_assets/WebFlow.md"
+                "file": "publish/Tricks/Split DNS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "WebFlow"
+              "icon": "lucide-file",
+              "title": "Split DNS"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "86940ffa99136abb",
@@ -182,8 +185,8 @@
   },
   "active": "db8a271f192dda9a",
   "lastOpenFiles": [
-    "publish/_assets/WebFlow.svg",
     "publish/_assets/WebFlow.md",
+    "publish/_assets/WebFlow.svg",
     "publish/Tricks/Split DNS.md",
     "publish/_assets/WebFlow_light.svg",
     "publish/Tricks/DNS Service Records.md",
