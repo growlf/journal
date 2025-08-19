@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 214.40428 99.583512"
+   width="214.40428"
+   height="99.583511"
+   class="excalidraw-svg"
+   id="svg14"
+   sodipodi:docname="speachbubble.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4"
+     inkscape:cx="102.875"
+     inkscape:cy="49.875"
+     inkscape:window-width="1503"
+     inkscape:window-height="897"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14"
+     showguides="true">
+    <sodipodi:guide
+       position="40.660283,47.244324"
+       orientation="1,0"
+       id="guide2163"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="70.00521,32.218314"
+       orientation="1,0"
+       id="guide2165"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="34.826652,42.117804"
+       orientation="0,-1"
+       id="guide2167"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="58.337953,0.22172352"
+       orientation="0,-1"
+       id="guide2169"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <!-- svg-source:excalidraw -->
+  <metadata
+     id="metadata2" />
+  <defs
+     id="defs6">
+    <style
+       class="style-fonts"
+       id="style4" />
+    <style
+       class="style-fonts"
+       id="style1914" />
+  </defs>
+  <!-- svg-source:excalidraw -->
+  <g
+     stroke-linecap="round"
+     transform="translate(1.9223379,3.6623933)"
+     id="g1924">
+    <path
+       d="m 13.14,0 c 52.17,-1.4 95.79,-7.49 183.71,0 5.46,5.01 9.56,7.23 13.14,13.14 2.07,5.44 4.38,14.52 0,26.28 -5.43,7.57 -3.77,10.3 -13.14,13.14 -11.345,1.6825 -92.52598,0.449963 -128.204543,1.065071 l -0.91828,40.083923 C 60.33743,85.183338 41.212359,54.733433 39.646953,53.688828 31.599805,53.563594 20.482149,53.858633 13.14,52.56 2.33,50.48 -5.28,53.64 0,39.42 -4.86,35.35 1.89,29.44 0,13.14 5.45,1.36 9.53,5.08 13.14,0"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path1920"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       d="M 13.14,0 C 61.68,3.19 120.72,3.11 196.85,0 M 13.14,0 c 43.87,5.57 83.69,3.91 183.71,0 m 0,0 c 5.47,-1.63 11.41,3.92 13.14,13.14 M 196.85,0 c 8.89,-3.59 12.87,8.13 13.14,13.14 m 0,0 c -3.28,4.83 -4.07,9.72 0,26.28 m 0,-26.28 c 0.26,8.77 1.49,17.7 0,26.28 m 0,0 c -3.9,11.61 -1.28,13.7 -13.14,13.14 m 13.14,-13.14 c 3.28,5.91 -7.02,9.07 -13.14,13.14 m 0,0 c -11.2425,0.1025 -92.47352,0.796055 -128.445075,0.746083 -0.435797,17.499695 -0.528732,19.561821 0.174741,41.69614 C 56.391561,75.494581 47.989876,66.626438 39.174649,53.760977 26.979852,51.30363 18.658477,52.377852 13.14,52.56 m 183.77353,0.110485 c -7.46,0.125 -110.83693,1.916384 -128.646998,0.447739 L 68.120522,95.085599 38.790133,53.886041 c 0,0 -19.659003,0.288892 -25.650133,-1.326041 m 0,0 C 1.64,50.17 0.29,46.22 0,39.42 M 13.14,52.56 C 7.81,50.16 -1.86,50.42 0,39.42 m 0,0 C -0.4,34.7 -3.56,30.41 0,13.14 M 0,39.42 C 0.44,29.8 -0.49,19.33 0,13.14 m 0,0 C 0.31,1.25 4.31,-2.6 13.14,0 M 0,13.14 C -3.22,-0.14 1.75,-0.34 13.14,0"
+       stroke="#2f9e44"
+       stroke-width="0.5"
+       fill="none"
+       id="path1922"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccc" />
+  </g>
+  <mask
+     id="mask1932" />
+  <mask
+     id="mask1940" />
+  <mask
+     id="mask1948" />
+  <mask
+     id="mask1956" />
+  <mask
+     id="mask1964" />
+  <mask
+     id="mask1972" />
+  <mask
+     id="mask1980" />
+  <mask
+     id="mask1988" />
+  <mask
+     id="mask1996" />
+  <mask
+     id="mask2004" />
+  <mask
+     id="mask2012" />
+  <mask
+     id="mask2020" />
+  <mask
+     id="mask2028" />
+  <mask
+     id="mask2036" />
+  <mask
+     id="mask2044" />
+  <mask
+     id="mask2052" />
+  <mask
+     id="mask2060" />
+  <mask
+     id="mask2068" />
+  <mask
+     id="mask2076" />
+</svg>
