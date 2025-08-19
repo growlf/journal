@@ -16,7 +16,7 @@ Those address are the three nodes in the [[Docker]] Swarm that are all running a
 
 The Proxy container has a hash table of FQDN names to addresses with ports defined, and even SSL certificates available to attach and upgrade a request from `http` to `https`. It can use static numeric IP's as targets, and it can also use any containers/service name that are attached to the same network as a host address - i.e. `svc1` is the name of the container and we simply proxy the request to that 'host' and then return the result back down stream.
 
-Also, the service named `svc4` is only visible within the LAN, and that any special ports from other services are not necessarily available outside the LAN either. So, unless you are in the LAN (or VPNed in), you will not see port `2022` since `swarm.site.org` is not offered from the public DNS, nor does the firewall have a hole to allow access from outside.
+The service named `svc4` is only visible within the LAN, and any special ports from other services are not necessarily available outside the LAN either. So, unless you are in the LAN (or VPNed in), you will not see port `2022` on `swarm.site.org`  since it is not offered from the public DNS, nor does the firewall have a hole to allow access to the port from outside.
 ### Links
 - ...
 ### TODO
