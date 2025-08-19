@@ -184,10 +184,10 @@
   },
   "active": "db8a271f192dda9a",
   "lastOpenFiles": [
-    "publish/_assets/WebFlow.md",
-    "publish/Tricks/Split DNS.md",
-    "publish/_assets/WebFlow.svg",
     "publish/_assets/WebFlow_light.svg",
+    "publish/Tricks/Split DNS.md",
+    "publish/_assets/WebFlow.md",
+    "publish/_assets/WebFlow.svg",
     "publish/Tricks/DNS Service Records.md",
     "_templates/Recent Activity.md",
     "daily/index.md",
