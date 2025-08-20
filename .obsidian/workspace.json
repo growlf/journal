@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Untitled.md",
+                "file": "Testing/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,8 +185,13 @@
   },
   "active": "db8a271f192dda9a",
   "lastOpenFiles": [
-    "publish/Tricks/Today.base",
-    "publish/Tricks/Untitled.md",
+    "Testing/Today.base",
+    "Testing/Untitled.md",
+    "Testing",
+    "publish/_assets/lIBRARY.md",
+    "publish/_assets/WebFlow.md",
+    "publish/Tricks/Split DNS.md",
+    "publish/Tricks/Excalidraw Test.md",
     "Untitled.md",
     "daily/index.md",
     "publish/Lab/Systems/Frank.md",
@@ -203,13 +208,8 @@
     "Excalidraw/computers.excalidrawlib",
     "Excalidraw/common-home-network-basics.excalidrawlib",
     "Excalidraw/clouds.excalidrawlib",
-    "Excalidraw/bubbles.excalidrawlib",
     "publish/_assets/Drawing 2025-08-19 16.23.32.md",
-    "publish/Tricks/Split DNS.md",
-    "publish/_assets/lIBRARY.md",
-    "publish/Tricks/Excalidraw Test.md",
     "publish/_assets/obsidian-directory-layout.md",
-    "publish/_assets/WebFlow.md",
     "Excalidraw/Library/speachbubble.svg",
     "publish/_assets/lIBRARY.svg",
     "publish/_assets/WebFlow.svg",

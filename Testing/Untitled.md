@@ -8,4 +8,3 @@ aliases:
 # Description
 
 ![[Today.base]]
-### TODO

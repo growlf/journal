@@ -106,7 +106,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.14.0",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.0",
     "libraryItems": [
       {
         "status": "published",
@@ -52605,7 +52605,7 @@
             "y": 338.83587294718825,
             "strokeColor": "#881fa3",
             "backgroundColor": "#be4bdb",
-            "width": 116.42036295658869,
+            "width": 116.4203629565887,
             "height": 103.65107323746608,
             "seed": 1445523839,
             "groupIds": [],
@@ -53660,7 +53660,8 @@
             "link": null,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -53711,7 +53712,8 @@
             "link": null,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -53766,7 +53768,8 @@
             "link": null,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -53825,7 +53828,8 @@
             "link": null,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -53876,7 +53880,8 @@
             "link": null,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -53931,7 +53936,8 @@
             "link": null,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           }
         ],
         "id": "g2o28Y0wxbJHXhyLZrr2B",
@@ -54263,7 +54269,8 @@
             "boundElements": [],
             "updated": 1755650527912,
             "link": null,
-            "locked": false
+            "locked": false,
+            "polygon": false
           },
           {
             "id": "LX6kTl9A8K36ld2MEV4tI",
@@ -55396,7 +55403,8 @@
             "boundElements": [],
             "updated": 1755650518370,
             "link": null,
-            "locked": false
+            "locked": false,
+            "polygon": false
           },
           {
             "type": "rectangle",
