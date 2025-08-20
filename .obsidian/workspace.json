@@ -22,19 +22,31 @@
             }
           },
           {
-            "id": "437d13655894c3ed",
+            "id": "e5bea874c21daa39",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "publish/_assets/lIBRARY.md"
+                "file": "publish/_assets/Drawing 2025-08-19 17.30.40.md"
               },
               "icon": "excalidraw-icon",
-              "title": "lIBRARY"
+              "title": "Drawing 2025-08-19 17.30.40"
+            }
+          },
+          {
+            "id": "2b108eb50b5e1389",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "publish/_assets/Drawing 2025-08-19 17.30.40.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-08-19 17.30.40"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
@@ -195,16 +208,29 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "437d13655894c3ed",
+  "active": "2b108eb50b5e1389",
   "lastOpenFiles": [
-    "publish/Tricks/Excalidraw Test.md",
+    "Excalidraw/stars.excalidrawlib",
+    "Excalidraw/speachbubble.svg",
+    "Excalidraw/some-handdrawn-signs.excalidrawlib",
+    "Excalidraw/network-topology-icons.excalidrawlib",
+    "Excalidraw/hearts.excalidrawlib",
+    "Excalidraw/data-sources.excalidrawlib",
+    "Excalidraw/computers.excalidrawlib",
+    "Excalidraw/common-home-network-basics.excalidrawlib",
+    "Excalidraw/clouds.excalidrawlib",
+    "Excalidraw/bubbles.excalidrawlib",
+    "Excalidraw/awesome-icons.excalidrawlib",
+    "Excalidraw/artem-s-icons.excalidrawlib",
+    "publish/_assets/Drawing 2025-08-19 16.23.32.md",
+    "publish/_assets/Drawing 2025-08-19 17.30.40.md",
+    "publish/Tricks/Split DNS.md",
     "publish/_assets/lIBRARY.md",
+    "publish/Tricks/Excalidraw Test.md",
     "publish/_assets/obsidian-directory-layout.md",
     "publish/_assets/WebFlow.md",
     "Excalidraw/Library/speachbubble.svg",
-    "Excalidraw/Library",
     "publish/_assets/lIBRARY.svg",
-    "publish/Tricks/Split DNS.md",
     "publish/_assets/WebFlow.svg",
     "publish/_assets/WebFlow_light.svg",
     "publish/Tricks/DNS Service Records.md",
@@ -226,23 +252,10 @@
     "publish/Tools/Apt Cacher NG.md",
     "_templates/Update Publish Files.md",
     "publish/_assets/zfs_mp.png",
-    "publish/_assets/banner.md",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/Drawing1.excalidraw.svg",
     "publish/_assets/Drawing 2025-08-17 22.47.39.svg",
-    "Excalidraw/Drawing 2025-08-17 22.25.54.md",
     "Excalidraw/Drawing 2025-08-17 22.25.54.svg",
-    "publish/Glossary/LXC.md",
-    "publish/Community",
-    "journal/docs/Tools",
-    "journal/docs",
-    "journal",
-    "publish/Lab/Systems",
-    "daily",
-    "publish/Community/BLUG",
-    "publish/banner.svg",
-    "docs/Tricks",
-    "docs/Tools",
     "Untitled.canvas"
   ]
 }
