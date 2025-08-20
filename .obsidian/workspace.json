@@ -11,30 +11,16 @@
             "id": "db8a271f192dda9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "publish/Tricks/Split DNS.md",
-                "mode": "source",
-                "source": false
+                "file": "publish/Tricks/Today.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Split DNS"
-            }
-          },
-          {
-            "id": "2b108eb50b5e1389",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-table",
+              "title": "Today"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,20 +170,27 @@
     "hiddenItems": {
       "bases:Create new base": false,
       "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "graph:Open graph view": false,
+      "templater-obsidian:Templater": false,
       "3d-graph:3D Graph": false
     }
   },
   "active": "dfb830bb59a82847",
   "lastOpenFiles": [
+    "Untitled.md",
+    "publish/Tricks/Today.base",
+    "daily/index.md",
+    "publish/Lab/Systems/Frank.md",
+    "publish/Tools/Docker.md",
+    "publish/index.md",
+    "publish/_assets/Drawing 2025-08-19 17.30.40.md",
     "publish/_assets/Drawing 2025-08-19 17.30.40.svg",
     "Excalidraw/stars.excalidrawlib",
     "Excalidraw/speachbubble.svg",
@@ -209,9 +202,7 @@
     "Excalidraw/common-home-network-basics.excalidrawlib",
     "Excalidraw/clouds.excalidrawlib",
     "Excalidraw/bubbles.excalidrawlib",
-    "Excalidraw/awesome-icons.excalidrawlib",
     "publish/_assets/Drawing 2025-08-19 16.23.32.md",
-    "publish/_assets/Drawing 2025-08-19 17.30.40.md",
     "publish/Tricks/Split DNS.md",
     "publish/_assets/lIBRARY.md",
     "publish/Tricks/Excalidraw Test.md",
@@ -223,27 +214,21 @@
     "publish/_assets/WebFlow_light.svg",
     "publish/Tricks/DNS Service Records.md",
     "_templates/Recent Activity.md",
-    "daily/index.md",
     "publish/Tricks/Obsidian Plugins.md",
-    "publish/Lab/Systems/Frank.md",
     "publish/Lab/Systems/Arc.md",
     "daily/2025-08-18.md",
     "daily/2025-08-17.md",
     "publish/Lab/Cloud Init.md",
     "publish/Lab/The Stack.md",
-    "publish/index.md",
     "publish/Gizmos/index.md",
     "publish/Community/index.md",
     "publish/Community/BLUG/index.md",
     "publish/Community/BMS.md",
     "publish/Community/BLUG/July 16th.md",
-    "publish/Tools/Apt Cacher NG.md",
-    "_templates/Update Publish Files.md",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/Drawing1.excalidraw.svg",
     "publish/_assets/Drawing 2025-08-17 22.47.39.svg",
-    "Excalidraw/Drawing 2025-08-17 22.25.54.svg",
     "Untitled.canvas"
   ]
 }
