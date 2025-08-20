@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "e5bea874c21daa39",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "publish/_assets/Drawing 2025-08-19 17.30.40.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-08-19 17.30.40"
-            }
-          },
-          {
             "id": "2b108eb50b5e1389",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "release-notes",
               "state": {
-                "file": "publish/_assets/Drawing 2025-08-19 17.30.40.md"
+                "currentVersion": "1.9.10"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-08-19 17.30.40"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,8 +196,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2b108eb50b5e1389",
+  "active": "dfb830bb59a82847",
   "lastOpenFiles": [
+    "publish/_assets/Drawing 2025-08-19 17.30.40.svg",
     "Excalidraw/stars.excalidrawlib",
     "Excalidraw/speachbubble.svg",
     "Excalidraw/some-handdrawn-signs.excalidrawlib",
@@ -221,7 +210,6 @@
     "Excalidraw/clouds.excalidrawlib",
     "Excalidraw/bubbles.excalidrawlib",
     "Excalidraw/awesome-icons.excalidrawlib",
-    "Excalidraw/artem-s-icons.excalidrawlib",
     "publish/_assets/Drawing 2025-08-19 16.23.32.md",
     "publish/_assets/Drawing 2025-08-19 17.30.40.md",
     "publish/Tricks/Split DNS.md",
