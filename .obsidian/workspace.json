@@ -11,13 +11,14 @@
             "id": "db8a271f192dda9a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Today.base",
-                "viewName": "Table"
+                "file": "publish/Tricks/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Today"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -182,10 +183,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dfb830bb59a82847",
+  "active": "db8a271f192dda9a",
   "lastOpenFiles": [
-    "Untitled.md",
     "publish/Tricks/Today.base",
+    "publish/Tricks/Untitled.md",
+    "Untitled.md",
     "daily/index.md",
     "publish/Lab/Systems/Frank.md",
     "publish/Tools/Docker.md",
@@ -224,7 +226,6 @@
     "publish/Community/index.md",
     "publish/Community/BLUG/index.md",
     "publish/Community/BMS.md",
-    "publish/Community/BLUG/July 16th.md",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/Drawing1.excalidraw.svg",
