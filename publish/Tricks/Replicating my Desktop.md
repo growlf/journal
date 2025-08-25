@@ -38,6 +38,26 @@ cat /tmp/packages.txt | awk -F'/' '{print $1}' > /tmp/reinstall_list.txt
 ```
 A small edit or two to remove unwanted lines here and there, such as the first line that is not a package, and a few packages that I just don't need or are referenced/installed manually from `.deb` files instead.
 
+After some reflection, and many re-runs of this process, I made a simple script to do this more efficiently
+```bash
+#!/usr/bin/env bash
+
+# Get the system name and set the target dir with it
+TARGET=$(hostname)
+DIR="~/Projects/rebuild/${TARGET}"
+
+# Ensure the target dir exists
+mkdir -p ${DIR}
+
+# Copy the info over
+dconf dump / > ${DIR}/dconf_dump.ini
+cp ~/.zshrc ${DIR}/
+cp ~/.bashrc ${DIR}/
+cp -r ~/.vscode ${DIR}/
+cp ~/.bash_logout ${DIR}/
+apt list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
+```
+
 Storing that on my local NAS for later.
 
 ### Safety Net
@@ -70,14 +90,18 @@ scp -r scp/* wight:/tmp/
 ```
 - Log into the target over [[ssh]] and begin the process:
 ```bash
-# Add my local apt proxy and expected repos
-sudo mv rebuild/00aptproxy.conf /etc/apt/apt.conf.d/
-sudo add-apt-repository multiverse -y
-sudo add-apt-repository restricted -y
+# Add the autoproxy (will pull from the DNS if it is defined)
+apt update && apt install auto-apt-proxy git curl nano -y && apt update && apt upgrade -y
+# Add the Ubuntu repos that I generally enable
+sudo add-apt-repository multiverse restricted -y
 sudo add-apt-repository ppa:dotnet/backports
+# Update and upgrade with the new repo/proxy configs
 sudo apt update && sudo apt upgrade -y
-# Basic required tools
+# Ensure some basic required tools
 sudo apt install curl nano git -y
+```
+- Install some manual packages I generally use but are not in the default repos
+```bash
 # Install Docker
 curl -fsSL https://get.docker.com | sudo sh
 sudo usermod -aG docker ${USER}
@@ -91,8 +115,6 @@ sudo apt install /tmp/google-chrome-stable_current_amd64.deb -y
 sudo apt install /tmp/Modrinth\ App_0.10.3_amd64.deb -y
 sudo apt install /tmp/warp-terminal_0.2025.07.30.08.12.stable.02_amd64.deb -y
 sudo apt install /tmp/zoom_amd64.deb -y
-# Everything else - this takes a few
-sudo apt install $( cat /tmp/reinstall_packages_list.txt ) -y 
 ```
 - Install [[TailScale]]
 ```bash
@@ -109,6 +131,11 @@ sh -c 'echo "Types: deb\nURIs: https://repo.teamsforlinux.de/debian/\nSuites: st
 sudo apt update && sudo apt install teams-for-linux -y
 sudo apt auto-remove -y
 sudo reboot
+```
+- Install the remaining packages from the list
+```bash
+# Everything else - this takes a few
+sudo apt install $( cat /tmp/reinstall_packages_list.txt ) -y 
 ```
 
 So far so good.  Minor errors with some packages left in the main list that collided like `fuse` or a printer driver which I removed from the list (about 8 of them), but then everything worked.

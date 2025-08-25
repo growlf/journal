@@ -16,4 +16,6 @@ This an advanced virtualization technology that utilizes key features of the Lin
 ### Links
 - [Docs](https://linuxcontainers.org/distrobuilder/docs/latest/tutorials/use/)
 - [Redhat notes](https://www.redhat.com/en/blog/exploring-containers-lxc)
+- [Installation](https://github.com/canonical/lxd-ui) with a web GUI on Ubuntu <--Very cool 
 ### TODO
+- [ ] Create a tutorial on a basic use for LXC on a local system such as a Laptop
