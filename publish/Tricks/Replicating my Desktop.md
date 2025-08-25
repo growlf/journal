@@ -83,9 +83,7 @@ cp ~/.zshrc ${DIR}/ 2>/dev/null
 cp ~/.bashrc ${DIR}/ 2>/dev/null
 cp -r ~/.vscode ${DIR}/ 2>/dev/null
 cp ~/.bash_logout ${DIR}/ 2>/dev/null
-apt-get list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
-
-
+apt list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
 ```
 
 ### Testing in a Safe-space
