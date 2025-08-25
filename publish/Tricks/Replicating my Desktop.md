@@ -38,7 +38,22 @@ cat /tmp/packages.txt | awk -F'/' '{print $1}' > /tmp/reinstall_list.txt
 ```
 A small edit or two to remove unwanted lines here and there, such as the first line that is not a package, and a few packages that I just don't need or are referenced/installed manually from `.deb` files instead.
 
-After some reflection, and many re-runs of this process, I made a simple script to do this more efficiently
+Storing that on my local NAS for later.
+
+### One off's
+OK, but what about the "one-off" packages that I downloaded the deb-file for or did some sort of manual thing with `make`?  ...and, *cough*, any snaps I accidentally allowed in?  Not even starting the conversation about all of the UI and other customization's that I tend to do to my desktop, ***sigh***.  How will I know for certain that everything was copied before I format and have no recourse? 
+
+I do know that a lot of my settings are stored in `dconf`, so a quick backup of that to a dump file is a good idea.
+```bash
+dconf dump / > /tmp/dconf_dump_current.ini
+```
+And then copy that to my NAS.  I can use that to restore many of my settings on the new system after everything is installed on it with
+```bash
+dconf load / < /tmp/dconf_dump_current.ini
+```
+
+### Simplifying
+After some reflection, and many re-runs of this process, I made a simple script to do this more efficiently for each of the machines I use.  This also lets me compare the results between systems.
 ```bash
 #!/usr/bin/env bash
 
@@ -58,20 +73,7 @@ cp ~/.bash_logout ${DIR}/
 apt list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
 ```
 
-Storing that on my local NAS for later.
-
-### Safety Net
-OK, but what about the "one-off" packages that I downloaded the deb-file for or did some sort of manual thing with `make`?  ...and, *cough*, any snaps I accidentally allowed in?  Not even starting the conversation about all of the UI and other customization's that I tend to do to my desktop, ***sigh***.  How will I know for certain that everything was copied before I format and have no recourse? 
-
-I do know that a lot of my settings are stored in `dconf`, so a quick backup of that to a dump file is a good idea.
-```bash
-dconf dump / > /tmp/dconf_dump_current.ini
-```
-And then copy that to my NAS.  I can use that to restore many of my settings on the new system after everything is installed on it with
-```bash
-dconf load / < /tmp/dconf_dump_current.ini
-```
-
+### Testing in a Safe-space
 Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
 
 I *could* have used an `autoinstall.yml` as described [here](https://linuxconfig.org/how-to-write-and-perform-ubuntu-unattended-installations-with-autoinstall) and [here](https://nsg.cc/post/2024/autoinstall/), but I am in a hurry to get things moving. Besides, I suspect I can apply all of my steps easily to this option again later when I re-try for the umpteenth time - later on.  I just selected my usual config options manually.
@@ -83,14 +85,14 @@ sudo apt install openssh-server -y
 ```
 and I am logging out of the GUI now to start the process remotely through [[ssh]]. Anything I can do over SSH, I can later automate with [[Ansible]].
 ### The Apps
-Logging into the test system with ssh, execute the following:
-- add the apt proxy and misc debs to the system - use `scp` to copy them to the other system
+Logging into the existing system with a terminal, execute the following to copy everything over to the target VM (aka `phoenix` in my case) in a temporary directory:
 ```bash
-scp -r scp/* wight:/tmp/
+scp -r rebuild phoenix:/tmp/
 ```
 - Log into the target over [[ssh]] and begin the process:
 ```bash
-# Add the autoproxy (will pull from the DNS if it is defined)
+cd /tmp/rebuild
+# Add the autoproxy (this will pull from the DNS if it is defined)
 apt update && apt install auto-apt-proxy git curl nano -y && apt update && apt upgrade -y
 # Add the Ubuntu repos that I generally enable
 sudo add-apt-repository multiverse restricted -y
@@ -100,7 +102,7 @@ sudo apt update && sudo apt upgrade -y
 # Ensure some basic required tools
 sudo apt install curl nano git -y
 ```
-- Install some manual packages I generally use but are not in the default repos
+- Install some manual packages I generally use but which are not in the default repos
 ```bash
 # Install Docker
 curl -fsSL https://get.docker.com | sudo sh
@@ -132,10 +134,10 @@ sudo apt update && sudo apt install teams-for-linux -y
 sudo apt auto-remove -y
 sudo reboot
 ```
-- Install the remaining packages from the list
+- Install the remaining packages from the manual installed list
 ```bash
 # Everything else - this takes a few
-sudo apt install $( cat /tmp/reinstall_packages_list.txt ) -y 
+sudo apt install $( cat ./reinstall_packages_list.txt ) -y 
 ```
 
 So far so good.  Minor errors with some packages left in the main list that collided like `fuse` or a printer driver which I removed from the list (about 8 of them), but then everything worked.
@@ -147,27 +149,6 @@ Personal files/settings and customization from existing system (then I will comp
 - `.zshrc`, `.bashrc`, etc
 
 Taking a break and getting back to work on my [[Grafana]] project for a few.
-
-### Notes
-I wrote a quick script to capture the info from each of my systems as I went along so that I could compare them:
-```bash
-#!/usr/bin/env bash
-
-# Get the system info and set the raget dir with it
-TARGET=$(hostname)
-DIR="~/Projects/rebuild/${TARGET}"
-
-# Ensure the target dir exists
-mkdir -p ${DIR}
-
-# Copy the info over
-dconf dump / > ${DIR}/dconf_dump_${TARGET}.ini
-cp ~/.zshrc ${DIR}/
-cp ~/.bashrc ${DIR}/
-cp -r ~/.vscode ${DIR}/
-cp ~/.bash_logout ${DIR}/
-```
-My `~/Projects` folder is synced between the two systems, so this allows easy use of `meld` to compare the outcomes.  The `.vscode` entry is probably a mistake and should be replaced with using the `git` account signin option instead.  It was way larger than I anticipated.  Though, I DO still want it ti auto sign in as my user without me manually configuring it.
 
 ### TODOs:
 - [ ]  Complete the rebuild process and test it fully from scratch. 🛫 2025-08-14 🔼 
