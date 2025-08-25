@@ -83,7 +83,7 @@ cp ~/.zshrc ${DIR}/ 2>/dev/null
 cp ~/.bashrc ${DIR}/ 2>/dev/null
 cp -r ~/.vscode ${DIR}/ 2>/dev/null
 cp ~/.bash_logout ${DIR}/ 2>/dev/null
-apt list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
+apt list --manual-installed 2>/dev/null | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
 ```
 
 ### Testing in a Safe-space
@@ -150,7 +150,7 @@ sudo reboot
 - Install the remaining packages from the manual installed list
 ```bash
 # Everything else - this takes a few
-sudo apt install $( cat ./reinstall_packages_list.txt ) -y 
+sudo apt install $( cat ./manual_packages.txt ) -y 
 ```
 
 So far so good.  Minor errors with some packages left in the main list that collided like `fuse` or a printer driver which I removed from the list (about 8 of them), but then everything worked.
