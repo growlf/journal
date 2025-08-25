@@ -57,20 +57,35 @@ After some reflection, and many re-runs of this process, I made a simple script 
 ```bash
 #!/usr/bin/env bash
 
-# Get the system name and set the target dir with it
+# Get the system info and set the target dir with it
 TARGET=$(hostname)
-DIR="~/Projects/rebuild/${TARGET}"
+SCRIPT_DIR=$(dirname "$0")
+DIR="${SCRIPT_DIR}/${TARGET}"
+
+# Check before continuing
+echo "Using ${DIR} to store configuration..."
+read -r -p "Are you sure? [y/N] " response
+case "$response" in
+    [yY][eE][sS]|[yY])
+        :
+        ;;
+    *)
+        exit 0
+        ;;
+esac
 
 # Ensure the target dir exists
 mkdir -p ${DIR}
 
-# Copy the info over
-dconf dump / > ${DIR}/dconf_dump.ini
-cp ~/.zshrc ${DIR}/
-cp ~/.bashrc ${DIR}/
-cp -r ~/.vscode ${DIR}/
-cp ~/.bash_logout ${DIR}/
-apt list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
+# Copy the config files and info to archive folder
+dconf dump / > ${DIR}/dconf_dump.ini 2>/dev/null
+cp ~/.zshrc ${DIR}/ 2>/dev/null
+cp ~/.bashrc ${DIR}/ 2>/dev/null
+cp -r ~/.vscode ${DIR}/ 2>/dev/null
+cp ~/.bash_logout ${DIR}/ 2>/dev/null
+apt-get list --manual-installed | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
+
+
 ```
 
 ### Testing in a Safe-space
