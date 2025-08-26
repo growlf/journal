@@ -79,11 +79,24 @@ mkdir -p ${DIR}
 
 # Copy the config files and info to archive folder
 dconf dump / > ${DIR}/dconf_dump.ini 2>/dev/null
+lspci > ${DIR}/lspci.txt 2>/dev/null
+lsblk > ${DIR}/lsblk.txt 2>/dev/null
+zfs list > ${DIR}/zfslist.txt 2>/dev/null
+cp /etc/fstab ${DIR}/ 2>/dev/null
 cp ~/.zshrc ${DIR}/ 2>/dev/null
 cp ~/.bashrc ${DIR}/ 2>/dev/null
-cp -r ~/.vscode ${DIR}/ 2>/dev/null
 cp ~/.bash_logout ${DIR}/ 2>/dev/null
+cp ~/.profile ${DIR}/ 2>/dev/null
+cp ~/.gitconfig ${DIR}/ 2>/dev/null
+cp -r ~/.oh-my-zsh ${DIR}/ 2>/dev/null
+cp -r ~/.gnupg ${DIR}/ 2>/dev/null
+cp -r ~/.local ${DIR}/ 2>/dev/null
 apt list --manual-installed 2>/dev/null | awk -F'/' '{print $1}' > ${DIR}/manual_packages.txt
+
+echo "All done copying files. Now creating an archive..."
+tar -czvf "${SCRIPT_DIR}/$(date +%Y-%m-%d)_${TARGET}.tar.gz" ${DIR}
+echo "Done. Created ${SCRIPT_DIR}/$(date +%Y-%m-%d)_${TARGET}.tar.gz"
+
 ```
 
 ### Testing in a Safe-space
