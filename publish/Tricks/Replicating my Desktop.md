@@ -53,7 +53,7 @@ dconf load / < /tmp/dconf_dump_current.ini
 ```
 
 ### Simplifying
-After some reflection, and many re-runs of this process, I made a simple script to do this more efficiently for each of the machines I use.  This also lets me compare the results between systems.
+After some reflection, and many re-runs of this process, I made a simple script to do create an archive more efficiently for each of the machines I use.  This also lets me compare the results between systems.
 ```bash
 #!/usr/bin/env bash
 
