@@ -10,5 +10,7 @@
   "ollama-chat",
   "vector-search",
   "ollama",
-  "dataview-publisher"
+  "dataview-publisher",
+  "obsidian-kanban",
+  "system3-relay"
 ]

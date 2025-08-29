@@ -17,6 +17,10 @@
     {
       "folder": "_templates",
       "template": "_templates/Base.md"
+    },
+    {
+      "folder": "Work",
+      "template": "_templates/Project.md"
     }
   ],
   "enable_file_templates": false,
