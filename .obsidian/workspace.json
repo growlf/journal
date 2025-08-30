@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Demo Obsidian Kanban.md",
+                "file": "daily/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demo Obsidian Kanban"
+              "title": "index"
             }
           }
         ],
@@ -202,13 +202,17 @@
   },
   "active": "2b108eb50b5e1389",
   "lastOpenFiles": [
-    "Untitled Kanban.md",
+    "2025-08-20.md",
+    "publish/index.md",
+    "README.md",
     "Testing/Untitled.md",
+    "Testing/Today.base",
+    "daily/2025-08-20.md",
+    "_templates/Project.md",
+    "Untitled Kanban.md",
     "Work/Demo Obsidian Kanban.md",
     "Work/Untitled.md",
-    "_templates/Project.md",
     "Work",
-    "Testing/Today.base",
     "Testing",
     "publish/_assets/Drawing 2025-08-19 17.30.40.md",
     "publish/_assets/Drawing 2025-08-19 17.30.40.svg",
@@ -240,10 +244,6 @@
     "daily/2025-08-17.md",
     "publish/Lab/Cloud Init.md",
     "publish/Lab/The Stack.md",
-    "publish/index.md",
-    "publish/Gizmos/index.md",
-    "publish/Community/index.md",
-    "publish/Community/BLUG/index.md",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/Drawing1.excalidraw.svg",
