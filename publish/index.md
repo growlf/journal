@@ -6,15 +6,14 @@ Creation date: Monday April 4th 2022 11:18:30
 ---
 ![[banner.svg]]
 
-My personal journal of technology-land adventures ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - then [[GitHub-Quartz-Obsidian]] to publish it.  I write from a standpoint of a technology professional, but also a student - always curious and always learning. I strongly believe in "asking the stupid questions" because if not Me, then who will. There is always someone in the audience that is either too shy or afraid to ask "that" question that "should be obvious".
+My personal journal of technology-land adventures ...and other things.  I am using [[Obsidian]] to generate and maintain this journal - then [[GitHub-Quartz-Obsidian]] to publish it.  I write from a standpoint of a technology professional, but also a student - always curious and always learning. I strongly believe in "asking the stupid questions" because if not me, then who will. There is always someone in the audience that is either too shy or afraid to ask "that" question that "should be obvious".
 
 ## Current Projects/Focuses
 Updated fairly constantly as my attention shifts due to work, mentee questions, or just simply a matter of "Oh look! SHINY!"
 1) [[Grafana]] - for alerting, monitoring, debugging, just plain-le-entertaining animated graphs... etc
 2) [[Ansible]]!  ...*sigh* ... adding this as a "new" focus even though I have been poking it along for a while now ;)  This just resurfacing as a primary driver for various reasons.
 3) [[WorkAdventure]] - a cool social communication tool with so much more to offer for hybrid events.  Still having some issues getting the voice and video to work outside the LAN.
-4) [[publish/Gizmos/index]] - beginning to add my gadgetry to this blog.  Not to be confused with my [[Hardware]] - which is a tad more stable and less likely to change from day to day.  This will be an ongoing task. LOL
-5) Journaling.  Setting and example of documenting my experiences and sharing what I learn as I go.
+4) Journaling.  Setting an example of documenting my experiences and sharing what I learn as I go.  ..and maybe backfilling with some things that I use as a base for the weekly meet-ups at [[BMS]]
 ### Background Focuses
 - [[Cloud Init]] - This is mostly done and moving to my background tasks.
 - [[The Stack]] - The tech stack I most often use or implement/manage/maintain. This is now fairly defined at a medium to high level.  Continuing updates will occur as I add specifics to individual pages.  Dropping this to background tasks now.

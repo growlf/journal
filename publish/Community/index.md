@@ -13,4 +13,4 @@ aliases:
 - Cascade Steam
 - BTC Raspberry Pi Club
 - Bellingham Codes
-- Bellingham Linux Users Group ([[publish/Community/BLUG/index|BLUG]])
+- Bellingham Linux Users Group ([[BLUG|BLUG]])

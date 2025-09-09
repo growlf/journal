@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": "_assets/_icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiFileDown",
+      "LiStar",
+      "LiClipboardList",
+      "LiNetwork",
+      "LiBookA"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Testing": "LiTestTube2",
+  "Services": "LiAtom",
+  "Projects": "LiClipboardList",
+  "Projects/Issues": "⚠",
+  "People": "LiUsers",
+  "Networks": "LiNetwork",
+  "Glossary": "LiBookA",
+  "Devices": "LiServer",
+  "Discord": "LiMessageSquare",
+  "Slurped Pages": "LiFileDown"
+}
