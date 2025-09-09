@@ -34,14 +34,6 @@ Process
 	- Roles
 	- Affects - changes that affect other need tis process - changes that are only with a single users scope do not)
 	
-- [ ] Test relay further 
-      - https://system3.md/
-      - https://obsidian.md/plugins?search=system3-relay#
-      - Connects over port 443
-      - Relay uses CRDTs to enable conflict-free team editing
-	- [ ] test self hosting of Relay server for the Relay plugin
-	      - https://github.com/No-Instructions/relay-server-template/tree/main
-	      - https://www.reddit.com/r/ObsidianMD/comments/1k053hv/relaymd_is_now_a_part_of_relay_by_system3md/
 
 Establish:
 Purpose

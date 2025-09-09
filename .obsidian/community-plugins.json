@@ -12,5 +12,6 @@
   "ollama",
   "dataview-publisher",
   "obsidian-kanban",
-  "system3-relay"
+  "system3-relay",
+  "obsidian-livesync"
 ]

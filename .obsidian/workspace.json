@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "18d955496ea39a98",
+    "id": "2225e94afc497e5a",
     "type": "split",
     "children": [
       {
@@ -42,15 +42,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "13272c39e130c8ef",
+    "id": "8c11b3de039a8858",
     "type": "split",
     "children": [
       {
-        "id": "8457fd52fbf8a7ae",
+        "id": "c78084dcc02cde81",
         "type": "tabs",
         "children": [
           {
-            "id": "dfb830bb59a82847",
+            "id": "15beb380bfe369ed",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": "6134cf06a25a6e2c",
+            "id": "677af2da10502e52",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +80,7 @@
             }
           },
           {
-            "id": "b6c8b96d6a38832f",
+            "id": "1e8cf15fd8446f23",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,15 +96,15 @@
     "width": 300
   },
   "right": {
-    "id": "86940ffa99136abb",
+    "id": "24befd2c4100a5bc",
     "type": "split",
     "children": [
       {
-        "id": "5771787c099d6eb6",
+        "id": "1f591372a034811f",
         "type": "tabs",
         "children": [
           {
-            "id": "aad6017371016b2c",
+            "id": "cca183d300d5bc1e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -122,21 +122,20 @@
             }
           },
           {
-            "id": "141d5ffa9f38ca72",
+            "id": "65285b7b474c9723",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "publish/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "9e29d7d20553ea0f",
+            "id": "9093a64f50c8ccd4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,22 +150,21 @@
             }
           },
           {
-            "id": "bc92abcfb74cb549",
+            "id": "b38d31908a99d2cf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline"
             }
           },
           {
-            "id": "a88b789daac0d534",
+            "id": "decf93f5a07f4130",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -189,6 +187,7 @@
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
