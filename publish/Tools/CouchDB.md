@@ -25,7 +25,7 @@ Most users will fall into the second or third categories, and that's where thing
 In this scenario, you will have an IP address that never changes. If you do not know if you have this, it generally means that you do not.  Many ISPs will offer this feature (at an additional cost) only by specific request.  This what I have and I also use my own domain name which was purchased looooong ago to simplify access by name and not just numbers.
 #### Dynamic IP
 Tools such as [[Tailscale]] can be used to simulate a static IP nicely. 
-> [!WARNING] Without a Domain, This is the prefered option
+> [!WARNING] Without a Domain this is the preferred option
 >  *If you do not have your own domain* to allow SSL encryption and security, this is the recommended option! Warning, however, it is a bit more complex to set up fully and is not as easy to collaborate through for additional users.
 - [ ] Complete this section or generate a page with further details.
 #### Hosted
