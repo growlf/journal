@@ -1,23 +1,24 @@
 {
   "main": {
-    "id": "2225e94afc497e5a",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "78d3b08c39cac013",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "582ace22d458d706",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "publish/Community/BLUG/Untitled.base",
-                "viewName": "Table"
+                "file": "publish/Tools/CouchDB.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "CouchDB"
             }
           }
         ]
@@ -141,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/Untitled.md",
+                "file": "publish/Tools/CouchDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of CouchDB"
             }
           },
           {
@@ -184,25 +185,31 @@
       "obsidian-livesync:Show Log": false,
       "obsidian-livesync:Replicate": false,
       "obsidian-livesync:P2P Replicator": false,
-      "obsidian-livesync:Show Customization sync": false,
       "3d-graph-new:Global 3D Graph": false,
       "homepage:Open homepage": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "spreadsheets:New Spreadsheet": false,
-      "systemsculpt-ai:Open SystemSculpt Chat": false,
-      "systemsculpt-ai:Open SystemSculpt Chat History": false,
-      "systemsculpt-ai:Open SystemSculpt Janitor": false,
-      "systemsculpt-ai:Open Similar Notes Panel": false,
-      "systemsculpt-ai:Open SystemSculpt Search": false
+      "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "582ace22d458d706",
+  "active": "decf93f5a07f4130",
   "lastOpenFiles": [
-    "publish/Community/BLUG/BLUG.md",
-    "publish/Community/BLUG/Untitled.base",
+    "publish/Tools/Vaultwarden.md",
+    "publish/Tools/CouchDB.md",
+    "publish/Tools/Docker.md",
+    "publish/Tools/LXC.md",
+    "publish/Tools/Proxmox.md",
+    "publish/Tools/Proxmox Backup Server.md",
+    "publish/Tools/PVE Monitor-All.md",
+    "publish/Tools/Prometheus.md",
+    "publish/Tools/Portainer.md",
     "publish/Community/BLUG/July 16th.md",
-    "publish/Community/BMS.md",
+    "publish/Community/BLUG/Untitled.base",
     "publish/index.md",
+    "Testing/Untitled.md",
+    "Testing",
+    "publish/Community/BLUG/BLUG.md",
+    "publish/Community/BMS.md",
     "README.md",
     "SystemSculpt/SystemSculpt.md",
     "publish/_assets/obsidian-directory-layout.md",
@@ -217,17 +224,12 @@
     "SystemSculpt/Chats",
     "SystemSculpt",
     "_assets/_icons/",
-    "_assets/_icons",
     "daily/Untitled.md",
-    "Testing/Untitled.md",
     "Work/Untitled.md",
     "Work/Demo Obsidian Kanban.md",
     "_templates/Recent Activity.md",
     "_templates/Project.md",
     "_templates/Base.md",
-    "daily/2025-08-20.md",
-    "conflict-files-obsidian-git.md",
-    "2025-08-20.md",
-    "Untitled Kanban.md"
+    "daily/2025-08-20.md"
   ]
 }

@@ -1,0 +1,51 @@
+---
+tags:
+  - data
+  - obsidian
+  - documentation
+Creation date:
+Documentation: https://docs.couchdb.org/en/stable/
+aliases:
+  - obsidian-sync
+---
+---
+# Description
+CouchDB is an open-source NoSQL database that completely embraces the web paradigm. It is a document-oriented database, meaning it stores data in flexible, schema-free JSON documents, unlike traditional relational databases that use tables and predefined schemas. I use it primarily for running my own self-hosted Obsidian Sync service to allow easy backups, centralized synchronization across all of my devices, and most importantly - for collaboration with other individuals. It is also very easy to configure a replication process to multiple storage locations to make full (live or periodic) backups and fail-over solutions.
+## Self Hosting Obsidian Sync
+Setting up a basic CouchDB service is actually very simple and very easily customized to specific needs. Below is an example that I use as a guide to setting up my own Obsidian-Sync. It is curated from many web pages and documentations sources and (hopefully) simplified/streamlined for an average "new-user" experience through my own trials and tribulation along the way.
+### Prerequisites
+Of course, step one is to have [[Obsidian]] installed and understand the basics of how to enable the community plugins and configure them.  Don't worry, for this process we only need to add a single plugin and I will show the general screens that need to be configured.  I would strongly recommend having your own domain as well.  Without one, you may not be able to fully secure this service, which can be  important when making it available to the internet.
+### Step 1- Choose a Network Environment
+Like most services, you will need a static IP (one way or another) to connect to the sync service with obsidian - and to enable proper security protocols such as SSL. There are three common scenarios that I am focusing on here:
+1) User with access to a static IP address (commercial or otherwise) - aka [[#Static IP]]
+2) Residential internet user with no access to a static public IP address - aka [[#Dynamic IP]]
+3) User with access to a hosting provider - aka [[#Hosted]]
+Most users will fall into the second or third categories, and that's where things get a bit murky with the decision tree branching quite a bit. So, I will start with the simpler and more easily understood implementation for a static IP.
+#### Static IP
+In this scenario, you will have an IP address that never changes. If you do not know if you have this, it generally means that you do not.  Many ISPs will offer this feature (at an additional cost) only by specific request.  This what I have and I also use my own domain name which was purchased looooong ago to simplify access by name and not just numbers.
+#### Dynamic IP
+Tools such as [[Tailscale]] can be used to simulate a static IP nicely. 
+
+> [!WARNING] Without a Domain, This is the prefered option
+>  *If you do not have your own domain* to allow SSL encryption and security, this is the recommended option! Warning, however, it is a bit more complex to set up fully and is not as easy to collaborate through for additional users.
+
+- [ ] Complete this section or generate a page with further details.
+#### Hosted
+An alternative is to use a hosting provider such as AWS, Google, or MS Azure where your instance can be assigned a static public-facing IP address.
+- [ ] Complete this section or generate a page with further details.
+### Step 2 - Choose a Deployment Strategy
+There are several ways to deploy our solution:
+- [[Docker]]
+- [[LXC]]
+- Virtual Machine
+- Kubernetes
+- Dedicated system (Raspberry Pi?)
+I will be focusing on the Docker and LXC options because [[Proxmox]] and [[Portainer]] both just makes this so darned easy. If you do not have neither [[Proxmox]] or [[Portainer]] set up, I heartily recommend _both_.  They work very well together.  As I state elsewhere (and frequently) I recommend starting with [[Proxmox]] if you can.
+### Step 3 - Configure and Deploy
+We will want the following information ready:
+- **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
+- **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[VaultWarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.
+
+### Step 4 - Test the Management Interface
+### Step 5 - Install a Proxy
+### Step  - Connect and Sync

@@ -6,7 +6,6 @@ Creation date: 2025-08-17 18:39
 Documentation: 
 aliases:
 ---
----
 # Automatic PVE System Monitoring
 Vm's and [[publish/Tools/LXC|LXC]]'s with the tag `mon-restart` will automatically be restarted if they fail.
 
