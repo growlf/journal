@@ -43,9 +43,20 @@ There are several ways to deploy our solution:
 I will be focusing on the Docker and LXC options because [[Proxmox]] and [[Portainer]] both just makes this so darned easy. If you do not have neither [[Proxmox]] or [[Portainer]] set up, I heartily recommend _both_.  They work very well together.  As I state elsewhere (and frequently) I recommend starting with [[Proxmox]] if you can.
 ### Step 3 - Configure and Deploy
 We will want the following information ready:
-- **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
-- **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[VaultWarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.
+1) **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
+2) **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[VaultWarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.  If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
 
-### Step 4 - Test the Management Interface
-### Step 5 - Install a Proxy
-### Step  - Connect and Sync
+- Using Portainer
+	1) create deployment from example
+	2) add environment values
+	3) deploy
+- Using LXC
+	1) use script
+### Step 4 - Management Interface
+1) connect to it with the admin credentials establish previously abaove.
+### Step 5 - Configure Access
+- Using NGiNX Proxy Manager with a Domain and SSL
+	1) Firewall access
+- Using Tailscale for direct acccess
+### Step  6 - Connect and Sync
+1) Install the plugin, configure, connect
