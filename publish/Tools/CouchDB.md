@@ -25,13 +25,13 @@ Most users will fall into the second or third categories, and that's where thing
 In this scenario, you will have an IP address that never changes. If you do not know if you have this, it generally means that you do not.  Many ISPs will offer this feature (at an additional cost) only by specific request.  This what I have and I also use my own domain name which was purchased looooong ago to simplify access by name and not just numbers.
 #### Dynamic IP
 Tools such as [[Tailscale]] can be used to simulate a static IP nicely. 
-
 > [!WARNING] Without a Domain, This is the prefered option
 >  *If you do not have your own domain* to allow SSL encryption and security, this is the recommended option! Warning, however, it is a bit more complex to set up fully and is not as easy to collaborate through for additional users.
-
 - [ ] Complete this section or generate a page with further details.
 #### Hosted
 An alternative is to use a hosting provider such as AWS, Google, or MS Azure where your instance can be assigned a static public-facing IP address.
+> [!NOTE] Generally Not FREE
+> I feel it is important to point out that hosting is generally not a free option. However it can be very inexpensive depending on the provider that you choose.
 - [ ] Complete this section or generate a page with further details.
 ### Step 2 - Choose a Deployment Strategy
 There are several ways to deploy our solution:
