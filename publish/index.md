@@ -1,8 +1,6 @@
 ---
 tags:
   - about
-Creation date: Monday April 4th 2022 11:18:30
----
 ---
 ![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it.  
 ## Who am I?

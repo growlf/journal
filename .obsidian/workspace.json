@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Testing/Dataview.md",
+                "file": "publish/index.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Dataview"
+              "title": "index"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "_templates/Recent Activity.md",
     "publish/Testing/Dataview.md",
+    "_templates/Recent Activity.md",
     "publish/Testing/_design.md",
     "_templates/Project.md",
     "_templates/Base.md",
