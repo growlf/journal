@@ -194,8 +194,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Testing/Dataview Latest.md",
+    "publish/Tools/LXC.md",
     "publish/Testing/Dataview Tasks.md",
+    "publish/Testing/Dataview Latest.md",
     "_templates/Project.md",
     "publish/Testing/_design.md",
     "publish/index.md",
@@ -221,7 +222,6 @@
     "publish/Tricks",
     "publish/Tools/index.md",
     "publish/Tools/WorkAdventure.md",
-    "publish/Tools/Wordpress.md",
     "publish/Tools",
     "publish/Testing",
     "publish/Lab/Systems",
