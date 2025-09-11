@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "publish/Testing/Dataview.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -192,7 +192,7 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "15beb380bfe369ed",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "_templates/Recent Activity.md",
     "publish/Testing/Dataview.md",
