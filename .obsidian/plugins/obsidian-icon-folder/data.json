@@ -34,7 +34,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Testing": "LiTestTube2",
   "Services": "LiAtom",
   "Projects": "LiClipboardList",
   "Projects/Issues": "⚠",
@@ -43,5 +42,6 @@
   "Glossary": "LiBookA",
   "Devices": "LiServer",
   "Discord": "LiMessageSquare",
-  "Slurped Pages": "LiFileDown"
+  "Slurped Pages": "LiFileDown",
+  "publish/Testing": "LiTestTube2"
 }

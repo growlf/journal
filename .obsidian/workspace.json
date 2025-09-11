@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Dataview.md",
+                "file": "publish/Testing/Dataview.md",
                 "mode": "source",
                 "source": true
               },
@@ -192,11 +192,11 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "15beb380bfe369ed",
   "lastOpenFiles": [
     "_templates/Recent Activity.md",
-    "Testing/Dataview.md",
-    "Testing/_design.md",
+    "publish/Testing/Dataview.md",
+    "publish/Testing/_design.md",
     "_templates/Project.md",
     "_templates/Base.md",
     "publish/Tools/Obsidian.md",
@@ -221,7 +221,7 @@
     "publish/Tools/Portainer.md",
     "publish/Community/BLUG/July 16th.md",
     "publish/Community/BLUG/Untitled.base",
-    "Testing",
+    "publish/Testing",
     "README.md",
     "publish/_assets/banner.svg",
     "SystemSculpt/Extractions",
