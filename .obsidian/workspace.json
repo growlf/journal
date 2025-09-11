@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
-                "mode": "preview",
+                "file": "publish/Tools/Obsidian.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Obsidian"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/_assets/banner.md",
     "publish/index.md",
+    "publish/_assets/banner.md",
     "_assets/_assets.md",
     "publish/Tools/CouchDB.md",
     "publish/Tricks/Examples/CouchDB Deployment Files.md",
