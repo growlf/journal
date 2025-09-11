@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/Examples/CouchDB Deployment Files.md",
+                "file": "publish/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CouchDB Deployment Files"
+              "title": "index"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/index.md",
+    "publish/Tools/CouchDB.md",
     "publish/Tricks/Examples/CouchDB Deployment Files.md",
+    "publish/index.md",
     "publish/Tricks/Smoother Updates.md",
     "publish/Community/index.md",
     "publish/Community/BMS.md",
@@ -203,7 +204,6 @@
     "_templates/Base.md",
     "publish/Tricks/Examples/Examples.md",
     "publish/Tricks/Examples",
-    "publish/Tools/CouchDB.md",
     "publish/Tools/Vaultwarden.md",
     "publish/Tools/Docker.md",
     "publish/Tools/LXC.md",

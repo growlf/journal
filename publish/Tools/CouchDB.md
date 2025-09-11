@@ -46,21 +46,25 @@ We will want the following information ready:
 1) **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
 2) **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[VaultWarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.  If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
 3) Next -
-	- Using Portainer
+	- If you are using Portainer:
 		1) create [[CouchDB Deployment Files]] from example (add note for swarm deployment vs standalone)
 		2) add environment values that set credentials etc
 		3) deploy
-	- Using LXC
-		1) use this [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=apache-couchdb) in the console of one of your proxmox nodes.
+	- Otherwise if you are using LXC on Proxmox:
+		1) use this [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=apache-couchdb) in the console of one of your Proxmox nodes.
 		2) answer the prompts
+- [ ] Fill in details on how to actually deploy for each method ⏫ 
 ### Step 4 - Management Interface
 1) connect to it with the admin credentials establish previously above.
+- [ ] Screenshots and description of connecting to the interface ⏫ 
 ### Step 5 - Configure Access
 - Using NGiNX Proxy Manager with a Domain and SSL
 	1) Firewall access
 - Using Tailscale for direct access
+- [ ] Add screenshots, links, and details for firewall and tailscale ⏫ 
 ### Step  6 - Connect and Sync
-1) Install the plugin, configure, connect
+1) Install the [plugin](https://github.com/vrtmrz/obsidian-livesync), configure, connect
+- [ ] Add screenshots, links, and details
 ## Cautions and Notes
 - DO enable encryption end to end
 - DO enable field encryption
