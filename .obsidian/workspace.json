@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
-                "mode": "preview",
+                "file": "publish/Tricks/GitHub-Quartz-Obsidian.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "GitHub-Quartz-Obsidian"
             }
           }
         ]
@@ -194,13 +194,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "publish/index.md",
+    "publish/Tools/Obsidian.md",
     "publish/Testing/Dataview.md",
     "_templates/Recent Activity.md",
     "publish/Testing/_design.md",
     "_templates/Project.md",
     "_templates/Base.md",
-    "publish/Tools/Obsidian.md",
-    "publish/index.md",
     "publish/_assets/banner.md",
     "_assets/_assets.md",
     "publish/Tools/CouchDB.md",
