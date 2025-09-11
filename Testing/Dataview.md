@@ -1,3 +1,11 @@
+---
+tags: 
+documentation: 
+aliases:
+---
+# Description
+Testing the dataview_publisher plugin.
+
 %% DATAVIEW_PUBLISHER: start
 ```dataview
 TABLE change[0] as "Action", change[1] as "Date"
@@ -21,4 +29,3 @@ LIMIT 10
 | [[publish/Community/index.md\|index]]                                             | modified | 5:11 PM - September 10, 2025  |
 
 %% DATAVIEW_PUBLISHER: end %%
-

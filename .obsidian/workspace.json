@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tools/Obsidian.md",
+                "file": "Testing/Dataview.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "Dataview"
             }
           }
         ]
@@ -194,6 +194,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "_templates/Recent Activity.md",
+    "Testing/Dataview.md",
+    "Testing/_design.md",
+    "_templates/Project.md",
+    "_templates/Base.md",
+    "publish/Tools/Obsidian.md",
     "publish/index.md",
     "publish/_assets/banner.md",
     "_assets/_assets.md",
@@ -203,7 +209,6 @@
     "publish/Community/index.md",
     "publish/Community/BMS.md",
     "publish/Community/BLUG/BLUG.md",
-    "_templates/Base.md",
     "publish/Tricks/Examples/Examples.md",
     "publish/Tricks/Examples",
     "publish/Tools/Vaultwarden.md",
@@ -216,11 +221,8 @@
     "publish/Tools/Portainer.md",
     "publish/Community/BLUG/July 16th.md",
     "publish/Community/BLUG/Untitled.base",
-    "Testing/Untitled.md",
     "Testing",
     "README.md",
-    "SystemSculpt/SystemSculpt.md",
-    "publish/_assets/obsidian-directory-layout.md",
     "publish/_assets/banner.svg",
     "SystemSculpt/Extractions",
     "SystemSculpt/Attachments",
@@ -228,8 +230,6 @@
     "SystemSculpt/Recordings",
     "SystemSculpt/Saved Chats",
     "SystemSculpt/Chats",
-    "SystemSculpt",
-    "daily/Untitled.md",
-    "Work/Untitled.md"
+    "SystemSculpt"
   ]
 }

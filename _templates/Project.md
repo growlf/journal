@@ -1,7 +1,6 @@
 ---
 tags:
 ---
----
 ## Description
 
 ## Tasks
