@@ -4,7 +4,6 @@ tags:
   - obsidian
 Creation date: Monday April 4th 2022 11:18:30
 ---
----
 # Working with Obsidian
 
 My layout is fairly simple.  I have a vault with the following directory structure (the relevant parts at least):
