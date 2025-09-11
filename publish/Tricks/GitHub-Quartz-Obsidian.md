@@ -10,7 +10,6 @@ Creation date: Monday April 4th 2022 11:18:30
 After much struggle with attempting to publish my [[Obsidian]] journal to an existing BookStack instance, I found that [[Quartz]] is an amazing solution for getting my content in front of folx yet keeping it easy to update with my favorite note-taking app - for FREE!  Using [GitHub Pages](https://pages.github.com/), you get free hosting, version control, and automatic SSL security.  
 
 What follows is the successful part of my journey (so that you can use it on your own Journals as well.)
-
 ## Step 1
 I created a public [GitHub](https://github.com/) project and added a LICENSE, README.md, .gitignore, etc.   Also created a `publish` folder in it. Then cloned it to my local system. Yes, I live on Linux systems but this whole process works on Windows and Mac just as easily.
 ## Step 2
