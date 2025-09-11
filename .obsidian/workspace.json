@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Testing/Dataview Tasks.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Dataview Tasks"
             }
           }
         ]
@@ -194,9 +194,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Glossary/LLM.md",
-    "publish/index.md",
+    "publish/Testing/Dataview Latest.md",
+    "publish/Testing/Dataview Tasks.md",
     "_templates/Project.md",
+    "publish/Testing/_design.md",
+    "publish/index.md",
+    "publish/Glossary/LLM.md",
     "Tasks.md",
     "README.md",
     "index.md",
@@ -219,9 +222,6 @@
     "publish/Tools/index.md",
     "publish/Tools/WorkAdventure.md",
     "publish/Tools/Wordpress.md",
-    "publish/Tools/Wireguard.md",
-    "publish/Tools/Vaultwarden.md",
-    "publish/Tools/Technitium.md",
     "publish/Tools",
     "publish/Testing",
     "publish/Lab/Systems",
