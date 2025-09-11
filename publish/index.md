@@ -24,6 +24,6 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 ### Contact
 Most of us can generally be found on the [Cascade Steam Discord](http://hub.cascadesteam.org/) or at any of the [Cascade STEAM](https://www.meetup.com/cascadesteam/) meetups.
 ## Current Projects
-I am now self hosting my own Obsidian Sync service and loving it. I am writing some notes that are not quite finished - [[CouchDB|obsidian-sync]] is easy to setup.
+I am now self hosting my own Obsidian Sync service and loving it. I am writing some notes about it that are not quite finished on my self-hosted [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain.
 
-Throughout my pages, you may see task boxes. This is how I leave notes to myself for things that still need polishing or completing. This journal is a living document that changes daily and is in constant edit-mode. 
+Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a living document that changes daily and is in constant edit-mode. 
