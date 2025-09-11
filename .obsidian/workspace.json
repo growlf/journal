@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/GitHub-Quartz-Obsidian.md",
+                "file": "publish/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub-Quartz-Obsidian"
+              "title": "index"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/index.md",
     "publish/Tools/Obsidian.md",
     "publish/Testing/Dataview.md",
@@ -222,7 +223,6 @@
     "publish/Community/BLUG/July 16th.md",
     "publish/Community/BLUG/Untitled.base",
     "publish/Testing",
-    "README.md",
     "publish/_assets/banner.svg",
     "SystemSculpt/Extractions",
     "SystemSculpt/Attachments",

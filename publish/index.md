@@ -2,7 +2,7 @@
 tags:
   - about
 ---
-![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it.  
+![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that Obsidian helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
 ## Who am I?
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I started with technology early in life and never slowed down or stopped. I am an avid supporter of all things fun+community+educational.
 
