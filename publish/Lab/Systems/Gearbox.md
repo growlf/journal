@@ -15,6 +15,4 @@ This thing may not have touchscreen or an AI friendly GPU/CPU, but!!! ***I can f
 - [Framework](https://frame.work/)
 ### TODO
 - [ ] Reinstall Ubuntu 24.04 LTS
-- [ ] "move in" all personal settings from backups
-
-- [ ] Show Ricky how to generate tasks
+	- [ ] "move in" all personal settings from backups

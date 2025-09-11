@@ -22,7 +22,7 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 - [Sam](https://github.com/orgs/RoboRuckus/people/ShVerni) - The dude is on fire! While not a journaler per-se, he is a prolific open-source contributor and peer that actively (and constantly) mentors and shares. Check out his [RoboRuckus](https://www.roboruckus.com/) and [Fabrica-IO](https://github.com/FabricaIO/FabricaIO-App/wiki/App-Usage) projects. His coding may "merely be a hobby" for *him*, but the ideas and info are well constructed and implemented at an exemplary level.
 - [Lance](https://lanceleonard.com/) - One of my oldest friends and fellow technology buffs.
 ### Contact
-Most of us can generally be found on the [Cascade Steam Discord](http://hub.cascadesteam.org/) or at any of the[Cascade STEAM](https://) meetups.
+Most of us can generally be found on the [Cascade Steam Discord](http://hub.cascadesteam.org/) or at any of the [Cascade STEAM](https://www.meetup.com/cascadesteam/) meetups.
 ## Current Projects
 I am now self hosting my own Obsidian Sync service and loving it. I am writing some notes that are not quite finished - [[CouchDB|obsidian-sync]] is easy to setup.
 

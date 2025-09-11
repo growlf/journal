@@ -17,6 +17,6 @@ It ***is not*** a replacement for humans, and does not yet create anything on it
 ### Tools
 - [General Resources](https://github.com/underlines/awesome-ml/blob/master/llm-tools.md)
 ### Todo
-- [ ] Add links and resources for  🔽 
-- [ ] Write LLM examples and demos with some charts and graphics🔽 
-- [ ] Show LLM remoting with Frank of tunnel🔽 
+- [ ] Add links and resources for Ollama and others 🔽 
+	- [ ] Write LLM examples and demos with some charts and graphics🔽 
+	- [ ] Show LLM remoting with Frank of tunnel🔽 

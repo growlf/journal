@@ -12,7 +12,6 @@
   "vector-search",
   "ollama",
   "dataview-publisher",
-  "obsidian-kanban",
   "obsidian-livesync",
   "3d-graph-new",
   "avatar",
@@ -26,5 +25,6 @@
   "spreadsheets",
   "obsidian-style-settings",
   "tag-word-cloud",
-  "tag-wrangler"
+  "tag-wrangler",
+  "card-board"
 ]

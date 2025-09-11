@@ -61,7 +61,7 @@ We will want the following information ready:
 - Using NGiNX Proxy Manager with a Domain and SSL
 	1) Firewall access
 - Using Tailscale for direct access
-- [ ] Add screenshots, links, and details for firewall and tailscale ⏫ 
+- [ ] Add screenshots, links, and details for firewall and Tailscale ⏫ 
 ### Step  6 - Connect and Sync
 1) Install the [plugin](https://github.com/vrtmrz/obsidian-livesync), configure, connect
 - [ ] Add screenshots, links, and details
