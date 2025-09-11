@@ -4,8 +4,8 @@ tags:
   - deployment
   - lab
   - networking
-Creation date: <% tp.file.creation_date() %>
-modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+Creation date: 2025-09-11 00:43
+modification date: Thursday 11th September 2025 00:43:04
 Documentation: 
 aliases:
 ---
