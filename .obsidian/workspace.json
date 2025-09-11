@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "publish/index.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
