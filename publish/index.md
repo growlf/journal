@@ -4,8 +4,7 @@ tags:
 Creation date: Monday April 4th 2022 11:18:30
 ---
 ---
-![[banner.svg]]
-My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it.  
+![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it.  
 ## Who am I?
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I started with technology early in life and never slowed down or stopped. I am an avid supporter of all things fun+community+educational.
 
@@ -26,4 +25,4 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 - [Lance](https://lanceleonard.com/) - One of my oldest friends and fellow technology buffs.
 Most of us can generally be found on the [Cascade Steam Discord](http://hub.cascadesteam.org/), if you want to meet and chat with us.
 ## Current Projects
-I am now self hosting my own Obsidian Sync service and loving it. I am writing some notes that are not quite finished - [[CouchDB|obsidian-sync]] it is easy to setup.
+I am now self hosting my own Obsidian Sync service and loving it. I am writing some notes that are not quite finished - [[CouchDB|obsidian-sync]] is easy to setup.

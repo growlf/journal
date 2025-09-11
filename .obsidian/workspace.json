@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "publish/index.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,9 +194,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "publish/_assets/banner.md",
+    "publish/index.md",
+    "_assets/_assets.md",
     "publish/Tools/CouchDB.md",
     "publish/Tricks/Examples/CouchDB Deployment Files.md",
-    "publish/index.md",
     "publish/Tricks/Smoother Updates.md",
     "publish/Community/index.md",
     "publish/Community/BMS.md",
@@ -220,8 +222,6 @@
     "SystemSculpt/SystemSculpt.md",
     "publish/_assets/obsidian-directory-layout.md",
     "publish/_assets/banner.svg",
-    "publish/_assets/banner.md",
-    "_assets/_assets.md",
     "SystemSculpt/Extractions",
     "SystemSculpt/Attachments",
     "SystemSculpt/System Prompts",
