@@ -2,10 +2,7 @@
 tags:
   - community
   - about
-Creation date: 2025-08-18 00:57
-Documentation: 
 aliases:
----
 ---
 # Communities
 

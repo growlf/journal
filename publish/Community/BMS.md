@@ -2,8 +2,7 @@
 tags:
   - about
   - community
-Creation date: 2025-08-15 13:41
-Documentation:
+documentation: https://bellinghammakerspace.org
 aliases:
   - BMS
 ---

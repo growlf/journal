@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tools/CouchDB.md",
+                "file": "publish/Tricks/Examples/CouchDB Deployment Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CouchDB"
+              "title": "CouchDB Deployment Files"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "couch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Tools/CouchDB.md",
+                "file": "publish/Tricks/Examples/CouchDB deployment file.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CouchDB"
+              "title": "Outline of CouchDB deployment file"
             }
           },
           {
@@ -192,10 +192,19 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "decf93f5a07f4130",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Tools/Vaultwarden.md",
+    "publish/index.md",
+    "publish/Tricks/Examples/CouchDB Deployment Files.md",
+    "publish/Tricks/Smoother Updates.md",
+    "publish/Community/index.md",
+    "publish/Community/BMS.md",
+    "publish/Community/BLUG/BLUG.md",
+    "_templates/Base.md",
+    "publish/Tricks/Examples/Examples.md",
+    "publish/Tricks/Examples",
     "publish/Tools/CouchDB.md",
+    "publish/Tools/Vaultwarden.md",
     "publish/Tools/Docker.md",
     "publish/Tools/LXC.md",
     "publish/Tools/Proxmox.md",
@@ -205,11 +214,8 @@
     "publish/Tools/Portainer.md",
     "publish/Community/BLUG/July 16th.md",
     "publish/Community/BLUG/Untitled.base",
-    "publish/index.md",
     "Testing/Untitled.md",
     "Testing",
-    "publish/Community/BLUG/BLUG.md",
-    "publish/Community/BMS.md",
     "README.md",
     "SystemSculpt/SystemSculpt.md",
     "publish/_assets/obsidian-directory-layout.md",
@@ -223,13 +229,7 @@
     "SystemSculpt/Saved Chats",
     "SystemSculpt/Chats",
     "SystemSculpt",
-    "_assets/_icons/",
     "daily/Untitled.md",
-    "Work/Untitled.md",
-    "Work/Demo Obsidian Kanban.md",
-    "_templates/Recent Activity.md",
-    "_templates/Project.md",
-    "_templates/Base.md",
-    "daily/2025-08-20.md"
+    "Work/Untitled.md"
   ]
 }

@@ -2,7 +2,6 @@
 tags:
   - about
   - community
-Creation date: 2025-08-17 16:18
 aliases:
   - BLUG
 ---

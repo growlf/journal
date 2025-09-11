@@ -47,12 +47,12 @@ We will want the following information ready:
 2) **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[VaultWarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.  If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
 3) Next -
 	- Using Portainer
-		1) create deployment file from example (add note for swarm deployment vs standalone)
+		1) create [[CouchDB Deployment Files]] from example (add note for swarm deployment vs standalone)
 		2) add environment values that set credentials etc
 		3) deploy
 	- Using LXC
-		1) use script
-		2) answer prompts
+		1) use this [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=apache-couchdb) in the console of one of your proxmox nodes.
+		2) answer the prompts
 ### Step 4 - Management Interface
 1) connect to it with the admin credentials establish previously above.
 ### Step 5 - Configure Access
