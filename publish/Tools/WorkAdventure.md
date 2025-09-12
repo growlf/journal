@@ -10,8 +10,6 @@ A social space done in a pixel-game-like web space where proximity determines so
 
 Open source!  Find it on [Github](https://github.com/workadventure/workadventure)  Also allows for [custom maps](https://github.com/workadventure/map-starter-kit) and full API support.
 
-Just sent a message off to WorAdventure asking about the admin panel service.  I'll update as soon as I get a response.
-
 ---
 My current notes, links and workflow:
 - [How-to vid](https://www.youtube.com/watch?v=Yx6xSptPA5U&t=1878s)
@@ -20,7 +18,3 @@ My current notes, links and workflow:
 - [Map-editor howto](https://www.youtube.com/watch?v=ZwaomOYGuYo)
 - [Members](https://docs.workadventu.re/admin/members)
 This can easily solve several hybrid meeting issues for community groups.
-### Links:
-- https://docs.workadventu.re/map-building/tiled-editor/publish/github-pages
-- https://github.com/SUASecLab/workadventure-admin
-- https://github.com/BellinghamMakerspace/workadventure_map

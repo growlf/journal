@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
-                "mode": "preview",
+                "file": "publish/Tools/index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,7 +194,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Testing/Testing.base",
     "publish/index.md",
+    "Testing/Untitled.md",
+    "Testing",
     "daily/Untitled.md",
     "publish/Gizmos/index.md",
     "publish/_assets/_icons/_icons.md",
@@ -226,11 +229,7 @@
     "Tasks.md",
     "publish/Tools/LXC.md",
     "publish/Testing/_design.md",
-    "index.md",
-    "publish/Tricks/Examples/Examples.md",
     "publish/Tricks/Examples",
-    "publish/Tricks",
-    "publish/Tools",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/lIBRARY.svg",
