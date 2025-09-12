@@ -11,13 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "publish/Tools/index.md",
-                "mode": "source",
-                "source": false
+                "file": "publish/Testing/index.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-table",
               "title": "index"
             }
           }
@@ -192,8 +191,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "15beb380bfe369ed",
   "lastOpenFiles": [
+    "publish/Testing/Dataview Latest.md",
+    "publish/Testing/index.base",
+    "publish/Testing/_design.md",
+    "publish/Tools/index.md",
     "Testing/Testing.base",
     "publish/index.md",
     "Testing/Untitled.md",
@@ -222,14 +225,10 @@
     "publish/Tools/CouchDB.md",
     "publish/Glossary/LLM.md",
     "publish/Lab/Systems/Gearbox.md",
-    "publish/Testing/Dataview Latest.md",
     "publish/Testing/Dataview Tasks.md",
     "daily/2025-08-17.md",
     "publish/Testing/Untitled Kanban.md",
     "Tasks.md",
-    "publish/Tools/LXC.md",
-    "publish/Testing/_design.md",
-    "publish/Tricks/Examples",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/lIBRARY.svg",
