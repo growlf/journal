@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/_assets/_icons/_icons.md",
-                "mode": "source",
+                "file": "publish/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_icons"
+              "title": "index"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,14 +194,18 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/index.md",
+    "daily/Untitled.md",
+    "publish/Gizmos/index.md",
     "publish/_assets/_icons/_icons.md",
+    "publish/index.md",
+    "publish/_assets/_icons/font-awesome-regular.zip",
+    "publish/_assets/_icons/font-awesome-brands.zip",
+    "Discord/Logs/20250912_071109.md",
+    "Discord/Logs/20250912_064640.md",
+    "Discord/Clippings/Clippings.md",
     "publish/_assets/_icons/",
     "publish/_assets/_icons",
     "Discord/Logs/Logs.md",
-    "Discord/Clippings/Clippings.md",
-    "Discord/Logs/20250912_064640.md",
-    "Discord/Logs/20250912_071109.md",
     "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/Tools/Obsidian.md",
     "publish/_assets/obsidian-directory-layout.md",
@@ -225,13 +228,9 @@
     "publish/Testing/_design.md",
     "index.md",
     "publish/Tricks/Examples/Examples.md",
-    "publish/Tricks/Examples/CouchDB Deployment Files.md",
-    "publish/Tricks/ZFS Backup.md",
     "publish/Tricks/Examples",
     "publish/Tricks",
     "publish/Tools",
-    "publish/Testing",
-    "publish/Lab/Systems",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/lIBRARY.svg",

@@ -1,14 +1,11 @@
 ---
 tags:
   - technology
-Creation date: 
 aliases:
   - toys
   - gadgets
   - gizmos
 ---
----
-
 ### Resources
 - [Seeed Studio](https://www.seeedstudio.com/)
 - [M5-Stack](https://m5stack.com/)

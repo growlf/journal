@@ -4,7 +4,6 @@ Creation date:
 Documentation:
 aliases:
 ---
----
 Process
 - Communication plan - include people
 	- TASK: we need a consistent list of members and stats (perms, access, etc)

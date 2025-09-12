@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiFileDown",
-      "LiStar",
-      "LiClipboardList",
-      "LiNetwork",
-      "LiBookA"
+      "LiExcalidrawIcon",
+      "LiWand",
+      "🛠",
+      "LiBan",
+      "LiTestTubeDiagonal"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,15 @@
   "Networks": "LiNetwork",
   "Devices": "LiServer",
   "Discord": "LiMessageSquare",
-  "Slurped Pages": "LiFileDown"
+  "Slurped Pages": "LiFileDown",
+  "daily": "LiCalendarDays",
+  "publish": "LiArrowBigUpDash",
+  "publish/Community": "LiUsers",
+  "publish/Gizmos": "LiAtom",
+  "publish/Glossary": "LiBookOpen",
+  "publish/Lab": "LiTestTubeDiagonal",
+  "publish/Testing": "LiBan",
+  "publish/Tools": "🛠",
+  "publish/Tricks": "LiWand",
+  "Excalidraw": "LiExcalidrawIcon"
 }
