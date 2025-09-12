@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "47623dd0e81c951a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd8a3149b33bfa8",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tools/Obsidian.md",
+                "file": "publish/_assets/_icons/_icons.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "_icons"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Tools/Obsidian.md",
+                "file": "Discord/Logs/Logs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian"
+              "title": "Outline of Logs"
             }
           },
           {
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +183,6 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-livesync:Show Log": false,
       "obsidian-livesync:Replicate": false,
       "obsidian-livesync:P2P Replicator": false,
@@ -193,18 +193,24 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "1fd8a3149b33bfa8",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "publish/index.md",
-    "publish/_assets/obsidian-directory-layout.md",
+    "publish/_assets/_icons/_icons.md",
+    "publish/_assets/_icons/",
+    "publish/_assets/_icons",
+    "Discord/Logs/Logs.md",
+    "Discord/Clippings/Clippings.md",
+    "Discord/Logs/20250912_064640.md",
+    "Discord/Logs/20250912_071109.md",
+    "publish/Tricks/GitHub-Quartz-Obsidian.md",
     "publish/Tools/Obsidian.md",
+    "publish/_assets/obsidian-directory-layout.md",
     "publish/_assets/obsidian-directory-layout.svg",
     "README.md",
-    "Discord/Discord Logs/Discord Logs.md",
-    "Discord/Discord Clippings/Discord Clippings.md",
     "Discord/Discord.md",
-    "Discord/Discord Clippings",
-    "Discord/Discord Logs",
+    "Discord/Clippings",
+    "Discord/Logs",
     "Discord",
     "_templates/Project.md",
     "publish/Tools/CouchDB.md",
@@ -221,16 +227,11 @@
     "publish/Tricks/Examples/Examples.md",
     "publish/Tricks/Examples/CouchDB Deployment Files.md",
     "publish/Tricks/ZFS Backup.md",
-    "publish/Tricks/Wireguard Search Domain.md",
-    "publish/Tricks/Split DNS.md",
-    "publish/Tricks/Smoother Updates.md",
     "publish/Tricks/Examples",
     "publish/Tricks",
     "publish/Tools",
     "publish/Testing",
     "publish/Lab/Systems",
-    "publish/Lab",
-    "publish/Glossary",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/lIBRARY.svg",

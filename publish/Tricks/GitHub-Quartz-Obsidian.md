@@ -23,8 +23,8 @@ On the `deploy` task in GitHub's `Actions`, it will also tell you where it got p
 ## Notes
 - You can deploy your page to a custom domain as well (i.e. `journal.yeticraft.net` instead of the default that it shows up as).  Follow the docs on GitHub for that.
 - If you want to customize your theme, look at my [quartz](https://github.com/growlf/journal/tree/main/.github/quartz) folder for a rough example, or look at the links below here.
-### Hiding `./publish/_assets` in Side-Menu
-I wanted to be able to continue dynamic editing => publishing my Excalidraw images without manually dragging them down from the non-publish folder. The solution was to move my assets folder into the publish folder and then filter it out of the menu by editing the relevant line in my `quartz_layout.ts` file from
+### Hiding the `./publish/_assets` Folder
+I wanted to be able to continue dynamic editing => publishing my Excalidraw images without manually dragging them down from the non-publish folder. The solution was to move my assets folder into the publish folder and then filter it out of the side menu by editing the relevant line in my `quartz_layout.ts` file from
 ```typescript
     Component.DesktopOnly(Component.Explorer(),
 ```

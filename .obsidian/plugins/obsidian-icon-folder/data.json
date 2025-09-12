@@ -1,7 +1,7 @@
 {
   "settings": {
     "migrated": 6,
-    "iconPacksPath": "_assets/_icons",
+    "iconPacksPath": "publish/_assets/_icons",
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
