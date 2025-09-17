@@ -11,13 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "publish/Testing/index.base",
-                "viewName": "Table"
+                "file": "publish/Testing/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "index"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -191,14 +192,21 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "15beb380bfe369ed",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Testing/Dataview Latest.md",
-    "publish/Testing/index.base",
+    "publish/Testing/header.md",
+    "publish/Testing/Untitled.md",
+    "publish/Testing/footer.md",
     "publish/Testing/_design.md",
-    "publish/Tools/index.md",
-    "Testing/Testing.base",
+    "publish/Testing/Dataview Latest.md",
+    "publish/Tricks/ZFS Backup.md",
     "publish/index.md",
+    "daily/ZFS Backups.md",
+    "publish/Tricks/Examples/Examples.md",
+    "publish/Tricks/Examples/CouchDB Deployment Files.md",
+    "Testing/Testing.base",
+    "publish/Testing/index.base",
+    "publish/Tools/index.md",
     "Testing/Untitled.md",
     "Testing",
     "daily/Untitled.md",
@@ -223,12 +231,6 @@
     "Discord",
     "_templates/Project.md",
     "publish/Tools/CouchDB.md",
-    "publish/Glossary/LLM.md",
-    "publish/Lab/Systems/Gearbox.md",
-    "publish/Testing/Dataview Tasks.md",
-    "daily/2025-08-17.md",
-    "publish/Testing/Untitled Kanban.md",
-    "Tasks.md",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/zfs_dir.png",
     "publish/_assets/lIBRARY.svg",
