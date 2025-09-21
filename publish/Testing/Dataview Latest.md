@@ -15,17 +15,17 @@ LIMIT 10
 ```
 %%
 
-| File                                                                              | Action   | Date                          |
-| --------------------------------------------------------------------------------- | -------- | ----------------------------- |
-| [[publish/Testing/Dataview Tasks.md\|Dataview Tasks]]                             | modified | 12:13 PM - September 11, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]]                                | modified | 12:05 PM - September 11, 2025 |
-| [[publish/Testing/Dataview Latest.md\|Dataview Latest]]                           | modified | 12:05 PM - September 11, 2025 |
-| [[publish/Testing/Dataview Tasks.md\|Dataview Tasks]]                             | created  | 11:44 AM - September 11, 2025 |
-| [[publish/index.md\|index]]                                                       | modified | 11:43 AM - September 11, 2025 |
-| [[publish/Glossary/LLM.md\|LLM]]                                                  | modified | 11:32 AM - September 11, 2025 |
-| [[Tasks.md\|Tasks]]                                                               | modified | 10:52 AM - September 11, 2025 |
-| [[Tasks.md\|Tasks]]                                                               | created  | 10:52 AM - September 11, 2025 |
-| [[publish/Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] | modified | 12:43 AM - September 11, 2025 |
-| [[publish/Tricks/Examples/Examples.md\|Examples]]                                 | modified | 12:43 AM - September 11, 2025 |
+| File                                         | Action   | Date                          |
+| -------------------------------------------- | -------- | ----------------------------- |
+| [[publish/index.md\|index]]                  | modified | 1:21 AM - September 21, 2025  |
+| [[publish/_assets/banner.md\|banner]]        | modified | 1:15 AM - September 21, 2025  |
+| [[daily/2025-09-17.md\|2025-09-17]]          | modified | 12:32 AM - September 19, 2025 |
+| [[daily/2025-09-17.md\|2025-09-17]]          | created  | 6:38 PM - September 17, 2025  |
+| [[publish/Tricks/ZFS Backup.md\|ZFS Backup]] | modified | 3:41 PM - September 17, 2025  |
+| [[publish/Testing/header.md\|header]]        | modified | 12:22 PM - September 17, 2025 |
+| [[publish/Testing/header.md\|header]]        | created  | 12:22 PM - September 17, 2025 |
+| [[publish/Testing/footer.md\|footer]]        | modified | 12:21 PM - September 17, 2025 |
+| [[publish/Testing/footer.md\|footer]]        | created  | 12:19 PM - September 17, 2025 |
+| [[daily/ZFS Backups.md\|ZFS Backups]]        | modified | 10:01 PM - September 16, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

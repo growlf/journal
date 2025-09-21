@@ -38,4 +38,11 @@ WHERE contains(file.folder, "publish")
 SORT file.mtime DESC
 ```
 %%
+
+- [[publish/index.md|index]]
+- [[publish/_assets/banner.md|banner]]
+- [[publish/Tricks/ZFS Backup.md|ZFS Backup]]
+- [[publish/Testing/header.md|header]]
+- [[publish/Testing/footer.md|footer]]
+
 %% DATAVIEW_PUBLISHER: end %%

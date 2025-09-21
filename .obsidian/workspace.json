@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Tricks/ZFS Backup.md",
-                "mode": "source",
+                "file": "publish/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ZFS Backup"
+              "title": "index"
             }
           }
         ]
@@ -195,9 +195,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "publish/Tricks/ZFS Backup.md",
     "daily/ZFS Backups.md",
     "publish/index.md",
-    "publish/Tricks/ZFS Backup.md",
     "publish/_assets/banner.svg",
     "publish/Testing/Untitled.md",
     "publish/_assets/banner.md",
