@@ -193,8 +193,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "15beb380bfe369ed",
+  "active": "decf93f5a07f4130",
   "lastOpenFiles": [
+    "publish/Testing/footer.md",
     "publish/index.md",
     "publish/Tricks/ZFS Backup.md",
     "daily/ZFS Backups.md",
@@ -219,7 +220,6 @@
     "publish/Glossary/ZFS.md",
     "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/Examples/Examples.md",
-    "publish/Testing/footer.md",
     "publish/Testing/header.md",
     "daily/index.md",
     "publish/Testing/_design.md",
