@@ -191,8 +191,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "15beb380bfe369ed",
+  "active": "decf93f5a07f4130",
   "lastOpenFiles": [
+    "publish/Testing/Untitled.md",
     "publish/_assets/banner.svg",
     "publish/_assets/banner.md",
     "Excalidraw/speachbubble.svg",
@@ -217,7 +218,6 @@
     "daily/ZFS Backups.md",
     "publish/Testing/footer.md",
     "publish/Testing/header.md",
-    "publish/Testing/Untitled.md",
     "publish/Tricks/ZFS Backup.md",
     "daily/index.md",
     "publish/Testing/_design.md",
