@@ -27,3 +27,15 @@ Most of us can generally be found on the [Cascade Steam Discord](http://hub.casc
 I am now self hosting my own Obsidian Sync service and loving it. I am writing some notes about it that are not quite finished on my self-hosted [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain.
 
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a living document that changes daily and is in constant edit-mode. 
+
+## Recent Edits
+
+%% DATAVIEW_PUBLISHER: start
+```dataview
+LIST
+WHERE file.mtime >= date(today) - dur(7 days)
+WHERE contains(file.folder, "publish")
+SORT file.mtime DESC
+```
+%%
+%% DATAVIEW_PUBLISHER: end %%

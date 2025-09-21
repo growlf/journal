@@ -11,12 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "publish/_assets/banner.svg"
+                "file": "publish/Tricks/ZFS Backup.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "banner"
+              "icon": "lucide-file",
+              "title": "ZFS Backup"
             }
           }
         ]
@@ -191,14 +193,16 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "decf93f5a07f4130",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Testing/Untitled.md",
+    "daily/ZFS Backups.md",
+    "publish/index.md",
+    "publish/Tricks/ZFS Backup.md",
     "publish/_assets/banner.svg",
+    "publish/Testing/Untitled.md",
     "publish/_assets/banner.md",
     "Excalidraw/speachbubble.svg",
     "Excalidraw/Drawing 2025-08-17 22.25.54.md",
-    "publish/index.md",
     "daily/2025-09-17.md",
     "publish/Lab/Systems/Arc.md",
     "publish/_assets/zfs_dir.png",
@@ -215,10 +219,8 @@
     "publish/Glossary/ZFS.md",
     "publish/Tricks/Docker on LXC.md",
     "publish/Tricks/Examples/Examples.md",
-    "daily/ZFS Backups.md",
     "publish/Testing/footer.md",
     "publish/Testing/header.md",
-    "publish/Tricks/ZFS Backup.md",
     "daily/index.md",
     "publish/Testing/_design.md",
     "publish/Testing/Dataview Latest.md",
