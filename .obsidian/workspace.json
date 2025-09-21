@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "publish/Tricks/ZFS Backup.md",
-                "mode": "preview",
-                "source": false
+                "file": "publish/_assets/banner.svg"
               },
-              "icon": "lucide-file",
-              "title": "ZFS Backup"
+              "icon": "lucide-image",
+              "title": "banner"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discord/Logs/Logs.md",
+                "file": "publish/Tricks/ZFS Backup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Logs"
+              "title": "Outline of ZFS Backup"
             }
           },
           {
@@ -189,56 +187,57 @@
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "spreadsheets:New Spreadsheet": false,
       "obsidian-livesync:Show Customization sync": false,
+      "callout-manager:Insert Callout": false,
       "card-board:CardBoard": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "publish/_assets/banner.md",
+    "Excalidraw/speachbubble.svg",
+    "Excalidraw/Drawing 2025-08-17 22.25.54.md",
+    "publish/index.md",
+    "daily/2025-09-17.md",
+    "publish/Lab/Systems/Arc.md",
+    "publish/_assets/zfs_dir.png",
+    "publish/_assets/lIBRARY.md",
+    "Excalidraw/Drawing 2025-08-17 22.25.54.svg",
+    "README.md",
+    "publish/Tools/WorkAdventure.md",
+    "publish/Tricks/GitHub-Quartz-Obsidian.md",
+    "Discord/Logs/20250912_064640.md",
+    "Discord/Logs/20250912_071109.md",
+    "publish/_assets/_icons/_icons.md",
+    "publish/Gizmos/index.md",
+    "daily/Untitled.md",
+    "publish/Glossary/ZFS.md",
+    "publish/Tricks/Docker on LXC.md",
+    "publish/Tricks/Examples/Examples.md",
+    "daily/ZFS Backups.md",
+    "publish/Testing/footer.md",
     "publish/Testing/header.md",
     "publish/Testing/Untitled.md",
-    "publish/Testing/footer.md",
+    "publish/Tricks/ZFS Backup.md",
+    "daily/index.md",
     "publish/Testing/_design.md",
     "publish/Testing/Dataview Latest.md",
-    "publish/Tricks/ZFS Backup.md",
-    "publish/index.md",
-    "daily/ZFS Backups.md",
-    "publish/Tricks/Examples/Examples.md",
     "publish/Tricks/Examples/CouchDB Deployment Files.md",
     "Testing/Testing.base",
     "publish/Testing/index.base",
-    "publish/Tools/index.md",
-    "Testing/Untitled.md",
     "Testing",
-    "daily/Untitled.md",
-    "publish/Gizmos/index.md",
-    "publish/_assets/_icons/_icons.md",
     "publish/_assets/_icons/font-awesome-regular.zip",
     "publish/_assets/_icons/font-awesome-brands.zip",
-    "Discord/Logs/20250912_071109.md",
-    "Discord/Logs/20250912_064640.md",
-    "Discord/Clippings/Clippings.md",
     "publish/_assets/_icons/",
     "publish/_assets/_icons",
-    "Discord/Logs/Logs.md",
-    "publish/Tricks/GitHub-Quartz-Obsidian.md",
-    "publish/Tools/Obsidian.md",
-    "publish/_assets/obsidian-directory-layout.md",
     "publish/_assets/obsidian-directory-layout.svg",
-    "README.md",
-    "Discord/Discord.md",
     "Discord/Clippings",
     "Discord/Logs",
     "Discord",
-    "_templates/Project.md",
-    "publish/Tools/CouchDB.md",
     "publish/_assets/zfs_mp.png",
-    "publish/_assets/zfs_dir.png",
     "publish/_assets/lIBRARY.svg",
     "publish/_assets/banner.svg",
     "publish/_assets/WebFlow_light.svg",
     "publish/_assets/WebFlow.svg",
-    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.svg",
-    "Excalidraw/Scripts/Downloaded/Convert text to link with folder and alias.svg",
-    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg"
+    "Excalidraw/Scripts/Downloaded/Copy Selected Element Styles to Global.svg"
   ]
 }
