@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "publish/index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -193,10 +193,10 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "decf93f5a07f4130",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Testing/footer.md",
     "publish/index.md",
+    "publish/Testing/footer.md",
     "publish/Tricks/ZFS Backup.md",
     "daily/ZFS Backups.md",
     "publish/_assets/banner.svg",
