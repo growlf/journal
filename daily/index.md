@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: Daily (ish) Notes
 tags: 
 Creation date: 2025-08-18 00:18
 Documentation: 
