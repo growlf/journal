@@ -8,40 +8,26 @@ aliases:
 # Status
 
 ### Recent Changes / Additions
-
 %% DATAVIEW_PUBLISHER: start
 ```dataview
-TABLE change[0] as "Action", change[1] as "Date"
-FLATTEN list( list("modified", file.mtime), list("created", file.ctime)) as change
-SORT change[1] DESC
+TABLE 
+  file.mtime AS "Updated", 
+  file.ctime AS "Created"
+WHERE file.cday >= date(today) - dur(7 days)
+  OR file.mday >= date(today) - dur(7 days)
+WHERE contains(file.folder, this.file.folder)
+SORT file.mtime DESC
 LIMIT 20
 ```
 %%
 
-| File                                               | Action   | Date                       |
-| -------------------------------------------------- | -------- | -------------------------- |
-| [[daily/index.md\|index]]                          | modified | 3:34 PM - October 09, 2025 |
-| [[Gizmos/index.md\|index]]                         | modified | 3:30 PM - October 09, 2025 |
-| [[Knowledge Base/index.md\|index]]                 | modified | 3:30 PM - October 09, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]] | modified | 3:30 PM - October 09, 2025 |
-| [[Testing/Dataview Latest.md\|Dataview Latest]]    | modified | 3:30 PM - October 09, 2025 |
-| [[Lab/Systems/index.md\|index]]                    | modified | 3:30 PM - October 09, 2025 |
-| [[Tools/Grafana.md\|Grafana]]                      | modified | 3:29 PM - October 09, 2025 |
-| [[Tricks/Examples/index.md\|index]]                | modified | 3:28 PM - October 09, 2025 |
-| [[Lab/Systems/index.md\|index]]                    | created  | 3:28 PM - October 09, 2025 |
-| [[Testing/index.md\|index]]                        | modified | 3:28 PM - October 09, 2025 |
-| [[Tools/index.md\|index]]                          | modified | 3:27 PM - October 09, 2025 |
-| [[Tricks/index.md\|index]]                         | modified | 3:27 PM - October 09, 2025 |
-| [[Lab/index.md\|index]]                            | modified | 3:26 PM - October 09, 2025 |
-| [[_templates/Folder.md\|Folder]]                   | modified | 3:26 PM - October 09, 2025 |
-| [[Excalidraw/index.md\|index]]                     | modified | 3:26 PM - October 09, 2025 |
-| [[Lab/index.md\|index]]                            | created  | 3:24 PM - October 09, 2025 |
-| [[Testing/Properties Test.md\|Properties Test]]    | modified | 3:20 PM - October 09, 2025 |
-| [[Testing/Properties Test.md\|Properties Test]]    | created  | 3:09 PM - October 09, 2025 |
-| [[Discord/Logs/index.md\|index]]                   | modified | 2:57 PM - October 09, 2025 |
-| [[Discord/Clippings/index.md\|index]]              | modified | 2:57 PM - October 09, 2025 |
+| File                                | Updated                    | Created                       |
+| ----------------------------------- | -------------------------- | ----------------------------- |
+| [[daily/index.md\|index]]           | 4:09 PM - October 09, 2025 | 3:51 PM - August 30, 2025     |
+| [[daily/2025-08-17.md\|2025-08-17]] | 2:30 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
+
 ### ToDo
 My task list accumulated from my pages and notes:
 ```tasks

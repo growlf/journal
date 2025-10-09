@@ -11,9 +11,19 @@ GROUP BY lastPart as Folder
 SORT lastPart
 ```
 %%
+%% DATAVIEW_PUBLISHER: end %%
 
-| Folder     | Documents                                                                                                                                                    |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| _templates | [[_templates/Base.md\|Base]] \| [[_templates/Folder.md\|Folder]] \| [[_templates/Project.md\|Project]] \| [[_templates/Recent Activity.md\|Recent Activity]] |
-
+### Recent Changes / Additions
+%% DATAVIEW_PUBLISHER: start
+```dataview
+TABLE 
+  file.ctime AS "Created", 
+  file.mtime AS "Updated"
+WHERE file.cday >= date(today) - dur(7 days)
+  OR file.mday >= date(today) - dur(7 days)
+WHERE contains(file.folder, this.file.folder)
+SORT file.mtime DESC
+LIMIT 20
+```
+%%
 %% DATAVIEW_PUBLISHER: end %%
