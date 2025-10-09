@@ -6,3 +6,4 @@ WHERE contains(file.folder, this.file.folder)
 GROUP BY lastPart as Folder
 SORT lastPart
 ```
+

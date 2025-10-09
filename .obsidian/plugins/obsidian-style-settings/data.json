@@ -1,1 +1,21 @@
-{"obsidian-prism-theme@@color-schemes-dt":"pt-color-scheme-indigo-dt","obsidian-prism-theme@@color-scheme-style-dt":"pt-color-scheme-style-two-tone-and-border-dt","obsidian-prism-theme@@dark-accent-color-preset":"pt-accent-color-orange-dt","obsidian-prism-theme@@highlight-text-accent-custom-dt":"#AECAFF","obsidian-prism-theme@@pt-icons-accent":false,"obsidian-prism-theme@@pt-fade-inactive-tabs":true,"aura@@cpt-accent":"var(--cpt-yellow)","aura@@aura-colorshemes-dark":"aura-colorschemes-dark-origin","aura@@aura-neon-headings":true,"obsidian-prism-theme@@pt-custom-vault-banner":true,"obsidian-prism-theme@@graph-line-color-dt":"var(--background-primary-alt)","obsidian-prism-theme@@inline-title-size":2.7,"obsidian-prism-theme@@text-italic-color-dt":"var(--color-purple-text)","obsidian-prism-theme@@text-bold-color-dt":"var(--color-blue-text)","obsidian-prism-theme@@text-italic-bold-color-dt":"var(--color-cyan-text)"}
+{
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-indigo-dt",
+  "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-two-tone-and-border-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-orange-dt",
+  "obsidian-prism-theme@@highlight-text-accent-custom-dt": "#AECAFF",
+  "obsidian-prism-theme@@pt-icons-accent": false,
+  "obsidian-prism-theme@@pt-fade-inactive-tabs": true,
+  "aura@@cpt-accent": "var(--cpt-yellow)",
+  "aura@@aura-colorshemes-dark": "aura-colorschemes-dark-origin",
+  "aura@@aura-neon-headings": true,
+  "obsidian-prism-theme@@pt-custom-vault-banner": true,
+  "obsidian-prism-theme@@graph-line-color-dt": "var(--background-primary-alt)",
+  "obsidian-prism-theme@@inline-title-size": 2.7,
+  "obsidian-prism-theme@@text-italic-color-dt": "var(--color-purple-text)",
+  "obsidian-prism-theme@@text-bold-color-dt": "var(--color-blue-text)",
+  "obsidian-prism-theme@@text-italic-bold-color-dt": "var(--color-cyan-text)",
+  "primary-theme@@ribbon-background@@light": "#66805EA8",
+  "primary-theme@@ribbon-background@@dark": "#C1FE9966",
+  "primary-theme@@ribbon-border-color@@light": "#00000080",
+  "primary-theme@@ribbon-border-color@@dark": "#000000B0"
+}
