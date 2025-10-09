@@ -32,4 +32,11 @@ SORT file.mtime DESC
 LIMIT 20
 ```
 %%
+
+| File                                                         | Created                       | Updated                    |
+| ------------------------------------------------------------ | ----------------------------- | -------------------------- |
+| [[Tricks/index.md\|index]]                                   | 1:17 PM - October 09, 2025    | 4:14 PM - October 09, 2025 |
+| [[Tricks/Examples/index.md\|index]]                          | 1:22 PM - October 09, 2025    | 3:28 PM - October 09, 2025 |
+| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]] | 12:43 AM - September 11, 2025 | 2:30 PM - October 09, 2025 |
+
 %% DATAVIEW_PUBLISHER: end %%

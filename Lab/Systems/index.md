@@ -31,4 +31,9 @@ SORT file.mtime DESC
 LIMIT 20
 ```
 %%
+
+| File                            | Created                    | Updated                    |
+| ------------------------------- | -------------------------- | -------------------------- |
+| [[Lab/Systems/index.md\|index]] | 3:28 PM - October 09, 2025 | 4:13 PM - October 09, 2025 |
+
 %% DATAVIEW_PUBLISHER: end %%

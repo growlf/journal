@@ -11,6 +11,11 @@ GROUP BY lastPart as Folder
 SORT lastPart
 ```
 %%
+
+| Folder     | Documents                                                                                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| _templates | [[_templates/Base.md\|Base]] \| [[_templates/Folder.md\|Folder]] \| [[_templates/Project.md\|Project]] \| [[_templates/Recent Activity.md\|Recent Activity]] |
+
 %% DATAVIEW_PUBLISHER: end %%
 
 ### Recent Changes / Additions
@@ -26,4 +31,12 @@ SORT file.mtime DESC
 LIMIT 20
 ```
 %%
+
+| File                                               | Created                       | Updated                    |
+| -------------------------------------------------- | ----------------------------- | -------------------------- |
+| [[_templates/Folder.md\|Folder]]                   | 1:12 PM - October 09, 2025    | 4:10 PM - October 09, 2025 |
+| [[_templates/Recent Activity.md\|Recent Activity]] | 12:43 AM - September 11, 2025 | 4:09 PM - October 09, 2025 |
+| [[_templates/Project.md\|Project]]                 | 12:43 AM - September 11, 2025 | 2:44 PM - October 09, 2025 |
+| [[_templates/Base.md\|Base]]                       | 12:43 AM - September 11, 2025 | 2:44 PM - October 09, 2025 |
+
 %% DATAVIEW_PUBLISHER: end %%
