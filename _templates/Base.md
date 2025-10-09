@@ -1,12 +1,10 @@
 ---
 tags: 
-Creation date: <% tp.file.creation_date() %>
+creation date: <% tp.file.creation_date() %>
 Documentation: 
 aliases:
 ---
----
-# Description
+## Description
 
 ### Links
-- ...
-### TODO
+

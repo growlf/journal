@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/index.md",
+                "file": "_templates/Project.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Project"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Tools/HomeAssistant.md",
+    "_templates/Base.md",
+    "_templates/Folder.md",
     "Tools/index.md",
+    "Tools/HomeAssistant.md",
     "Testing/_design.md",
     "index.md",
     "README.md",
@@ -220,8 +222,6 @@
     "Discord/Logs/index.md",
     "Discord/Clippings/index.md",
     "Discord/index.md",
-    "daily/index.md",
-    "_templates/Folder.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "_assets/banner.svg",

@@ -4,4 +4,4 @@ tags:
 ## Description
 
 ## Tasks
-- [ ] .
+- [ ] ...
