@@ -11,4 +11,9 @@ GROUP BY lastPart as Folder
 SORT lastPart
 ```
 %%
+
+| Folder   | Documents                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------- |
+| Examples | [[Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] \| [[Tricks/Examples/index.md\|index]] |
+
 %% DATAVIEW_PUBLISHER: end %%
