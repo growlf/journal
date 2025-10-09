@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Tools/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -195,15 +195,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Testing/_design.md",
+    "index.md",
     "README.md",
     "Testing/index.md",
-    "Testing/_design.md",
     "Testing/Dataview Latest.md",
     "Tools/index.md",
     "Tricks/Examples/index.md",
     "Tricks/index.md",
     "Communities.md",
-    "index.md",
     "Glossary/index.md",
     "Lab/index.md",
     "Glossary/DNS.md",
