@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: Tools
 ---
 Contents:
 %% DATAVIEW_PUBLISHER: start

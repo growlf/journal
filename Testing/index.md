@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: Testing
 ---
 > [!WARNING] Warning!!
 > There might be dragons in these here experiments...

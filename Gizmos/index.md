@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: Gismos
 tags:
   - technology
 aliases:
@@ -7,7 +7,7 @@ aliases:
   - gadgets
   - gizmos
 ---
-### Resources
+## Resources
 - [Seeed Studio](https://www.seeedstudio.com/)
 - [M5-Stack](https://m5stack.com/)
 - [Adafruit](https://www.adafruit.com/) - [on github](https://github.com/adafruit)
@@ -16,9 +16,9 @@ aliases:
 - [WaveShare](https://www.waveshare.com/)
 - [PiShop](https://www.pishop.us/)
 - [Meshtastic Map](https://meshtastic.pugetmesh.org/?lat=48.85861640881589&lng=237.38365173339847&zoom=11)
-### Communication
+## Communication
 - [T-Deck Plus](https://lilygo.cc/products/t-deck-plus-meshtastic?_pos=2&_sid=971c3a5f9&_ss=r)
 	- [Puget Mesh](https://pugetmesh.org/meshtastic/)
 	- [Meshtastic](https://meshtastic.org/docs/software/meshtastic-ui/#supported-devices)
-### ToDo
+## ToDo
 - [ ] Fill out more data on each resource in Gizmos and some of the specific devices I have used / am using and for what.
