@@ -1,3 +1,6 @@
+---
+title: Examples
+---
 Contents:
 ```dataview 
 TABLE join(sort(rows.file.link), " | ") as Documents

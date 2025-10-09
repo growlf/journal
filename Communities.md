@@ -4,7 +4,6 @@ tags:
   - about
 aliases:
 ---
-# Communities
 Local communities that I frequent and support:
 - [Bellingham Makerspace](https://bellinghammakerspace.org/)
 - [BTC Raspberry Pi Club](https://www.raspberrypiclub.org)

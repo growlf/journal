@@ -43,12 +43,11 @@
   "Discord": "LiMessageSquare",
   "Slurped Pages": "LiFileDown",
   "daily": "LiCalendarDays",
-  "publish": "LiArrowBigUpDash",
-  "publish/Gizmos": "LiAtom",
-  "publish/Glossary": "LiBookOpen",
-  "publish/Lab": "LiTestTubeDiagonal",
-  "publish/Testing": "LiBan",
-  "publish/Tools": "🛠",
-  "publish/Tricks": "LiWand",
-  "Excalidraw": "LiExcalidrawIcon"
+  "Excalidraw": "LiExcalidrawIcon",
+  "Tricks": "LiWand",
+  "Tools": "🛠",
+  "Testing": "LiBan",
+  "Lab": "LiTestTubeDiagonal",
+  "Glossary": "LiBookOpen",
+  "Gizmos": "LiAtom"
 }

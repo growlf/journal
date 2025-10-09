@@ -19,7 +19,7 @@ NOTE: None of these demonstration links to anything in the `yeticraft.net` domai
 This one is fairly lengthy, so get a cup of tea, have a sit on the comfy chair and take your time reading through this.
 
 ### Grafana
-I started with installing Grafana as a standalone [[publish/Glossary/LXC]] on my [[Proxmox]] server using a [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana). It looks like it is running fine at http://grafana.yeticraft.net:3000/. Nothing there though.  I need some data first.
+I started with installing Grafana as a standalone [[Glossary/LXC]] on my [[Proxmox]] server using a [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana). It looks like it is running fine at http://grafana.yeticraft.net:3000/. Nothing there though.  I need some data first.
 ### Prometheus
 I then installed [Prometheus](https://community-scripts.github.io/ProxmoxVE/scripts?id=prometheus) the same way. I logged into the resultant LXC and edited the `/etc/prometheus/prometheus.yml` file as [described](https://prometheus.io/docs/prometheus/latest/getting_started/), to monitor itself. It was mostly already there though - just minor additions. I then configured a connection to it in Grafana by going to `connections` in Grafana and configuring the connection for it from the rather large list of options. 
 

@@ -144,7 +144,7 @@ sudo apt install /tmp/Modrinth\ App_0.10.3_amd64.deb -y
 sudo apt install /tmp/warp-terminal_0.2025.07.30.08.12.stable.02_amd64.deb -y
 sudo apt install /tmp/zoom_amd64.deb -y
 ```
-- Install [[TailScale]]
+- Install [[Tailscale]]
 ```bash
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list

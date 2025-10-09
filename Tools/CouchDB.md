@@ -36,7 +36,7 @@ An alternative is to use a hosting provider such as AWS, Google, or MS Azure whe
 ### Step 2 - Choose a Deployment Strategy
 There are several ways to deploy our solution:
 - [[Docker]]
-- [[LXC]]
+- [[Tools/LXC]]
 - Virtual Machine
 - Kubernetes
 - Dedicated system (Raspberry Pi?)
@@ -44,7 +44,7 @@ I will be focusing on the Docker and LXC options because [[Proxmox]] and [[Porta
 ### Step 3 - Configure and Deploy
 We will want the following information ready:
 1) **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
-2) **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[VaultWarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.  If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
+2) **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[Vaultwarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy.  If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
 3) Next -
 	- If you are using Portainer:
 		1) create [[CouchDB Deployment Files]] from example (add note for swarm deployment vs standalone)
