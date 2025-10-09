@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Tricks/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -195,13 +195,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "publish/Communities.md",
+    "publish/index.md",
     "publish/Glossary/index.md",
     "publish/Tools/index.md",
     "publish/Testing/index.md",
     "publish/Lab/index.md",
     "publish/Glossary/DNS.md",
     "publish/Gizmos/index.md",
-    "publish/Communities.md",
     "daily/July 16th BLUG Meetup.md",
     "publish/Community/BLUG/index.md",
     "publish/Community/BMS.md",
@@ -209,7 +210,6 @@
     "publish/Lab/Systems/index.md",
     "publish/Tricks/index.md",
     "publish/Tricks/Examples/index.md",
-    "publish/index.md",
     "Excalidraw/Scripts/Downloaded/index.md",
     "Excalidraw/Scripts/index.md",
     "Excalidraw/index.md",
