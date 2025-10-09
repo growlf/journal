@@ -15,7 +15,7 @@ aliases:
 The basics of our lab.  Start with 1 and finish with 10.  Doing them in order kinda helps.
 1) [[Hardware]] - Router, server hardware, storage hardware, WiFi, etc
 2) [[Domain]] - registrar, etc
-3) [[Proxmox]] - This will be the home of "all the things"
+3) [[Proxmox]] - This will be the home of "all the things" virtual
 4) [[Apt Cacher NG]] - Speed up deployments and reduce bandwidth to the internet
 5) [[Technitium]] - Internal DNS
 6) [[Vaultwarden]] - Secrets management

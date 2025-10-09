@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/index.md",
+                "file": "publish/Lab/The Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "The Stack"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/Untitled.md",
+                "file": "publish/Lab/The Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for The Stack"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "publish/Tricks/ZFS Backup.md",
+                "file": "publish/Testing/_design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ZFS Backup"
+              "title": "Outline of _design"
             }
           },
           {
@@ -170,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "3d-graph-new:Global 3D Graph": false,
       "graph:Open graph view": false,
@@ -185,7 +186,6 @@
       "obsidian-livesync:Show Log": false,
       "obsidian-livesync:Replicate": false,
       "obsidian-livesync:P2P Replicator": false,
-      "homepage:Open homepage": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "spreadsheets:New Spreadsheet": false,
       "obsidian-livesync:Show Customization sync": false,
@@ -193,37 +193,40 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "decf93f5a07f4130",
   "lastOpenFiles": [
+    "publish/Glossary/Hardware.md",
+    "publish/Lab/The Stack.md",
     "publish/index.md",
+    "publish/Testing/_design.md",
+    "publish/Testing/header.md",
     "publish/Testing/footer.md",
+    "README.md",
+    "publish/Glossary/DNS.md",
+    "copilot/copilot.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "publish/Tricks/ZFS Backup.md",
     "daily/ZFS Backups.md",
     "publish/_assets/banner.svg",
     "publish/Testing/Untitled.md",
     "publish/_assets/banner.md",
     "Excalidraw/speachbubble.svg",
-    "Excalidraw/Drawing 2025-08-17 22.25.54.md",
-    "daily/2025-09-17.md",
-    "publish/Lab/Systems/Arc.md",
     "publish/_assets/zfs_dir.png",
-    "publish/_assets/lIBRARY.md",
     "Excalidraw/Drawing 2025-08-17 22.25.54.svg",
-    "README.md",
-    "publish/Tools/WorkAdventure.md",
-    "publish/Tricks/GitHub-Quartz-Obsidian.md",
-    "Discord/Logs/20250912_064640.md",
-    "Discord/Logs/20250912_071109.md",
-    "publish/_assets/_icons/_icons.md",
-    "publish/Gizmos/index.md",
-    "daily/Untitled.md",
-    "publish/Glossary/ZFS.md",
-    "publish/Tricks/Docker on LXC.md",
-    "publish/Tricks/Examples/Examples.md",
-    "publish/Testing/header.md",
-    "daily/index.md",
-    "publish/Testing/_design.md",
-    "publish/Testing/Dataview Latest.md",
     "Testing/Testing.base",
     "publish/Testing/index.base",
     "Testing",
@@ -233,8 +236,6 @@
     "publish/_assets/_icons",
     "publish/_assets/obsidian-directory-layout.svg",
     "Discord/Clippings",
-    "Discord/Logs",
-    "Discord",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/lIBRARY.svg",
     "publish/_assets/WebFlow_light.svg",
