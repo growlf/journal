@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: <% tp.file.folder(true) %>
 ---
 Contents:
 %% DATAVIEW_PUBLISHER: start

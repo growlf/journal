@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: Lab
 ---
 Contents:
 %% DATAVIEW_PUBLISHER: start
