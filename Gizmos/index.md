@@ -1,4 +1,5 @@
 ---
+title: {{this.folder.name}}
 tags:
   - technology
 aliases:

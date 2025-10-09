@@ -1,4 +1,5 @@
 ---
+title: {{this.folder.name}}
 tags: 
 Creation date: 2025-08-18 00:18
 Documentation: 
