@@ -1,9 +1,9 @@
 {
-  "syncFolderName": true,
+  "syncFolderName": false,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": true,
-  "templatePath": "_assets/_templates/Folder.md",
+  "templatePath": "_templates/Folder.md",
   "autoCreate": true,
   "autoCreateFocusFiles": true,
   "autoCreateForAttachmentFolder": false,
@@ -18,9 +18,9 @@
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": false,
   "focusExistingTab": false,
-  "oldFolderNoteName": "{{folder_name}}",
-  "folderNoteName": "{{folder_name}}",
-  "folderNoteType": ".ask",
+  "oldFolderNoteName": "index",
+  "folderNoteName": "index",
+  "folderNoteType": ".md",
   "disableFolderHighlighting": false,
   "newFolderNoteName": "{{folder_name}}",
   "storageLocation": "insideFolder",
@@ -62,7 +62,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "path",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas",

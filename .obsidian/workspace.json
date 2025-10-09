@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "publish/Lab/The Stack.md",
-                "mode": "source",
+                "file": "publish/Tools/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Stack"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "publish/Lab/The Stack.md",
+                "file": "publish/Tools/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Stack"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -193,37 +193,38 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "decf93f5a07f4130",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "publish/Glossary/Hardware.md",
-    "publish/Lab/The Stack.md",
-    "publish/index.md",
-    "publish/Testing/_design.md",
-    "publish/Testing/header.md",
-    "publish/Testing/footer.md",
-    "README.md",
+    "publish/Testing/index.md",
+    "publish/Lab/index.md",
     "publish/Glossary/DNS.md",
-    "copilot/copilot.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "publish/Glossary/index.md",
+    "publish/Gizmos/index.md",
+    "publish/Communities.md",
+    "daily/July 16th BLUG Meetup.md",
+    "publish/Community/BLUG/index.md",
+    "publish/Community/BMS.md",
+    "publish/Community/BLUG/Untitled.base",
+    "publish/Lab/Systems/index.md",
+    "publish/Tools/index.md",
+    "publish/Tricks/index.md",
+    "publish/Tricks/Examples/index.md",
+    "publish/index.md",
+    "Excalidraw/Scripts/Downloaded/index.md",
+    "Excalidraw/Scripts/index.md",
+    "Excalidraw/index.md",
+    "Discord/Logs/index.md",
+    "Discord/Clippings/index.md",
+    "Discord/index.md",
+    "daily/index.md",
+    "_templates/Folder.md",
+    "_templates/Recent Activity.md",
+    "copilot/index.md",
+    "publish/_assets/index.md",
+    "copilot/copilot-custom-prompts/index.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "publish/Tricks/ZFS Backup.md",
-    "daily/ZFS Backups.md",
     "publish/_assets/banner.svg",
-    "publish/Testing/Untitled.md",
-    "publish/_assets/banner.md",
     "Excalidraw/speachbubble.svg",
     "publish/_assets/zfs_dir.png",
     "Excalidraw/Drawing 2025-08-17 22.25.54.svg",
@@ -235,7 +236,6 @@
     "publish/_assets/_icons/",
     "publish/_assets/_icons",
     "publish/_assets/obsidian-directory-layout.svg",
-    "Discord/Clippings",
     "publish/_assets/zfs_mp.png",
     "publish/_assets/lIBRARY.svg",
     "publish/_assets/WebFlow_light.svg",
