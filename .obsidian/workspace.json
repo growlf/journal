@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/Project.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project"
+              "title": "index"
             }
           }
         ]
@@ -195,22 +195,26 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "_templates/Base.md",
-    "_templates/Folder.md",
-    "Tools/index.md",
-    "Tools/HomeAssistant.md",
-    "Testing/_design.md",
-    "index.md",
     "README.md",
-    "Testing/index.md",
-    "Testing/Dataview Latest.md",
+    "index.md",
+    "Communities.md",
     "Tricks/Examples/index.md",
     "Tricks/index.md",
-    "Communities.md",
-    "Glossary/index.md",
+    "Tools/index.md",
+    "Testing/index.md",
     "Lab/index.md",
-    "Glossary/DNS.md",
+    "Glossary/index.md",
     "Gizmos/index.md",
+    "Excalidraw/index.md",
+    "Discord/index.md",
+    "daily/index.md",
+    "_templates/Folder.md",
+    "_templates/Project.md",
+    "_templates/Base.md",
+    "Tools/HomeAssistant.md",
+    "Testing/_design.md",
+    "Testing/Dataview Latest.md",
+    "Glossary/DNS.md",
     "daily/July 16th BLUG Meetup.md",
     "publish/Community/BLUG/index.md",
     "publish/Community/BMS.md",
@@ -218,10 +222,6 @@
     "Lab/Systems/index.md",
     "Excalidraw/Scripts/Downloaded/index.md",
     "Excalidraw/Scripts/index.md",
-    "Excalidraw/index.md",
-    "Discord/Logs/index.md",
-    "Discord/Clippings/index.md",
-    "Discord/index.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "_assets/banner.svg",
