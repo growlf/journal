@@ -15,7 +15,7 @@ on:
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
     paths:
-      - publish/**
+      - '**'
   pull_request:
     branches: [ "main" ]
   release:
@@ -49,10 +49,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        #with:
-        #  sparse-checkout: |
-        #    publish
-        #    .github
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -60,8 +56,6 @@ jobs:
       - name: Build
         uses: konstfish/quartz-build-action@v6
         with:
-          # specify source folder
-          #source: publish
           source: .
           # page title to be displayed in the browser
           page_title: "Journal of The NetYeti"
@@ -74,7 +68,6 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
 
   # Deploy the built site to GitHub Pages
   deploy:
