@@ -27,9 +27,9 @@ LIMIT 20
 | [[Testing/footer.md\|footer]]                                | 12:19 AM - October 09, 2025 | 12:19 AM - October 09, 2025   |
 | [[Testing/header.md\|header]]                                | 12:19 AM - October 09, 2025 | 12:19 AM - October 09, 2025   |
 | [[Lab/The Stack.md\|The Stack]]                              | 1:08 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Excalidraw/Scripts/index.md\|index]]                       | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
+| [[_assets/Excalidraw/Scripts/index\|index]]                       | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
 | [[_assets/index.md\|index]]                                  | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
-| [[Excalidraw/Scripts/Downloaded/index.md\|index]]            | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
+| [[_assets/Excalidraw/Scripts/Downloaded/index\|index]]            | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
 | [[index.md\|index]]                                          | 2:09 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Communities.md\|Communities]]                              | 2:27 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[daily/2025-08-17.md\|2025-08-17]]                          | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
