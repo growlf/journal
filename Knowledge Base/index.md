@@ -34,7 +34,7 @@ LIMIT 20
 
 | File                                     | Created                       | Updated                     |
 | ---------------------------------------- | ----------------------------- | --------------------------- |
-| [[Knowledge Base/index.md\|index]]       | 1:17 PM - October 09, 2025    | 11:53 PM - October 09, 2025 |
+| [[Knowledge Base/index.md\|index]]       | 1:17 PM - October 09, 2025    | 11:57 PM - October 09, 2025 |
 | [[Knowledge Base/Hardware.md\|Hardware]] | 12:43 AM - September 11, 2025 | 2:31 PM - October 09, 2025  |
 
 %% DATAVIEW_PUBLISHER: end %%

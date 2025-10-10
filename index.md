@@ -41,6 +41,8 @@ TABLE
 WHERE file.cday >= date(today) - dur(4 days)
   OR file.mday >= date(today) - dur(4 days)
 WHERE !contains(file.folder, "daily")
+WHERE !contains(file.folder, "_templates")
+WHERE !contains(file.folder, "_assets")
 SORT file.mtime DESC
 LIMIT 70
 ```
@@ -48,34 +50,15 @@ LIMIT 70
 
 | File                                                         | Updated                     | Created                       |
 | ------------------------------------------------------------ | --------------------------- | ----------------------------- |
-| [[index.md\|index]]                                          | 11:56 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]]           | 11:53 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
-| [[_assets/Excalidraw/index.md\|index]]                       | 11:53 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[_templates/Folder.md\|Folder]]                             | 11:53 PM - October 09, 2025 | 1:12 PM - October 09, 2025    |
-| [[Tricks/index.md\|index]]                                   | 11:53 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[Tools/index.md\|index]]                                    | 11:53 PM - October 09, 2025 | 1:22 PM - October 09, 2025    |
-| [[Testing/Dataview Latest.md\|Dataview Latest]]              | 11:53 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
-| [[Testing/index.md\|index]]                                  | 11:53 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[Lab/index.md\|index]]                                      | 11:53 PM - October 09, 2025 | 3:24 PM - October 09, 2025    |
-| [[Lab/Systems/index.md\|index]]                              | 11:53 PM - October 09, 2025 | 3:28 PM - October 09, 2025    |
-| [[Knowledge Base/index.md\|index]]                           | 11:53 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[daily/2025-10-09.md\|2025-10-09]]                          | 11:51 PM - October 09, 2025 | 11:17 PM - October 09, 2025   |
-| [[_templates/dailynote.md\|dailynote]]                       | 11:42 PM - October 09, 2025 | 7:59 PM - October 09, 2025    |
-| [[daily/index.md\|index]]                                    | 11:40 PM - October 09, 2025 | 9:08 PM - October 09, 2025    |
-| [[daily/2025-08-17.md\|2025-08-17]]                          | 11:39 PM - October 09, 2025 | 9:08 PM - October 09, 2025    |
+| [[index.md\|index]]                                          | 12:04 AM - October 10, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tools/index.md\|index]]                                    | 11:57 PM - October 09, 2025 | 1:22 PM - October 09, 2025    |
+| [[Tricks/index.md\|index]]                                   | 11:57 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
+| [[Lab/index.md\|index]]                                      | 11:57 PM - October 09, 2025 | 3:24 PM - October 09, 2025    |
+| [[Testing/Dataview Latest.md\|Dataview Latest]]              | 11:57 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
+| [[Testing/index.md\|index]]                                  | 11:57 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
+| [[Lab/Systems/index.md\|index]]                              | 11:57 PM - October 09, 2025 | 3:28 PM - October 09, 2025    |
+| [[Knowledge Base/index.md\|index]]                           | 11:57 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
 | [[Tools/CouchDB.md\|CouchDB]]                                | 11:34 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
-| [[daily/2025-08-20.md\|2025-08-20]]                          | 11:18 PM - October 09, 2025 | 9:08 PM - October 09, 2025    |
-| [[_templates/Daily2.md\|Daily2]]                             | 11:08 PM - October 09, 2025 | 11:06 PM - October 09, 2025   |
-| [[_templates/Daily.md\|Daily]]                               | 11:03 PM - October 09, 2025 | 11:01 PM - October 09, 2025   |
-| [[daily/2025-07-17.md\|2025-07-17]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-07-18.md\|2025-07-18]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-07-19.md\|2025-07-19]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-07-27.md\|2025-07-27]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-07-28.md\|2025-07-28]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-08-18.md\|2025-08-18]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-09-17.md\|2025-09-17]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/2025-07-22.md\|2025-07-22]]                          | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
-| [[daily/July 16th BLUG Meetup.md\|July 16th BLUG Meetup]]    | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
 | [[Discord/Clippings/index.md\|index]]                        | 4:27 PM - October 09, 2025  | 1:20 PM - October 09, 2025    |
 | [[Gizmos/index.md\|index]]                                   | 3:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Tools/Grafana.md\|Grafana]]                                | 3:29 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
@@ -83,17 +66,12 @@ LIMIT 70
 | [[Testing/Properties Test.md\|Properties Test]]              | 3:20 PM - October 09, 2025  | 3:09 PM - October 09, 2025    |
 | [[Discord/Logs/index.md\|index]]                             | 2:57 PM - October 09, 2025  | 1:21 PM - October 09, 2025    |
 | [[Discord/index.md\|index]]                                  | 2:57 PM - October 09, 2025  | 2:47 PM - September 11, 2025  |
-| [[_templates/Project.md\|Project]]                           | 2:44 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[_templates/Base.md\|Base]]                                 | 2:44 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Tools/HomeAssistant.md\|HomeAssistant]]                    | 2:36 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Knowledge Base/Hardware.md\|Hardware]]                     | 2:31 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]] | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Tools/SyncThing.md\|SyncThing]]                            | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Tools/PVE Monitor-All.md\|PVE Monitor-All]]                | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Communities.md\|Communities]]                              | 2:27 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[_assets/Excalidraw/Scripts/Downloaded/index.md\|index]]    | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
-| [[_assets/index.md\|index]]                                  | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
-| [[_assets/Excalidraw/Scripts/index.md\|index]]               | 1:17 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
 | [[Lab/The Stack.md\|The Stack]]                              | 1:08 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
 | [[Testing/header.md\|header]]                                | 12:19 AM - October 09, 2025 | 12:19 AM - October 09, 2025   |
 | [[Testing/footer.md\|footer]]                                | 12:19 AM - October 09, 2025 | 12:19 AM - October 09, 2025   |
