@@ -27,12 +27,12 @@ In this scenario, you will have an IP address that never changes. If you do not 
 Tools such as [[Tailscale]] can be used to simulate a static IP nicely. 
 > [!WARNING] If you do not own your own Domain, this is the preferred option
 >  If you do not have your own domain to allow SSL encryption and security, this is the recommended option! Warning, however, it is a bit more complex to set up fully and is not quite as easy to collaborate through for additional users. It is still very secureable.
-- [ ] Complete this section or generate a page with further details.
+- [ ] Complete this section or generate a page with further details. 🔽 
 #### Hosted
 An alternative is to use a hosting provider such as AWS, Google, or MS Azure where your instance can be assigned a static public-facing IP address.
 > [!NOTE] Generally Not FREE
 > I feel it is important to point out that hosting is generally not a free option. However it can be very inexpensive depending on the provider that you choose.
-- [ ] Complete this section or generate a page with further details.
+- [ ] Complete this section or generate a page with further details. 🔽 
 ### Step 2 - Choose a Deployment Strategy
 There are several ways to deploy our solution:
 - [[Docker]]
@@ -53,15 +53,15 @@ We will want the following information ready:
 	- Otherwise if you are using LXC on Proxmox:
 		1) use this [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=apache-couchdb) in the console of one of your Proxmox nodes.
 		2) answer the prompts
-- [ ] Fill in details on how to actually deploy for each method ⏫ 
+- [ ] Fill in details on how to actually deploy for each method 
 ### Step 4 - Management Interface
 1) connect to it with the admin credentials establish previously above.
-- [ ] Screenshots and description of connecting to the interface ⏫ 
+- [ ] Screenshots and description of connecting to the interface 
 ### Step 5 - Configure Access
 - Using NGiNX Proxy Manager with a Domain and SSL
 	1) Firewall access
 - Using Tailscale for direct access
-- [ ] Add screenshots, links, and details for firewall and Tailscale ⏫ 
+- [ ] Add screenshots, links, and details for firewall and Tailscale 
 ### Step  6 - Connect and Sync
 1) Install the [plugin](https://github.com/vrtmrz/obsidian-livesync), configure, connect
 - [ ] Add screenshots, links, and details
