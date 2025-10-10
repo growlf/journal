@@ -31,6 +31,9 @@ Throughout my pages, you may see task boxes littered throughout. This is how I l
 
 ## Recent Changes / Additions
 Site-wide listing of all creations and modifications.
+
+
+%% DATAVIEW_PUBLISHER: start
 ```dataview
 TABLE 
   file.mtime AS "Updated", 
@@ -40,3 +43,29 @@ WHERE file.cday >= date(today) - dur(7 days)
 SORT file.mtime DESC
 LIMIT 20
 ```
+%%
+
+| File                                                      | Updated                     | Created                       |
+| --------------------------------------------------------- | --------------------------- | ----------------------------- |
+| [[index.md\|index]]                                       | 11:53 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
+| [[daily/2025-10-09.md\|2025-10-09]]                       | 11:51 PM - October 09, 2025 | 11:17 PM - October 09, 2025   |
+| [[_templates/dailynote.md\|dailynote]]                    | 11:42 PM - October 09, 2025 | 7:59 PM - October 09, 2025    |
+| [[daily/index.md\|index]]                                 | 11:40 PM - October 09, 2025 | 9:08 PM - October 09, 2025    |
+| [[daily/2025-08-17.md\|2025-08-17]]                       | 11:39 PM - October 09, 2025 | 9:08 PM - October 09, 2025    |
+| [[Tools/CouchDB.md\|CouchDB]]                             | 11:34 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
+| [[daily/2025-08-20.md\|2025-08-20]]                       | 11:18 PM - October 09, 2025 | 9:08 PM - October 09, 2025    |
+| [[_templates/Daily2.md\|Daily2]]                          | 11:08 PM - October 09, 2025 | 11:06 PM - October 09, 2025   |
+| [[_templates/Daily.md\|Daily]]                            | 11:03 PM - October 09, 2025 | 11:01 PM - October 09, 2025   |
+| [[daily/2025-07-17.md\|2025-07-17]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-07-18.md\|2025-07-18]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-07-19.md\|2025-07-19]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-07-27.md\|2025-07-27]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-07-28.md\|2025-07-28]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-08-18.md\|2025-08-18]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-09-17.md\|2025-09-17]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/2025-07-22.md\|2025-07-22]]                       | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[daily/July 16th BLUG Meetup.md\|July 16th BLUG Meetup]] | 9:08 PM - October 09, 2025  | 9:08 PM - October 09, 2025    |
+| [[_assets/Excalidraw/index.md\|index]]                    | 4:43 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
+| [[Knowledge Base/index.md\|index]]                        | 4:42 PM - October 09, 2025  | 1:17 PM - October 09, 2025    |
+
+%% DATAVIEW_PUBLISHER: end %%

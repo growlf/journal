@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                               | Action   | Date                       |
-| -------------------------------------------------- | -------- | -------------------------- |
-| [[daily/index.md\|index]]                          | modified | 4:41 PM - October 09, 2025 |
-| [[Discord/Clippings/index.md\|index]]              | modified | 4:27 PM - October 09, 2025 |
-| [[Tricks/index.md\|index]]                         | modified | 4:14 PM - October 09, 2025 |
-| [[Tools/index.md\|index]]                          | modified | 4:14 PM - October 09, 2025 |
-| [[Testing/index.md\|index]]                        | modified | 4:14 PM - October 09, 2025 |
-| [[Lab/Systems/index.md\|index]]                    | modified | 4:13 PM - October 09, 2025 |
-| [[Lab/index.md\|index]]                            | modified | 4:13 PM - October 09, 2025 |
-| [[Knowledge Base/index.md\|index]]                 | modified | 4:13 PM - October 09, 2025 |
-| [[_templates/Folder.md\|Folder]]                   | modified | 4:10 PM - October 09, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]] | modified | 4:09 PM - October 09, 2025 |
+| File                                   | Action   | Date                        |
+| -------------------------------------- | -------- | --------------------------- |
+| [[index.md\|index]]                    | modified | 11:53 PM - October 09, 2025 |
+| [[daily/2025-10-09.md\|2025-10-09]]    | modified | 11:51 PM - October 09, 2025 |
+| [[_templates/dailynote.md\|dailynote]] | modified | 11:42 PM - October 09, 2025 |
+| [[daily/index.md\|index]]              | modified | 11:40 PM - October 09, 2025 |
+| [[daily/2025-08-17.md\|2025-08-17]]    | modified | 11:39 PM - October 09, 2025 |
+| [[Tools/CouchDB.md\|CouchDB]]          | modified | 11:34 PM - October 09, 2025 |
+| [[daily/2025-08-20.md\|2025-08-20]]    | modified | 11:18 PM - October 09, 2025 |
+| [[daily/2025-10-09.md\|2025-10-09]]    | created  | 11:17 PM - October 09, 2025 |
+| [[_templates/Daily2.md\|Daily2]]       | modified | 11:08 PM - October 09, 2025 |
+| [[_templates/Daily2.md\|Daily2]]       | created  | 11:06 PM - October 09, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
 
