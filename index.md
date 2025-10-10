@@ -40,6 +40,7 @@ TABLE
   file.ctime AS "Created"
 WHERE file.cday >= date(today) - dur(4 days)
   OR file.mday >= date(today) - dur(4 days)
+WHERE !contains(file.folder, "daily")
 SORT file.mtime DESC
 LIMIT 70
 ```
