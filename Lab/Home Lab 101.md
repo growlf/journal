@@ -23,7 +23,7 @@ Beyond the obvious cabling and individual system's LAN network interfaces, we wi
 - [[DHCP]] server
 
 > [!NOTE] Residential Internet Customers
-> In most residential environments, you will find most of these in a *single* device that is installed by the [[ISP]]. We eill want to have individual devices/services for each purpose. However, we can create or add these later, as we progress towards our goals.
+> In most residential environments, you will find all of these in a *single* device that is installed by the [[ISP]] (see the relevant diagram below). We will, ultimately, want to have individual devices/services for each purpose. However, we can create or add these later, as we progress towards our goals.
 
 Other hardware that will be needed:
 - One (or more) user stations (i.e. laptops, desktops, etc)
