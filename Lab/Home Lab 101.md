@@ -58,8 +58,7 @@ These are things to be created/made-available as we go, and are not immediately 
 - Internal DNS (split DNS) should be available to the LANs and set as default in the [[[DHCP]] settings to allow easier access to systems that will not be available to the Internet directly (i.e. the many [[DHCP]] addressed systems, which should be in specific zones and not able to conflict with infrastructure)
 ## Lets Get Started
 
-Lets assume that you are using a standard residential [[ISP]] access with the supplied "router" that is an "all in one" device. This is the typical scenario for most beginners. There are some drawbacks to this, but we can augment the basics and overcome the barriers.
- Your network would probably look something like this:
+Lets assume that you are using a standard residential [[ISP]] access with the supplied "router" that is an "all in one" device. This is the typical scenario for most people. There are some drawbacks to this environment, but we can augment the basics and overcome the barriers. Your network might look something like this:
  ![[basic residential network map.svg]]
  What we are going to build, will look more like this:
  ![[basic homelab network map.svg]]
