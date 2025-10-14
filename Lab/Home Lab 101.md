@@ -1,10 +1,9 @@
 ## Who is this for?
 This document is intended as a foundational baseline for most simple network implementations where multiple users, services, and access to/from the internet is expected to exist for business-like purposes.  Static IP is a nice to have, but not a requirement.
 
- This basic design is applicable for "home lab" scenarios and for personal and community learning purposes.  A strong bias towards Opensource software is intended and shown where possible to allow inexpensive professional implementation with personal and non-profit usage.
+ This basic design is applicable for "home lab" scenarios and for personal and community learning purposes.  A strong bias towards Opensource software is intended (and shown where possible) to allow an inexpensive yet professional implementation with personal and non-profit usage.
 ## Why do this
-Having a safe environment to explore and experiment within makes learning much easier, more effective, and considerably more valuable. Having an environment that is also one that you use on a daily basis and actually somewhat rely upon, makes it much more likely that you will notice issues and critical nuances of configuration that can lead to important learning moments that a typical classroom setting just *can not* simulate. 
-
+Having a safe environment to explore and experiment within makes learning much easier, more effective, and considerably more valuable. Having an environment that is also one that you use on a daily basis and actually somewhat rely upon, makes it much more likely that you will notice issues and critical nuances of configuration that can lead to important learning moments that a typical classroom setting just *can not* simulate. Making it inexpensive lowers the barrier to entry and allows a wider base of collaborators and peers to join in the learning.
 
 > [!NOTE] Perfection is NOT always what you think it is
 > Do not go into this project thinking that you are going to create the most perfect network, devices, and lab imaginable. In fact - assume that you are making a "manageable mess" that allows you to learn and explore with safety and near complete abandon.  In other words - have fun with it!
