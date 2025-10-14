@@ -61,3 +61,5 @@ These are things to be created/made-available as we go, and are not immediately 
 Lets assume that you are using a standard residential [[ISP]] access with the supplied "router" that is an "all in one" device. This is the typical scenario for most beginners. There are some drawbacks to this, but we can augment the basics and overcome the barriers.
  Your network would probably look something like this:
  ![[basic residential network map.svg]]
+ What we are going to build, will look more like this:
+ ![[basic homelab network map.svg]]
