@@ -11,7 +11,7 @@ Having a safe environment to explore and experiment within makes learning much e
 ## Overview
 
 ### Step 1 - Document EVERYTHING!!
-We will use Obsidian for this.  You might want to do so as well.  It is a very easy to use note taking application and can be extended to the universe and **beyond!** (We will also cover this application and it's capabilities in more depth in other documents and sessions)
+I will use [[Obsidian]] for this.  You might want to do so as well.  It is a very easy to use note taking application and can be extended to the universe and **beyond!** (We will also cover this application and it's capabilities in more depth in other documents and sessions)
 Why document? Memory is a curious and fickle thing - and collaboration is easier. I recommend looking at my dear friend Vivian's [documentation](https://itsvivianmill.github.io/journal/Instructions/How-to-Create-a-GitHub-Journal-with-Obsidian) on creating an Obsidian managed, Github hosted, free, public journal.
 ### Step 2 - Acquire the Basic Hardware Components
 Beyond the obvious cabling and individual system's LAN network interfaces, we will require the following:

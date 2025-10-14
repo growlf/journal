@@ -4,7 +4,11 @@ tags:
   - obsidian
 Creation date: Monday April 4th 2022 11:18:30
 ---
-# Working with Obsidian
+## What is Obsidian
+First off check out the [Obsidian website](https://obsidian.md/).
+
+In a nutshell, Obsidian is a personal knowledge management and note-taking application that uses plain Markdown (.md) files stored locally on your device. Its key features include a powerful linking system to connect notes, a customizable interface, and a focus on user ownership and data control, allowing you to build a "second brain".  It can be extended to do many additional things using a large ecosphere of plugins and services (most are free)
+## Working with Obsidian
 
 My current layout is fairly simple.  I have a vault with the following directory structure (the relevant parts at least):
 ![[obsidian-directory-layout.svg]]
@@ -18,3 +22,7 @@ I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a p
 - [Time date Format](https://momentjs.com/docs/#/displaying/format/)
 - [Organizing Notes](https://papierlos-studieren.net/en/2021/04/04/organize-notes-in-obsidian-my-workflow/)
 - [[GitHub-Quartz-Obsidian]]
+
+-----
+## Tasks:
+- [ ] Update obsidian layout to reflect most recent move to remove the publish folder and implement dataview-publisher
