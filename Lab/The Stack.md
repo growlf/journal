@@ -11,7 +11,9 @@ aliases:
 ---
 ---
 
-## 1) Infrastructure tools:
+## 1) Initial documentation tools
+Obsidian is free and super extendable - with collaberation
+## 2) Infrastructure tools:
 The basics of our lab.  Start with 1 and finish with 10.  Doing them in order kinda helps.
 1) [[Hardware]] - Router, server hardware, storage hardware, WiFi, etc
 2) [[Domain]] - registrar, etc

@@ -12,10 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder  | Documents                                                                                                                                                                                                                                                                                          |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lab     | [[Lab/Cloud Init.md\|Cloud Init]] \| [[Lab/index.md\|index]] \| [[Lab/The Stack.md\|The Stack]]                                                                                                                                                                                                    |
-| Systems | [[Lab/Systems/Arc.md\|Arc]] \| [[Lab/Systems/Frank.md\|Frank]] \| [[Lab/Systems/Gearbox.md\|Gearbox]] \| [[Lab/Systems/index.md\|index]] \| [[Lab/Systems/Intercepter.md\|Intercepter]] \| [[Lab/Systems/Nexus.md\|Nexus]] \| [[Lab/Systems/Sliver.md\|Sliver]] \| [[Lab/Systems/Sylph.md\|Sylph]] |
+| Folder | Documents                                                                                           |
+| ------ | --------------------------------------------------------------------------------------------------- |
+| Lab    | [[Lab/Home Lab 101.md\|Home Lab 101]] \| [[Lab/index.md\|index]] \| [[Lab/The Stack.md\|The Stack]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -33,10 +32,10 @@ LIMIT 20
 ```
 %%
 
-| File                            | Created                       | Updated                     |
-| ------------------------------- | ----------------------------- | --------------------------- |
-| [[Lab/index.md\|index]]         | 3:24 PM - October 09, 2025    | 11:57 PM - October 09, 2025 |
-| [[Lab/Systems/index.md\|index]] | 3:28 PM - October 09, 2025    | 11:57 PM - October 09, 2025 |
-| [[Lab/The Stack.md\|The Stack]] | 12:43 AM - September 11, 2025 | 1:08 PM - October 09, 2025  |
+| File                                  | Created                       | Updated                    |
+| ------------------------------------- | ----------------------------- | -------------------------- |
+| [[Lab/Home Lab 101.md\|Home Lab 101]] | 4:13 PM - October 13, 2025    | 4:48 PM - October 13, 2025 |
+| [[Lab/index.md\|index]]               | 3:24 PM - October 09, 2025    | 4:42 PM - October 13, 2025 |
+| [[Lab/The Stack.md\|The Stack]]       | 12:43 AM - September 11, 2025 | 3:55 PM - October 13, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

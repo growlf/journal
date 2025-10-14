@@ -34,8 +34,8 @@ LIMIT 20
 
 | File                                               | Created                       | Updated                     |
 | -------------------------------------------------- | ----------------------------- | --------------------------- |
-| [[_templates/Recent Activity.md\|Recent Activity]] | 12:43 AM - September 11, 2025 | 11:57 PM - October 09, 2025 |
-| [[_templates/Folder.md\|Folder]]                   | 1:12 PM - October 09, 2025    | 11:57 PM - October 09, 2025 |
+| [[_templates/Folder.md\|Folder]]                   | 1:12 PM - October 09, 2025    | 12:04 AM - October 10, 2025 |
+| [[_templates/Recent Activity.md\|Recent Activity]] | 12:43 AM - September 11, 2025 | 12:04 AM - October 10, 2025 |
 | [[_templates/dailynote.md\|dailynote]]             | 7:59 PM - October 09, 2025    | 11:42 PM - October 09, 2025 |
 | [[_templates/Daily2.md\|Daily2]]                   | 11:06 PM - October 09, 2025   | 11:08 PM - October 09, 2025 |
 | [[_templates/Daily.md\|Daily]]                     | 11:01 PM - October 09, 2025   | 11:03 PM - October 09, 2025 |

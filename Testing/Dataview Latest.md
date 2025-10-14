@@ -15,17 +15,17 @@ LIMIT 10
 ```
 %%
 
-| File                                               | Action   | Date                        |
-| -------------------------------------------------- | -------- | --------------------------- |
-| [[index.md\|index]]                                | modified | 12:04 AM - October 10, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]] | modified | 11:57 PM - October 09, 2025 |
-| [[Tools/index.md\|index]]                          | modified | 11:57 PM - October 09, 2025 |
-| [[Tricks/index.md\|index]]                         | modified | 11:57 PM - October 09, 2025 |
-| [[_templates/Folder.md\|Folder]]                   | modified | 11:57 PM - October 09, 2025 |
-| [[Lab/index.md\|index]]                            | modified | 11:57 PM - October 09, 2025 |
-| [[Testing/Dataview Latest.md\|Dataview Latest]]    | modified | 11:57 PM - October 09, 2025 |
-| [[Testing/index.md\|index]]                        | modified | 11:57 PM - October 09, 2025 |
-| [[Lab/Systems/index.md\|index]]                    | modified | 11:57 PM - October 09, 2025 |
-| [[Knowledge Base/index.md\|index]]                 | modified | 11:57 PM - October 09, 2025 |
+| File                                  | Action   | Date                        |
+| ------------------------------------- | -------- | --------------------------- |
+| [[daily/2025-08-17.md\|2025-08-17]]   | modified | 12:27 PM - October 14, 2025 |
+| [[daily/2025-08-18.md\|2025-08-18]]   | modified | 12:27 PM - October 14, 2025 |
+| [[daily/2025-10-09.md\|2025-10-09]]   | modified | 12:26 PM - October 14, 2025 |
+| [[daily/2025-10-10.md\|2025-10-10]]   | modified | 12:26 PM - October 14, 2025 |
+| [[daily/2025-10-13.md\|2025-10-13]]   | modified | 12:25 PM - October 14, 2025 |
+| [[daily/2025-10-14.md\|2025-10-14]]   | modified | 12:23 PM - October 14, 2025 |
+| [[daily/2025-10-14.md\|2025-10-14]]   | created  | 12:22 PM - October 14, 2025 |
+| [[Lab/Home Lab 101.md\|Home Lab 101]] | modified | 4:48 PM - October 13, 2025  |
+| [[Lab/index.md\|index]]               | modified | 4:42 PM - October 13, 2025  |
+| [[Lab/Home Lab 101.md\|Home Lab 101]] | created  | 4:13 PM - October 13, 2025  |
 
 %% DATAVIEW_PUBLISHER: end %%

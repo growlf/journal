@@ -48,32 +48,16 @@ LIMIT 70
 ```
 %%
 
-| File                                                         | Updated                     | Created                       |
-| ------------------------------------------------------------ | --------------------------- | ----------------------------- |
-| [[index.md\|index]]                                          | 12:04 AM - October 10, 2025 | 12:43 AM - September 11, 2025 |
-| [[Tools/index.md\|index]]                                    | 11:57 PM - October 09, 2025 | 1:22 PM - October 09, 2025    |
-| [[Tricks/index.md\|index]]                                   | 11:57 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[Lab/index.md\|index]]                                      | 11:57 PM - October 09, 2025 | 3:24 PM - October 09, 2025    |
-| [[Testing/Dataview Latest.md\|Dataview Latest]]              | 11:57 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
-| [[Testing/index.md\|index]]                                  | 11:57 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[Lab/Systems/index.md\|index]]                              | 11:57 PM - October 09, 2025 | 3:28 PM - October 09, 2025    |
-| [[Knowledge Base/index.md\|index]]                           | 11:57 PM - October 09, 2025 | 1:17 PM - October 09, 2025    |
-| [[Tools/CouchDB.md\|CouchDB]]                                | 11:34 PM - October 09, 2025 | 12:43 AM - September 11, 2025 |
-| [[Discord/Clippings/index.md\|index]]                        | 4:27 PM - October 09, 2025  | 1:20 PM - October 09, 2025    |
-| [[Gizmos/index.md\|index]]                                   | 3:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Tools/Grafana.md\|Grafana]]                                | 3:29 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Tricks/Examples/index.md\|index]]                          | 3:28 PM - October 09, 2025  | 1:22 PM - October 09, 2025    |
-| [[Testing/Properties Test.md\|Properties Test]]              | 3:20 PM - October 09, 2025  | 3:09 PM - October 09, 2025    |
-| [[Discord/Logs/index.md\|index]]                             | 2:57 PM - October 09, 2025  | 1:21 PM - October 09, 2025    |
-| [[Discord/index.md\|index]]                                  | 2:57 PM - October 09, 2025  | 2:47 PM - September 11, 2025  |
-| [[Tools/HomeAssistant.md\|HomeAssistant]]                    | 2:36 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/Hardware.md\|Hardware]]                     | 2:31 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]] | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Tools/SyncThing.md\|SyncThing]]                            | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Tools/PVE Monitor-All.md\|PVE Monitor-All]]                | 2:30 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Communities.md\|Communities]]                              | 2:27 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Lab/The Stack.md\|The Stack]]                              | 1:08 PM - October 09, 2025  | 12:43 AM - September 11, 2025 |
-| [[Testing/header.md\|header]]                                | 12:19 AM - October 09, 2025 | 12:19 AM - October 09, 2025   |
-| [[Testing/footer.md\|footer]]                                | 12:19 AM - October 09, 2025 | 12:19 AM - October 09, 2025   |
+| File                                            | Updated                     | Created                       |
+| ----------------------------------------------- | --------------------------- | ----------------------------- |
+| [[Lab/Home Lab 101.md\|Home Lab 101]]           | 4:48 PM - October 13, 2025  | 4:13 PM - October 13, 2025    |
+| [[Lab/index.md\|index]]                         | 4:42 PM - October 13, 2025  | 3:24 PM - October 09, 2025    |
+| [[Lab/The Stack.md\|The Stack]]                 | 3:55 PM - October 13, 2025  | 12:43 AM - September 11, 2025 |
+| [[index.md\|index]]                             | 12:04 AM - October 10, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/index.md\|index]]                      | 12:04 AM - October 10, 2025 | 1:17 PM - October 09, 2025    |
+| [[Testing/index.md\|index]]                     | 12:04 AM - October 10, 2025 | 1:17 PM - October 09, 2025    |
+| [[Tools/index.md\|index]]                       | 12:04 AM - October 10, 2025 | 1:22 PM - October 09, 2025    |
+| [[Testing/Dataview Latest.md\|Dataview Latest]] | 12:04 AM - October 10, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/index.md\|index]]              | 12:04 AM - October 10, 2025 | 1:17 PM - October 09, 2025    |
 
 %% DATAVIEW_PUBLISHER: end %%
