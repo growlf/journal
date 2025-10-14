@@ -2,27 +2,30 @@ This document is intended as a foundational baseline for most simple network imp
 
  This basic design is applicable for "home lab" scenarios and for personal and community learning purposes.  A strong bias towards Opensource software is intended and shown where possible to allow inexpensive professional implementation with personal and non-profit usage.
 ## Why do this
-Having a safe environment to explore and experiment within makes learning much easier, more effective, and considerably more valuable. Having an environment that is also one that you use on a daily basis and actually somewhat rely upon, makes it much more likely that you will notice issues and critical nuances of configuration that can lead to important learning moments that a typical classroom setting just can not simulate. 
+Having a safe environment to explore and experiment within makes learning much easier, more effective, and considerably more valuable. Having an environment that is also one that you use on a daily basis and actually somewhat rely upon, makes it much more likely that you will notice issues and critical nuances of configuration that can lead to important learning moments that a typical classroom setting just *can not* simulate. 
 
 
-> [!NOTE] Perfection is always what you think it is
+> [!NOTE] Perfection is NOT always what you think it is
 > Do not go into this project thinking that you are going to create the most perfect network, devices, and lab imaginable. In fact - assume that you are making a "manageable mess" that allows you to learn and explore with safety and near complete abandon.  In other words - have fun with it!
 
 ## Overview
 
 ### Step 1 - Document EVERYTHING!!
 We will use Obsidian for this.  You might want to do so as well.  It is a very easy to use note taking application and can be extended to the universe and **beyond!** (We will also cover this application and it's capabilities in more depth in other documents and sessions)
-Why document? Memory is a curious and fickle thing - and collaboration is easier. I recommend looking at my dear friend Vivian's [documentation](https://itsvivianmill.github.io/journal/Instructions/How-to-Create-a-GitHub-Journal-with-Obsidian) on creating a Obsidian based journal.
+Why document? Memory is a curious and fickle thing - and collaboration is easier. I recommend looking at my dear friend Vivian's [documentation](https://itsvivianmill.github.io/journal/Instructions/How-to-Create-a-GitHub-Journal-with-Obsidian) on creating an Obsidian managed, Github hosted, free, public journal.
 ### Step 2 - Acquire the Basic Hardware Components
 Beyond the obvious cabling and individual system's LAN network interfaces, we will require the following:
-- A Modem/internet-interface with service to the internet
-- [[Router Template]] 
+- A Modem/internet-interface with service to the internet (aka an [[ISP]])
+- [[Router]] 
 - [[Firewall]] 
-- [[WiFi Template]]
-- [[DNS Template]]
-- [[DHCP Template]]
+- [[WiFi]] Access point
+- [[DNS]] server
+- [[DHCP]] server
 
-In most residential environments, you will find most of these in a *single* device that is installed by the ISP. We want to have individual devices for each purpose.
+
+> [!NOTE] Residential Internet Customers
+> In most residential environments, you will find most of these in a *single* device that is installed by the [[ISP]]. We want to have individual devices for each purpose.
+
 
 Other hardware that will be needed:
 - One (or more) user stations: laptops, desktops, etc
