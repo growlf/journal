@@ -35,12 +35,13 @@ LIMIT 20
 ```
 %%
 
-| File                                            | Created                       | Updated                     |
-| ----------------------------------------------- | ----------------------------- | --------------------------- |
-| [[Testing/index.md\|index]]                     | 1:17 PM - October 09, 2025    | 12:04 AM - October 10, 2025 |
-| [[Testing/Dataview Latest.md\|Dataview Latest]] | 12:43 AM - September 11, 2025 | 12:04 AM - October 10, 2025 |
-| [[Testing/Properties Test.md\|Properties Test]] | 3:09 PM - October 09, 2025    | 3:20 PM - October 09, 2025  |
-| [[Testing/header.md\|header]]                   | 12:19 AM - October 09, 2025   | 12:19 AM - October 09, 2025 |
-| [[Testing/footer.md\|footer]]                   | 12:19 AM - October 09, 2025   | 12:19 AM - October 09, 2025 |
+| File                                            | Created                    | Updated                    |
+| ----------------------------------------------- | -------------------------- | -------------------------- |
+| [[Testing/Properties Test.md\|Properties Test]] | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Testing/_design.md\|_design]]                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Testing/footer.md\|footer]]                   | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Testing/header.md\|header]]                   | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Testing/index.md\|index]]                     | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Testing/Dataview Latest.md\|Dataview Latest]] | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

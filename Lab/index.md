@@ -32,10 +32,10 @@ LIMIT 20
 ```
 %%
 
-| File                                  | Created                       | Updated                    |
-| ------------------------------------- | ----------------------------- | -------------------------- |
-| [[Lab/Home Lab 101.md\|Home Lab 101]] | 4:13 PM - October 13, 2025    | 4:48 PM - October 13, 2025 |
-| [[Lab/index.md\|index]]               | 3:24 PM - October 09, 2025    | 4:42 PM - October 13, 2025 |
-| [[Lab/The Stack.md\|The Stack]]       | 12:43 AM - September 11, 2025 | 3:55 PM - October 13, 2025 |
+| File                                  | Created                    | Updated                    |
+| ------------------------------------- | -------------------------- | -------------------------- |
+| [[Lab/Home Lab 101.md\|Home Lab 101]] | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Lab/The Stack.md\|The Stack]]       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| [[Lab/index.md\|index]]               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
