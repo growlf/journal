@@ -1,5 +1,5 @@
 ---
-title: <% tp.file.folder(true) %>
+title: Testing
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

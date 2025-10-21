@@ -7,7 +7,7 @@ title: Journal of The NetYeti
 ## Who am I?
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I was born with a curious mind and an urge to question everything. Technology was placed in my view early in life and I found it to be the perfect playground to create and explore. I am an avid supporter of all things fun+community+educational.
 
-I write from a standpoint of a technology professional, but also a student - always curious and always learning. I strongly believe in "asking the *stupid* questions" because "if not me, then who will?" There is always someone in the audience that is either too shy or afraid to ask "*that*" question which is deemed "too obvious". Common sense is not so common, and critical thinking requires the fuel of knowledge to have any accuracy or value in the outcomes.
+I write from a standpoint of a technology professional and also a student - always curious and always learning. I strongly believe in "asking the *stupid* questions" because "if not me, then who will?" There is always someone in the audience that is either too shy or afraid to ask "*that*" question which is deemed too obvious (aka - common sense is not so common). Critical thinking requires the fuel of knowledge to have any accuracy or value in  outcomes.
 
 After years of working in the tech industry, I now 
 - instruct at [Bellingham Technical College](https://www.btc.edu/)
