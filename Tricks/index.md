@@ -35,7 +35,7 @@ LIMIT 20
 
 | File                                                                      | Created                    | Updated                       |
 | ------------------------------------------------------------------------- | -------------------------- | ----------------------------- |
-| [[Tricks/index.md\|index]]                                                | 4:19 PM - October 20, 2025 | 8:06 PM - October 20, 2025    |
+| [[Tricks/index.md\|index]]                                                | 4:19 PM - October 20, 2025 | 1:56 PM - October 22, 2025    |
 | [[Tricks/Examples/index.md\|index]]                                       | 4:19 PM - October 20, 2025 | 3:28 PM - October 09, 2025    |
 | [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]              | 4:19 PM - October 20, 2025 | 2:30 PM - October 09, 2025    |
 | [[Tricks/ZFS Backup.md\|ZFS Backup]]                                      | 4:19 PM - October 20, 2025 | 3:41 PM - September 17, 2025  |
