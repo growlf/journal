@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder     | Documents                                                                                                                                                                                                                                                                    |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _templates | [[_templates/Base.md\|Base]] \| [[_templates/Daily.md\|Daily]] \| [[_templates/Daily2.md\|Daily2]] \| [[_templates/dailynote.md\|dailynote]] \| [[_templates/Folder.md\|Folder]] \| [[_templates/Project.md\|Project]] \| [[_templates/Recent Activity.md\|Recent Activity]] |
+| Folder     | Documents                                                                                                                                                              |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _templates | [[_templates/dailynote.md\|dailynote]] \| [[_templates/Folder.md\|Folder]] \| [[_templates/Project.md\|Project]] \| [[_templates/Recent Activity.md\|Recent Activity]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 ### Recent Changes / Additions
@@ -30,4 +30,12 @@ SORT file.mtime DESC
 LIMIT 20
 ```
 %%
+
+| File                                               | Created                    | Updated                    |
+| -------------------------------------------------- | -------------------------- | -------------------------- |
+| [[_templates/Folder.md\|Folder]]                   | 4:19 PM - October 20, 2025 | 1:44 PM - October 21, 2025 |
+| [[_templates/dailynote.md\|dailynote]]             | 4:19 PM - October 20, 2025 | 1:39 PM - October 21, 2025 |
+| [[_templates/Recent Activity.md\|Recent Activity]] | 4:19 PM - October 20, 2025 | 8:06 PM - October 20, 2025 |
+| [[_templates/Project.md\|Project]]                 | 4:19 PM - October 20, 2025 | 2:44 PM - October 09, 2025 |
+
 %% DATAVIEW_PUBLISHER: end %%

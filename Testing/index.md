@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder     | Documents                                                                                                                                                                                                                                                                    |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _templates | [[_templates/Base.md\|Base]] \| [[_templates/Daily.md\|Daily]] \| [[_templates/Daily2.md\|Daily2]] \| [[_templates/dailynote.md\|dailynote]] \| [[_templates/Folder.md\|Folder]] \| [[_templates/Project.md\|Project]] \| [[_templates/Recent Activity.md\|Recent Activity]] |
+| Folder  | Documents                                                      |
+| ------- | -------------------------------------------------------------- |
+| Testing | [[Testing/_design.md\|_design]] \| [[Testing/index.md\|index]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 ### Recent Changes / Additions
@@ -30,4 +30,10 @@ SORT file.mtime DESC
 LIMIT 20
 ```
 %%
+
+| File                            | Created                    | Updated                       |
+| ------------------------------- | -------------------------- | ----------------------------- |
+| [[Testing/index.md\|index]]     | 4:14 PM - October 21, 2025 | 4:14 PM - October 21, 2025    |
+| [[Testing/_design.md\|_design]] | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+
 %% DATAVIEW_PUBLISHER: end %%

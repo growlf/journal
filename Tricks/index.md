@@ -33,22 +33,22 @@ LIMIT 20
 ```
 %%
 
-| File                                                                      | Created                    | Updated                    |
-| ------------------------------------------------------------------------- | -------------------------- | -------------------------- |
-| [[Tricks/Split DNS.md\|Split DNS]]                                        | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]]            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/ZFS Backup.md\|ZFS Backup]]                                      | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/index.md\|index]]                                                | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Examples/index.md\|index]]                                       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Excalidraw Test.md\|Excalidraw Test]]                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/GitHub-Quartz-Obsidian.md\|GitHub-Quartz-Obsidian]]              | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/LXC Desktop.md\|LXC Desktop]]                                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Obsidian Plugins.md\|Obsidian Plugins]]                          | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]              | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Smoother Updates.md\|Smoother Updates]]                          | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/DNS Service Records.md\|DNS Service Records]]                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Docker on LXC.md\|Docker on LXC]]                                | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| File                                                                      | Created                    | Updated                       |
+| ------------------------------------------------------------------------- | -------------------------- | ----------------------------- |
+| [[Tricks/index.md\|index]]                                                | 4:19 PM - October 20, 2025 | 8:06 PM - October 20, 2025    |
+| [[Tricks/Examples/index.md\|index]]                                       | 4:19 PM - October 20, 2025 | 3:28 PM - October 09, 2025    |
+| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]              | 4:19 PM - October 20, 2025 | 2:30 PM - October 09, 2025    |
+| [[Tricks/ZFS Backup.md\|ZFS Backup]]                                      | 4:19 PM - October 20, 2025 | 3:41 PM - September 17, 2025  |
+| [[Tricks/Docker on LXC.md\|Docker on LXC]]                                | 4:19 PM - October 20, 2025 | 1:16 AM - September 12, 2025  |
+| [[Tricks/GitHub-Quartz-Obsidian.md\|GitHub-Quartz-Obsidian]]              | 4:19 PM - October 20, 2025 | 3:09 PM - September 11, 2025  |
+| [[Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]]            | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]                    | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/Smoother Updates.md\|Smoother Updates]]                          | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/Split DNS.md\|Split DNS]]                                        | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/Excalidraw Test.md\|Excalidraw Test]]                            | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/LXC Desktop.md\|LXC Desktop]]                                    | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/Obsidian Plugins.md\|Obsidian Plugins]]                          | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Tricks/DNS Service Records.md\|DNS Service Records]]                    | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

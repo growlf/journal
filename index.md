@@ -30,95 +30,42 @@ I am now self hosting my own Obsidian Sync service and loving it. I am writing s
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
 
 ## Recent Changes / Additions
-Site-wide listing of all creations and modifications.
-
-
+Site-wide listing of last 20 creations and modifications:
 %% DATAVIEW_PUBLISHER: start
 ```dataview
 TABLE 
-  file.mtime AS "Updated", 
-  file.ctime AS "Created"
+  file.mtime AS "Updated"
 WHERE file.cday >= date(today) - dur(4 days)
   OR file.mday >= date(today) - dur(4 days)
 WHERE !contains(file.folder, "daily")
 WHERE !contains(file.folder, "_templates")
 WHERE !contains(file.folder, "_assets")
 SORT file.mtime DESC
-LIMIT 70
+LIMIT 20
 ```
 %%
 
-| File                                                                      | Updated                    | Created                    |
-| ------------------------------------------------------------------------- | -------------------------- | -------------------------- |
-| [[index.md\|index]]                                                       | 8:04 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Split DNS.md\|Split DNS]]                                        | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]]            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/ZFS Backup.md\|ZFS Backup]]                                      | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/index.md\|index]]                                                | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Examples/index.md\|index]]                                       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Excalidraw Test.md\|Excalidraw Test]]                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/GitHub-Quartz-Obsidian.md\|GitHub-Quartz-Obsidian]]              | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/LXC Desktop.md\|LXC Desktop]]                                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Obsidian Plugins.md\|Obsidian Plugins]]                          | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]              | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Smoother Updates.md\|Smoother Updates]]                          | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Wireguard.md\|Wireguard]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Wordpress.md\|Wordpress]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/WorkAdventure.md\|WorkAdventure]]                                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/index.md\|index]]                                                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/DNS Service Records.md\|DNS Service Records]]                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Docker on LXC.md\|Docker on LXC]]                                | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Proxmox Backup Server.md\|Proxmox Backup Server]]                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Proxmox.md\|Proxmox]]                                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Registry.md\|Registry]]                                           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Semaphore.md\|Semaphore]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Shell.md\|Shell]]                                                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/SyncThing.md\|SyncThing]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Tailscale.md\|Tailscale]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Technitium.md\|Technitium]]                                       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Vaultwarden.md\|Vaultwarden]]                                     | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/HomeAssistant.md\|HomeAssistant]]                                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Homepage.md\|Homepage]]                                           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/LXC.md\|LXC]]                                                     | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Nextcloud.md\|Nextcloud]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/NtopNG.md\|NtopNG]]                                               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/PVE Monitor-All.md\|PVE Monitor-All]]                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Portainer.md\|Portainer]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Prometheus.md\|Prometheus]]                                       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Ansible.md\|Ansible]]                                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Apt Cacher NG.md\|Apt Cacher NG]]                                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Beszel.md\|Beszel]]                                               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/CouchDB.md\|CouchDB]]                                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/DjangoCMS.md\|DjangoCMS]]                                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Docker.md\|Docker]]                                               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Grafana.md\|Grafana]]                                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Tools/Harbor.md\|Harbor]]                                               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Testing/Properties Test.md\|Properties Test]]                           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Testing/_design.md\|_design]]                                           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Testing/footer.md\|footer]]                                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Testing/header.md\|header]]                                             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Testing/index.md\|index]]                                               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ZFS.md\|ZFS]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/index.md\|index]]                                        | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ssh.md\|ssh]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Lab/Home Lab 101.md\|Home Lab 101]]                                     | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Lab/The Stack.md\|The Stack]]                                           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Lab/index.md\|index]]                                                   | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Testing/Dataview Latest.md\|Dataview Latest]]                           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/LXC.md\|LXC]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Mark Down.md\|Mark Down]]                                | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/NAS.md\|NAS]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]                                  | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/PXEBoot.md\|PXEBoot]]                                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Router.md\|Router]]                                      | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/WiFi.md\|WiFi]]                                          | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ZFS Backups.md\|ZFS Backups]]                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/GIT.md\|GIT]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Github Workflow.md\|Github Workflow]]                    | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Hardware.md\|Hardware]]                                  | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ISP.md\|ISP]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/LLM.md\|LLM]]                                            | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| File                                          | Updated                     |
+| --------------------------------------------- | --------------------------- |
+| [[index.md\|index]]                           | 1:56 PM - October 22, 2025  |
+| [[devices/Gearbox.md\|Gearbox]]               | 4:48 PM - October 21, 2025  |
+| [[Testing/index.md\|index]]                   | 4:14 PM - October 21, 2025  |
+| [[Tricks/index.md\|index]]                    | 8:06 PM - October 20, 2025  |
+| [[Tools/index.md\|index]]                     | 8:06 PM - October 20, 2025  |
+| [[Lab/index.md\|index]]                       | 8:06 PM - October 20, 2025  |
+| [[Knowledge Base/index.md\|index]]            | 8:06 PM - October 20, 2025  |
+| [[Tools/SyncThing.md\|SyncThing]]             | 4:40 PM - October 20, 2025  |
+| [[Tools/PVE Monitor-All.md\|PVE Monitor-All]] | 4:40 PM - October 20, 2025  |
+| [[Lab/Home Lab 101.md\|Home Lab 101]]         | 3:19 PM - October 14, 2025  |
+| [[Knowledge Base/Obsidian.md\|Obsidian]]      | 2:21 PM - October 14, 2025  |
+| [[Knowledge Base/DHCP.md\|DHCP]]              | 1:27 PM - October 14, 2025  |
+| [[Knowledge Base/DNS.md\|DNS]]                | 1:25 PM - October 14, 2025  |
+| [[Knowledge Base/WiFi.md\|WiFi]]              | 1:23 PM - October 14, 2025  |
+| [[Knowledge Base/Router.md\|Router]]          | 1:20 PM - October 14, 2025  |
+| [[Knowledge Base/Firewall.md\|Firewall]]      | 1:20 PM - October 14, 2025  |
+| [[Knowledge Base/ISP.md\|ISP]]                | 1:15 PM - October 14, 2025  |
+| [[Lab/The Stack.md\|The Stack]]               | 3:55 PM - October 13, 2025  |
+| [[Tools/CouchDB.md\|CouchDB]]                 | 11:34 PM - October 09, 2025 |
+| [[Discord/Clippings/index.md\|index]]         | 4:27 PM - October 09, 2025  |
 
 %% DATAVIEW_PUBLISHER: end %%

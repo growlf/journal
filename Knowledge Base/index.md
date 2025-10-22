@@ -32,27 +32,27 @@ LIMIT 20
 ```
 %%
 
-| File                                                   | Created                    | Updated                    |
-| ------------------------------------------------------ | -------------------------- | -------------------------- |
-| [[Knowledge Base/ZFS.md\|ZFS]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/index.md\|index]]                     | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ssh.md\|ssh]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/LXC.md\|LXC]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Mark Down.md\|Mark Down]]             | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/NAS.md\|NAS]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/PXEBoot.md\|PXEBoot]]                 | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Router.md\|Router]]                   | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/WiFi.md\|WiFi]]                       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ZFS Backups.md\|ZFS Backups]]         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/GIT.md\|GIT]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Github Workflow.md\|Github Workflow]] | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Hardware.md\|Hardware]]               | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/ISP.md\|ISP]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/LLM.md\|LLM]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Cloud Init.md\|Cloud Init]]           | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/DHCP.md\|DHCP]]                       | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/DNS.md\|DNS]]                         | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
-| [[Knowledge Base/Domain.md\|Domain]]                   | 7:58 PM - October 20, 2025 | 7:58 PM - October 20, 2025 |
+| File                                           | Created                    | Updated                       |
+| ---------------------------------------------- | -------------------------- | ----------------------------- |
+| [[Knowledge Base/index.md\|index]]             | 4:19 PM - October 20, 2025 | 8:06 PM - October 20, 2025    |
+| [[Knowledge Base/Obsidian.md\|Obsidian]]       | 4:19 PM - October 20, 2025 | 2:21 PM - October 14, 2025    |
+| [[Knowledge Base/DHCP.md\|DHCP]]               | 4:19 PM - October 20, 2025 | 1:27 PM - October 14, 2025    |
+| [[Knowledge Base/DNS.md\|DNS]]                 | 4:19 PM - October 20, 2025 | 1:25 PM - October 14, 2025    |
+| [[Knowledge Base/WiFi.md\|WiFi]]               | 4:19 PM - October 20, 2025 | 1:23 PM - October 14, 2025    |
+| [[Knowledge Base/Router.md\|Router]]           | 4:19 PM - October 20, 2025 | 1:20 PM - October 14, 2025    |
+| [[Knowledge Base/Firewall.md\|Firewall]]       | 4:19 PM - October 20, 2025 | 1:20 PM - October 14, 2025    |
+| [[Knowledge Base/ISP.md\|ISP]]                 | 4:19 PM - October 20, 2025 | 1:15 PM - October 14, 2025    |
+| [[Knowledge Base/Hardware.md\|Hardware]]       | 4:19 PM - October 20, 2025 | 2:31 PM - October 09, 2025    |
+| [[Knowledge Base/ZFS Backups.md\|ZFS Backups]] | 4:19 PM - October 20, 2025 | 10:01 PM - September 16, 2025 |
+| [[Knowledge Base/ZFS.md\|ZFS]]                 | 4:19 PM - October 20, 2025 | 1:16 AM - September 12, 2025  |
+| [[Knowledge Base/LLM.md\|LLM]]                 | 4:19 PM - October 20, 2025 | 2:24 PM - September 11, 2025  |
+| [[Knowledge Base/Cloud Init.md\|Cloud Init]]   | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/ssh.md\|ssh]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/LXC.md\|LXC]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/Mark Down.md\|Mark Down]]     | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/NAS.md\|NAS]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/PXEBoot.md\|PXEBoot]]         | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/Email.md\|Email]]             | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| [[Knowledge Base/GIT.md\|GIT]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                  | Action   | Date                       |
-| ------------------------------------- | -------- | -------------------------- |
-| [[index.md\|index]]                   | modified | 8:04 PM - October 20, 2025 |
-| [[daily/2025-10-14.md\|2025-10-14]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/2025-07-17.md\|2025-07-17]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/2025-10-15.md\|2025-10-15]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/2025-08-17.md\|2025-08-17]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/2025-10-10.md\|2025-10-10]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/settings.md\|settings]]       | created  | 8:01 PM - October 20, 2025 |
-| [[daily/2025-07-28.md\|2025-07-28]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/2025-10-13.md\|2025-10-13]]   | created  | 8:01 PM - October 20, 2025 |
-| [[daily/Install URI.md\|Install URI]] | created  | 8:01 PM - October 20, 2025 |
+| File                                                            | Action   | Date                       |
+| --------------------------------------------------------------- | -------- | -------------------------- |
+| [[index.md\|index]]                                             | modified | 1:56 PM - October 22, 2025 |
+| [[daily/2025-10-22.md\|2025-10-22]]                             | modified | 1:55 PM - October 22, 2025 |
+| [[daily/2025-10-22.md\|2025-10-22]]                             | created  | 1:55 PM - October 22, 2025 |
+| [[devices/Gearbox.md\|Gearbox]]                                 | modified | 4:48 PM - October 21, 2025 |
+| [[devices/Gearbox.md\|Gearbox]]                                 | created  | 4:48 PM - October 21, 2025 |
+| [[_assets/Excalidraw/Scripts/Downloaded/index.md.md\|index.md]] | modified | 4:37 PM - October 21, 2025 |
+| [[_assets/Excalidraw/Scripts/Downloaded/index.md.md\|index.md]] | created  | 4:37 PM - October 21, 2025 |
+| [[Testing/index.md\|index]]                                     | modified | 4:14 PM - October 21, 2025 |
+| [[Testing/index.md\|index]]                                     | created  | 4:14 PM - October 21, 2025 |
+| [[daily/2025-10-21.md\|2025-10-21]]                             | modified | 4:05 PM - October 21, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
 
