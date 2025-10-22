@@ -1,5 +1,5 @@
 ## Who is this for?
-This document is intended as a foundational baseline for most simple network implementations where multiple users, services, and access to/from the internet is expected to exist for business-like purposes.  Static IP is a nice to have, but not a requirement.
+This document is intended as a foundational baseline for most simple network implementations where multiple users, services, and access to/from the internet is expected to exist for business-like purposes.  
 
  This basic design is applicable for "home lab" scenarios and for personal and community learning purposes.  A strong bias towards Opensource software is intended (and shown where possible) to allow an inexpensive yet professional implementation with personal and non-profit usage.
 ## Why do this
@@ -31,6 +31,10 @@ Other hardware that will be needed:
 - NAS with ample storage. One is good, two is better.
 
 ### Step 3 - General Design Concepts
+
+> [!NOTE] Static IP
+> Static IP is a nice to have, but not a requirement. It can certainly make it a little easier to access your home lab remotely, but we can still achieve reliable remote access using things like [[Tailscale]] - even without it.
+
 Before we start putting any real effort into this plan for a home lab, we need to set the stage with some basic foundational assumptions.
 - Security - at every layer, starting from the router and all the way to your apps and documentation.
 	- Firewall should be default-drop-all for all outside access and intentionally modified (with versioning control) to allow specific services through. External logging to a monitoring/alerting solution such as Grafana is an absolute must. Internal rules can be more open.

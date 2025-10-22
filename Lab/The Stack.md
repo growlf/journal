@@ -9,8 +9,6 @@ Creation date: Monday April 4th 2022 11:18:30
 aliases:
   - Home Lab
 ---
----
-
 ## 1) Initial documentation tools
 Obsidian is free and super extendable - with collaberation
 ## 2) Infrastructure tools:

@@ -30,16 +30,20 @@ I am now self hosting my own Obsidian Sync service and loving it. I am writing s
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
 
 ## Recent Changes / Additions
-Site-wide listing of last 20 creations and modifications:
+Site-wide listing of last 20 creations and modifications over the last 4 days:
 %% DATAVIEW_PUBLISHER: start
 ```dataview
 TABLE 
   file.mtime AS "Updated"
-WHERE file.cday >= date(today) - dur(4 days)
-  OR file.mday >= date(today) - dur(4 days)
-WHERE !contains(file.folder, "daily")
-WHERE !contains(file.folder, "_templates")
-WHERE !contains(file.folder, "_assets")
+WHERE 
+  (
+    file.cday >= date(today) - dur(4 days)
+    OR file.mday >= date(today) - dur(4 days)
+  )
+  AND !contains(file.folder, "daily")
+  AND !contains(file.folder, "_templates")
+  AND !contains(file.folder, "_assets")
+  AND !contains(file.folder, "Discord")
 SORT file.mtime DESC
 LIMIT 20
 ```

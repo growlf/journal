@@ -15,4 +15,4 @@ cat /var/log/ping-instances.log
 ```
 ### Links
 - [Install script](https://community-scripts.github.io/ProxmoxVE/scripts?id=monitor-all)
-### TODO
+

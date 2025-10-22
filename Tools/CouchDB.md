@@ -8,7 +8,6 @@ Documentation: https://docs.couchdb.org/en/stable/
 aliases:
   - obsidian-sync
 ---
----
 # Description
 CouchDB is an open-source NoSQL database that completely embraces the web paradigm. It is a document-oriented database, meaning it stores data in flexible, schema-free JSON documents, unlike traditional relational databases that use tables and predefined schemas. I use it primarily for running my own self-hosted Obsidian Sync service to allow easy backups, centralized synchronization across all of my devices, and most importantly - for collaboration with other individuals. It is also very easy to configure a replication process to multiple storage locations to make full (live or periodic) backups and fail-over solutions.
 ## Self Hosting Obsidian Sync
