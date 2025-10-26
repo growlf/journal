@@ -28,4 +28,4 @@ DNS = 10.X.X.X,bellinghammakerspace.org
 
 And the resolve issue was, pardon the pun, resolved!
 
-NOTE: yes, it may look like it disappears after you import it, but it seems that it did update the config when I check with `resolvectl` afterwards. Server config done with [[Wireguard|WG-Dashboard]].
+NOTE: yes, it may look like it disappears after you import it, but it seems that it did update the config when I check with `resolvectl` afterwards. Server config done with [[Tools/Wireguard|WG-Dashboard]].

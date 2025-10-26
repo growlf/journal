@@ -11,4 +11,4 @@ A fully featured DNS solution. My personal favorite option for a local or split-
 
 Links:
 - [Technitium](https://technitium.com/) homepage
-- [LXC](https://community-scripts.github.io/ProxmoxVE/scripts?id=technitiumdns) installation for [[Proxmox]]
+- [LXC](https://community-scripts.github.io/ProxmoxVE/scripts?id=technitiumdns) installation for [[Tools/Proxmox]]

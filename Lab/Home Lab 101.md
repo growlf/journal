@@ -16,7 +16,7 @@ Why document? Memory is a curious and fickle thing - and collaboration is easier
 ### Step 2 - Acquire the Basic Hardware Components
 Beyond the obvious cabling and individual system's LAN network interfaces, we will require the following:
 - A Modem/internet-interface with service to the internet (aka an [[ISP]])
-- [[Router]] 
+- [[Knowledge Base/Router]] 
 - [[Firewall]] 
 - [[WiFi]] Access point
 - [[DNS]] server

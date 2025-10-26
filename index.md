@@ -29,7 +29,7 @@ Most of us can generally be found on the [Cascade Steam Discord](http://hub.casc
 Working with local colleges, local businesses, and [[BMS]] to create a Internship/Mentorship business model that allows for actual experience for new college graduates in our community as a free service.
 
 ### Obsidian Sync (self-hosted)
-I self hosting my own Obsidian Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain.
+I self hosting my own Obsidian Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[Tools/CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain.
 
 ### Miscelaneous
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
@@ -75,6 +75,6 @@ LIMIT 20
 | [[Tools/index.md\|index]]                     | 1:56 PM - October 22, 2025 |
 | [[Knowledge Base/index.md\|index]]            | 1:56 PM - October 22, 2025 |
 | [[Lab/index.md\|index]]                       | 1:56 PM - October 22, 2025 |
-| [[devices/Gearbox.md\|Gearbox]]               | 4:48 PM - October 21, 2025 |
+| [[Gearbox\|Gearbox]]               | 4:48 PM - October 21, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

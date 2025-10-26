@@ -4,7 +4,7 @@ views:
     filters:
       and:
         - file.name != "index.base"
-        - file.inFolder("devices")
+        - file.inFolder("Lab/devices")
     order:
       - file.name
       - ip

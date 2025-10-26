@@ -1,0 +1,13 @@
+properties:
+  note.management_url:
+    displayName: link
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name != "index.base"
+        - file.inFolder("Lab/services")
+    order:
+      - file.name
+      - management_url

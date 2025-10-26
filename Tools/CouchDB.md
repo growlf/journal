@@ -39,7 +39,7 @@ There are several ways to deploy our solution:
 - Virtual Machine
 - Kubernetes
 - Dedicated system (Raspberry Pi?)
-I will be focusing on the Docker and LXC options because [[Proxmox]] and [[Portainer]] both just make this so darned easy. If you have neither [[Proxmox]] nor [[Portainer]] set up, I heartily recommend _both_.  They work very well together.  As I state elsewhere (and frequently) I recommend starting with [[Proxmox]] if you can.
+I will be focusing on the Docker and LXC options because [[Tools/Proxmox]] and [[Tools/Portainer]] both just make this so darned easy. If you have neither [[Tools/Proxmox]] nor [[Tools/Portainer]] set up, I heartily recommend _both_.  They work very well together.  As I state elsewhere (and frequently) I recommend starting with [[Tools/Proxmox]] if you can.
 ### Step 3 - Configure and Deploy
 We will want the following information ready:
 1) **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
