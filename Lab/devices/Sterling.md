@@ -1,5 +1,5 @@
 ---
-ip:
+ip: DHCP
 ports:
 tags:
 os: windows

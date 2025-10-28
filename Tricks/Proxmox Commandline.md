@@ -6,7 +6,7 @@ aliases:
 ---
 ---
 # Automation via Scripts
-The [[Proxmox 1]] command line is a powerful thing. Everything done in the GUI, can be done in the command line - and thus also through automation with something like [[Ansible]].
+The [[Proxmox]] command line is a powerful thing. Everything done in the GUI, can be done in the command line - and thus also through automation with something like [[Ansible]].
 
 ## Rough Notes
 The following are a collection of quick commands and script that I use and will eventually document better. But, for now, this is a place to keep and not forget them.  Sure, `git` would work too, but this just feels more appropriate because I can comment and document them a bit better inline here in Obsidian.

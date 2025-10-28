@@ -34,9 +34,10 @@ LIMIT 20
 
 | File                                         | Created                    | Updated                     |
 | -------------------------------------------- | -------------------------- | --------------------------- |
-| [[Knowledge Base/Cloud Init.md\|Cloud Init]] | 4:19 PM - October 20, 2025 | 1:11 AM - October 28, 2025  |
-| [[Knowledge Base/DNS.md\|DNS]]               | 4:19 PM - October 20, 2025 | 12:57 AM - October 28, 2025 |
-| [[Knowledge Base/index.md\|index]]           | 4:19 PM - October 20, 2025 | 2:24 PM - October 22, 2025  |
+| [[Knowledge Base/DNS.md\|DNS]]               | 4:19 PM - October 20, 2025 | 1:00 PM - October 28, 2025  |
+| [[Knowledge Base/LXC.md\|LXC]]               | 4:19 PM - October 20, 2025 | 12:58 PM - October 28, 2025 |
+| [[Knowledge Base/Cloud Init.md\|Cloud Init]] | 4:19 PM - October 20, 2025 | 12:52 PM - October 28, 2025 |
+| [[Knowledge Base/index.md\|index]]           | 4:19 PM - October 20, 2025 | 12:06 PM - October 28, 2025 |
 | [[Knowledge Base/DHCP.md\|DHCP]]             | 4:19 PM - October 20, 2025 | 2:18 PM - October 22, 2025  |
 | [[Knowledge Base/WiFi.md\|WiFi]]             | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025  |
 | [[Knowledge Base/Router.md\|Router]]         | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025  |

@@ -1,5 +1,14 @@
 ---
 management_url: http://192.168.42.16/
+tags:
+  - docker
+  - orchestration
+  - automation
+  - ci/cd
+  - deployment
+  - lab
+Documentation: https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry/
+aliases:
 ---
 A Docker registry is a centralized storage and distribution system for Docker images. It acts as a server-side application that stores, manages, and distributes container images across environments. 
 

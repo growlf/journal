@@ -44,11 +44,11 @@ An alternative is to use a hosting provider such as AWS, Google, or MS Azure whe
 ### Step 2 - Choose a Deployment Strategy
 There are several ways to deploy our solution:
 - [[Docker]]
-- [[Lab/services/TBD/LXC]]
+- [[LXC]]
 - Virtual Machine
 - Kubernetes
 - Dedicated system (Raspberry Pi?)
-I will be focusing on the Docker and LXC options because [[Proxmox 1]] and [[Portainer 1]] both just make this so darned easy. If you have neither [[Proxmox 1]] nor [[Portainer 1]] set up, I heartily recommend _both_.  They work very well together.  As I state elsewhere (and frequently) I recommend starting with [[Proxmox 1]] if you can.
+I will be focusing on the Docker and LXC options because [[Proxmox]] and [[Portainer]] both just make this so darned easy. If you have neither [[Proxmox]] nor [[Portainer]] set up, I heartily recommend _both_.  They work very well together.  As I state elsewhere (and frequently) I recommend starting with [[Proxmox]] if you can.
 ### Step 3 - Configure and Deploy
 We will want the following information ready:
 1) **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.

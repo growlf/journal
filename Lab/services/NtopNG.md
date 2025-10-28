@@ -1,6 +1,6 @@
 ---
 tags: 
-Creation date: Monday April 4th 2022 11:18:30
+management_url: http://192.168.42.16:3000/
 ---
 ### Links
 - [Github](https://github.com/ntop/ntopng/) - source

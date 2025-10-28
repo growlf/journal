@@ -54,27 +54,27 @@ LIMIT 20
 ```
 %%
 
-| File                                                             | Updated                    |
-| ---------------------------------------------------------------- | -------------------------- |
-| [[Lab/devices/Sterling.md\|Sterling]]                            | 1:18 AM - October 28, 2025 |
-| [[Lab/devices/Sliver.md\|Sliver]]                                | 1:18 AM - October 28, 2025 |
-| [[Lab/devices/Router.md\|Router]]                                | 1:18 AM - October 28, 2025 |
-| [[Lab/devices/Pheonix.md\|Pheonix]]                              | 1:17 AM - October 28, 2025 |
-| [[Lab/devices/Nexus.md\|Nexus]]                                  | 1:16 AM - October 28, 2025 |
-| [[Lab/devices/Changeling.md\|Changeling]]                        | 1:16 AM - October 28, 2025 |
-| [[Lab/devices/Gearbox.md\|Gearbox]]                              | 1:15 AM - October 28, 2025 |
-| [[Tricks/Obsidian Plugins.md\|Obsidian Plugins]]                 | 1:13 AM - October 28, 2025 |
-| [[Lab/services/TBD/index.md\|index]]                             | 1:11 AM - October 28, 2025 |
-| [[Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]]   | 1:11 AM - October 28, 2025 |
-| [[Lab/The Stack.md\|The Stack]]                                  | 1:11 AM - October 28, 2025 |
-| [[Lab/services/HomeAssistant.md\|HomeAssistant]]                 | 1:11 AM - October 28, 2025 |
-| [[Lab/services/Grafana 1.md\|Grafana 1]]                         | 1:11 AM - October 28, 2025 |
-| [[Lab/services/Apt Cacher NG.md\|Apt Cacher NG]]                 | 1:11 AM - October 28, 2025 |
-| [[Lab/services/CouchDB.md\|CouchDB]]                             | 1:11 AM - October 28, 2025 |
-| [[Lab/services/Wireguard.md\|Wireguard]]                         | 1:11 AM - October 28, 2025 |
-| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]     | 1:11 AM - October 28, 2025 |
-| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]           | 1:11 AM - October 28, 2025 |
-| [[Lab/services/Technitium DNS & DHCP.md\|Technitium DNS & DHCP]] | 1:11 AM - October 28, 2025 |
-| [[Knowledge Base/Cloud Init.md\|Cloud Init]]                     | 1:11 AM - October 28, 2025 |
+| File                                                             | Updated                     |
+| ---------------------------------------------------------------- | --------------------------- |
+| [[Lab/services/Grafana.md\|Grafana]]                             | 1:00 PM - October 28, 2025  |
+| [[Lab/services/TBD/index.md\|index]]                             | 1:00 PM - October 28, 2025  |
+| [[Lab/services/TBD/PVE Monitor-All.md\|PVE Monitor-All]]         | 1:00 PM - October 28, 2025  |
+| [[Lab/services/CouchDB.md\|CouchDB]]                             | 1:00 PM - October 28, 2025  |
+| [[Lab/index.md\|index]]                                          | 1:00 PM - October 28, 2025  |
+| [[Knowledge Base/DNS.md\|DNS]]                                   | 1:00 PM - October 28, 2025  |
+| [[Knowledge Base/LXC.md\|LXC]]                                   | 12:58 PM - October 28, 2025 |
+| [[Lab/The Stack.md\|The Stack]]                                  | 12:53 PM - October 28, 2025 |
+| [[Lab/services/Proxmox.md\|Proxmox]]                             | 12:52 PM - October 28, 2025 |
+| [[Lab/services/Home Assistant.md\|Home Assistant]]               | 12:52 PM - October 28, 2025 |
+| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]     | 12:52 PM - October 28, 2025 |
+| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]           | 12:52 PM - October 28, 2025 |
+| [[Lab/services/Wireguard.md\|Wireguard]]                         | 12:52 PM - October 28, 2025 |
+| [[Lab/services/Technitium DNS & DHCP.md\|Technitium DNS & DHCP]] | 12:52 PM - October 28, 2025 |
+| [[Lab/services/Apt Cacher NG.md\|Apt Cacher NG]]                 | 12:52 PM - October 28, 2025 |
+| [[Knowledge Base/Cloud Init.md\|Cloud Init]]                     | 12:52 PM - October 28, 2025 |
+| [[Lab/services/Prometheus.md\|Prometheus]]                       | 12:52 PM - October 28, 2025 |
+| [[Lab/services/Portainer.md\|Portainer]]                         | 12:51 PM - October 28, 2025 |
+| [[Lab/services/NtopNG.md\|NtopNG]]                               | 12:51 PM - October 28, 2025 |
+| [[Lab/services/Node Red.md\|Node Red]]                           | 12:50 PM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

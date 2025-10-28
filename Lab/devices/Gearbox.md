@@ -1,6 +1,6 @@
 ---
 tags:
-ip:
+ip: DHCP
 ports:
 os: linux
 ---

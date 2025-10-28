@@ -7,7 +7,7 @@ Documentation:
 aliases:
 ---
 # Automatic PVE System Monitoring
-Vm's and [[Lab/services/TBD/LXC|LXC]]'s with the tag `mon-restart` will automatically be restarted if they fail.
+Vm's and [[LXC|LXC]]'s with the tag `mon-restart` will automatically be restarted if they fail.
 
 Very much recommended.  Check the logs with 
 ```bash

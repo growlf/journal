@@ -5,7 +5,7 @@ ESPHome is an open-source framework for creating custom firmware for ESP8266 an
 
 Key features and benefits
 - **Simplified configuration:** Users define device behavior and components using YAML, a human-readable format, eliminating the need for extensive coding knowledge.
-- **Seamless [[HomeAssistant]] integration:** Devices are automatically discovered and integrated into Home Assistant, allowing for easy control and automation.
+- **Seamless [[Home Assistant]] integration:** Devices are automatically discovered and integrated into Home Assistant, allowing for easy control and automation.
 - **Local control:** Devices operate independently of the cloud, ensuring they continue to function even without an internet connection.
 - **Over-the-air (OTA) updates:** Once initially flashed, devices can be updated wirelessly over the network without needing physical access.
 - **Modular and flexible:** It supports a wide range of sensors, actuators, and displays, allowing for the creation of highly customized devices. 
