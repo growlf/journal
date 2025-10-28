@@ -7,7 +7,7 @@ Creation date: Monday April 4th 2022 11:18:30
 ## What is Obsidian
 First off check out the [Obsidian website](https://obsidian.md/) and read their own documentation and marketing content.
 
-In a nutshell, Obsidian is a personal knowledge management and note-taking application that uses plain Markdown (`.md`) text files stored locally on your device. Its key features include a powerful linking system to connect notes, a customizable interface, SQL-like access to all content, and a focus on user ownership and data control - allowing you to build a "second brain".  It can be extended to do many additional things using a very large ecosphere of plugins and services (most are free).
+In a nutshell, Obsidian is a personal knowledge management and note-taking application that uses plain-ole Markdown (`.md`) text files stored locally on your device. Its key features include a powerful linking system to connect notes, a customizable interface, SQL-like access to all content and properties, as well as a focus on user ownership and data control. All of this allows you to build a "second brain".  It can be extended to do many additional things using a very large ecosphere of plugins and services (most of which are actually free - [[FLOSS]]).
 ## Working with Obsidian
 
 My current layout is fairly simple.  I have a vault with the following directory structure (the relevant parts at least):

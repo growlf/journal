@@ -1,0 +1,21 @@
+Free or Libre Open Source Software is a type of software whose source code is publicly available, granting users the freedom to use, study, modify, and distribute the software and its modifications. The "free" in this context refers to liberty, not price, and is often described with the "libre" (Spanish/French for "free") term to emphasize it is about user freedom rather than being gratis (free of cost). 
+
+Key characteristics
+- [**User freedom:**](https://www.google.com/search?num=10&newwindow=1&sca_esv=5174aa7661d349ca&cs=1&sxsrf=AE3TifOY1nc5qs8g9n943IB7_C8CJqS2lw%3A1761683544143&q=User+freedom&sa=X&ved=2ahUKEwjjoLzO3seQAxV9h-4BHW0HLkEQxccNegQIDhAD&mstk=AUtExfDl4UO98QA5O9bDHXzFwsV8k9lbzWPUv2DXxbt5j8mUtli4D_Pr_HgrcyLdY-bYWsUtInFCxkfazffrMADhFeydP_eWx45xBXugH-X-3H0pQnKaMk2TU4KwmJgdcCZXKQyS52n8GJkcLdFYSad5KqY5HQ-8dGyqqkLM_U2PaIeUkLUhwC_I7PqnMMT3M17JTdw7W9UZATQf_6TDX6lpOe87_GTSe0JymyW5LqcXrK4It6-h2R6X4PPWKSGivXrXHGJZ0ns8IZ3sovA9LPYBY7mbu6Y4wLdi8FnlL7yDjIj00g&csui=3)   
+    Users have the freedom to run the software for any purpose, study how it works, change it, and distribute copies of the original or modified software. 
+- [**Publicly available source code:**](https://www.google.com/search?num=10&newwindow=1&sca_esv=5174aa7661d349ca&cs=1&sxsrf=AE3TifOY1nc5qs8g9n943IB7_C8CJqS2lw%3A1761683544143&q=Publicly+available+source+code&sa=X&ved=2ahUKEwjjoLzO3seQAxV9h-4BHW0HLkEQxccNegQIHxAD&mstk=AUtExfDl4UO98QA5O9bDHXzFwsV8k9lbzWPUv2DXxbt5j8mUtli4D_Pr_HgrcyLdY-bYWsUtInFCxkfazffrMADhFeydP_eWx45xBXugH-X-3H0pQnKaMk2TU4KwmJgdcCZXKQyS52n8GJkcLdFYSad5KqY5HQ-8dGyqqkLM_U2PaIeUkLUhwC_I7PqnMMT3M17JTdw7W9UZATQf_6TDX6lpOe87_GTSe0JymyW5LqcXrK4It6-h2R6X4PPWKSGivXrXHGJZ0ns8IZ3sovA9LPYBY7mbu6Y4wLdi8FnlL7yDjIj00g&csui=3) 
+    The source code, the human-readable instructions written by programmers, is accessible to everyone. 
+- [**Licensing:**](https://www.google.com/search?num=10&newwindow=1&sca_esv=5174aa7661d349ca&cs=1&sxsrf=AE3TifOY1nc5qs8g9n943IB7_C8CJqS2lw%3A1761683544143&q=Licensing&sa=X&ved=2ahUKEwjjoLzO3seQAxV9h-4BHW0HLkEQxccNegQIGxAD&mstk=AUtExfDl4UO98QA5O9bDHXzFwsV8k9lbzWPUv2DXxbt5j8mUtli4D_Pr_HgrcyLdY-bYWsUtInFCxkfazffrMADhFeydP_eWx45xBXugH-X-3H0pQnKaMk2TU4KwmJgdcCZXKQyS52n8GJkcLdFYSad5KqY5HQ-8dGyqqkLM_U2PaIeUkLUhwC_I7PqnMMT3M17JTdw7W9UZATQf_6TDX6lpOe87_GTSe0JymyW5LqcXrK4It6-h2R6X4PPWKSGivXrXHGJZ0ns8IZ3sovA9LPYBY7mbu6Y4wLdi8FnlL7yDjIj00g&csui=3) 
+    The software is released under a license that specifies these freedoms. 
+- [**Collaboration:**](https://www.google.com/search?num=10&newwindow=1&sca_esv=5174aa7661d349ca&cs=1&sxsrf=AE3TifOY1nc5qs8g9n943IB7_C8CJqS2lw%3A1761683544143&q=Collaboration&sa=X&ved=2ahUKEwjjoLzO3seQAxV9h-4BHW0HLkEQxccNegQIHhAD&mstk=AUtExfDl4UO98QA5O9bDHXzFwsV8k9lbzWPUv2DXxbt5j8mUtli4D_Pr_HgrcyLdY-bYWsUtInFCxkfazffrMADhFeydP_eWx45xBXugH-X-3H0pQnKaMk2TU4KwmJgdcCZXKQyS52n8GJkcLdFYSad5KqY5HQ-8dGyqqkLM_U2PaIeUkLUhwC_I7PqnMMT3M17JTdw7W9UZATQf_6TDX6lpOe87_GTSe0JymyW5LqcXrK4It6-h2R6X4PPWKSGivXrXHGJZ0ns8IZ3sovA9LPYBY7mbu6Y4wLdi8FnlL7yDjIj00g&csui=3) 
+    FOSS is often developed collaboratively, allowing a community to contribute to its improvement. 
+
+"Free" as in "freedom"
+- The term "free software" was originally popularized by the [GNU Project](https://www.gnu.org/philosophy/free-sw.html) to emphasize that it is a matter of user liberty and control, similar to "free speech" rather than "free beer".
+- Users can be charged money for a copy of the software or obtain it for free, but they will always have the freedom to copy, change, and sell it. 
+
+Open source versus free software
+- The terms "free software" and "open source software" are often used interchangeably to refer to software with publicly available source code. 
+- Historically, they have slightly different philosophical underpinnings: "free software" focuses on user freedom and ethics, while "open source" focuses on the practical, collaborative development model. 
+- In practice, most software that is "free software" is also "open source" and vice versa. 
+- The term "libre open source software" is sometimes used to make it explicitly clear that the meaning is "free as in freedom".
