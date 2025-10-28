@@ -10,9 +10,6 @@ Documentation: https://www.django-cms.org/en/
 aliases:
   - DJango
 ---
----
-
-
 ### Links
 - https://docs.djangoproject.com/en/5.2/
 - https://www.django-cms.org/en/

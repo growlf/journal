@@ -4,7 +4,7 @@ tags:
   - ansible
   - orchestration
 Creation date: Monday April 4th 2022 11:18:30
----
+management_url: http://192.168.42.188:3000/
 ---
 # Ansible Semaphore
 How to deploy, configure, and use [Ansible Semaphore](https://www.semui.co/). Original credit to [PrymalInstynct](https://github.com/PrymalInstynct)
@@ -24,12 +24,9 @@ This guide only covers  deployment as a Container.
     - Ubuntu 22.04+
     - Red Hat Enterprise Linux 8+
     - Fedora 38+
-
 - Docker v20+, docker-compose
     - [Docker Install Instructions](https://docs.docker.com/engine/install/)
-
     **OR**
-
 - Podman v4.10+, podman-docker, docker-compose, podman-compose
     - [Podman Compose Install Instructions](https://docs.oracle.com/en/learn/podman-compose/index.html#introduction)
 

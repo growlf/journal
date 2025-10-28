@@ -3,6 +3,7 @@ tags:
   - security
   - lab
 Creation date: Monday April 4th 2022 11:18:30
+management_url: https://bitwarden.bellinghammakerspace.org
 ---
 ---
 [Vaultwarden](https://www.vaultwarden.net/)

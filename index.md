@@ -29,7 +29,7 @@ Most of us can generally be found on the [Cascade Steam Discord](http://hub.casc
 Working with local colleges, local businesses, and [[BMS]] to create a Internship/Mentorship business model that allows for actual experience for new college graduates in our community as a free service.
 
 ### Obsidian Sync (self-hosted)
-I self hosting my own Obsidian Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[Tools/CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain.
+I self hosting my own Obsidian Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain.
 
 ### Miscelaneous
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
@@ -57,8 +57,8 @@ LIMIT 20
 | File                                          | Updated                    |
 | --------------------------------------------- | -------------------------- |
 | [[index.md\|index]]                           | 2:21 PM - October 22, 2025 |
-| [[Tools/SyncThing.md\|SyncThing]]             | 2:19 PM - October 22, 2025 |
-| [[Tools/PVE Monitor-All.md\|PVE Monitor-All]] | 2:19 PM - October 22, 2025 |
+| [[SyncThing\|SyncThing]]             | 2:19 PM - October 22, 2025 |
+| [[PVE Monitor-All\|PVE Monitor-All]] | 2:19 PM - October 22, 2025 |
 | [[Knowledge Base/DHCP.md\|DHCP]]              | 2:18 PM - October 22, 2025 |
 | [[Knowledge Base/DNS.md\|DNS]]                | 2:15 PM - October 22, 2025 |
 | [[Knowledge Base/WiFi.md\|WiFi]]              | 2:13 PM - October 22, 2025 |
@@ -69,10 +69,10 @@ LIMIT 20
 | [[Lab/The Stack.md\|The Stack]]               | 2:09 PM - October 22, 2025 |
 | [[Lab/Home Lab 101.md\|Home Lab 101]]         | 2:09 PM - October 22, 2025 |
 | [[Gizmos/index.md\|index]]                    | 2:06 PM - October 22, 2025 |
-| [[Tools/CouchDB.md\|CouchDB]]                 | 2:03 PM - October 22, 2025 |
+| [[CouchDB\|CouchDB]]                 | 2:03 PM - October 22, 2025 |
 | [[Tricks/index.md\|index]]                    | 1:56 PM - October 22, 2025 |
 | [[Testing/index.md\|index]]                   | 1:56 PM - October 22, 2025 |
-| [[Tools/index.md\|index]]                     | 1:56 PM - October 22, 2025 |
+| [[Lab/services/TBD/index\|index]]                     | 1:56 PM - October 22, 2025 |
 | [[Knowledge Base/index.md\|index]]            | 1:56 PM - October 22, 2025 |
 | [[Lab/index.md\|index]]                       | 1:56 PM - October 22, 2025 |
 | [[Gearbox\|Gearbox]]               | 4:48 PM - October 21, 2025 |

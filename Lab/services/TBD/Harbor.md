@@ -8,7 +8,6 @@ Creation date: 2025-08-15 15:16
 Documentation: 
 aliases:
 ---
----
 # Kubernetes The Easy Way?
 
 I am looking into this one still.  But, my initial reaction is - WOW!!

@@ -8,6 +8,6 @@ aliases:
   - Home Assistant
 ---
 ### Links
-- Installation [manually](https://www.home-assistant.io/installation/), or with [LXC](https://community-scripts.github.io/ProxmoxVE/scripts?id=homeassistant) on [[Tools/Proxmox]]
+- Installation [manually](https://www.home-assistant.io/installation/), or with [LXC](https://community-scripts.github.io/ProxmoxVE/scripts?id=homeassistant) on [[Proxmox 1]]
 - [Devices](https://www.hadevices.com/)
 - [Integration](https://www.home-assistant.io/integrations/?brands=featured)

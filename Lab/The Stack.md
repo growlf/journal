@@ -15,15 +15,15 @@ Obsidian is free and super extendable - with collaboration
 The basics of our lab.  Start with 1 and finish with 10.  Doing them in order kinda helps.
 1) [[Hardware]] - Router, server hardware, storage hardware, WiFi, etc
 2) [[Domain]] - registrar, etc
-3) [[Tools/Proxmox]] - This will be the home of "all the things" virtual
+3) [[Proxmox 1]] - This will be the home of "all the things" virtual
 4) [[Apt Cacher NG]] - Speed up deployments and reduce bandwidth to the internet
 5) [[Technitium]] - Internal DNS
 6) [[Vaultwarden]] - Secrets management
-7) [[Tools/Homepage]] - A place to link to "all the things" (the one ring)
-8) [[Tools/Wireguard]] - Remote, secure, access
+7) [[Homepage 1]] - A place to link to "all the things" (the one ring)
+8) [[Wireguard]] - Remote, secure, access
 9) [[Registry]] with Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options
 10) [[PXEBoot]] - for staging and thick clients
-11) [[Tools/Portainer]] and [[Docker]]
+11) [[Portainer 1]] and [[Docker]]
 ## 2) Documentation, Wiki, and Web
 Great for personal journaling
 - [[Wordpress]] or [[DjangoCMS]]- Main web presence
@@ -35,8 +35,8 @@ Great for personal journaling
 - RSync - System backup solution
 - [FileBrowser Quantum](https://github.com/gtsteffaniak/filebrowser) - Easy file access tool for various other services/apps (can be added to any LXC or VM that does not have a file access GUI but needs one)
 ## 4) Monitoring Tools
-- [[Tools/NtopNG]] - IDS, monitoring, alerting, and debugging
-- [[Tools/Grafana]] with all the extras and supporting cast
+- [[NtopNG 1]] - IDS, monitoring, alerting, and debugging
+- [[Grafana 1]] with all the extras and supporting cast
 ## Standalone/external configs/services/apps
 - Email - alerts, updates, etc. Mail server - MailU ?
 - Discord - Social
