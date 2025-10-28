@@ -31,10 +31,10 @@ LIMIT 20
 ```
 %%
 
-| File                                               | Created                    | Updated                     |
-| -------------------------------------------------- | -------------------------- | --------------------------- |
-| [[_templates/Recent Activity.md\|Recent Activity]] | 4:19 PM - October 20, 2025 | 12:06 PM - October 28, 2025 |
-| [[_templates/Folder.md\|Folder]]                   | 4:19 PM - October 20, 2025 | 12:06 PM - October 28, 2025 |
-| [[_templates/dailynote.md\|dailynote]]             | 4:19 PM - October 20, 2025 | 1:39 PM - October 21, 2025  |
+| File                                               | Created                    | Updated                    |
+| -------------------------------------------------- | -------------------------- | -------------------------- |
+| [[_templates/Recent Activity.md\|Recent Activity]] | 4:19 PM - October 20, 2025 | 1:03 PM - October 28, 2025 |
+| [[_templates/Folder.md\|Folder]]                   | 4:19 PM - October 20, 2025 | 1:01 PM - October 28, 2025 |
+| [[_templates/dailynote.md\|dailynote]]             | 4:19 PM - October 20, 2025 | 1:39 PM - October 21, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
