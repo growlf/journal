@@ -10,7 +10,9 @@ views:
       - ip
       - ports
       - tags
+      - os
     columnSize:
       file.name: 195
+      note.ip: 66
   - type: table
     name: View

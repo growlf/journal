@@ -4,6 +4,7 @@ ports:
 tags:
   - dual-screen
   - laptop
+os: linux
 ---
 ## Asus Zenbook-Duo
 ## Links

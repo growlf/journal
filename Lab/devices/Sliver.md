@@ -2,5 +2,5 @@
 ip:
 ports:
 tags:
-os: proxmox
+os: linux
 ---
