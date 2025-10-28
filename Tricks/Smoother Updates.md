@@ -7,7 +7,6 @@ tags:
 aliases:
   - parallelism
 ---
----
 ## Overview
 ***TL/DR***
 Default settings in docker that are relevant are:

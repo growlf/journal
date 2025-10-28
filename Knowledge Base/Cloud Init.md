@@ -8,7 +8,6 @@ tags:
   - template
 Creation date: Monday April 4th 2022 11:18:30
 ---
------
 The following is a quick-guide to generating a clean instance-template for use for your [[Proxmox]] virtual machines.
 ### Download an 'img'
 First, select an appropriate image from [the list](https://cloud-images.ubuntu.com/daily/server/releases/noble/release/). Then, download the selected cloud-init image (I chose the latest release of Noble Numbat).

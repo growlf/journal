@@ -8,7 +8,7 @@ tags:
   - vm
 Creation date: Monday April 4th 2022 11:18:30
 ---
-***The*** orchestration too for a varied and complex lab or enterprise. Python based, YAML driven, secure over SSH, and powerful as all heck.
+***The*** orchestration tool for a varied and complex lab or enterprise. Python based, YAML driven, secure over SSH, and powerful as all heck.
 ### Links
 - [Mikrotik](https://docs.ansible.com/ansible/latest/collections/community/routeros/index.html) ansible plugin
 - [Installation](https://docs.ansible.com/ansible/latest/installation_guide/index.html) of ansible
