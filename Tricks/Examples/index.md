@@ -12,8 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder   | Documents                                                                                                        |
-| -------- | ---------------------------------------------------------------------------------------------------------------- |
-| Examples | [[Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] \| [[Tricks/Examples/index.md\|index]] |
+| Folder   | Documents                                                                                                                                                   |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Examples | [[Tricks/Examples/_design.md\|_design]] \| [[Tricks/Examples/CouchDB Deployment Files.md\|CouchDB Deployment Files]] \| [[Tricks/Examples/index.md\|index]] |
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -1,5 +1,6 @@
 ---
 tags:
+  - laptop
 ip: DHCP
 ports:
 os: linux

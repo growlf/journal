@@ -54,27 +54,27 @@ LIMIT 20
 ```
 %%
 
-| File                                                         | Updated                     |
-| ------------------------------------------------------------ | --------------------------- |
-| [[Lab/services/Openmediavault.md\|Openmediavault]]           | 1:13 PM - October 28, 2025  |
-| [[Lab/devices/Interceptor.md\|Interceptor]]                  | 1:12 PM - October 28, 2025  |
-| [[Lab/services/Docker Registry.md\|Docker Registry]]         | 1:10 PM - October 28, 2025  |
-| [[Lab/services/Grafana.md\|Grafana]]                         | 1:10 PM - October 28, 2025  |
-| [[Lab/index.md\|index]]                                      | 1:08 PM - October 28, 2025  |
-| [[Lab/services/Apt Cacher NG.md\|Apt Cacher NG]]             | 1:07 PM - October 28, 2025  |
-| [[index.md\|index]]                                          | 1:03 PM - October 28, 2025  |
-| [[Testing/index.md\|index]]                                  | 1:01 PM - October 28, 2025  |
-| [[Tricks/index.md\|index]]                                   | 1:01 PM - October 28, 2025  |
-| [[Knowledge Base/index.md\|index]]                           | 1:01 PM - October 28, 2025  |
-| [[Tricks/PVE Monitor-All.md\|PVE Monitor-All]]               | 1:00 PM - October 28, 2025  |
-| [[Lab/services/CouchDB.md\|CouchDB]]                         | 1:00 PM - October 28, 2025  |
-| [[Knowledge Base/DNS.md\|DNS]]                               | 1:00 PM - October 28, 2025  |
-| [[Knowledge Base/LXC.md\|LXC]]                               | 12:58 PM - October 28, 2025 |
-| [[Lab/The Stack.md\|The Stack]]                              | 12:53 PM - October 28, 2025 |
-| [[Lab/services/Proxmox.md\|Proxmox]]                         | 12:52 PM - October 28, 2025 |
-| [[Lab/services/Home Assistant.md\|Home Assistant]]           | 12:52 PM - October 28, 2025 |
-| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]] | 12:52 PM - October 28, 2025 |
-| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]       | 12:52 PM - October 28, 2025 |
-| [[Lab/services/Wireguard.md\|Wireguard]]                     | 12:52 PM - October 28, 2025 |
+| File                                             | Updated                    |
+| ------------------------------------------------ | -------------------------- |
+| [[Tricks/Examples/_design.md\|_design]]          | 1:45 PM - October 28, 2025 |
+| [[Testing/index.md\|index]]                      | 1:45 PM - October 28, 2025 |
+| [[Lab/devices/dn3.md\|dn3]]                      | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn1.md\|dn1]]                      | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn2.md\|dn2]]                      | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/Sterling.md\|Sterling]]            | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Sliver.md\|Sliver]]                | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Router.md\|Router]]                | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Gearbox.md\|Gearbox]]              | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/Changeling.md\|Changeling]]        | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/LisaSU25.md\|LisaSU25]]            | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/Interceptor.md\|Interceptor]]      | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/Nexus.md\|Nexus]]                  | 1:37 PM - October 28, 2025 |
+| [[Tricks/Smoother Updates.md\|Smoother Updates]] | 1:34 PM - October 28, 2025 |
+| [[Knowledge Base/Cloud Init.md\|Cloud Init]]     | 1:34 PM - October 28, 2025 |
+| [[Knowledge Base/Ansible.md\|Ansible]]           | 1:33 PM - October 28, 2025 |
+| [[Knowledge Base/FLOSS.md\|FLOSS]]               | 1:33 PM - October 28, 2025 |
+| [[Knowledge Base/Obsidian.md\|Obsidian]]         | 1:31 PM - October 28, 2025 |
+| [[Lab/The Stack.md\|The Stack]]                  | 1:29 PM - October 28, 2025 |
+| [[index.md\|index]]                              | 1:21 PM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder  | Documents                                                      |
-| ------- | -------------------------------------------------------------- |
-| Testing | [[Testing/_design.md\|_design]] \| [[Testing/index.md\|index]] |
+| Folder  | Documents                   |
+| ------- | --------------------------- |
+| Testing | [[Testing/index.md\|index]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 ### Recent Changes / Additions
@@ -33,6 +33,6 @@ LIMIT 20
 
 | File                        | Created                    | Updated                    |
 | --------------------------- | -------------------------- | -------------------------- |
-| [[Testing/index.md\|index]] | 4:14 PM - October 21, 2025 | 1:01 PM - October 28, 2025 |
+| [[Testing/index.md\|index]] | 4:14 PM - October 21, 2025 | 1:45 PM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                                 | Action   | Date                       |
-| ---------------------------------------------------- | -------- | -------------------------- |
-| [[Lab/services/Openmediavault.md\|Openmediavault]]   | modified | 1:13 PM - October 28, 2025 |
-| [[Lab/devices/Interceptor.md\|Interceptor]]          | modified | 1:12 PM - October 28, 2025 |
-| [[Lab/devices/Interceptor.md\|Interceptor]]          | created  | 1:12 PM - October 28, 2025 |
-| [[Lab/services/Docker Registry.md\|Docker Registry]] | modified | 1:10 PM - October 28, 2025 |
-| [[Lab/services/Grafana.md\|Grafana]]                 | modified | 1:10 PM - October 28, 2025 |
-| [[Lab/index.md\|index]]                              | modified | 1:08 PM - October 28, 2025 |
-| [[Lab/services/Apt Cacher NG.md\|Apt Cacher NG]]     | modified | 1:07 PM - October 28, 2025 |
-| [[index.md\|index]]                                  | modified | 1:03 PM - October 28, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]]   | modified | 1:03 PM - October 28, 2025 |
-| [[_templates/Folder.md\|Folder]]                     | modified | 1:01 PM - October 28, 2025 |
+| File                                    | Action   | Date                       |
+| --------------------------------------- | -------- | -------------------------- |
+| [[Tricks/Examples/_design.md\|_design]] | modified | 1:45 PM - October 28, 2025 |
+| [[Testing/index.md\|index]]             | modified | 1:45 PM - October 28, 2025 |
+| [[Lab/devices/dn3.md\|dn3]]             | modified | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn3.md\|dn3]]             | created  | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn1.md\|dn1]]             | modified | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn2.md\|dn2]]             | modified | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn2.md\|dn2]]             | created  | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn1.md\|dn1]]             | created  | 1:42 PM - October 28, 2025 |
+| [[Lab/devices/Sterling.md\|Sterling]]   | modified | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Sliver.md\|Sliver]]       | modified | 1:39 PM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
 
