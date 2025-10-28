@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                    | Action   | Date                       |
-| --------------------------------------- | -------- | -------------------------- |
-| [[Tricks/Examples/_design.md\|_design]] | modified | 1:45 PM - October 28, 2025 |
-| [[Testing/index.md\|index]]             | modified | 1:45 PM - October 28, 2025 |
-| [[Lab/devices/dn3.md\|dn3]]             | modified | 1:43 PM - October 28, 2025 |
-| [[Lab/devices/dn3.md\|dn3]]             | created  | 1:43 PM - October 28, 2025 |
-| [[Lab/devices/dn1.md\|dn1]]             | modified | 1:43 PM - October 28, 2025 |
-| [[Lab/devices/dn2.md\|dn2]]             | modified | 1:43 PM - October 28, 2025 |
-| [[Lab/devices/dn2.md\|dn2]]             | created  | 1:43 PM - October 28, 2025 |
-| [[Lab/devices/dn1.md\|dn1]]             | created  | 1:42 PM - October 28, 2025 |
-| [[Lab/devices/Sterling.md\|Sterling]]   | modified | 1:39 PM - October 28, 2025 |
-| [[Lab/devices/Sliver.md\|Sliver]]       | modified | 1:39 PM - October 28, 2025 |
+| File                                                                | Action   | Date                       |
+| ------------------------------------------------------------------- | -------- | -------------------------- |
+| [[index.md\|index]]                                                 | modified | 3:08 PM - October 28, 2025 |
+| [[_assets/obsidian-directory-layout.md\|obsidian-directory-layout]] | modified | 3:01 PM - October 28, 2025 |
+| [[Knowledge Base/Obsidian.md\|Obsidian]]                            | modified | 2:55 PM - October 28, 2025 |
+| [[Lab/index.md\|index]]                                             | modified | 2:12 PM - October 28, 2025 |
+| [[_templates/Folder.md\|Folder]]                                    | modified | 1:46 PM - October 28, 2025 |
+| [[_templates/Recent Activity.md\|Recent Activity]]                  | modified | 1:46 PM - October 28, 2025 |
+| [[_assets/Excalidraw/Scripts/Downloaded/index.md.md\|index.md]]     | modified | 1:46 PM - October 28, 2025 |
+| [[Tricks/Examples/index.md\|index]]                                 | modified | 1:46 PM - October 28, 2025 |
+| [[Tricks/index.md\|index]]                                          | modified | 1:46 PM - October 28, 2025 |
+| [[Knowledge Base/index.md\|index]]                                  | modified | 1:46 PM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
 

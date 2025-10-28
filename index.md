@@ -31,7 +31,7 @@ Working with local colleges, local businesses, and [[BMS]] to create a Internshi
 ### Obsidian Sync (self-hosted)
 I self hosting my own Obsidian Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain. This is actually a part of a larger (and ongoing project - [[Home Lab 101]])
 
-### Miscelaneous
+### Miscellaneous
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
 
 ## Recent Changes / Additions
@@ -56,8 +56,13 @@ LIMIT 20
 
 | File                                             | Updated                    |
 | ------------------------------------------------ | -------------------------- |
+| [[index.md\|index]]                              | 3:08 PM - October 28, 2025 |
+| [[Knowledge Base/Obsidian.md\|Obsidian]]         | 2:55 PM - October 28, 2025 |
+| [[Lab/index.md\|index]]                          | 2:12 PM - October 28, 2025 |
+| [[Tricks/Examples/index.md\|index]]              | 1:46 PM - October 28, 2025 |
+| [[Tricks/index.md\|index]]                       | 1:46 PM - October 28, 2025 |
+| [[Knowledge Base/index.md\|index]]               | 1:46 PM - October 28, 2025 |
 | [[Tricks/Examples/_design.md\|_design]]          | 1:45 PM - October 28, 2025 |
-| [[Testing/index.md\|index]]                      | 1:45 PM - October 28, 2025 |
 | [[Lab/devices/dn3.md\|dn3]]                      | 1:43 PM - October 28, 2025 |
 | [[Lab/devices/dn1.md\|dn1]]                      | 1:43 PM - October 28, 2025 |
 | [[Lab/devices/dn2.md\|dn2]]                      | 1:43 PM - October 28, 2025 |
@@ -71,10 +76,5 @@ LIMIT 20
 | [[Lab/devices/Nexus.md\|Nexus]]                  | 1:37 PM - October 28, 2025 |
 | [[Tricks/Smoother Updates.md\|Smoother Updates]] | 1:34 PM - October 28, 2025 |
 | [[Knowledge Base/Cloud Init.md\|Cloud Init]]     | 1:34 PM - October 28, 2025 |
-| [[Knowledge Base/Ansible.md\|Ansible]]           | 1:33 PM - October 28, 2025 |
-| [[Knowledge Base/FLOSS.md\|FLOSS]]               | 1:33 PM - October 28, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]         | 1:31 PM - October 28, 2025 |
-| [[Lab/The Stack.md\|The Stack]]                  | 1:29 PM - October 28, 2025 |
-| [[index.md\|index]]                              | 1:21 PM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

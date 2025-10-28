@@ -38,6 +38,7 @@ LIMIT 20
 
 | File                                                 | Created                     | Updated                     |
 | ---------------------------------------------------- | --------------------------- | --------------------------- |
+| [[Lab/index.md\|index]]                              | 4:19 PM - October 20, 2025  | 2:12 PM - October 28, 2025  |
 | [[Lab/devices/dn3.md\|dn3]]                          | 1:43 PM - October 28, 2025  | 1:43 PM - October 28, 2025  |
 | [[Lab/devices/dn1.md\|dn1]]                          | 1:42 PM - October 28, 2025  | 1:43 PM - October 28, 2025  |
 | [[Lab/devices/dn2.md\|dn2]]                          | 1:43 PM - October 28, 2025  | 1:43 PM - October 28, 2025  |
@@ -50,7 +51,6 @@ LIMIT 20
 | [[Lab/devices/Interceptor.md\|Interceptor]]          | 1:12 PM - October 28, 2025  | 1:38 PM - October 28, 2025  |
 | [[Lab/devices/Nexus.md\|Nexus]]                      | 2:11 PM - October 25, 2025  | 1:37 PM - October 28, 2025  |
 | [[Lab/The Stack.md\|The Stack]]                      | 4:19 PM - October 20, 2025  | 1:29 PM - October 28, 2025  |
-| [[Lab/index.md\|index]]                              | 4:19 PM - October 20, 2025  | 1:21 PM - October 28, 2025  |
 | [[Lab/services/Openmediavault.md\|Openmediavault]]   | 10:17 PM - October 23, 2025 | 1:13 PM - October 28, 2025  |
 | [[Lab/services/Docker Registry.md\|Docker Registry]] | 10:14 PM - October 23, 2025 | 1:10 PM - October 28, 2025  |
 | [[Lab/services/Grafana.md\|Grafana]]                 | 4:19 PM - October 20, 2025  | 1:10 PM - October 28, 2025  |
