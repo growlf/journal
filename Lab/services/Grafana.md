@@ -10,14 +10,31 @@ Documentation: https://grafana.com/docs/grafana/latest/
 aliases:
 management_url: http://grafana.yeticraft.net:3000/
 ---
+Grafana is an open-source, web-based platform for querying, visualizing, and creating dashboards from your data, no matter where it's stored. It is used to monitor infrastructure and applications by transforming time-series data into beautiful graphs and charts, which helps users analyze performance and make data-driven decisions.  
+
+Key features and functions
+- **Data visualization:** 
+    Transforms data from various sources, such as Prometheus, [Loki](https://www.google.com/search?num=10&newwindow=1&sca_esv=5174aa7661d349ca&cs=1&sxsrf=AE3TifP7-_6if7FmMbMimxJBW-pzle52rA%3A1761682125924&q=Loki&sa=X&ved=2ahUKEwjenq-q2ceQAxV3JUQIHalUN6AQxccNegQIHxAB&mstk=AUtExfB7axZKkdVqLuHY2EtVoGIizVVCisTfV6VgRnJoV6SW46RJYYGiHgLsK27QTUgDGPSm33is2qVdApBaGkXd4MmprEnzYnnqlh-9PDMX3tVLAiNMkWtBnpNbjHIP4pCbFsH20B1ZX4vwRLSdTDzACsutQmuwrSAE-rdd_rbGf936h8s&csui=3), and [Elasticsearch](https://www.google.com/search?num=10&newwindow=1&sca_esv=5174aa7661d349ca&cs=1&sxsrf=AE3TifP7-_6if7FmMbMimxJBW-pzle52rA%3A1761682125924&q=Elasticsearch&sa=X&ved=2ahUKEwjenq-q2ceQAxV3JUQIHalUN6AQxccNegQIHxAC&mstk=AUtExfB7axZKkdVqLuHY2EtVoGIizVVCisTfV6VgRnJoV6SW46RJYYGiHgLsK27QTUgDGPSm33is2qVdApBaGkXd4MmprEnzYnnqlh-9PDMX3tVLAiNMkWtBnpNbjHIP4pCbFsH20B1ZX4vwRLSdTDzACsutQmuwrSAE-rdd_rbGf936h8s&csui=3), into visually appealing and informative graphs and dashboards. 
+- **Observability:** 
+    Allows users to visualize metrics, logs, and traces from different systems in one place, providing a unified view of performance and system health. 
+- **Alerting:** 
+    Enables the creation and management of alerts within a single UI, allowing teams to respond to issues proactively. 
+- **Multiple data sources:** 
+    Supports a wide range of data sources, including databases, cloud services like AWS CloudWatch, and time-series databases. 
+- **Extensibility:** 
+    Can be extended with custom plugins to add new data sources, panels, and features, making it highly flexible. 
+- **Open-source and enterprise versions:** 
+    Available as a free, open-source project or as a commercial enterprise and cloud offering with additional features and support. 
+
+Who uses Grafana
+- Developers and operations teams use it to monitor the health of their applications and infrastructure.
+- Businesses use it to gain insights from their data and make more informed decisions.
 ## The Goal
 To tie together all of the services necessary to completely monitor all resources on mission critical services, containers, servers, etc. for the purposes of alerting and debugging issues before they become major.
 
 NOTE: None of these demonstration links to anything in the `yeticraft.net` domain are real. So don't expect them to work for you.  When I spin up my home lab, it generates DNS entries for my [[LXC]], Containers, and VMS that are entirely behind the lab firewall - not to mention they are only temporary.
-
 ## The Journey
 This one is fairly lengthy, so get a cup of tea, have a sit on the comfy chair and take your time reading through this.
-
 ### Grafana
 I started with installing Grafana as a standalone [[LXC]] on my [[Proxmox]] server using a [script](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana). It looks like it is running fine at http://grafana.yeticraft.net:3000/. Nothing there though.  I need some data first.
 ### Prometheus
@@ -59,12 +76,10 @@ Then restarted the daemon like so:
 systemctl daemon-reload && systemctl restart prometheus
 ```
 After a quick look at the data through Grafana's Explore tab - I can see that there is definitely data coming in!
-
 ### Docker Dashboard
 This seems like a great time to load a [Grafana Labs Dashboards](https://grafana.com/grafana/dashboards) and see the beginning of the usefulness of this set of tools. I'll build my own later and customize it specifically to my needs but, for now, this is the easiest and fastest way to get some joy. 
 
 I browsed through the available dashboards, setting the filters for 'Prometheus' as the data-source and 'Docker' as the category... selected a dashboard or three to try out. Each dashboard has a numeric ID that can then be imported on the Grafana Dashboards panel.
-
 ### Proxmox Server Data
 
 Found [this](https://github.com/prometheus-pve/prometheus-pve-exporter/) little gem. Just run it in your docker system, and feed it some valid credentials from the Proxmox, and WHEEEE!  There is a related dashboard as well.
