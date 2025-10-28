@@ -1,6 +1,8 @@
 ---
 title: Lab
 ---
+Building a home lab is essential to learning and improving in the world of tech. If you have not created one for yourself, and are interested, start [[Home Lab 101|here]].  If you are a bit more familiar and just want the overview, feel free to look at what I call [[The Stack]] - my basic layout for my own.
+
 ## Contents:
 %% DATAVIEW_PUBLISHER: start
 ```dataview
