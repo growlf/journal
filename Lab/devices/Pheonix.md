@@ -6,7 +6,7 @@ tags:
   - laptop
 os: linux
 ---
-## Asus Zenbook-Duo
+Asus Zenbook-Duo
 ## Links
 - https://www.reddit.com/r/ASUS/comments/o1k04p/ubuntu_linux_on_ux582_zenbook_duo/
 - https://github.com/boltgolt/howdy

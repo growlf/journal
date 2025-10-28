@@ -16,6 +16,26 @@ aliases:
 - [Tasks](https://publish.obsidian.md/tasks/Introduction) - indispensable. Life changing, in fact. Local only.
 - Power Mode - just fun and silly, but makes my happy to write more!
 - Ollama - if you have the hardware for it, it is amazingly useful once you create some custom LLMs for your own use.
+```json
+ "obsidian-livesync",  
+ "dataview",  
+ "templater-obsidian",  
+ "obsidian-tasks-plugin",  
+ "obsidian-excalidraw-plugin",  
+ "obsidian-kanban",  
+ "obsidian-style-settings",  
+ "obsidian-icon-folder",  
+ "homepage",  
+ "tag-wrangler",  
+ "pexels-banner",  
+ "avatar",  
+ "dataview-publisher",  
+ "obsidian-git",  
+ "3d-graph",  
+ "card-board",  
+ "power-mode",  
+ "folder-notes"
+```
 
 ### Links
 - [[Obsidian]]
