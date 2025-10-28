@@ -37,5 +37,6 @@ Examples of Docker Registries:
     - GitHub Package Registry 
 - On-Prem Registries:
 	- [Registry UI](https://github.com/Joxit/docker-registry-ui) and [Docker-Registry](https://hub.docker.com/_/registry)
+	- [[Harbor]]
 
 In essence, a Docker registry is an essential component in the containerization workflow, streamlining the deployment, management, and sharing of applications packaged as Docker images.
