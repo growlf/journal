@@ -12,7 +12,7 @@ In a nutshell, Obsidian is a personal knowledge management and note-taking appli
 
 My current layout is fairly simple.  I have a vault with the following directory structure (the relevant parts at least):
 ![[obsidian-directory-layout.svg]]
-Only the `publish` directory gets published due to my settings in my `.github/workflow` files.  This allows me to keep my templates and source files (such as Excalidraw files) out of the journal publishing, but still keep them in the same repository.
+Only the files/directories ***NOT*** listed in the `.gitignore` file get published.  This allows me to keep my templates and source files (such as messy and large Excalidraw files) out of the journal publishing - this may be particularly important for private notes I leave myself in my `dayly` folder.
 ## Publishing to GitHub
 I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a public audience on a *huge* platform, complete with SSL and versioning control.
 ## Links
@@ -25,4 +25,4 @@ I am using [[GitHub-Quartz-Obsidian]] to automatically publish my content to a p
 
 -----
 ## Tasks:
-- [ ] Update obsidian layout to reflect most recent move to remove the publish folder and implement dataview-publisher
+- [x] Update obsidian layout to reflect most recent move to remove the publish folder and implement dataview-publisher ✅ 2025-10-28
