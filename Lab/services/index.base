@@ -11,3 +11,4 @@ views:
     order:
       - file.name
       - management_url
+      - host
