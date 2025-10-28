@@ -12,7 +12,7 @@ LIMIT 10
 | [[Lab/services/Grafana.md\|Grafana]]                     | modified | 1:00 PM - October 28, 2025  |
 | [[daily/2025-08-17.md\|2025-08-17]]                      | modified | 1:00 PM - October 28, 2025  |
 | [[Lab/services/TBD/index.md\|index]]                     | modified | 1:00 PM - October 28, 2025  |
-| [[Lab/services/TBD/PVE Monitor-All.md\|PVE Monitor-All]] | modified | 1:00 PM - October 28, 2025  |
+| [[PVE Monitor-All\|PVE Monitor-All]] | modified | 1:00 PM - October 28, 2025  |
 | [[Lab/services/CouchDB.md\|CouchDB]]                     | modified | 1:00 PM - October 28, 2025  |
 | [[Lab/index.md\|index]]                                  | modified | 1:00 PM - October 28, 2025  |
 | [[Knowledge Base/DNS.md\|DNS]]                           | modified | 1:00 PM - October 28, 2025  |

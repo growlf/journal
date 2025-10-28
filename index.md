@@ -58,7 +58,7 @@ LIMIT 20
 | ---------------------------------------------------------------- | --------------------------- |
 | [[Lab/services/Grafana.md\|Grafana]]                             | 1:00 PM - October 28, 2025  |
 | [[Lab/services/TBD/index.md\|index]]                             | 1:00 PM - October 28, 2025  |
-| [[Lab/services/TBD/PVE Monitor-All.md\|PVE Monitor-All]]         | 1:00 PM - October 28, 2025  |
+| [[PVE Monitor-All\|PVE Monitor-All]]         | 1:00 PM - October 28, 2025  |
 | [[Lab/services/CouchDB.md\|CouchDB]]                             | 1:00 PM - October 28, 2025  |
 | [[Lab/index.md\|index]]                                          | 1:00 PM - October 28, 2025  |
 | [[Knowledge Base/DNS.md\|DNS]]                                   | 1:00 PM - October 28, 2025  |
