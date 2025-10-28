@@ -32,27 +32,16 @@ LIMIT 20
 ```
 %%
 
-| File                                           | Created                    | Updated                       |
-| ---------------------------------------------- | -------------------------- | ----------------------------- |
-| [[Knowledge Base/DHCP.md\|DHCP]]               | 4:19 PM - October 20, 2025 | 2:18 PM - October 22, 2025    |
-| [[Knowledge Base/DNS.md\|DNS]]                 | 4:19 PM - October 20, 2025 | 2:15 PM - October 22, 2025    |
-| [[Knowledge Base/WiFi.md\|WiFi]]               | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025    |
-| [[Knowledge Base/Router.md\|Router]]           | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025    |
-| [[Knowledge Base/Firewall.md\|Firewall]]       | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025    |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]       | 4:19 PM - October 20, 2025 | 2:12 PM - October 22, 2025    |
-| [[Knowledge Base/ISP.md\|ISP]]                 | 4:19 PM - October 20, 2025 | 2:10 PM - October 22, 2025    |
-| [[Knowledge Base/index.md\|index]]             | 4:19 PM - October 20, 2025 | 1:56 PM - October 22, 2025    |
-| [[Knowledge Base/Hardware.md\|Hardware]]       | 4:19 PM - October 20, 2025 | 2:31 PM - October 09, 2025    |
-| [[Knowledge Base/ZFS Backups.md\|ZFS Backups]] | 4:19 PM - October 20, 2025 | 10:01 PM - September 16, 2025 |
-| [[Knowledge Base/ZFS.md\|ZFS]]                 | 4:19 PM - October 20, 2025 | 1:16 AM - September 12, 2025  |
-| [[Knowledge Base/LLM.md\|LLM]]                 | 4:19 PM - October 20, 2025 | 2:24 PM - September 11, 2025  |
-| [[Knowledge Base/Cloud Init.md\|Cloud Init]]   | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/ssh.md\|ssh]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/LXC.md\|LXC]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/Mark Down.md\|Mark Down]]     | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/NAS.md\|NAS]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/PXEBoot.md\|PXEBoot]]         | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/Email.md\|Email]]             | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
-| [[Knowledge Base/GIT.md\|GIT]]                 | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| File                                         | Created                    | Updated                     |
+| -------------------------------------------- | -------------------------- | --------------------------- |
+| [[Knowledge Base/Cloud Init.md\|Cloud Init]] | 4:19 PM - October 20, 2025 | 1:11 AM - October 28, 2025  |
+| [[Knowledge Base/DNS.md\|DNS]]               | 4:19 PM - October 20, 2025 | 12:57 AM - October 28, 2025 |
+| [[Knowledge Base/index.md\|index]]           | 4:19 PM - October 20, 2025 | 2:24 PM - October 22, 2025  |
+| [[Knowledge Base/DHCP.md\|DHCP]]             | 4:19 PM - October 20, 2025 | 2:18 PM - October 22, 2025  |
+| [[Knowledge Base/WiFi.md\|WiFi]]             | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025  |
+| [[Knowledge Base/Router.md\|Router]]         | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025  |
+| [[Knowledge Base/Firewall.md\|Firewall]]     | 4:19 PM - October 20, 2025 | 2:13 PM - October 22, 2025  |
+| [[Knowledge Base/Obsidian.md\|Obsidian]]     | 4:19 PM - October 20, 2025 | 2:12 PM - October 22, 2025  |
+| [[Knowledge Base/ISP.md\|ISP]]               | 4:19 PM - October 20, 2025 | 2:10 PM - October 22, 2025  |
 
 %% DATAVIEW_PUBLISHER: end %%

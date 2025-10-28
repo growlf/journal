@@ -31,9 +31,8 @@ LIMIT 20
 ```
 %%
 
-| File                            | Created                    | Updated                       |
-| ------------------------------- | -------------------------- | ----------------------------- |
-| [[Testing/index.md\|index]]     | 4:14 PM - October 21, 2025 | 1:56 PM - October 22, 2025    |
-| [[Testing/_design.md\|_design]] | 4:19 PM - October 20, 2025 | 12:43 AM - September 11, 2025 |
+| File                        | Created                    | Updated                    |
+| --------------------------- | -------------------------- | -------------------------- |
+| [[Testing/index.md\|index]] | 4:14 PM - October 21, 2025 | 2:24 PM - October 22, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

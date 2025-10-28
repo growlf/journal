@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                          | Action   | Date                       |
-| --------------------------------------------- | -------- | -------------------------- |
-| [[index.md\|index]]                           | modified | 2:21 PM - October 22, 2025 |
-| [[SyncThing\|SyncThing]]             | modified | 2:19 PM - October 22, 2025 |
-| [[PVE Monitor-All\|PVE Monitor-All]] | modified | 2:19 PM - October 22, 2025 |
-| [[Knowledge Base/DHCP.md\|DHCP]]              | modified | 2:18 PM - October 22, 2025 |
-| [[Knowledge Base/DNS.md\|DNS]]                | modified | 2:15 PM - October 22, 2025 |
-| [[Knowledge Base/WiFi.md\|WiFi]]              | modified | 2:13 PM - October 22, 2025 |
-| [[Knowledge Base/Router.md\|Router]]          | modified | 2:13 PM - October 22, 2025 |
-| [[Knowledge Base/Firewall.md\|Firewall]]      | modified | 2:13 PM - October 22, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]      | modified | 2:12 PM - October 22, 2025 |
-| [[Knowledge Base/ISP.md\|ISP]]                | modified | 2:10 PM - October 22, 2025 |
+| File                                             | Action   | Date                        |
+| ------------------------------------------------ | -------- | --------------------------- |
+| [[daily/2025-10-28.md\|2025-10-28]]              | modified | 12:06 PM - October 28, 2025 |
+| [[Lab/devices/Sterling.md\|Sterling]]            | modified | 1:18 AM - October 28, 2025  |
+| [[Lab/devices/Sliver.md\|Sliver]]                | modified | 1:18 AM - October 28, 2025  |
+| [[Lab/devices/Router.md\|Router]]                | modified | 1:18 AM - October 28, 2025  |
+| [[Lab/devices/Pheonix.md\|Pheonix]]              | modified | 1:17 AM - October 28, 2025  |
+| [[Lab/devices/Nexus.md\|Nexus]]                  | modified | 1:16 AM - October 28, 2025  |
+| [[Lab/devices/Changeling.md\|Changeling]]        | modified | 1:16 AM - October 28, 2025  |
+| [[Lab/devices/Gearbox.md\|Gearbox]]              | modified | 1:15 AM - October 28, 2025  |
+| [[Tricks/Obsidian Plugins.md\|Obsidian Plugins]] | modified | 1:13 AM - October 28, 2025  |
+| [[Lab/services/TBD/index.md\|index]]             | modified | 1:11 AM - October 28, 2025  |
 
 %% DATAVIEW_PUBLISHER: end %%
 

@@ -54,27 +54,27 @@ LIMIT 20
 ```
 %%
 
-| File                                          | Updated                    |
-| --------------------------------------------- | -------------------------- |
-| [[index.md\|index]]                           | 2:21 PM - October 22, 2025 |
-| [[SyncThing\|SyncThing]]             | 2:19 PM - October 22, 2025 |
-| [[PVE Monitor-All\|PVE Monitor-All]] | 2:19 PM - October 22, 2025 |
-| [[Knowledge Base/DHCP.md\|DHCP]]              | 2:18 PM - October 22, 2025 |
-| [[Knowledge Base/DNS.md\|DNS]]                | 2:15 PM - October 22, 2025 |
-| [[Knowledge Base/WiFi.md\|WiFi]]              | 2:13 PM - October 22, 2025 |
-| [[Knowledge Base/Router.md\|Router]]          | 2:13 PM - October 22, 2025 |
-| [[Knowledge Base/Firewall.md\|Firewall]]      | 2:13 PM - October 22, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]      | 2:12 PM - October 22, 2025 |
-| [[Knowledge Base/ISP.md\|ISP]]                | 2:10 PM - October 22, 2025 |
-| [[Lab/The Stack.md\|The Stack]]               | 2:09 PM - October 22, 2025 |
-| [[Lab/Home Lab 101.md\|Home Lab 101]]         | 2:09 PM - October 22, 2025 |
-| [[Gizmos/index.md\|index]]                    | 2:06 PM - October 22, 2025 |
-| [[CouchDB\|CouchDB]]                 | 2:03 PM - October 22, 2025 |
-| [[Tricks/index.md\|index]]                    | 1:56 PM - October 22, 2025 |
-| [[Testing/index.md\|index]]                   | 1:56 PM - October 22, 2025 |
-| [[Lab/services/TBD/index\|index]]                     | 1:56 PM - October 22, 2025 |
-| [[Knowledge Base/index.md\|index]]            | 1:56 PM - October 22, 2025 |
-| [[Lab/index.md\|index]]                       | 1:56 PM - October 22, 2025 |
-| [[Gearbox\|Gearbox]]               | 4:48 PM - October 21, 2025 |
+| File                                                             | Updated                    |
+| ---------------------------------------------------------------- | -------------------------- |
+| [[Lab/devices/Sterling.md\|Sterling]]                            | 1:18 AM - October 28, 2025 |
+| [[Lab/devices/Sliver.md\|Sliver]]                                | 1:18 AM - October 28, 2025 |
+| [[Lab/devices/Router.md\|Router]]                                | 1:18 AM - October 28, 2025 |
+| [[Lab/devices/Pheonix.md\|Pheonix]]                              | 1:17 AM - October 28, 2025 |
+| [[Lab/devices/Nexus.md\|Nexus]]                                  | 1:16 AM - October 28, 2025 |
+| [[Lab/devices/Changeling.md\|Changeling]]                        | 1:16 AM - October 28, 2025 |
+| [[Lab/devices/Gearbox.md\|Gearbox]]                              | 1:15 AM - October 28, 2025 |
+| [[Tricks/Obsidian Plugins.md\|Obsidian Plugins]]                 | 1:13 AM - October 28, 2025 |
+| [[Lab/services/TBD/index.md\|index]]                             | 1:11 AM - October 28, 2025 |
+| [[Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]]   | 1:11 AM - October 28, 2025 |
+| [[Lab/The Stack.md\|The Stack]]                                  | 1:11 AM - October 28, 2025 |
+| [[Lab/services/HomeAssistant.md\|HomeAssistant]]                 | 1:11 AM - October 28, 2025 |
+| [[Lab/services/Grafana 1.md\|Grafana 1]]                         | 1:11 AM - October 28, 2025 |
+| [[Lab/services/Apt Cacher NG.md\|Apt Cacher NG]]                 | 1:11 AM - October 28, 2025 |
+| [[Lab/services/CouchDB.md\|CouchDB]]                             | 1:11 AM - October 28, 2025 |
+| [[Lab/services/Wireguard.md\|Wireguard]]                         | 1:11 AM - October 28, 2025 |
+| [[Tricks/Replicating my Desktop.md\|Replicating my Desktop]]     | 1:11 AM - October 28, 2025 |
+| [[Tricks/Proxmox Commandline.md\|Proxmox Commandline]]           | 1:11 AM - October 28, 2025 |
+| [[Lab/services/Technitium DNS & DHCP.md\|Technitium DNS & DHCP]] | 1:11 AM - October 28, 2025 |
+| [[Knowledge Base/Cloud Init.md\|Cloud Init]]                     | 1:11 AM - October 28, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
