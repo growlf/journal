@@ -8,7 +8,6 @@ Documentation:
 aliases:
   - AI
 ---
----
 Large Language models. Frequently (and inaccurately) referred to as Artificial Intelligence (AI). LLMs are a very useful tool to synthesize answers from large buckets of data, and to illuminate possible synergies between concepts that might otherwise not be seen at all.
 
 It also can help with speeding up coding outcomes (if properly configured, used, and not trusted entirely), generating some truly amazing art/music/etc refinements of the human input and original source material.

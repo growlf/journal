@@ -1,6 +1,6 @@
 ---
 tags: 
-Creation date: <% tp.file.creation_date() %>
+Creation date: 2025-10-28 17:15
 Documentation: 
 aliases:
 ---

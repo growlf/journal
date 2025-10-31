@@ -1,7 +1,7 @@
 ---
 tags: 
-Creation date: <% tp.file.creation_date() %>
-modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+Creation date: 2025-10-28 17:15
+modification date: Friday 12th September 2025 01:16:42
 Documentation: https://pve.proxmox.com/wiki/Storage#chapter_storage
 aliases:
 ---
