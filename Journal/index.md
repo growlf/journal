@@ -58,22 +58,22 @@ LIMIT 20
 | ------------------------------------------------ | -------------------------- |
 | [[index.md\|index]]                              | 3:08 PM - October 28, 2025 |
 | [[Knowledge Base/Obsidian.md\|Obsidian]]         | 2:55 PM - October 28, 2025 |
-| [[Network/index\|index]]                          | 2:12 PM - October 28, 2025 |
+| [[Lab/index.md\|index]]                          | 2:12 PM - October 28, 2025 |
 | [[Tricks/Examples/index.md\|index]]              | 1:46 PM - October 28, 2025 |
 | [[Tricks/index.md\|index]]                       | 1:46 PM - October 28, 2025 |
 | [[Knowledge Base/index.md\|index]]               | 1:46 PM - October 28, 2025 |
 | [[Tricks/Examples/_design.md\|_design]]          | 1:45 PM - October 28, 2025 |
-| [[dn3\|dn3]]                      | 1:43 PM - October 28, 2025 |
-| [[dn1\|dn1]]                      | 1:43 PM - October 28, 2025 |
-| [[dn2\|dn2]]                      | 1:43 PM - October 28, 2025 |
-| [[Sterling\|Sterling]]            | 1:39 PM - October 28, 2025 |
-| [[Sliver\|Sliver]]                | 1:39 PM - October 28, 2025 |
-| [[Network/devices/Router\|Router]]                | 1:39 PM - October 28, 2025 |
-| [[Gearbox\|Gearbox]]              | 1:38 PM - October 28, 2025 |
-| [[Changeling\|Changeling]]        | 1:38 PM - October 28, 2025 |
-| [[LisaSU25\|LisaSU25]]            | 1:38 PM - October 28, 2025 |
-| [[Interceptor\|Interceptor]]      | 1:38 PM - October 28, 2025 |
-| [[Nexus\|Nexus]]                  | 1:37 PM - October 28, 2025 |
+| [[Lab/devices/dn3.md\|dn3]]                      | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn1.md\|dn1]]                      | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/dn2.md\|dn2]]                      | 1:43 PM - October 28, 2025 |
+| [[Lab/devices/Sterling.md\|Sterling]]            | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Sliver.md\|Sliver]]                | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Router.md\|Router]]                | 1:39 PM - October 28, 2025 |
+| [[Lab/devices/Gearbox.md\|Gearbox]]              | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/Changeling.md\|Changeling]]        | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/LisaSU25.md\|LisaSU25]]            | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/Interceptor.md\|Interceptor]]      | 1:38 PM - October 28, 2025 |
+| [[Lab/devices/Nexus.md\|Nexus]]                  | 1:37 PM - October 28, 2025 |
 | [[Tricks/Smoother Updates.md\|Smoother Updates]] | 1:34 PM - October 28, 2025 |
 | [[Knowledge Base/Cloud Init.md\|Cloud Init]]     | 1:34 PM - October 28, 2025 |
 

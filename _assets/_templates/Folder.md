@@ -14,7 +14,7 @@ SORT lastPart
 
 | Folder     | Documents                                                                                                                                                              |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _templates | [[_templates/dailynote.md\|dailynote]] \| [[_templates/Folder.md\|Folder]] \| [[_templates/Project.md\|Project]] \| [[_templates/Recent Activity.md\|Recent Activity]] |
+| _templates | [[dailynote\|dailynote]] \| [[Folder\|Folder]] \| [[Project\|Project]] \| [[Recent Activity\|Recent Activity]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 ### Recent Changes / Additions
@@ -33,8 +33,8 @@ LIMIT 20
 
 | File                                               | Created                    | Updated                    |
 | -------------------------------------------------- | -------------------------- | -------------------------- |
-| [[_templates/Folder.md\|Folder]]                   | 4:19 PM - October 20, 2025 | 1:46 PM - October 28, 2025 |
-| [[_templates/Recent Activity.md\|Recent Activity]] | 4:19 PM - October 20, 2025 | 1:46 PM - October 28, 2025 |
-| [[_templates/dailynote.md\|dailynote]]             | 4:19 PM - October 20, 2025 | 1:39 PM - October 21, 2025 |
+| [[Folder\|Folder]]                   | 4:19 PM - October 20, 2025 | 1:46 PM - October 28, 2025 |
+| [[Recent Activity\|Recent Activity]] | 4:19 PM - October 20, 2025 | 1:46 PM - October 28, 2025 |
+| [[dailynote\|dailynote]]             | 4:19 PM - October 20, 2025 | 1:39 PM - October 21, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
