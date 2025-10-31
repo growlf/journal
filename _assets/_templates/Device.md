@@ -1,20 +1,17 @@
 ---
-tags:
-  - laptop
-  - devices
-ip: DHCP
-ports:
-os: linux
 Updated:
-Active: true
-type: Laptop
+Active:
+type:
 IP:
-model: Framework Laptop
+model:
+os:
 Cores:
 RAM:
 Storage:
 networks:
 services:
+tags:
+  - devices
 ---
 # Description
 - Last Updated: **`=this.Updated`**

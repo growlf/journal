@@ -4,15 +4,22 @@ views:
     filters:
       and:
         - file.name != "index.base"
-        - file.inFolder("Lab/devices")
+        - file.inFolder("Network/devices")
     order:
       - file.name
+      - Active
+      - services
       - ip
-      - ports
-      - tags
       - os
+      - type
+      - tags
     columnSize:
-      file.name: 195
-      note.ip: 66
+      file.name: 110
+      note.Active: 31
+      note.services: 128
+      note.ip: 110
+      note.os: 85
+      note.type: 80
+      note.tags: 200
   - type: table
     name: View

@@ -3,7 +3,7 @@ tags:
   - automation
   - home
   - lxc
-Creation date: 
+Creation date:
 aliases:
   - Home Assistant
 management_url: http://homeassistant.yeticraft.net:8123/

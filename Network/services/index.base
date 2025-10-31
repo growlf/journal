@@ -7,7 +7,7 @@ views:
     filters:
       and:
         - file.name != "index.base"
-        - file.inFolder("Lab/services")
+        - file.inFolder("Network/services")
     order:
       - file.name
       - management_url
