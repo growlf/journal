@@ -1,62 +1,24 @@
 ---
-title: Lab
+banner: "![[network_banner.png]]"
+tags:
+  - networks
+  - infrastructure
+  - devices
+  - hardware
+  - services
+publish: false
+content-start: 281
 ---
-Building a home lab is essential to learning and improving in the world of tech. If you have not created one for yourself, and are interested, start [[Home Lab 101|here]].  If you are a bit more familiar and just want the overview, feel free to look at what I call [[The Stack]] - my basic layout for my own.
+This document folder is intended as a foundational baseline for our network implementation of [[Network/Devices/index.base|devices]], [[Network/Services/index.base|services]], and [[Network/Networks/index|networks]] at Bellingham Makerspace - where multiple users, [[People/index.base|volunteers]], and public have access to/from the internet is expected to exist for business-like purposes.  We already have a static IP for external access from the internet.
 
-## Contents:
-%% DATAVIEW_PUBLISHER: start
-```dataview
-TABLE join(sort(rows.file.link), " | ") as Documents
-FLATTEN regexreplace(file.folder, ".*/", "") as lastPart
-WHERE contains(file.folder, this.file.folder)
-GROUP BY lastPart as Folder
-SORT lastPart
-```
-%%
+This basic design is also applicable for [[Home Lab 101|HomeLab]] scenarios and for personal and community learning purposes.  A strong bias towards Opensource software is expressed where possible to allow inexpensive and professional implementation for personal and non-profit usage.  All of this is implemented with interns via the [[Mentor-based Internship]] program from Cascade STEAM.
+## Overview
+Use [[Network/Devices/index.base|Devices]], [[Network/Services/index.base|Services]], and [[Network/Networks/index]] to easily access and update information.
 
-| Folder   | Documents                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| devices  | [[Changeling\|Changeling]] \| [[dn1\|dn1]] \| [[dn2\|dn2]] \| [[dn3\|dn3]] \| [[Gearbox\|Gearbox]] \| [[Interceptor\|Interceptor]] \| [[LisaSU25\|LisaSU25]] \| [[Nexus\|Nexus]] \| [[Pheonix\|Pheonix]] \| [[Network/devices/Router\|Router]] \| [[Sliver\|Sliver]] \| [[Sterling\|Sterling]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Lab      | [[Home Lab 101\|Home Lab 101]] \| [[Network/index\|index]] \| [[The Stack\|The Stack]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| services | [[AI Studio\|AI Studio]] \| [[Apt Cacher NG\|Apt Cacher NG]] \| [[Cloudflare\|Cloudflare]] \| [[CouchDB\|CouchDB]] \| [[Docker Registry\|Docker Registry]] \| [[Enphase\|Enphase]] \| [[ESPHome\|ESPHome]] \| [[Grafana\|Grafana]] \| [[Harbor\|Harbor]] \| [[Home Assistant\|Home Assistant]] \| [[Homepage\|Homepage]] \| [[iVentoy Images\|iVentoy Images]] \| [[iVentoy\|iVentoy]] \| [[Netbox\|Netbox]] \| [[NGiNX Proxy Manager\|NGiNX Proxy Manager]] \| [[Node Red\|Node Red]] \| [[NTFY\|NTFY]] \| [[NtopNG\|NtopNG]] \| [[Openmediavault\|Openmediavault]] \| [[Portainer\|Portainer]] \| [[Prometheus\|Prometheus]] \| [[Proxmox Backup Server\|Proxmox Backup Server]] \| [[Proxmox\|Proxmox]] \| [[Network/services/Router\|Router]] \| [[Semaphore UI\|Semaphore UI]] \| [[SyncThing\|SyncThing]] \| [[Tailscale\|Tailscale]] \| [[Technitium DNS & DHCP\|Technitium DNS & DHCP]] \| [[Vaultwarden\|Vaultwarden]] \| [[Wireguard\|Wireguard]] \| [[Wordpress\|Wordpress]] \| [[WorkAdventure\|WorkAdventure]] |
-
-%% DATAVIEW_PUBLISHER: end %%
-
-## Recent Changes / Additions
-%% DATAVIEW_PUBLISHER: start
-```dataview
-TABLE 
-  file.ctime AS "Created", 
-  file.mtime AS "Updated"
-WHERE file.cday >= date(today) - dur(7 days)
-  OR file.mday >= date(today) - dur(7 days)
-WHERE contains(file.folder, this.file.folder)
-SORT file.mtime DESC
-LIMIT 20
-```
-%%
-
-| File                                                 | Created                     | Updated                     |
-| ---------------------------------------------------- | --------------------------- | --------------------------- |
-| [[Network/index\|index]]                              | 4:19 PM - October 20, 2025  | 2:12 PM - October 28, 2025  |
-| [[dn3\|dn3]]                          | 1:43 PM - October 28, 2025  | 1:43 PM - October 28, 2025  |
-| [[dn1\|dn1]]                          | 1:42 PM - October 28, 2025  | 1:43 PM - October 28, 2025  |
-| [[dn2\|dn2]]                          | 1:43 PM - October 28, 2025  | 1:43 PM - October 28, 2025  |
-| [[Sterling\|Sterling]]                | 12:26 AM - October 28, 2025 | 1:39 PM - October 28, 2025  |
-| [[Sliver\|Sliver]]                    | 12:26 AM - October 28, 2025 | 1:39 PM - October 28, 2025  |
-| [[Network/devices/Router\|Router]]                    | 2:11 PM - October 25, 2025  | 1:39 PM - October 28, 2025  |
-| [[Gearbox\|Gearbox]]                  | 4:48 PM - October 21, 2025  | 1:38 PM - October 28, 2025  |
-| [[Changeling\|Changeling]]            | 12:25 AM - October 28, 2025 | 1:38 PM - October 28, 2025  |
-| [[LisaSU25\|LisaSU25]]                | 12:26 AM - October 28, 2025 | 1:38 PM - October 28, 2025  |
-| [[Interceptor\|Interceptor]]          | 1:12 PM - October 28, 2025  | 1:38 PM - October 28, 2025  |
-| [[Nexus\|Nexus]]                      | 2:11 PM - October 25, 2025  | 1:37 PM - October 28, 2025  |
-| [[The Stack\|The Stack]]                      | 4:19 PM - October 20, 2025  | 1:29 PM - October 28, 2025  |
-| [[Openmediavault\|Openmediavault]]   | 10:17 PM - October 23, 2025 | 1:13 PM - October 28, 2025  |
-| [[Docker Registry\|Docker Registry]] | 10:14 PM - October 23, 2025 | 1:10 PM - October 28, 2025  |
-| [[Grafana\|Grafana]]                 | 4:19 PM - October 20, 2025  | 1:10 PM - October 28, 2025  |
-| [[Apt Cacher NG\|Apt Cacher NG]]     | 4:19 PM - October 20, 2025  | 1:07 PM - October 28, 2025  |
-| [[CouchDB\|CouchDB]]                 | 4:19 PM - October 20, 2025  | 1:00 PM - October 28, 2025  |
-| [[Proxmox\|Proxmox]]                 | 4:19 PM - October 20, 2025  | 12:52 PM - October 28, 2025 |
-| [[Home Assistant\|Home Assistant]]   | 4:19 PM - October 20, 2025  | 12:52 PM - October 28, 2025 |
-
-%% DATAVIEW_PUBLISHER: end %%
+> [!NOTE] Document EVERYTHING!!
+We will use [[Knowledge Base/Obsidian|Obsidian]] for this.  You might want to do so as well.  It is a very easy to use note taking application and can be extended to the universe and **beyond!** (We will also cover this application and it's capabilities in more depth in other documents and sessions)
+### General Design Concepts
+- Firewall should be default-drop-all for all outside access and intentionally modified (with versioning control) to allow specific services through. External logging to a monitoring/alerting solution such as Grafana is an absolute must. Internal rules can be more open.
+- Basic network design should include provision for separation between network environments. For example the WiFi access should be entirely isolated from the infrastructure services. The infrastructure services should be accessed through a proxy and only directly available from within their own physically isolated network. A shared physical layer with multiple routed traffic is not enough.
+- Caching should be used to minimize system updates impact on bandwidth.
+- Internal DNS (split DNS) should be available to the LANs and set as default in the DHCP settings to allow easier access to systems that will not be available to the Internet directly (i.e. the many DHCP addressed systems, which should be in specific zones and not able to conflict with infrastructure)

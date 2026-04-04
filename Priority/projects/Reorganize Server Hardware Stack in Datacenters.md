@@ -1,0 +1,20 @@
+- [ ] Rebuild PVE and deploy [[PVE1]] node at BMS
+	- [ ] Migrate all containers to [[PVE2]]-[[PVE3]]
+	- [ ] Remove PVE from [[Network/Services/Proxmox/index]] cluster (including CEPHFS)
+	- [ ] Restage PVE for BMS as PVE1
+	- [ ] Add [[PVE1]] back into cluster and configure CEPHFS
+- [ ] Stage PVE3 for prod at NWT
+	- [ ] Migrate all containers to [[PVE2]]-[[PVE1]]
+	- [ ] Remove all CEPHFS
+	- [ ] Remove [[PVE3]] from [[Network/Services/Proxmox/index]] cluster
+	- [ ] Restage [[PVE3]] as PVE1 *for Cascade STEAM* (get addresses from existing system)
+	- [ ] Remove CS-PVE1 from BMS datacenter & store until NWT install appointment
+	- [ ] Install CS-PVE1 at NWT - replacing existing server at same IP
+		- [ ] configure existing CS server AND new PVE1 for IPMI remote access and ensure access works
+		- [ ] Remote stage old CS server as PVE2
+
+- [ ] Rename Proxmox nodes and organize hypervisors
+- [ ] Install Dell R740 Server into BMS Datacenter
+	- [ ] Add drives to Dell R740
+	- [ ] Stage Dell R740 as new [[PVE3]]
+	- [ ] Add Dell R740 to Cluster as PVE3

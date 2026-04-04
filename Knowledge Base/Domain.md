@@ -11,4 +11,4 @@ A domain, or domain name, is a human-friendly identifier for a website or other
 
 You can purchase a domain through a Registrar such as [Cloudflare](https://www.cloudflare.com/), [Namecheap](https://www.namecheap.com/), etc.
 
-Running your own local domain is easy with a home-lab running a split [[DNS]].
+Running your own local domain is easy with a home-lab running a split [[Knowledge Base/DNS/index]].

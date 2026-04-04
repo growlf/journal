@@ -13,7 +13,6 @@ tags:
 > [!todo]+ Backlog
 > ```tasks
 > not done
-> 
 > hide recurrence rule
 > hide due date
 > hide scheduled date

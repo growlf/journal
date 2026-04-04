@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Priority/Issues")
+        - file.name != "Issues.base"
+    order:
+      - file.name
+      - status
+      - Resolved
+    columnSize:
+      file.name: 334

@@ -59,7 +59,7 @@ Database Name: [CouchDB Database Name]
 3. Under Synchronization Method, set Sync Mode to **LiveSync**
 ![[Pasted image 20251007231933.png]]
 4. Exit out of Settings
-5. In the vault, locate the **[[Start Here]]** note
+5. In the vault, locate the **[[index]]** note
 	- Scroll to the section labeled **“Settings Sync.”**
 	- Click the link to the **[[sync_settings]]** file (it will redirect you there)
 6. Once in the `sync_settings` file:

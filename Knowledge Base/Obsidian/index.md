@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder     | Documents                                                                                                                                                              |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _templates | [[dailynote\|dailynote]] \| [[Folder\|Folder]] \| [[Project\|Project]] \| [[Recent Activity\|Recent Activity]] |
+| Folder   | Documents                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Obsidian | [[Knowledge Base/Obsidian/_design.md\|_design]] \| [[Knowledge Base/Obsidian/Couch DB Tricks.md\|Couch DB Tricks]] \| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]] \| [[Knowledge Base/Obsidian/Create a CouchDB User Account.md\|Create a CouchDB User Account]] \| [[Knowledge Base/Obsidian/Form Test.md\|Form Test]] \| [[Knowledge Base/Obsidian/GitHub-Quartz-Obsidian.md\|GitHub-Quartz-Obsidian]] \| [[Knowledge Base/Obsidian/index.md\|index]] \| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]] \| [[Knowledge Base/Obsidian/Obsidian Plugins.md\|Obsidian Plugins]] \| [[Knowledge Base/Obsidian/Tasks.md\|Tasks]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 ### Recent Changes / Additions
@@ -31,10 +31,14 @@ LIMIT 20
 ```
 %%
 
-| File                                               | Created                    | Updated                    |
-| -------------------------------------------------- | -------------------------- | -------------------------- |
-| [[Folder\|Folder]]                   | 4:19 PM - October 20, 2025 | 1:46 PM - October 28, 2025 |
-| [[Recent Activity\|Recent Activity]] | 4:19 PM - October 20, 2025 | 1:46 PM - October 28, 2025 |
-| [[dailynote\|dailynote]]             | 4:19 PM - October 20, 2025 | 1:39 PM - October 21, 2025 |
+| File                                                                                      | Created                     | Updated                     |
+| ----------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
+| [[Knowledge Base/Obsidian/_design.md\|_design]]                                           | 8:12 PM - November 10, 2025 | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]] | 8:12 PM - November 10, 2025 | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]         | 8:06 PM - November 10, 2025 | 8:06 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/Tasks.md\|Tasks]]                                               | 5:55 PM - November 05, 2025 | 5:55 PM - November 05, 2025 |
+| [[Knowledge Base/Obsidian/Obsidian Plugins.md\|Obsidian Plugins]]                         | 5:55 PM - November 05, 2025 | 5:55 PM - November 05, 2025 |
+| [[Knowledge Base/Obsidian/GitHub-Quartz-Obsidian.md\|GitHub-Quartz-Obsidian]]             | 5:55 PM - November 05, 2025 | 5:55 PM - November 05, 2025 |
+| [[Knowledge Base/Obsidian/Form Test.md\|Form Test]]                                       | 5:55 PM - November 05, 2025 | 5:55 PM - November 05, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

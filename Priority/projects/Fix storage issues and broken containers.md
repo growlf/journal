@@ -1,0 +1,13 @@
+
+- [ ] Ensure that all containers use an LXC based NFS server that is hosted on CEPHFs 🔺 
+	- [x] Create a new NFS server as LXC with large data store on the CEPHFs pool  ✅ 2025-10-30
+	- [x] Install NFS kernel server on container ✅ 2025-10-30
+	- [x] Install NFS common on container ✅ 2025-10-30
+	- [x] Mount current NFS onto new NFS ✅ 2025-10-30
+	- [x] rsync everything to new NFS ✅ 2025-10-30
+	- [ ] check that all containers are correctly accessing the new [[NFS]] pool (should be done at the OS level of each [[Network/Services/Proxmox/index]] node)
+	- [ ] remove old NFS solution and free the drive space
+- [ ] Fix LVM/CEPH FS issues and restore storage across cluster (this may be resolved by the previous task)
+- [ ] Fix gitea and wireguard LXC storage problems
+	- [x] replicate wireguard docker container content into a new LXC with HA 🔺  ✅ 2025-10-30
+	- [ ]  Release or restore HA resources for wireguard LXC

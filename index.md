@@ -54,27 +54,27 @@ LIMIT 20
 ```
 %%
 
-| File                                             | Updated                    |
-| ------------------------------------------------ | -------------------------- |
-| [[index.md\|index]]                              | 3:08 PM - October 28, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]         | 2:55 PM - October 28, 2025 |
-| [[Network/index\|index]]                          | 2:12 PM - October 28, 2025 |
-| [[Tricks/Examples/index.md\|index]]              | 1:46 PM - October 28, 2025 |
-| [[Tricks/index.md\|index]]                       | 1:46 PM - October 28, 2025 |
-| [[Knowledge Base/index.md\|index]]               | 1:46 PM - October 28, 2025 |
-| [[Tricks/Examples/_design.md\|_design]]          | 1:45 PM - October 28, 2025 |
-| [[dn3\|dn3]]                      | 1:43 PM - October 28, 2025 |
-| [[dn1\|dn1]]                      | 1:43 PM - October 28, 2025 |
-| [[dn2\|dn2]]                      | 1:43 PM - October 28, 2025 |
-| [[Sterling\|Sterling]]            | 1:39 PM - October 28, 2025 |
-| [[Sliver\|Sliver]]                | 1:39 PM - October 28, 2025 |
-| [[Network/devices/Router\|Router]]                | 1:39 PM - October 28, 2025 |
-| [[Gearbox\|Gearbox]]              | 1:38 PM - October 28, 2025 |
-| [[Changeling\|Changeling]]        | 1:38 PM - October 28, 2025 |
-| [[LisaSU25\|LisaSU25]]            | 1:38 PM - October 28, 2025 |
-| [[Interceptor\|Interceptor]]      | 1:38 PM - October 28, 2025 |
-| [[Nexus\|Nexus]]                  | 1:37 PM - October 28, 2025 |
-| [[Tricks/Smoother Updates.md\|Smoother Updates]] | 1:34 PM - October 28, 2025 |
-| [[Knowledge Base/Cloud Init.md\|Cloud Init]]     | 1:34 PM - October 28, 2025 |
+| File                                                                                                                      | Updated                     |
+| ------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| [[Knowledge Base/Hardware.md\|Hardware]]                                                                                  | 8:13 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/_design.md\|_design]]                                                                           | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]]                                 | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]                                         | 8:06 PM - November 10, 2025 |
+| [[Knowledge Base/DNS/index.md\|index]]                                                                                    | 8:02 PM - November 10, 2025 |
+| [[Knowledge Base/DNS/Technitium DNS & DHCP.md\|Technitium DNS & DHCP]]                                                    | 8:01 PM - November 10, 2025 |
+| [[Priority/index.md\|index]]                                                                                              | 4:50 PM - November 10, 2025 |
+| [[Priority/Create Issue.md\|Create Issue]]                                                                                | 4:50 PM - November 10, 2025 |
+| [[Priority/projects/index.md\|index]]                                                                                     | 4:50 PM - November 10, 2025 |
+| [[Priority/projects/Reorganize Server Hardware Stack in Datacenters.md\|Reorganize Server Hardware Stack in Datacenters]] | 4:50 PM - November 10, 2025 |
+| [[Priority/projects/RFID Tool Interlock.md\|RFID Tool Interlock]]                                                         | 4:50 PM - November 10, 2025 |
+| [[Priority/projects/Optimize Services.md\|Optimize Services]]                                                             | 4:50 PM - November 10, 2025 |
+| [[Priority/projects/Management Database Setup.md\|Management Database Setup]]                                             | 4:50 PM - November 10, 2025 |
+| [[Priority/projects/Fix storage issues and broken containers.md\|Fix storage issues and broken containers]]               | 4:50 PM - November 10, 2025 |
+| [[Priority/Issues/No one knows how to ask for help.md\|No one knows how to ask for help]]                                 | 4:50 PM - November 10, 2025 |
+| [[Priority/Issues/Unknown Devices pose security threats.md\|Unknown Devices pose security threats]]                       | 4:50 PM - November 10, 2025 |
+| [[Priority/Issues/No Shutdown Procedure for Servers.md\|No Shutdown Procedure for Servers]]                               | 4:50 PM - November 10, 2025 |
+| [[Priority/Issues/index.md\|index]]                                                                                       | 4:50 PM - November 10, 2025 |
+| [[Priority/Issues/No One-Source of Network information.md\|No One-Source of Network information]]                         | 4:50 PM - November 10, 2025 |
+| [[Priority/Issues/No Guide on Creating an Issue.md\|No Guide on Creating an Issue]]                                       | 4:50 PM - November 10, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                                                | Action   | Date                       |
-| ------------------------------------------------------------------- | -------- | -------------------------- |
-| [[index.md\|index]]                                                 | modified | 3:08 PM - October 28, 2025 |
-| [[_assets/obsidian-directory-layout.md\|obsidian-directory-layout]] | modified | 3:01 PM - October 28, 2025 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]                            | modified | 2:55 PM - October 28, 2025 |
-| [[Network/index\|index]]                                             | modified | 2:12 PM - October 28, 2025 |
-| [[Folder\|Folder]]                                    | modified | 1:46 PM - October 28, 2025 |
-| [[Recent Activity\|Recent Activity]]                  | modified | 1:46 PM - October 28, 2025 |
-| [[_assets/Excalidraw/Scripts/Downloaded/index.md.md\|index.md]]     | modified | 1:46 PM - October 28, 2025 |
-| [[Tricks/Examples/index.md\|index]]                                 | modified | 1:46 PM - October 28, 2025 |
-| [[Tricks/index.md\|index]]                                          | modified | 1:46 PM - October 28, 2025 |
-| [[Knowledge Base/index.md\|index]]                                  | modified | 1:46 PM - October 28, 2025 |
+| File                                                                                      | Action   | Date                        |
+| ----------------------------------------------------------------------------------------- | -------- | --------------------------- |
+| [[Knowledge Base/Hardware.md\|Hardware]]                                                  | modified | 8:13 PM - November 10, 2025 |
+| [[Knowledge Base/Hardware.md\|Hardware]]                                                  | created  | 8:13 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/_design.md\|_design]]                                           | modified | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/_design.md\|_design]]                                           | created  | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]] | modified | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]] | created  | 8:12 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]         | modified | 8:06 PM - November 10, 2025 |
+| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]         | created  | 8:06 PM - November 10, 2025 |
+| [[Knowledge Base/DNS/index.md\|index]]                                                    | modified | 8:02 PM - November 10, 2025 |
+| [[Knowledge Base/DNS/index.md\|index]]                                                    | created  | 8:02 PM - November 10, 2025 |
 
 %% DATAVIEW_PUBLISHER: end %%
 

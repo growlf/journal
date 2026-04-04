@@ -100,7 +100,7 @@ echo "Done. Created ${SCRIPT_DIR}/$(date +%Y-%m-%d)_${TARGET}.tar.gz"
 ```
 
 ### Testing in a Safe-space
-Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Proxmox]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
+Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Network/Services/Proxmox/index]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
 
 I *could* have used an `autoinstall.yml` as described [here](https://linuxconfig.org/how-to-write-and-perform-ubuntu-unattended-installations-with-autoinstall) and [here](https://nsg.cc/post/2024/autoinstall/), but I am in a hurry to get things moving. Besides, I suspect I can apply all of my steps easily to this option again later when I re-try for the umpteenth time - later on.  I just selected my usual config options manually.
 
@@ -109,7 +109,7 @@ OK, the system is up, running, my ssh-keys are installed for remote access (my p
 wget -O ~/.ssh/authorized_keys https://github.com/growlf.keys
 sudo apt install openssh-server -y
 ```
-and I am logging out of the GUI now to start the process remotely through [[ssh]]. Anything I can do over SSH, I can later automate with [[Ansible]].
+and I am logging out of the GUI now to start the process remotely through [[ssh]]. Anything I can do over SSH, I can later automate with [[Knowledge Base/Ansible/index]].
 ### The Apps
 Logging into the existing system with a terminal, execute the following to copy everything over to the target VM (aka `phoenix` in my case) in a temporary directory:
 ```bash

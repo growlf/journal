@@ -18,7 +18,7 @@ Having a local SMTP mail server as a relay can help facilitate better alerts fro
 ### Links
 - [MailCow](https://docs.mailcow.email/getstarted/install/) for local mail - good features, easy setup.
 - [check](https://mxtoolbox.com/emailhealth/raspberrypiclub.org/) email domain for issues
-- [[DNS]] settings for [Mailcow](https://docs.mailcow.email/getstarted/prerequisite-dns/#dkim-spf-and-dmarc)
+- [[Knowledge Base/DNS/index]] settings for [Mailcow](https://docs.mailcow.email/getstarted/prerequisite-dns/#dkim-spf-and-dmarc)
 ### ToDo
 - [ ] Create and fully configure a local email server for demonstration 🔽 
 - [ ] Add snapshots and diagrams for Mailcow instalation🔽 
