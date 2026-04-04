@@ -1,6 +1,6 @@
 ---
 is_service: true
-management_url:
+management_url: https://netbox.yeticraft.net/
 hosts:
 Documentation: https://netboxlabs.com/docs/welcome/
 Ports:
