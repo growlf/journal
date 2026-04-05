@@ -24,10 +24,10 @@ Why document? Memory is a curious and fickle thing - and collaboration is easier
 Beyond the obvious cabling and individual system's LAN network interfaces, we will require the following:
 - A Modem/internet-interface with service to the internet (aka an [[ISP]])
 - [[Knowledge Base/Router|Router]] 
-- [[Firewall]] 
-- [[WiFi]] Access point
-- [[DNS]] server
-- [[DHCP]] server
+- [[Knowledge Base/Firewall|Firewall]] 
+- [[Knowledge Base/WiFi|WiFi]] Access point
+- [[Knowledge Base/DNS/index|DNS]] server
+- [[Knowledge Base/DHCP|DHCP]] server
 
 > [!NOTE] Residential Internet Customers
 > In most residential environments, you will find all of these in a *single* device that is installed by the [[ISP]] (see the relevant diagram below). We will, ultimately, want to have individual devices/services for each purpose. However, we can create or add these later, as we progress towards our goals.
@@ -75,3 +75,9 @@ Lets assume that you are using a standard residential [[ISP]] access with the su
  What we are going to build, will look more like this:
  ![[basic homelab network map.svg]]
 Once you understand all of the above, make a plan for what you want to build and achieve.  Write it down - even if it is just a copy of this document. Draw some diagrams and make some lists. Then, continue on to actually building [[The Stack]].
+
+> [!CHECK] NetYeti Knowledge Check
+> - Can you explain the difference between a **Primary** and **Alternate** plan for your DNS?
+> - Why is documentation the first step in our "Operations Order"?
+> - What "stupid question" have you asked yourself today to ensure your lab isn't just a "manageable mess"?
+

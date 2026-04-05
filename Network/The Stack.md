@@ -26,7 +26,7 @@ The following is an opinionated list of services and hardware that will easily c
 - **SSH** - Necessary
   [[ssh]] is what we will use for remote access and administration.  Know how to use it, and have some published keys ready.
 - **GIT** - Necessary
-  [[GIT]] is better than a simple backup, it's version control.  We will be using knowledge of git quite a bit while building our lab, so make sure you are ready for that.
+  [[Knowledge Base/GIT|GIT]] is better than a simple backup, it's version control.  We will be using knowledge of git quite a bit while building our lab, so make sure you are ready for that.
 - **[[MFA]]** - Necessary
   If you have not heard of [[MFA|Multi-Factor-Authentication]], stop now and read up on it. Even if you are not going to build a home-lab, you should be using a password manager and MFA on all of your accounts that support it. Maybe consider replacing any services that do not implement it.
 ## 2) Initial Hardware Components
@@ -35,8 +35,14 @@ Beyond the obvious cabling and individual system's LAN network interfaces, we wi
   Your existing residential connection can provide what is needed for this - without many changes)
 - Router system ([[Network/Devices/Router|Router]]) - This can be a very basic device, initially.
 - Firewall system ([[Network/Devices/Router|Router]]) - This can also be a very simple solution initially.
-- WiFi access point ([[cap1]])
+- WiFi access point ([[Ubiquiti UAP-AC-PRO|WiFi Access Point]])
 - DNS Server ([[Technitium DNS & DHCP]])
+  > [!TIP] DNS PACE Plan
+  > **P (Primary):** Internal [[Technitium DNS & DHCP]] (Primary node)
+  > **A (Alternate):** Secondary Technitium node or [[AdGuard Home]] instance
+  > **C (Contingency):** Upstream ISP or Public DNS (e.g., 8.8.8.8, 1.1.1.1)
+  > **E (Emergency):** Hardcoded IPs in critical hosts files (e.g., `/etc/hosts`)
+
 - DHCP Server ([[Technitium DNS & DHCP]])
 
 In most residential environments, you will find most of these in a *single* device that is installed by the ISP - but you will have little actual control over it. We want to have individual devices for each purpose in our home-lab - and complete control.
@@ -50,7 +56,7 @@ The basics of a home-lab.  Start with 1 and finish with 11.  Doing them in order
 1) [[Hardware]] - Router, server hardware, storage hardware, WiFi, etc (see above)
 2) [[Domain]] - registrar, etc
 3) [[Network/Services/Proxmox/index]] - This will be the home of "all the things" virtual
-4) [[Apt Cacher NG]] - Speed up deployments and reduce bandwidth to the internet
+4) [[Knowledge Base/Apt Cacher NG|Apt Cacher NG]] - Speed up deployments and reduce bandwidth to the internet
 5) [[Technitium DNS & DHCP]] - Internal DNS and DHCP
 6) [[Vaultwarden]] - Secrets management
 7) [[Homepage]] or [[GitHub-Quartz-Obsidian]] - A place to link to "all the things" (aka - "The One Ring")
@@ -59,10 +65,19 @@ The basics of a home-lab.  Start with 1 and finish with 11.  Doing them in order
 10) [[PXEBoot]] - for staging and thick clients
 11) [[Portainer]] and [[Docker]]
 ## 4) Monitoring
-- [[NtopNG]] - IDS, monitoring, alerting, and debugging
-- [[Grafana]] with all the extras and supporting cast
+- [[Knowledge Base/Monitoring|Monitoring]] - IDS, monitoring, alerting, and debugging using [[NtopNG]] and [[Grafana]].
+  > [!TIP] Monitoring PACE Plan
+  > **P (Primary):** Centralized Monitoring Node ([[Grafana]] + [[InfluxDB]]/[[Prometheus]]).
+  > **A (Alternate):** Real-time network analysis with [[NtopNG]].
+  > **C (Contingency):** Basic host-based monitoring (e.g., `top`, `htop`, `nload`).
+  > **E (Emergency):** Direct log review with `journalctl` or `/var/log/`.
 ## 5) Backups and File Access
 - [[Proxmox Backup Server]]
+  > [!TIP] Backup PACE Plan
+  > **P (Primary):** Local [[Proxmox Backup Server]] (Automated daily)
+  > **A (Alternate):** RSync to a secondary local NAS
+  > **C (Contingency):** Offsite/Cloud backup (e.g., Backblaze B2 or S3)
+  > **E (Emergency):** Critical data copied to an encrypted physical USB drive stored in a fire-safe
 - [[SyncThing]] - File backup and sharing/collaberating
 - RSync - System backup solution
 - [FileBrowser Quantum](https://github.com/gtsteffaniak/filebrowser) - Easy file access tool for various other services/apps (can be added to any LXC or VM that does not have a file access GUI but needs one)

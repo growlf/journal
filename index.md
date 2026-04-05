@@ -2,6 +2,8 @@
 tags:
   - about
 title: Journal of The NetYeti
+aliases:
+  - BMS
 ---
 ![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that Obsidian helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
 ## Who am I?
