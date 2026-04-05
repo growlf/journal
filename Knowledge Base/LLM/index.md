@@ -28,7 +28,7 @@ tags:
 1. **Never Trust, Always Verify:** Treat every AI output as a "draft" that needs human review.
 2. **Protect Intel:** Never feed sensitive passwords, API keys, or private student data into an external AI.
 3. **Be Specific:** Use clear, concise "Operations Orders" (prompts) to get the best results.
-4. **Iterate:** Use the [[AAR]] process to refine your prompts and AI workflows.
+4. **Iterate:** Use the [[_assets/_templates/AAR|AAR]] process to refine your prompts and AI workflows.
 
 ## LLM Knowledge Tree
 ```dataview

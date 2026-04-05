@@ -5,7 +5,7 @@ title: Journal of The NetYeti
 aliases:
   - BMS
 ---
-![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that Obsidian helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
+![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that [[Knowledge Base/Obsidian/index|Obsidian]] helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
 ## Who am I?
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I was born with a curious mind and an urge to question everything. Technology was placed in my view early in life and I found it to be the perfect playground to create and explore. I am an avid supporter of all things fun+community+educational.
 
@@ -30,8 +30,8 @@ Most of us can generally be found on the [Cascade Steam Discord](http://hub.casc
 ### Cascade STEAM Service Corp
 Working with local colleges, local businesses, and [[BMS]] to create a Internship/Mentorship business model that allows for actual experience for new college graduates in our community as a free service.
 
-### Obsidian Sync (self-hosted)
-I self hosting my own Obsidian Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain. This is actually a part of a larger (and ongoing project - [[Home Lab 101]])
+### [[Knowledge Base/Obsidian/index|Obsidian]] Sync (self-hosted)
+I self hosting my own [[Knowledge Base/Obsidian/index|Obsidian]] Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain. This is actually a part of a larger (and ongoing project - [[Home Lab 101]])
 
 ### Miscellaneous
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 

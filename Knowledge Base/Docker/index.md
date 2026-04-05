@@ -20,7 +20,7 @@ tags:
 > [!TIP] Deployment Discipline
 > **P (Primary):** Dedicated Docker Swarm Cluster (running on multiple Proxmox nodes).
 > **A (Alternate):** Standalone Docker Compose on a single LXC or VM.
-> **C (Contingency):** Fresh deployment using an [[Ansible]] playbook and latest backups.
+> **C (Contingency):** Fresh deployment using an [[Knowledge Base/Ansible/index|Ansible]] playbook and latest backups.
 > **E (Emergency):** Run the application as a standard process on any available Linux host.
 
 ## Standard Operating Procedure (SOP) Best Practices

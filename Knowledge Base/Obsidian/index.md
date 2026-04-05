@@ -8,7 +8,7 @@ tags:
 # Obsidian: The Knowledge Forge
 
 > [!NOTE] The Instructor's Perspective
-> In the Army, we had a "Battle Book"—a single source of truth for every mission. In your lab, Obsidian is that battle book. It’s not just for taking notes; it’s for forging connections between what you know and what you’re learning. It’s the foundational tool that keeps our [[Network/The Stack|Stack]] from becoming a "manageable mess."
+> In the Army, we had a "Battle Book"—a single source of truth for every mission. In your lab, [[Obsidian]] is that battle book. It’s not just for taking notes; it’s for forging connections between what you know and what you’re learning. It’s the foundational tool that keeps our [[Network/The Stack|Stack]] from becoming a "manageable mess."
 
 ## Why use it?
 - **Ownership:** Your data is stored in plain-text Markdown files on your own hardware.
@@ -18,7 +18,7 @@ tags:
 
 ## Documentation Reliability (The PACE Plan)
 > [!TIP] Information Discipline
-> **P (Primary):** Local Obsidian Vault synced across devices using [[CouchDB|Self-Hosted Sync]].
+> **P (Primary):** Local [[Obsidian]] Vault synced across devices using [[CouchDB|Self-Hosted Sync]].
 > **A (Alternate):** GitHub Repository (Private or Public) for version control and backup.
 > **C (Contingency):** Automated local file-system backups to your [[Knowledge Base/NAS|NAS]].
 > **E (Emergency):** Exported PDF or printed SOPs for critical recovery (The "Offline Battle Book").
@@ -50,7 +50,7 @@ LIMIT 10
 ```
 
 ## Check for Understanding
-- Why is "Ownership" considered a primary benefit of using Obsidian over cloud-based tools?
+- Why is "Ownership" considered a primary benefit of using [[Obsidian]] over cloud-based tools?
 - How does the **Alternate** plan (GitHub) help you collaborate with other students or peers?
 
 ---
