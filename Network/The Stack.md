@@ -63,7 +63,8 @@ The basics of a home-lab.  Start with 1 and finish with 11.  Doing them in order
 8) [[Wireguard]] - Remote, secure, VPN access. Alternatively use [[Tailscale]] if no static IP address is available
 9) [[Docker Registry]] with a Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options and a layer of security
 10) [[PXEBoot]] - for staging and thick clients
-11) [[Portainer]] and [[Docker]]
+11) [[Portainer]] and [[Knowledge Base/Docker/index|Docker]]
+12) [[Ollama]] or [[LocalAI]] - Local LLM infrastructure for the **P (Primary)** AI layer.
 ## 4) Monitoring
 - [[Knowledge Base/Monitoring|Monitoring]] - IDS, monitoring, alerting, and debugging using [[NtopNG]] and [[Grafana]].
   > [!TIP] Monitoring PACE Plan
