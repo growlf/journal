@@ -9,6 +9,9 @@ aliases:
 ## Who am I?
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I was born with a curious mind and an urge to question everything. Technology was placed in my view early in life and I found it to be the perfect playground to create and explore. I am an avid supporter of all things fun+community+educational.
 
+> [!IMPORTANT] A Note on AI Ethics
+> As an AI Advocate and Instructor, I believe in using every tool at our disposal to "raise the water level" of our collective knowledge. This journal is a living experiment in human-AI co-creation. I use AI ethically and carefully—not to replace my voice, but to amplify it, organize the "manageable mess," and ensure that my students and peers have the most accurate and well-linked information possible. I treat AI as a "force multiplier," but the tactical decisions and core philosophy remain 100% NetYeti.
+
 I write from a standpoint of a technology professional and also a student - always curious and always learning. I strongly believe in "asking the *stupid* questions" because "if not me, then who will?" There is always someone in the audience that is either too shy or afraid to ask "*that*" question which is deemed too obvious (aka - common sense is not so common). Critical thinking requires the fuel of knowledge to have any accuracy or value in  outcomes.
 
 After years of working in the tech industry, I now 

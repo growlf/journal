@@ -17,6 +17,14 @@ tags:
 - **Educational Peer:** Use it to "rubber duck" ideas and ask the "stupid questions."
 - **Brainstorming:** Generate ideas for projects and "manageable messes."
 
+> [!SUCCESS] Knowledge Gained: The SYCL Breakthrough (April 2026)
+> For a long time, we relied on **Vulkan** for Intel Arc acceleration. It worked, but it was "noisy," inefficient with VRAM (often spilling into System RAM/Swap), and capped out at ~5-8 t/s.
+> 
+> **The Fix:** Switching to **SYCL** via Intel oneAPI (`icpx`).
+> - **Efficiency:** Memory footprint for a 7B model dropped from ~30GB (System+Swap) to **~5GB dedicated VRAM**.
+> - **Performance:** Significant speed increase and system stability (no more OOM kills).
+> - **Implementation:** Requires building `llama.cpp` from source with `GGML_SYCL=ON`. See the [[Arc-GPU-Optimization-Guide]] for the technical details.
+
 ## AI Reliability (The PACE Plan)
 > [!TIP] Information Discipline
 > **P (Primary):** Local LLM instance (e.g., [[Ollama]]) for privacy and offline access.

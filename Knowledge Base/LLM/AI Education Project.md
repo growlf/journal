@@ -23,7 +23,7 @@ To create simple, repeatable educational tools and documentation that help peopl
 > **E (Emergency):** Human expertise and physical reference materials.
 
 ## Key Deliverables
-- [ ] **Ollama Setup Guide:** A simple SOP for running LLMs on consumer hardware.
+- [x] **[[Knowledge Base/LLM/Ollama Setup Guide|Ollama Setup Guide]]:** A simple SOP for running LLMs on consumer hardware (SYCL-optimized).
 - [ ] **Prompt Engineering for Students:** A guide on how to ask "stupid questions" to get smart answers from AI.
 - [ ] **AI Safety SOP:** Best practices for protecting sensitive data while using LLMs.
 - [ ] **Hybrid Solution Architectures:** Documentation on connecting local LLMs with external tools (like this Obsidian Vault!).
