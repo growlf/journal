@@ -21,6 +21,13 @@ A domain (e.g., `netyeti.net`) is a human-readable "alias" for an IP address.
 - `.home.arpa`: Recommended for internal non-routable domains.
 - `.internal`: A newer emerging standard.
 
+## Domain & DNS Reliability (The PACE Plan)
+> [!TIP] Information Discipline
+> **P (Primary):** Internal [[Technitium DNS & DHCP]] (Recursive & Authoritative for local zones).
+> **A (Alternate):** Secondary Technitium node or [[AdGuard Home]] instance.
+> **C (Contingency):** Public DNS providers (e.g., 1.1.1.1, 8.8.8.8) with hardcoded `/etc/hosts` for critical infrastructure.
+> **E (Emergency):** Direct IP access (bypass DNS entirely for management interfaces).
+
 ### Knowledge Check:
 - Are you using "Split-Horizon DNS" to resolve your public domain to local IPs when you're at home?
 - Is your "Dynamic DNS" (DDNS) client updating your IP automatically?

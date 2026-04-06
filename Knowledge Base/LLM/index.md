@@ -17,19 +17,20 @@ tags:
 - **Educational Peer:** Use it to "rubber duck" ideas and ask the "stupid questions."
 - **Brainstorming:** Generate ideas for projects and "manageable messes."
 
-> [!SUCCESS] Knowledge Gained: The SYCL Breakthrough (April 2026)
+> [!SUCCESS] Knowledge Gained: The Containerized SYCL Breakthrough (April 2026)
 > For a long time, we relied on **Vulkan** for Intel Arc acceleration. It worked, but it was "noisy," inefficient with VRAM (often spilling into System RAM/Swap), and capped out at ~5-8 t/s.
 > 
-> **The Fix:** Switching to **SYCL** via Intel oneAPI (`icpx`).
-> - **Efficiency:** Memory footprint for a 7B model dropped from ~30GB (System+Swap) to **~5GB dedicated VRAM**.
-> - **Performance:** Significant speed increase and system stability (no more OOM kills).
-> - **Implementation:** Requires building `llama.cpp` from source with `GGML_SYCL=ON`. See the [[Arc-GPU-Optimization-Guide]] for the technical details.
+> **The Evolution:** From manual source builds to **Containerized SYCL (IPEX-LLM)**.
+> - **Primary (P):** Using the `intelanalytics/ipex-llm-inference-cpp-xpu` Docker image. It packages all the Level Zero and oneAPI libraries natively, providing 100% GPU offload.
+> - **Why Docker?** Meteor Lake (Ultra 9) uses the new **Xe Driver**. Legacy tools like `intel_gpu_top` (i915-focused) are "blind" to its metrics, leading to confusion during manual setup. Docker isolates the "manageable mess" and ensures the software-hardware "handshake" is perfect every time.
+> - **Performance:** Memory footprint dropped from ~30GB (System+Swap) to **~5GB dedicated VRAM** for a 7B model. No more OOM kills.
+> - **Implementation:** See the [[Network/Services/Ollama/index|Ollama Container Setup]] for the technical details.
 
 ## AI Reliability (The PACE Plan)
 > [!TIP] Information Discipline
-> **P (Primary):** Local LLM instance (e.g., [[Ollama]]) for privacy and offline access.
-> **A (Alternate):** Privacy-focused API services (e.g., Claude, OpenAI) with non-sensitive data.
-> **C (Contingency):** Pre-generated local knowledge bases and documentation.
+> **P (Primary):** Local Ollama Docker Instance with Intel Arc (SYCL) acceleration.
+> **A (Alternate):** Manual `llama.cpp` SYCL build (for "close to the metal" troubleshooting).
+> **C (Contingency):** Privacy-focused API services (e.g., Claude, OpenAI) for complex synthesis.
 > **E (Emergency):** Human expertise and physical reference books (The "No-AI" fallback).
 
 ## SOP: Responsible AI Usage

@@ -1,6 +1,8 @@
 ---
 tags:
   - glossary
+  - hardware
+  - lab-ops
 Creation date: Monday April 4th 2022 11:18:30
 aliases:
   - server
@@ -9,15 +11,40 @@ aliases:
   - switch
   - ethernet
 ---
----
-## Servers
-Typical server hardware that I use are Dell R630's with 128GB RAM, 40 cores, 8TB storage from Amazon renewed (at approximately $450 each as of this writing).  I started with Raspberry Pis, graga-sale systems, and cheap micro-itx systems off of E-Bay.  Power-wise, and space-wise the Del servers are for more efficient in the long run.  Noise, on the other hand, not so much.
-## Storage
-I tend to use what-ever 2U option with 16 or more drives that I can get on Amazon Renewed for cheap.  I am currently using an IBM option that does the job well.
-## Routers, Switches, and APs
-I use gigabit Mikrotik hardware or similar due to them being very affordable yet also extremely capable - better than standard residential equipment. That, and I have become very familiar with the OS.
+# Hardware: The Physical Foundation
+
+> [!NOTE] The Instructor's Perspective
+> In the Army, we had "preventative maintenance." Your hardware is the "steel" of your lab. If it's not reliable, your services will fail. Don't be afraid to start with "garage sale" systems, but always be thinking about your next upgrade.
+
+## Servers (The Hypervisors)
+Typical server hardware that I use are Dell R630's with 128GB RAM and 40 cores. However, for a modern "quiet" lab, I highly recommend:
+- **Intel NUCs or Micro-PCs:** Low power, quiet, and surprisingly powerful.
+- **Modern Hardware:** I'm currently using an **Intel Ultra 9 (Meteor Lake)** with **Intel Arc** graphics for local LLM acceleration.
+- **The "Manageable Mess":** Old laptops and desktops are perfectly fine for learning, as long as they support VT-x/AMD-v.
+
+## Storage (The NAS)
+I tend to use what-ever 2U option with 16 or more drives that I can get on Amazon Renewed for cheap. But for most, a dedicated 4-bay or 8-bay NAS (or even a custom build with ZFS) is the "heart" of your data ecosystem.
+
+## Networking (Routers, Switches, and APs)
+I use gigabit Mikrotik hardware or similar due to them being very affordable yet also extremely capable. For APs, [[Ubiquiti UAP-AC-PRO|Ubiquiti]] is a solid choice.
+
+## Hardware Reliability (The PACE Plan)
+> [!TIP] Operational Discipline
+> **P (Primary):** Dedicated, rack-mounted servers or high-performance NUCs.
+> **A (Alternate):** Single-node "Mini-PC" or high-end desktop for testing.
+> **C (Contingency):** Old laptops or "recycled" hardware for temporary services.
+> **E (Emergency):** Direct host-based applications running on a fresh Linux install on any available machine.
+
 ## Cabling
-I generally use [Cat5E](https://www.google.com/search?q=what+is+a+cat5e+cable&num=10&newwindow=1&sca_esv=2ea9994c24cfc6c9&sxsrf=AE3TifMDFCD3YyELwpPTt7iSxe012iIJUA%3A1753243061492&ei=tV2AaKDlHbio0PEP47n18QE&oq=what+is+a+cat5e&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3doYXQgaXMgYSBjYXQ1ZSoCCAAyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiGNVCHCliPJnACeAGQAQCYAU2gAdECqgEBNbgBA8gBAPgBAZgCB6AChAPCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICCxAAGIAEGJECGIoFwgIIEAAYgAQYsQPCAg4QABiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgIHEAAYgAQYCpgDAIgGAZAGCpIHATegB98bsgcBNbgH8gLCBwUyLTUuMsgHLQ&sclient=gws-wiz-serp) for most of my lab, with occasional [DAC](https://www.google.com/search?q=what+is+a+DAC+cable&num=10&newwindow=1&sca_esv=2ea9994c24cfc6c9&sxsrf=AE3TifNGIOla3jrUAzMzLSIGFq-pXzwnSA%3A1753243393367&ei=AV-AaNeXFqqy0PEPibWHmAk&ved=0ahUKEwiXnKrNjNKOAxUqGTQIHYnaAZMQ4dUDCBA&uact=5&oq=what+is+a+DAC+cable&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3doYXQgaXMgYSBEQUMgY2FibGUyCxAAGIAEGJECGIoFMgUQABiABDIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMggQABiABBiiBEi5GlChCVieC3ACeAGQAQCYAVWgAesBqgEBM7gBA8gBAPgBAZgCBaACiwLCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBhAAGAcYHpgDAIgGAZAGCZIHATWgB4ESsgcBM7gH_gHCBwMyLTXIBxw&sclient=gws-wiz-serp) cables to strap the routers to the switches and also to connect my storage servers.  Fiber between buildings or for longer runs that go outside - and also for my internet.
+I generally use [Cat5E](https://www.google.com/search?q=what+is+a+cat5e+cable) for most of my lab, with [DAC](https://www.google.com/search?q=what+is+a+DAC+cable) cables for high-speed local interconnects. Fiber is best for building-to-building runs.
+
 ### Toys
-Things that just make life interesting and/or are just too cool not to play with. I moved this entry to its own folder now, because it will grow... alot. Checkout my [[Gizmos/index]].
+Things that just make life interesting and/or are just too cool not to play with. Checkout my [[Gizmos/index]].
+
+## Check for Understanding
+- Why are Intel NUCs or Micro-PCs becoming more popular for home labs than old enterprise servers? (Hint: Think about noise and power).
+- What hardware feature is required for modern virtualization? (Hint: Check Step 2 of [[Home Lab 101]]).
+
+---
+*Related: [[Knowledge Base/Networking/Router]], [[Knowledge Base/Storage/NAS]], [[Network/The Stack]]*
 

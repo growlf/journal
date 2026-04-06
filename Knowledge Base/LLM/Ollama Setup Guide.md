@@ -1,118 +1,89 @@
 ---
-title: SOP - Ollama Setup Guide (SYCL Edition)
+title: SOP - Ollama Setup Guide (Intel Arc Edition)
 tags:
   - sop
   - ai
   - llm
   - intel-arc
   - sycl
+  - docker
 ---
-# SOP: Ollama & llama.cpp Setup Guide (Intel Arc SYCL Edition)
+# SOP: Ollama Setup Guide (Intel Arc & Meteor Lake)
 
 > [!NOTE] The Instructor's Perspective
-> Setting up AI on non-NVIDIA hardware has traditionally been a "manageable mess." This guide cuts through the noise. We are moving away from the default Vulkan backend and embracing **SYCL** for Intel Arc GPUs. It's more efficient, faster, and keeps our VRAM footprint lean.
+> Setting up AI on non-NVIDIA hardware has traditionally been a "manageable mess." On the i9 Ultra (Meteor Lake), we have the "blind metrics" challenge—where standard tools can't see the newer **Xe Driver**. This guide gives you the PACE plan to win on this silicon.
 
 ## Objective
-To install and configure a high-performance local LLM stack using `llama.cpp` with SYCL offloading on Intel Core Ultra (Arc) hardware.
+To deploy a high-performance Ollama instance with 100% Intel Arc GPU offloading.
 
-## Prerequisites
-- **OS:** Ubuntu 24.04 LTS (recommended)
-- **Hardware:** Intel Core Ultra (Meteor Lake) or Discrete Arc GPU
-- **Drivers:** Intel Compute Runtime and Level Zero drivers installed (`intel-level-zero-gpu`)
-- **Toolkit:** Intel oneAPI Base Toolkit (specifically `compiler-dpcpp-cpp` and `mkl`)
+---
+
+## The PACE Plan for Intel Arc Deployment
+
+### **Primary (P): Containerized SYCL (IPEX-LLM)**
+This is the recommended approach. It packages the oneAPI/Level Zero drivers into a stable Docker container, bypassing local dependency hell.
+- **Implementation:** [[Network/Services/Ollama/index|Containerized Setup Guide]]
+- **Pros:** 100% GPU offload, zero-maintenance SYCL libraries, reproducible.
+- **Cons:** Slightly larger disk footprint (Docker image).
+
+### **Alternate (A): Manual SYCL Build (llama.cpp)**
+Use this if you need to run "close to the metal" or if you are developing custom C++ integrations.
+- **Pros:** Maximum control, no Docker overhead.
+- **Cons:** High maintenance (manual toolkit updates), prone to OOM kills if not tuned perfectly.
 
 ---
 
 ## Phase 1: Driver & oneAPI Verification
-Before building, ensure the hardware is ready to speak "SYCL."
+Before starting any deployment, ensure the host OS recognizes the Meteor Lake hardware.
 
 ```bash
-# Check for Level Zero GPU
-sycl-ls
-# Output should show: [ext_oneapi_level_zero:gpu:0] ... Intel(R) Arc(TM) Graphics
+# Check for the Xe driver
+lspci -nnk | grep -A 3 VGA
+# Output should show: 'Kernel driver in use: xe'
 
-# Verify oneAPI environment variables
-source /opt/intel/oneapi/setvars.sh
+# Verify device nodes exist
+ls -l /dev/dri
+# Output must show: card0 and renderD128
 ```
+
+> [!CAUTION] The "Blind Metrics" Pitfall
+> On Meteor Lake, legacy tools like `intel_gpu_top` (from `intel-gpu-tools`) may fail to show usage because they expect the `i915` driver. Do not be alarmed if the tool reports "No device found." If `/dev/dri` nodes exist, the engine is running!
 
 ---
 
-## Phase 2: Building llama.cpp from Source
-The standard Ollama binary uses Vulkan. For peak performance, we build `llama.cpp` specifically for the Arc.
+## Phase 2: Implementation (Select your Path)
 
-```bash
-git clone https://github.com/ggerganov/llama.cpp
-cd llama.cpp
-mkdir build && cd build
+### **Path P (Docker)**
+Follow the instructions in the [[Network/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose.
 
-# Configure with SYCL and Intel compilers
-cmake .. -DGGML_SYCL=ON -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx
-
-# Build (using all CPU cores)
-make -j$(nproc) llama-server llama-cli
-```
-
----
-
-## Phase 3: Configuration & Service Deployment
-We create a user-level systemd service to manage the `llama-server`.
-
-1. **Create the model directory:** `mkdir -p ~/models`
-2. **Download a model:** (e.g., Qwen 2.5 Coder 7B GGUF)
-3. **Setup the service:** Create `~/.config/systemd/user/llama-serve.service`.
-
-```ini
-[Unit]
-Description=Llama.cpp SYCL Server
-After=network.target
-
-[Service]
-Type=simple
-Environment="ZES_ENABLE_SYSMAN=1"
-ExecStart=/home/netyeti/llama.cpp/build/bin/llama-server -m /home/netyeti/models/qwen2.5-coder-7b.gguf --host 0.0.0.0 --port 8081 --n-gpu-layers 100
-Restart=on-failure
-
-[Install]
-WantedBy=default.target
-```
-
-4. **Enable & Start:**
-```bash
-systemctl --user daemon-reload
-systemctl --user enable --now llama-serve.service
-```
+### **Path A (Manual)**
+1. **Toolkit:** Install Intel oneAPI Base Toolkit.
+2. **Build:**
+   ```bash
+   git clone https://github.com/ggerganov/llama.cpp
+   cmake .. -DGGML_SYCL=ON -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx
+   make -j$(nproc)
+   ```
 
 ---
 
-## Phase 4: Verification (The Benchmark)
-Monitor the GPU to ensure layers are actually offloaded.
+## Phase 3: Client Integration (The "Force Multiplier")
+Regardless of which path you choose, your local tools need to connect to the Ollama endpoint.
 
-```bash
-sudo intel_gpu_top
-# Look for "Render/3D" activity when sending a prompt.
-```
-
-> [!CAUTION] Common Pitfall: Vulkan vs. SYCL
-> While Ollama's default `OLLAMA_VULKAN=true` is easier to setup, it is significantly less efficient on Intel Arc hardware. It often causes high system memory usage and slower response times. Always prefer the **SYCL** build if you have the oneAPI toolkit available.
-
----
-
-## Phase 5: Client Integration (Aider & aichat)
-Configure your CLI tools to point to your new SYCL server (running on port 8081).
-
-**aichat config snippet:**
+**aichat configuration (`~/.config/aichat/config.yaml`):**
 ```yaml
-- type: openai-compatible
-  name: llama-gpu
-  api_base: http://localhost:8081/v1
-  api_key: "local"
+clients:
+  - type: openai-compatible
+    name: ollama
+    api_base: http://localhost:11434/v1
+    api_key: "ollama"
 ```
 
 ---
 
 ## After Action Review (AAR)
-- **What worked?** SYCL provides a massive reduction in VRAM overhead (~30GB -> ~5GB).
-- **What didn't?** Generic Vulkan builds are "noisy" and slow.
-- **Teachable Moment:** Building from source is worth the effort when hardware-specific optimizations (like SYCL) are available.
+- **What worked?** Containerization solved the library version conflicts and provided immediate SYCL acceleration.
+- **Data Persistence:** We've moved the Ollama models and keys out of the temporary "manageable mess" of the journal directory and into standard home directory locations (`~/.ollama/models` and `~/.ssh`). This follows the **SOP** for data persistence—keeping the "payload" (models) separate from the "instruction" (Docker Compose).
+- **The Teachable Moment:** Sometimes "simpler is better." While building from source is a great educational exercise, the **Docker Primary** is what keeps the lab stable for production coding. Standardization of paths (like using `~/.ssh` for all keys) reduces cognitive load during troubleshooting.
 
-*Related: [[Arc-GPU-Optimization-Guide]], [[Knowledge Base/LLM/index|AI Command Center]]*
+*Related: [[Network/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/index|AI Command Center]]*
