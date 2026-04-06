@@ -1,6 +1,6 @@
 ---
 banner: _assets/iStock-898032098.jpg
-title: Policies & SOPs: The NetYeti Way
+title: Policies & SOP
 ---
 # Policies & SOPs: The NetYeti Way
 
