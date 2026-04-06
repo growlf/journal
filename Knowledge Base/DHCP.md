@@ -2,7 +2,7 @@
 tags:
   - networking
   - dhcp
-title: DHCP: Automated Address Distribution
+title: "DHCP: Automated Address Distribution"
 ---
 # DHCP: Automated Address Distribution
 
