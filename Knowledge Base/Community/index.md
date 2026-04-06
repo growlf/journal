@@ -1,5 +1,5 @@
 ---
-title: Knowledge Base/Networking
+title: Community
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

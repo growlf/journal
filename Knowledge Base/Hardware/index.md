@@ -1,5 +1,5 @@
 ---
-title: Knowledge Base/Networking
+title: Hardware
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

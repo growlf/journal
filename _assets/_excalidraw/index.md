@@ -1,5 +1,5 @@
 ---
-title: {{this.folder.name}}
+title: Excalidraw Assets
 ---
 Contents:
 %% DATAVIEW_PUBLISHER: start

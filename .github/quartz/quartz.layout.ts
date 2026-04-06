@@ -13,6 +13,19 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+// Explorer component configuration
+const explorer = Component.Explorer({
+  filterFn: (node) => {
+    // set containing names of everything you want to filter out
+    const omit = new Set(["_assets", "daily", "discord"])
+
+    // can also use node.slug or by anything on node.data
+    // note that node.data is only present for files that exist on disk
+    // (e.g. implicit folder nodes that have no associated index.md)
+    return !omit.has(node.displayName.toLowerCase())
+  },
+})
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -26,17 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-      filterFn: (node) => {
-        // set containing names of everything you want to filter out
-        const omit = new Set(["_assets"])
-    
-        // can also use node.slug or by anything on node.data
-        // note that node.data is only present for files that exist on disk
-        // (e.g. implicit folder nodes that have no associated index.md)
-        return !omit.has(node.displayName.toLowerCase())
-      },
-    })),
+    Component.DesktopOnly(explorer),
   ],
   right: [
     Component.Graph(),
@@ -53,7 +56,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(explorer),
   ],
   right: [],
 }

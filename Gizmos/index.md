@@ -1,5 +1,5 @@
 ---
-title: Gismos
+title: Gizmos
 tags:
   - technology
 aliases:

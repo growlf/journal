@@ -1,5 +1,5 @@
 ---
-title: Knowledge Base/Networking
+title: Storage
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start
