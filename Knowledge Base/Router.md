@@ -2,7 +2,7 @@
 tags:
   - networking
   - router
-title: Router: The Traffic Controller
+title: Router
 ---
 # Router: The Traffic Controller
 

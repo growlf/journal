@@ -4,7 +4,7 @@ tags:
   - storage
   - reliability
   - linux
-title: ZFS: The Data Fortress
+title: ZFS
 ---
 # ZFS: The Data Fortress
 

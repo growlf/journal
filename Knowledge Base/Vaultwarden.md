@@ -1,5 +1,5 @@
 ---
-title: Vaultwarden: Secrets Management
+title: Vaultwarden
 tags:
   - security
   - networking

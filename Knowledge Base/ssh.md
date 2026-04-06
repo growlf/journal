@@ -4,7 +4,7 @@ tags:
   - linux
   - security
   - networking
-title: SSH: The Secure Lifeline
+title: SSH
 ---
 # SSH: The Secure Lifeline
 
