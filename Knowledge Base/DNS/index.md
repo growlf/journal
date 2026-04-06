@@ -2,7 +2,7 @@
 tags:
   - networking
   - dns
-title: DNS: The Network's Translator
+title: DNS
 ---
 # DNS: The Network's Translator
 
