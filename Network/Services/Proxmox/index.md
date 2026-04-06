@@ -1,6 +1,5 @@
 ---
-title: Proxmox: The Virtual Command Center
-tags:
+title: Proxmox
   - virtualization
   - proxmox
   - lab-ops
