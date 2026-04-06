@@ -1,5 +1,5 @@
 ---
-title: "SOP: Updating the Home Lab"
+title: SOP - Updating the Home Lab
 tags:
   - sop
   - lab-maintenance

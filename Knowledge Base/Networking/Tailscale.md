@@ -4,7 +4,7 @@ tags:
   - security
   - vpn
   - mesh
-title: Tailscale: The zero-config VPN
+title: Tailscale - The zero-config VPN
 ---
 # Tailscale: Your Personal Mesh Network
 

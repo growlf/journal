@@ -3,7 +3,7 @@ tags:
   - networking
   - security
   - vpn
-title: WireGuard: The modern VPN
+title: WireGuard - The modern VPN
 ---
 # WireGuard: The Modern Perimeter Sentry
 

@@ -1,5 +1,5 @@
 ---
-title: "Homepage: Your Dashboard for All the Things"
+title: Homepage - Your Dashboard for All the Things
 tags:
   - self-hosted
   - dashboard

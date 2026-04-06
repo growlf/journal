@@ -1,5 +1,5 @@
 ---
-title: "Ansible: The Automation Force Multiplier"
+title: Ansible - The Automation Force Multiplier
 tags:
   - ansible
   - automation

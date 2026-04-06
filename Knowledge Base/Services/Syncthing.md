@@ -1,5 +1,5 @@
 ---
-title: "Syncthing: Peer-to-Peer File Sync"
+title: Syncthing - Peer-to-Peer File Sync
 tags:
   - storage
   - backup

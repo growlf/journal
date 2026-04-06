@@ -1,5 +1,5 @@
 ---
-title: "MFA: Multi-Factor Authentication"
+title: MFA - Multi-Factor Authentication
 tags:
   - security
   - networking

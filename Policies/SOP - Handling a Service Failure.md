@@ -1,5 +1,5 @@
 ---
-title: "SOP: Handling a Service Failure"
+title: SOP - Handling a Service Failure
 tags:
   - sop
   - troubleshooting

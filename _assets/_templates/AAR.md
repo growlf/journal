@@ -4,7 +4,7 @@ tags:
   - post-mortem
   - lab-notes
 date: {{date}}
-title: "AAR: {{title}}"
+title: AAR - {{title}}
 ---
 # After Action Review: {{title}}
 

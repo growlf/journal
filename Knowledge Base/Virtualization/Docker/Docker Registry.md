@@ -1,5 +1,5 @@
 ---
-title: "Docker Registry: Local Image Cache"
+title: Docker Registry - Local Image Cache
 tags:
   - docker
   - self-hosted

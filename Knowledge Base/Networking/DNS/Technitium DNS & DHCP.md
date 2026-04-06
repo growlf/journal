@@ -1,5 +1,5 @@
 ---
-title: "Technitium DNS & DHCP: The Traffic Hub"
+title: Technitium DNS & DHCP - The Traffic Hub
 tags:
   - dns
   - dhcp

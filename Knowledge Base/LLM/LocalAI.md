@@ -1,5 +1,5 @@
 ---
-title: "LocalAI: The OpenAI-Compatible API"
+title: LocalAI - The OpenAI-Compatible API
 tags:
   - llm
   - ai

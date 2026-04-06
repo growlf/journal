@@ -1,5 +1,5 @@
 ---
-title: "rsync: The Swiss Army Knife of File Transfers"
+title: rsync - The Swiss Army Knife of File Transfers
 tags:
   - storage
   - backup

@@ -1,5 +1,5 @@
 ---
-title: "SOP: Secret Management in the Home Lab"
+title: SOP - Secret Management in the Home Lab
 tags:
   - sop
   - security

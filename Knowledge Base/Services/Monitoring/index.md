@@ -1,5 +1,5 @@
 ---
-title: "Monitoring: Your Network's Early Warning System"
+title: Monitoring - Your Network's Early Warning System
 tags:
   - monitoring
   - grafana

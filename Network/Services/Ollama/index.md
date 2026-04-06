@@ -1,5 +1,5 @@
 ---
-title: "Ollama: Containerized Arc/Meteor Lake Setup"
+title: Ollama - Containerized Arc/Meteor Lake Setup
 tags:
   - llm
   - docker
