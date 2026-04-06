@@ -1,5 +1,5 @@
 ---
-title: Docker: The Portable App Container
+title: Docker
 tags:
   - docker
   - orchestration

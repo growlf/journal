@@ -1,5 +1,5 @@
 ---
-title: AI & LLMs: The Intelligence Augmentation
+title: AI & LLMs
 tags:
   - machine-learning
   - llm

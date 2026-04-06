@@ -1,5 +1,5 @@
 ---
-title: Obsidian: The Knowledge Forge
+title: Obsidian
 tags:
   - documentation
   - obsidian
