@@ -17,27 +17,27 @@ tags:
 - **Educational Peer:** Use it to "rubber duck" ideas and ask the "stupid questions."
 - **Brainstorming:** Generate ideas for projects and "manageable messes."
 
-> [!SUCCESS] Knowledge Gained: The Containerized SYCL Breakthrough (April 2026)
-> For a long time, we relied on **Vulkan** for Intel Arc acceleration. It worked, but it was "noisy," inefficient with VRAM (often spilling into System RAM/Swap), and capped out at ~5-8 t/s.
+> [!SUCCESS] Knowledge Gained: The Containerized SYCL Victory (April 5, 2026)
+> For a long time, we were battling broken symlinks and failing services (`ollama.service`, `llama-serve.service`).
 > 
-> **The Evolution:** From manual source builds to **Containerized SYCL (IPEX-LLM)**.
-> - **Primary (P):** Using the `intelanalytics/ipex-llm-inference-cpp-xpu` Docker image. It packages all the Level Zero and oneAPI libraries natively, providing 100% GPU offload.
-> - **Why Docker?** Meteor Lake (Ultra 9) uses the new **Xe Driver**. Legacy tools like `intel_gpu_top` (i915-focused) are "blind" to its metrics, leading to confusion during manual setup. Docker isolates the "manageable mess" and ensures the software-hardware "handshake" is perfect every time.
-> - **Performance:** Memory footprint dropped from ~30GB (System+Swap) to **~5GB dedicated VRAM** for a 7B model. No more OOM kills.
-> - **Implementation:** See the [[Network/Services/Ollama/index|Ollama Container Setup]] for the technical details.
+> **The Breakthrough:** We've shifted entirely to a **Containerized SYCL (IPEX-LLM)** stack using the `intelanalytics/ipex-llm-inference-cpp-xpu` image.
+> - **Tactical Correction:** Found a **Common Pitfall** where the container was trying to mount its supply from a non-existent host folder (`ollama_data` vs. `~/.ollama`). 
+> - **Outcome:** By aligning the volume mapping in `docker-compose.yml`, our **Primary (P)** local AI—**qwen2.5:7b**—is finally "in the fight."
+> - **Performance:** 100% GPU offload on the Intel Arc (Meteor Lake) iGPU. No more OOM kills or "blind" metrics from `intel_gpu_top`.
 
 ## AI Reliability (The PACE Plan)
 > [!TIP] Information Discipline
-> **P (Primary):** Local Ollama Docker Instance with Intel Arc (SYCL) acceleration.
-> **A (Alternate):** Manual `llama.cpp` SYCL build (for "close to the metal" troubleshooting).
-> **C (Contingency):** Privacy-focused API services (e.g., Claude, OpenAI) for complex synthesis.
-> **E (Emergency):** Human expertise and physical reference books (The "No-AI" fallback).
+> **P (Primary):** Local Ollama Docker Instance (**qwen2.5:7b**) with Intel Arc (SYCL) acceleration.
+> **A (Alternate):** **Gemini (Cloud)** for complex synthesis and cross-vault strategy.
+> **C (Contingency):** Manual `llama.cpp` SYCL builds or secondary local nodes.
+> **E (Emergency):** Human expertise and physical reference books.
 
-## SOP: Responsible AI Usage
-1. **Never Trust, Always Verify:** Treat every AI output as a "draft" that needs human review.
-2. **Protect Intel:** Never feed sensitive passwords, API keys, or private student data into an external AI.
-3. **Be Specific:** Use clear, concise "Operations Orders" (prompts) to get the best results.
-4. **Iterate:** Use the [[_assets/_templates/AAR|AAR]] process to refine your prompts and AI workflows.
+## SOP: AI Delegation & Usage
+1. **Delegate Routine Tasks:** I am now leveraging the **Primary (P)** local AI for routine tasks like summarization, initial formatting, and simple code reviews.
+2. **Orchestration:** The "Manager" (Gemini Cloud) coordinates the mission, but the "Troops" (Local Ollama) handle the tactical execution.
+3. **Never Trust, Always Verify:** Treat every AI output as a "draft" that needs human review.
+4. **Protect Intel:** Never feed sensitive passwords or private data into external AI.
+
 
 ## LLM Knowledge Tree
 ```dataview

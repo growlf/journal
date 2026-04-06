@@ -83,7 +83,8 @@ clients:
 
 ## After Action Review (AAR)
 - **What worked?** Containerization solved the library version conflicts and provided immediate SYCL acceleration.
-- **Data Persistence:** We've moved the Ollama models and keys out of the temporary "manageable mess" of the journal directory and into standard home directory locations (`~/.ollama/models` and `~/.ssh`). This follows the **SOP** for data persistence—keeping the "payload" (models) separate from the "instruction" (Docker Compose).
-- **The Teachable Moment:** Sometimes "simpler is better." While building from source is a great educational exercise, the **Docker Primary** is what keeps the lab stable for production coding. Standardization of paths (like using `~/.ssh` for all keys) reduces cognitive load during troubleshooting.
+- **Data Persistence:** We've moved the Ollama models and keys out of the temporary "manageable mess" of the journal directory and into standard home directory locations (`~/.ollama/models` and `~/.ssh`).
+- **The Teachable Moment (April 5, 2026):** We hit a **Common Pitfall** where the `docker-compose.yml` was mounting `/root/.ollama` to a non-existent folder (`ollama_data`) instead of the host's actual data folder (`~/.ollama`). This caused "500 errors" and "mkdir" failures inside the container. 
+    - **Lesson:** Always verify your **Bind Mounts**. If the host path doesn't exist, Docker will sometimes create it as an empty directory with root permissions, "clogging" your supply line. By aligning the volume mapping, we got our **Primary (P)** AI layer back on the line!
 
 *Related: [[Network/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/index|AI Command Center]]*
