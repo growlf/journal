@@ -1,5 +1,5 @@
 ---
-title: Knowledge Base - Networking
+title: Networking
 tags:
   - index
 ---
