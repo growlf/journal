@@ -3,7 +3,7 @@ tags:
   - version-control
   - git
   - devops
-title: Git: The Time Machine for Code
+title: Git
 ---
 # Git: The Time Machine for Code
 
