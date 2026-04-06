@@ -20,15 +20,15 @@ tags:
 
 ## Monitoring Reliability (The PACE Plan)
 > [!TIP] Observability Discipline
-> **P (Primary):** Centralized Monitoring Node ([[Grafana]] + [[InfluxDB]]/[[Prometheus]]).
-> **A (Alternate):** Real-time network analysis with [[NtopNG]].
+> **P (Primary):** Centralized Monitoring Node ([[Knowledge Base/Services/Monitoring/Grafana.md|Grafana]] + [[InfluxDB]]/[[Prometheus]]).
+> **A (Alternate):** Real-time network analysis with [[Knowledge Base/Services/Monitoring/NtopNG.md|NtopNG]].
 > **C (Contingency):** Basic host-based monitoring (e.g., `top`, `htop`, `nload`) on critical nodes.
 > **E (Emergency):** Direct log review with `journalctl` or `/var/log/`.
 
 ## SOP: The Monitoring Strategy
 1. **Infrastructure Health:** Monitor CPU, RAM, and Disk space on all [[Network/Services/Proxmox/index|Proxmox]] nodes.
-2. **Network Traffic:** Use [[NtopNG]] to see who is talking to who on your [[Knowledge Base/Firewall|Firewall]].
-3. **Service Status:** Track the uptime of core services like [[Knowledge Base/DNS|DNS]], [[Knowledge Base/DHCP|DHCP]], and [[Vaultwarden]].
+2. **Network Traffic:** Use [[Knowledge Base/Services/Monitoring/NtopNG.md|NtopNG]] to see who is talking to who on your [[Knowledge Base/Networking/Firewall.md|Firewall]].
+3. **Service Status:** Track the uptime of core services like [[Knowledge Base/Networking/DNS/index.md|DNS]], [[Knowledge Base/Networking/DHCP.md|DHCP]], and [[Knowledge Base/Services/Vaultwarden.md|Vaultwarden]].
 4. **Alerting:** Configure alerts for critical thresholds (e.g., Disk Space > 90%).
 
 ## Check for Understanding
@@ -36,4 +36,4 @@ tags:
 - How does historical data help in the **After Action Review (AAR)** process?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Firewall]], [[AAR]]*
+*Related: [[Network/The Stack.md|The Stack]], [[Knowledge Base/Networking/Firewall.md|Firewall]], [[_assets/_templates/AAR.md|AAR]]*

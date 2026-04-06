@@ -63,19 +63,19 @@ The basics of a home-lab.  Start with 1 and finish with 11.  Doing them in order
 8) [[Wireguard]] - Remote, secure, VPN access. Alternatively use [[Tailscale]] if no static IP address is available
 9) [[Docker Registry]] with a Registry-UI - a local, secure, caching (pull thruogh) Docker registry to speed deployments and reduce bandwith to the internet. Also adds some developmental options and a layer of security
 10) [[PXEBoot]] - for staging and thick clients
-11) [[Portainer]] and [[Knowledge Base/Docker/index|Docker]]
-12) [[Ollama]] or [[LocalAI]] - Local LLM infrastructure for the **P (Primary)** AI layer.
+11) [[Knowledge Base/Virtualization/Docker/Portainer.md|Portainer]] and [[Knowledge Base/Virtualization/Docker/index.md|Docker]]
+12) [[Knowledge Base/LLM/index.md|Ollama]] or [[LocalAI]] - Local LLM infrastructure for the **P (Primary)** AI layer.
 ## 4) Monitoring
-- [[Knowledge Base/Monitoring|Monitoring]] - IDS, monitoring, alerting, and debugging using [[NtopNG]] and [[Grafana]].
+- [[Knowledge Base/Services/Monitoring/index.md|Monitoring]] - IDS, monitoring, alerting, and debugging using [[Knowledge Base/Services/Monitoring/NtopNG.md|NtopNG]] and [[Knowledge Base/Services/Monitoring/Grafana.md|Grafana]].
   > [!TIP] Monitoring PACE Plan
-  > **P (Primary):** Centralized Monitoring Node ([[Grafana]] + [[InfluxDB]]/[[Prometheus]]).
-  > **A (Alternate):** Real-time network analysis with [[NtopNG]].
+  > **P (Primary):** Centralized Monitoring Node ([[Knowledge Base/Services/Monitoring/Grafana.md|Grafana]] + [[InfluxDB]]/[[Prometheus]]).
+  > **A (Alternate):** Real-time network analysis with [[Knowledge Base/Services/Monitoring/NtopNG.md|NtopNG]].
   > **C (Contingency):** Basic host-based monitoring (e.g., `top`, `htop`, `nload`).
   > **E (Emergency):** Direct log review with `journalctl` or `/var/log/`.
 ## 5) Backups and File Access
-- [[Proxmox Backup Server]]
+- [[Network/Services/Proxmox/Proxmox Backup Server.md|Proxmox Backup Server]]
   > [!TIP] Backup PACE Plan
-  > **P (Primary):** Local [[Proxmox Backup Server]] (Automated daily)
+  > **P (Primary):** Local [[Network/Services/Proxmox/Proxmox Backup Server.md|Proxmox Backup Server]] (Automated daily)
   > **A (Alternate):** RSync to a secondary local NAS
   > **C (Contingency):** Offsite/Cloud backup (e.g., Backblaze B2 or S3)
   > **E (Emergency):** Critical data copied to an encrypted physical USB drive stored in a fire-safe
