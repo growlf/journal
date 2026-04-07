@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder     | Documents                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| _templates | [[_assets/_templates/dailynote.md\|dailynote]] \| [[_assets/_templates/Device.md\|Device]] \| [[_assets/_templates/Folder.md\|Folder]] \| [[_assets/_templates/Issue.md\|Issue]] \| [[_assets/_templates/Network.md\|Network]] \| [[_assets/_templates/Person.md\|Person]] \| [[_assets/_templates/Project.md\|Project]] \| [[_assets/_templates/Recent Activity.md\|Recent Activity]] \| [[_assets/_templates/Service.md\|Service]] |
+| Folder   | Documents                                                                                                                                                                                                                                                                                                                        |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hardware | [[Knowledge Base/Hardware/E-Ink Tags.md\|E-Ink Tags]] \| [[Knowledge Base/Hardware/Hardware.md\|Hardware]] \| [[Knowledge Base/Hardware/index.md\|index]] \| [[Knowledge Base/Hardware/Ubiquiti UAP-AC-PRO.md\|Ubiquiti UAP-AC-PRO]] \| [[Knowledge Base/Hardware/UPS.md\|UPS]] \| [[Knowledge Base/Hardware/Zigbee.md\|Zigbee]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,16 +32,13 @@ LIMIT 20
 ```
 %%
 
-| File                                                       | Created                     | Updated                      |
-| ---------------------------------------------------------- | --------------------------- | ---------------------------- |
-| [[_assets/_templates/Issue.md\|Issue]]                     | 5:55 PM - November 05, 2025 | 6:41 PM - October 31, 2025   |
-| [[_assets/_templates/Device.md\|Device]]                   | 5:55 PM - November 05, 2025 | 11:04 PM - October 30, 2025  |
-| [[_assets/_templates/Recent Activity.md\|Recent Activity]] | 5:55 PM - November 05, 2025 | 9:50 PM - October 30, 2025   |
-| [[_assets/_templates/Folder.md\|Folder]]                   | 5:55 PM - November 05, 2025 | 9:43 PM - October 30, 2025   |
-| [[_assets/_templates/Service.md\|Service]]                 | 5:55 PM - November 05, 2025 | 11:46 PM - October 29, 2025  |
-| [[_assets/_templates/dailynote.md\|dailynote]]             | 5:55 PM - November 05, 2025 | 1:39 PM - October 21, 2025   |
-| [[_assets/_templates/Project.md\|Project]]                 | 5:55 PM - November 05, 2025 | 2:44 PM - October 09, 2025   |
-| [[_assets/_templates/Network.md\|Network]]                 | 5:55 PM - November 05, 2025 | 6:26 PM - September 20, 2025 |
-| [[_assets/_templates/Person.md\|Person]]                   | 5:55 PM - November 05, 2025 | 2:47 PM - September 15, 2025 |
+| File                                                                    | Created                   | Updated                   |
+| ----------------------------------------------------------------------- | ------------------------- | ------------------------- |
+| [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                       | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Hardware/UPS.md\|UPS]]                                 | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Hardware/Zigbee.md\|Zigbee]]                           | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Hardware/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Hardware/E-Ink Tags.md\|E-Ink Tags]]                   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Hardware/Ubiquiti UAP-AC-PRO.md\|Ubiquiti UAP-AC-PRO]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

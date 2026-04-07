@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                                                                      | Action   | Date                        |
-| ----------------------------------------------------------------------------------------- | -------- | --------------------------- |
-| [[Knowledge Base/Hardware.md\|Hardware]]                                                  | modified | 8:13 PM - November 10, 2025 |
-| [[Knowledge Base/Hardware.md\|Hardware]]                                                  | created  | 8:13 PM - November 10, 2025 |
-| [[Knowledge Base/Obsidian/_design.md\|_design]]                                           | modified | 8:12 PM - November 10, 2025 |
-| [[Knowledge Base/Obsidian/_design.md\|_design]]                                           | created  | 8:12 PM - November 10, 2025 |
-| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]] | modified | 8:12 PM - November 10, 2025 |
-| [[Knowledge Base/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]] | created  | 8:12 PM - November 10, 2025 |
-| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]         | modified | 8:06 PM - November 10, 2025 |
-| [[Knowledge Base/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]         | created  | 8:06 PM - November 10, 2025 |
-| [[Knowledge Base/DNS/index.md\|index]]                                                    | modified | 8:02 PM - November 10, 2025 |
-| [[Knowledge Base/DNS/index.md\|index]]                                                    | created  | 8:02 PM - November 10, 2025 |
+| File                                                                 | Action   | Date                     |
+| -------------------------------------------------------------------- | -------- | ------------------------ |
+| [[Discord/Logs/20260406_180825.md\|20260406_180825]]                 | modified | 1:37 PM - April 07, 2026 |
+| [[Discord/Logs/20260406_180801.md\|20260406_180801]]                 | modified | 1:37 PM - April 07, 2026 |
+| [[Discord/Logs/20260406_180825.md\|20260406_180825]]                 | created  | 1:37 PM - April 07, 2026 |
+| [[Discord/Logs/20260406_180801.md\|20260406_180801]]                 | created  | 1:37 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]       | modified | 1:36 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]] | modified | 1:36 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/index.md\|index]]              | modified | 1:36 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]] | created  | 1:36 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]       | created  | 1:36 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/index.md\|index]]              | created  | 1:36 PM - April 07, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%
 

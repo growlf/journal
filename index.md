@@ -59,27 +59,27 @@ LIMIT 20
 ```
 %%
 
-| File                                                                                                                      | Updated                     |
-| ------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                                                                                  | 8:13 PM - November 10, 2025 |
-| [[Knowledge Base/Development/Obsidian/_design.md\|_design]]                                                                           | 8:12 PM - November 10, 2025 |
-| [[Knowledge Base/Development/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]]                                 | 8:12 PM - November 10, 2025 |
-| [[Knowledge Base/Development/Obsidian/CouchDB Deployment Files.md\|CouchDB Deployment Files]]                                         | 8:06 PM - November 10, 2025 |
-| [[Knowledge Base/Networking/DNS/index.md\|index]]                                                                                    | 8:02 PM - November 10, 2025 |
-| [[Knowledge Base/Networking/DNS/Technitium DNS & DHCP.md\|Technitium DNS & DHCP]]                                                    | 8:01 PM - November 10, 2025 |
-| [[Priority/index.md\|index]]                                                                                              | 4:50 PM - November 10, 2025 |
-| [[Priority/Create Issue.md\|Create Issue]]                                                                                | 4:50 PM - November 10, 2025 |
-| [[Priority/projects/index.md\|index]]                                                                                     | 4:50 PM - November 10, 2025 |
-| [[Priority/projects/Reorganize Server Hardware Stack in Datacenters.md\|Reorganize Server Hardware Stack in Datacenters]] | 4:50 PM - November 10, 2025 |
-| [[Priority/projects/RFID Tool Interlock.md\|RFID Tool Interlock]]                                                         | 4:50 PM - November 10, 2025 |
-| [[Priority/projects/Optimize Services.md\|Optimize Services]]                                                             | 4:50 PM - November 10, 2025 |
-| [[Priority/projects/Management Database Setup.md\|Management Database Setup]]                                             | 4:50 PM - November 10, 2025 |
-| [[Priority/projects/Fix storage issues and broken containers.md\|Fix storage issues and broken containers]]               | 4:50 PM - November 10, 2025 |
-| [[Priority/Issues/No one knows how to ask for help.md\|No one knows how to ask for help]]                                 | 4:50 PM - November 10, 2025 |
-| [[Priority/Issues/Unknown Devices pose security threats.md\|Unknown Devices pose security threats]]                       | 4:50 PM - November 10, 2025 |
-| [[Priority/Issues/No Shutdown Procedure for Servers.md\|No Shutdown Procedure for Servers]]                               | 4:50 PM - November 10, 2025 |
-| [[Priority/Issues/index.md\|index]]                                                                                       | 4:50 PM - November 10, 2025 |
-| [[Priority/Issues/No One-Source of Network information.md\|No One-Source of Network information]]                         | 4:50 PM - November 10, 2025 |
-| [[Priority/Issues/No Guide on Creating an Issue.md\|No Guide on Creating an Issue]]                                       | 4:50 PM - November 10, 2025 |
+| File                                                                 | Updated                   |
+| -------------------------------------------------------------------- | ------------------------- |
+| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]       | 1:36 PM - April 07, 2026  |
+| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]] | 1:36 PM - April 07, 2026  |
+| [[Network/Services/Ollama/ollama_data/index.md\|index]]              | 1:36 PM - April 07, 2026  |
+| [[Gizmos/index.md\|index]]                                           | 11:13 PM - April 05, 2026 |
+| [[Network/Networks/index.md\|index]]                                 | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Cacher.md\|Cacher]]                                | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Changeling.md\|Changeling]]                        | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Gearbox.md\|Gearbox]]                              | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Home Assistant.md\|Home Assistant]]                | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Interceptor.md\|Interceptor]]                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/LisaSU25.md\|LisaSU25]]                            | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Nexus.md\|Nexus]]                                  | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Pheonix.md\|Pheonix]]                              | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Sliver.md\|Sliver]]                                | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Sterling.md\|Sterling]]                            | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/dn1.md\|dn1]]                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/dn2.md\|dn2]]                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/dn3.md\|dn3]]                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/index.md\|index]]                                  | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Ollama/index.md\|index]]                          | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%
