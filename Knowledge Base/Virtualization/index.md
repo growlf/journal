@@ -35,6 +35,7 @@ LIMIT 20
 
 | File                                                                                                             | Created                   | Updated                   |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------- |
+| [[Knowledge Base/Virtualization/index.md\|index]]                                                                | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
 | [[Knowledge Base/Virtualization/Apt Cacher NG.md\|Apt Cacher NG]]                                                | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Virtualization/Cloud Init.md\|Cloud Init]]                                                      | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Virtualization/Docker/Docker Registry.md\|Docker Registry]]                                     | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
@@ -46,6 +47,5 @@ LIMIT 20
 | [[Knowledge Base/Virtualization/Docker/index.md\|index]]                                                         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Virtualization/LXC.md\|LXC]]                                                                    | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Virtualization/PXEBoot.md\|PXEBoot]]                                                            | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/index.md\|index]]                                                                | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

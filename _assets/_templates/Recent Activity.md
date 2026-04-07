@@ -7,18 +7,18 @@ LIMIT 10
 ```
 %%
 
-| File                                                                 | Action   | Date                     |
-| -------------------------------------------------------------------- | -------- | ------------------------ |
-| [[Discord/Logs/20260406_180825.md\|20260406_180825]]                 | modified | 1:37 PM - April 07, 2026 |
-| [[Discord/Logs/20260406_180801.md\|20260406_180801]]                 | modified | 1:37 PM - April 07, 2026 |
-| [[Discord/Logs/20260406_180825.md\|20260406_180825]]                 | created  | 1:37 PM - April 07, 2026 |
-| [[Discord/Logs/20260406_180801.md\|20260406_180801]]                 | created  | 1:37 PM - April 07, 2026 |
-| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]       | modified | 1:36 PM - April 07, 2026 |
-| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]] | modified | 1:36 PM - April 07, 2026 |
-| [[Network/Services/Ollama/ollama_data/index.md\|index]]              | modified | 1:36 PM - April 07, 2026 |
-| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]] | created  | 1:36 PM - April 07, 2026 |
-| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]       | created  | 1:36 PM - April 07, 2026 |
-| [[Network/Services/Ollama/ollama_data/index.md\|index]]              | created  | 1:36 PM - April 07, 2026 |
+| File                                                               | Action   | Date                     |
+| ------------------------------------------------------------------ | -------- | ------------------------ |
+| [[index.md\|index]]                                                | modified | 1:39 PM - April 07, 2026 |
+| [[_assets/_templates/Recent Activity.md\|Recent Activity]]         | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/_templates/Folder.md\|Folder]]                           | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/_excalidraw/index.md\|index]]                            | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/AI-Skills/index.md\|index]]                              | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/scripts/index.md\|index]]    | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/references/index.md\|index]] | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/index.md\|index]]            | modified | 1:38 PM - April 07, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]]     | modified | 1:38 PM - April 07, 2026 |
+| [[Network/Services/Ollama/ollama_data/index.md\|index]]            | modified | 1:38 PM - April 07, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%
 

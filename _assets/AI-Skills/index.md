@@ -38,13 +38,13 @@ LIMIT 20
 
 | File                                                                                       | Created                   | Updated                   |
 | ------------------------------------------------------------------------------------------ | ------------------------- | ------------------------- |
+| [[_assets/AI-Skills/index.md\|index]]                                                      | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
+| [[_assets/AI-Skills/ai-stack-engineer/scripts/index.md\|index]]                            | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
+| [[_assets/AI-Skills/ai-stack-engineer/references/index.md\|index]]                         | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
+| [[_assets/AI-Skills/ai-stack-engineer/index.md\|index]]                                    | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
+| [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
 | [[_assets/AI-Skills/ai-stack-engineer/SKILL.md\|SKILL]]                                    | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/index.md\|index]]                                    | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[_assets/AI-Skills/ai-stack-engineer/references/example_reference.md\|example_reference]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/references/index.md\|index]]                         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/scripts/index.md\|index]]                            | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[_assets/AI-Skills/ai-stack-engineer/troubleshooting.md\|troubleshooting]]                | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[_assets/AI-Skills/index.md\|index]]                                                      | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

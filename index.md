@@ -40,7 +40,7 @@ I self hosting my own [[Knowledge Base/Development/Obsidian/index|Obsidian]] Syn
 Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
 
 ## Recent Changes / Additions
-Site-wide listing of last 20 creations and modifications over the last 4 days:
+Site-wide listing of last 40 creations and modifications over the last 4 days:
 %% DATAVIEW_PUBLISHER: start
 ```dataview
 TABLE 
@@ -55,31 +55,51 @@ WHERE
   AND !contains(file.folder, "_assets")
   AND !contains(file.folder, "Discord")
 SORT file.mtime DESC
-LIMIT 20
+LIMIT 40
 ```
 %%
 
-| File                                                                 | Updated                   |
-| -------------------------------------------------------------------- | ------------------------- |
-| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]       | 1:36 PM - April 07, 2026  |
-| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]] | 1:36 PM - April 07, 2026  |
-| [[Network/Services/Ollama/ollama_data/index.md\|index]]              | 1:36 PM - April 07, 2026  |
-| [[Gizmos/index.md\|index]]                                           | 11:13 PM - April 05, 2026 |
-| [[Network/Networks/index.md\|index]]                                 | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Cacher.md\|Cacher]]                                | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Changeling.md\|Changeling]]                        | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Gearbox.md\|Gearbox]]                              | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Home Assistant.md\|Home Assistant]]                | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Interceptor.md\|Interceptor]]                      | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/LisaSU25.md\|LisaSU25]]                            | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Nexus.md\|Nexus]]                                  | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Pheonix.md\|Pheonix]]                              | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Sliver.md\|Sliver]]                                | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/Sterling.md\|Sterling]]                            | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/dn1.md\|dn1]]                                      | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/dn2.md\|dn2]]                                      | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/dn3.md\|dn3]]                                      | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/index.md\|index]]                                  | 11:13 PM - April 05, 2026 |
-| [[Network/Services/Ollama/index.md\|index]]                          | 11:13 PM - April 05, 2026 |
+| File                                                                                 | Updated                   |
+| ------------------------------------------------------------------------------------ | ------------------------- |
+| [[index.md\|index]]                                                                  | 1:39 PM - April 07, 2026  |
+| [[Network/Services/Ollama/ollama_data/index.md\|index]]                              | 1:38 PM - April 07, 2026  |
+| [[Network/Services/Ollama/ollama_data/models/index.md\|index]]                       | 1:38 PM - April 07, 2026  |
+| [[Network/Services/Ollama/ollama_data/models/blobs/index.md\|index]]                 | 1:38 PM - April 07, 2026  |
+| [[Network/Networks/index.md\|index]]                                                 | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/index.md\|index]]                                                   | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Virtualization/index.md\|index]]                                    | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Tricks/index.md\|index]]                                            | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Storage/index.md\|index]]                                           | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Services/index.md\|index]]                                          | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/LLM/Past Attempts/index.md\|index]]                                 | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Hardware/index.md\|index]]                                          | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Development/index.md\|index]]                                       | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Development/Shell/index.md\|index]]                                 | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Community/index.md\|index]]                                         | 1:38 PM - April 07, 2026  |
+| [[Gizmos/index.md\|index]]                                                           | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Cacher.md\|Cacher]]                                                | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Changeling.md\|Changeling]]                                        | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Gearbox.md\|Gearbox]]                                              | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Home Assistant.md\|Home Assistant]]                                | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Interceptor.md\|Interceptor]]                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/LisaSU25.md\|LisaSU25]]                                            | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Nexus.md\|Nexus]]                                                  | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Pheonix.md\|Pheonix]]                                              | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Sliver.md\|Sliver]]                                                | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/Sterling.md\|Sterling]]                                            | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/dn1.md\|dn1]]                                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/dn2.md\|dn2]]                                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/dn3.md\|dn3]]                                                      | 11:13 PM - April 05, 2026 |
+| [[Network/Devices/index.md\|index]]                                                  | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Ollama/index.md\|index]]                                          | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Proxmox/PVE Monitor-All.md\|PVE Monitor-All]]                     | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Proxmox/Proxmox Community Scripts.md\|Proxmox Community Scripts]] | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Proxmox/index.md\|index]]                                         | 11:13 PM - April 05, 2026 |
+| [[Network/Home Lab 101.md\|Home Lab 101]]                                            | 11:13 PM - April 05, 2026 |
+| [[Network/Services/CouchDB/index.md\|index]]                                         | 11:13 PM - April 05, 2026 |
+| [[Network/Services/NFS.md\|NFS]]                                                     | 11:13 PM - April 05, 2026 |
+| [[Network/Services/NetBox.md\|NetBox]]                                               | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Proxmox/Proxmox Backup Server.md\|Proxmox Backup Server]]         | 11:13 PM - April 05, 2026 |
+| [[Network/Services/Proxmox/Proxmox Commandline.md\|Proxmox Commandline]]             | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

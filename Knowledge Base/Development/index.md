@@ -37,12 +37,13 @@ LIMIT 20
 
 | File                                                                                                    | Created                   | Updated                   |
 | ------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------- |
+| [[Knowledge Base/Development/index.md\|index]]                                                          | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Development/Shell/index.md\|index]]                                                    | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
 | [[Knowledge Base/Development/Ansible/Ansible config file.md\|Ansible config file]]                      | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Ansible/Best Practices.md\|Best Practices]]                                | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Ansible/Playbook.md\|Playbook]]                                            | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Ansible/Roles.md\|Roles]]                                                  | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Shell/RSync.md\|RSync]]                                                    | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Development/Shell/index.md\|index]]                                                    | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Ansible/Ansible Vault.md\|Ansible Vault]]                                  | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Ansible/Inventory.md\|Inventory]]                                          | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Ansible/Jinja Templating.md\|Jinja Templating]]                            | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
@@ -56,6 +57,5 @@ LIMIT 20
 | [[Knowledge Base/Development/Obsidian/GitHub-Quartz-Obsidian.md\|GitHub-Quartz-Obsidian]]               | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Obsidian/Joining to Obsidian LiveSync.md\|Joining to Obsidian LiveSync]]   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Development/Obsidian/Obsidian Plugins.md\|Obsidian Plugins]]                           | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Development/Obsidian/_design.md\|_design]]                                             | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

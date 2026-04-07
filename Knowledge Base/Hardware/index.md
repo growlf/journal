@@ -34,10 +34,10 @@ LIMIT 20
 
 | File                                                                    | Created                   | Updated                   |
 | ----------------------------------------------------------------------- | ------------------------- | ------------------------- |
+| [[Knowledge Base/Hardware/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
 | [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                       | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/UPS.md\|UPS]]                                 | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/Zigbee.md\|Zigbee]]                           | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Hardware/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/E-Ink Tags.md\|E-Ink Tags]]                   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/Ubiquiti UAP-AC-PRO.md\|Ubiquiti UAP-AC-PRO]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 
