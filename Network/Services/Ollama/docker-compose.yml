@@ -1,27 +1,31 @@
 services:
   ollama-arc:
-    # This image is maintained by Intel and is the 'gold standard' for Arc/SYCL on Meteor Lake
-    # It contains the level-zero/oneAPI libraries natively.
-    image: intelanalytics/ipex-llm-inference-cpp-xpu:latest
+    # ava-agentone/ollama-intel: community-maintained, iGPU-first (Meteor Lake / Arrow Lake)
+    # Replaces intelanalytics/ipex-llm-inference-cpp-xpu which was archived Jan 28, 2026
+    # Source: https://github.com/Ava-AgentOne/ollama-intel
+    image: ghcr.io/ava-agentone/ollama-intel:latest
     container_name: ollama-arc
-    entrypoint: ["/usr/local/lib/python3.11/dist-packages/bigdl/cpp/libs/ollama/ollama", "serve"]
+    # No custom entrypoint needed — ava-agentone image handles ollama serve internally
     environment:
       - OLLAMA_HOST=0.0.0.0
-      # These flags are the 'Magic Sauce' for Intel iGPUs
+      - OLLAMA_DEBUG=1
+      # Intel iGPU acceleration flags
       - DEVICE=Arc
       - OLLAMA_INTEL_GPU=true
       - ONEAPI_DEVICE_SELECTOR=level_zero:0
       - ZES_ENABLE_SYSMAN=1
-      # Since you have 32GB RAM, we'll let it share as needed
+      # Unload model after 30 min of inactivity (adjust as needed)
       - OLLAMA_KEEP_ALIVE=30m
     volumes:
       - /home/netyeti/.ollama:/root/.ollama
       - /home/netyeti/.ssh/id_ed25519_ollama:/root/.ollama/id_ed25519:ro
       - /home/netyeti/.ssh/id_ed25519_ollama.pub:/root/.ollama/id_ed25519.pub:ro
     devices:
-      # This is the 'hole in the wall' for GPU access
-      - /dev/dri:/dev/dri
+      # Pass both DRM nodes explicitly — card0 for display, renderD128 for compute
+      - /dev/dri/card1:/dev/dri/card1
+      - /dev/dri/renderD128:/dev/dri/renderD128
     ports:
       - "11434:11434"
-    restart: always
-    shm_size: '16gb'  # Shared memory for Intel iGPUs (they share system RAM)
+    restart: unless-stopped
+    shm_size: '16gb'
+    mem_limit: 32g
