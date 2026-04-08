@@ -7,7 +7,7 @@ tags:
 ------
 ## Notes
 ## Tasks
-- [ ] Check Mattermost 🔼
+- [ ] Check the Agenda (backlog) of tasks
 ## Agenda
 
 > [!todo]+ Backlog
