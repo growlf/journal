@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder   | Documents                                                                                                                                                                                                                                                                                                                        |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hardware | [[Knowledge Base/Hardware/E-Ink Tags.md\|E-Ink Tags]] \| [[Knowledge Base/Hardware/Hardware.md\|Hardware]] \| [[Knowledge Base/Hardware/index.md\|index]] \| [[Knowledge Base/Hardware/Ubiquiti UAP-AC-PRO.md\|Ubiquiti UAP-AC-PRO]] \| [[Knowledge Base/Hardware/UPS.md\|UPS]] \| [[Knowledge Base/Hardware/Zigbee.md\|Zigbee]] |
+| Folder   | Documents                                                                                                                                                                                                                                                                                                                                                                         |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hardware | [[Knowledge Base/Hardware/E-Ink Tags.md\|E-Ink Tags]] \| [[Knowledge Base/Hardware/Gizmos.md\|Gizmos]] \| [[Knowledge Base/Hardware/Hardware.md\|Hardware]] \| [[Knowledge Base/Hardware/index.md\|index]] \| [[Knowledge Base/Hardware/Ubiquiti UAP-AC-PRO.md\|Ubiquiti UAP-AC-PRO]] \| [[Knowledge Base/Hardware/UPS.md\|UPS]] \| [[Knowledge Base/Hardware/Zigbee.md\|Zigbee]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -34,8 +34,9 @@ LIMIT 20
 
 | File                                                                    | Created                   | Updated                   |
 | ----------------------------------------------------------------------- | ------------------------- | ------------------------- |
-| [[Knowledge Base/Hardware/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
-| [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                       | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                       | 11:13 PM - April 05, 2026 | 10:02 PM - April 07, 2026 |
+| [[Knowledge Base/Hardware/index.md\|index]]                             | 11:13 PM - April 05, 2026 | 1:40 PM - April 07, 2026  |
+| [[Knowledge Base/Hardware/Gizmos.md\|Gizmos]]                           | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/UPS.md\|UPS]]                                 | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/Zigbee.md\|Zigbee]]                           | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Hardware/E-Ink Tags.md\|E-Ink Tags]]                   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |

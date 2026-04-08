@@ -34,7 +34,7 @@ LIMIT 20
 
 | File                                                                          | Created                   | Updated                   |
 | ----------------------------------------------------------------------------- | ------------------------- | ------------------------- |
-| [[Knowledge Base/Tricks/index.md\|index]]                                     | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
+| [[Knowledge Base/Tricks/index.md\|index]]                                     | 11:13 PM - April 05, 2026 | 1:40 PM - April 07, 2026  |
 | [[Knowledge Base/Tricks/LXC Desktop.md\|LXC Desktop]]                         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Tricks/Replicating my Desktop.md\|Replicating my Desktop]]   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 | [[Knowledge Base/Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |

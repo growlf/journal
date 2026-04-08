@@ -12,9 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder    | Documents                                                                                                                                                                                                                                                                                                |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Community | [[Knowledge Base/Community/CAB.md\|CAB]] \| [[Knowledge Base/Community/Discord Linkable ID.md\|Discord Linkable ID]] \| [[Knowledge Base/Community/FLOSS.md\|FLOSS]] \| [[Knowledge Base/Community/index.md\|index]] \| [[Knowledge Base/Community/Mentor-based Internship.md\|Mentor-based Internship]] |
+| Folder    | Documents                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Community | [[Knowledge Base/Community/CAB.md\|CAB]] \| [[Knowledge Base/Community/Discord Linkable ID.md\|Discord Linkable ID]] \| [[Knowledge Base/Community/FLOSS.md\|FLOSS]] \| [[Knowledge Base/Community/index.md\|index]] \| [[Knowledge Base/Community/LFNW 2026 - BTC Coordination.md\|LFNW 2026 - BTC Coordination]] \| [[Knowledge Base/Community/Mentor-based Internship.md\|Mentor-based Internship]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,12 +32,13 @@ LIMIT 20
 ```
 %%
 
-| File                                                                             | Created                   | Updated                   |
-| -------------------------------------------------------------------------------- | ------------------------- | ------------------------- |
-| [[Knowledge Base/Community/index.md\|index]]                                     | 11:13 PM - April 05, 2026 | 1:38 PM - April 07, 2026  |
-| [[Knowledge Base/Community/CAB.md\|CAB]]                                         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Community/Discord Linkable ID.md\|Discord Linkable ID]]         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Community/FLOSS.md\|FLOSS]]                                     | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Community/Mentor-based Internship.md\|Mentor-based Internship]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| File                                                                                       | Created                   | Updated                   |
+| ------------------------------------------------------------------------------------------ | ------------------------- | ------------------------- |
+| [[Knowledge Base/Community/LFNW 2026 - BTC Coordination.md\|LFNW 2026 - BTC Coordination]] | 4:20 PM - April 07, 2026  | 4:20 PM - April 07, 2026  |
+| [[Knowledge Base/Community/index.md\|index]]                                               | 11:13 PM - April 05, 2026 | 1:40 PM - April 07, 2026  |
+| [[Knowledge Base/Community/CAB.md\|CAB]]                                                   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Community/Discord Linkable ID.md\|Discord Linkable ID]]                   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Community/FLOSS.md\|FLOSS]]                                               | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| [[Knowledge Base/Community/Mentor-based Internship.md\|Mentor-based Internship]]           | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%
