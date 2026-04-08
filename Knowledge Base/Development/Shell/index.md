@@ -1,40 +1,30 @@
 ---
-title: Knowledge Base/Development/Shell
+title: Shell
 ---
-## Contents:
-%% DATAVIEW_PUBLISHER: start
-```dataview
-TABLE join(sort(rows.file.link), " | ") as Documents
-FLATTEN regexreplace(file.folder, ".*/", "") as lastPart
-WHERE contains(file.folder, this.file.folder)
-GROUP BY lastPart as Folder
-SORT lastPart
-```
-%%
 
-| Folder | Documents                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------ |
-| Shell  | [[Knowledge Base/Development/Shell/index.md\|index]] \| [[Knowledge Base/Development/Shell/RSync.md\|RSync]] |
+# The NetYeti's Command Line: Shell
 
-%% DATAVIEW_PUBLISHER: end %%
+The shell is where you'll spend most of your time as a Lab Operator. It's your direct line to the heart of the system. 
 
-## Recent Changes / Additions
-%% DATAVIEW_PUBLISHER: start
-```dataview
-TABLE 
-  file.ctime AS "Created", 
-  file.mtime AS "Updated"
-WHERE file.cday >= date(today) - dur(7 days)
-  OR file.mday >= date(today) - dur(7 days)
-WHERE contains(file.folder, this.file.folder)
-SORT file.mtime DESC
-LIMIT 20
-```
-%%
+## Which Shell?
+- **Bash:** The "Old Reliable." Ubiquitous on almost every Linux system.
+- **Zsh:** More "creature comforts" (auto-complete, plugins via Oh My Zsh).
+- **Fish:** Extremely user-friendly, but not always POSIX-compliant.
 
-| File                                                 | Created                   | Updated                   |
-| ---------------------------------------------------- | ------------------------- | ------------------------- |
-| [[Knowledge Base/Development/Shell/index.md\|index]] | 11:13 PM - April 05, 2026 | 1:40 PM - April 07, 2026  |
-| [[Knowledge Base/Development/Shell/RSync.md\|RSync]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+## NetYeti's Shell Mastery
+1.  **Redirection:** `>` (overwrite), `>>` (append), `2>&1` (catch errors too).
+2.  **Pipes:** `|` (taking the output of one tool and feeding it into another).
+3.  **Scripts:** Automation! Don't do it manually twice; script it once.
 
-%% DATAVIEW_PUBLISHER: end %%
+### Core Utilities to Know:
+- `grep`: Finding text in files.
+- `awk` / `sed`: Text processing powerhouses.
+- `find`: Locating files by criteria.
+- `xargs`: Feeding find results into other commands.
+
+> [!CAUTION]
+> Avoid "Copy-Paste Engineering." If you don't understand what a one-liner does, don't run it as root.
+
+## Knowledge Check:
+- Can you explain the difference between `sh` and `bash`?
+- Do you use a multiplexer like `tmux` or `screen` to keep your sessions alive?
