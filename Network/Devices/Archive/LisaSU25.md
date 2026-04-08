@@ -1,17 +1,17 @@
 ---
-ip:
+ip: DHCP
 ports:
 tags:
-  - server
+  - phone
   - devices
-os: proxmox
+os: android
 Updated:
 Active: true
-type: server
+type: phone
 IP:
-model: IBM Thinkcenter
-Cores:
-RAM: 64
+model: Samsung S25Ultra
+Cores: 8
+RAM: 12
 Storage:
 networks:
 services:
@@ -29,4 +29,5 @@ services:
 - networks: **`=this.networks`**
 - services: **`=this.services`**
 - tags: **`=this.tags`**
-IBM Tower server for [[Proxmox]].
+## Tasks
+- [ ] Complete the information fields for this device

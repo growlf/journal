@@ -39,7 +39,7 @@ I use gigabit Mikrotik hardware or similar due to them being very affordable yet
 I generally use [Cat5E](https://www.google.com/search?q=what+is+a+cat5e+cable) for most of my lab, with [DAC](https://www.google.com/search?q=what+is+a+DAC+cable) cables for high-speed local interconnects. Fiber is best for building-to-building runs.
 
 ### Toys
-Things that just make life interesting and/or are just too cool not to play with. Checkout my [[Gizmos/index]].
+Things that just make life interesting and/or are just too cool not to play with. Checkout my [[Gizmos]].
 
 ## Check for Understanding
 - Why are Intel NUCs or Micro-PCs becoming more popular for home labs than old enterprise servers? (Hint: Think about noise and power).

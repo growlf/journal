@@ -1,23 +1,23 @@
 ---
-Active: true
-services:
-  - Home Assistant
-type: service-host
-IP: 192.168.42.178
-model: Home Assistant (LXC 110)
-os: debian
-RAM (GB): "2"
-Cores: 2
+ip:
+ports:
 tags:
-  - automation
-  - smart-home
+  - storage
+  - backup
+  - server
   - devices
-Updated: 2026-04-07
+os:
+Updated:
+Active: true
+type: server
+IP:
+model: Axzez Interceptor
+Cores: 4
 RAM: 2
-Storage: 16
+Storage:
 networks:
-  - 192.168.42.0/24
-owner: NetYeti
+services:
+  - "[[Openmediavault]]"
 ---
 # Description
 - Last Updated: **`=this.Updated`**
@@ -32,6 +32,5 @@ owner: NetYeti
 - networks: **`=this.networks`**
 - services: **`=this.services`**
 - tags: **`=this.tags`**
-- owner: **`=this.owner`**
-
-The "Digital Brain" of the residence. This LXC manages all home automation and IoT integration.
+## Tasks
+- [ ] Complete the information fields for this device

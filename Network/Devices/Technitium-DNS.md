@@ -2,17 +2,17 @@
 Updated: 2026-04-07
 Active: true
 type: service-host
-IP: 192.168.42.12
-model: LLDAP (LXC 118)
-os: Debian
-MAC: BC:24:11:B5:E4:75
+IP: 192.168.42.2
+model: Technitium DNS (LXC)
+os: Linux
+MAC: BC:24:11:1E:B0:28
 networks:
   - 192.168.42.0/24
 tags:
-  - service
-  - ldap
-  - auth
-  - devices
+  - network
+  - dns
+  - core
+  - services
 ---
 # Description
 - Last Updated: **`=this.Updated`**
@@ -24,7 +24,8 @@ tags:
 - networks: **`=this.networks`**
 - tags: **`=this.tags`**
 
-LXC hosting the LLDAP directory service for centralized authentication.
+The primary DNS and DHCP server for the lab. This is a critical infrastructure component.
 
 ## Tasks
-- [ ] Document integrated services.
+- [ ] Verify primary/secondary DNS sync.
+- [ ] Document DHCP scope.

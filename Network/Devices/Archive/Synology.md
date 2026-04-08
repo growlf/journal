@@ -1,17 +1,16 @@
 ---
 Updated: 2026-04-07
 Active: true
-type: service-host
-IP: 192.168.42.12
-model: LLDAP (LXC 118)
-os: Debian
-MAC: BC:24:11:B5:E4:75
+type: storage
+IP: 192.168.42.100
+model: Synology NAS
+os: DSM
+MAC: BC:24:11:18:50:2A
 networks:
   - 192.168.42.0/24
 tags:
-  - service
-  - ldap
-  - auth
+  - storage
+  - nas
   - devices
 ---
 # Description
@@ -24,7 +23,9 @@ tags:
 - networks: **`=this.networks`**
 - tags: **`=this.tags`**
 
-LXC hosting the LLDAP directory service for centralized authentication.
+Network Attached Storage (NAS) found on MikroTik Port 11. 
 
 ## Tasks
-- [ ] Document integrated services.
+- [ ] Confirm device model (e.g., DS920+).
+- [ ] Identify shared volumes and NFS/SMB status.
+- [ ] Link to [[Knowledge Base/Storage/NAS]].

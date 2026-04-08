@@ -76,7 +76,7 @@ LIMIT 40
 | [[Knowledge Base/Development/index.md\|index]]                                       | 1:38 PM - April 07, 2026  |
 | [[Knowledge Base/Development/Shell/index.md\|index]]                                 | 1:38 PM - April 07, 2026  |
 | [[Knowledge Base/Community/index.md\|index]]                                         | 1:38 PM - April 07, 2026  |
-| [[Gizmos/index.md\|index]]                                                           | 11:13 PM - April 05, 2026 |
+| [[Gizmos\|Gizmos]]                                                           | 11:13 PM - April 05, 2026 |
 | [[Network/Devices/Cacher.md\|Cacher]]                                                | 11:13 PM - April 05, 2026 |
 | [[Network/Devices/Changeling.md\|Changeling]]                                        | 11:13 PM - April 05, 2026 |
 | [[Network/Devices/Gearbox.md\|Gearbox]]                                              | 11:13 PM - April 05, 2026 |
@@ -90,7 +90,7 @@ LIMIT 40
 | [[Network/Devices/dn1.md\|dn1]]                                                      | 11:13 PM - April 05, 2026 |
 | [[Network/Devices/dn2.md\|dn2]]                                                      | 11:13 PM - April 05, 2026 |
 | [[Network/Devices/dn3.md\|dn3]]                                                      | 11:13 PM - April 05, 2026 |
-| [[Network/Devices/index.md\|index]]                                                  | 11:13 PM - April 05, 2026 |
+| [[Devices (244118).base\|Devices (244118)]]                                                  | 11:13 PM - April 05, 2026 |
 | [[Network/Services/Ollama/index.md\|index]]                                          | 11:13 PM - April 05, 2026 |
 | [[Network/Services/Proxmox/PVE Monitor-All.md\|PVE Monitor-All]]                     | 11:13 PM - April 05, 2026 |
 | [[Network/Services/Proxmox/Proxmox Community Scripts.md\|Proxmox Community Scripts]] | 11:13 PM - April 05, 2026 |

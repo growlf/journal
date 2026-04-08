@@ -1,17 +1,16 @@
 ---
 Updated: 2026-04-07
 Active: true
-type: service-host
-IP: 192.168.42.12
-model: LLDAP (LXC 118)
-os: Debian
-MAC: BC:24:11:B5:E4:75
+type: power
+IP: 192.168.42.159
+model: Alpha Technologies Device
+os: Proprietary
+MAC: 00:90:EA:E0:FA:AA
 networks:
   - 192.168.42.0/24
 tags:
-  - service
-  - ldap
-  - auth
+  - power
+  - ups
   - devices
 ---
 # Description
@@ -24,7 +23,8 @@ tags:
 - networks: **`=this.networks`**
 - tags: **`=this.tags`**
 
-LXC hosting the LLDAP directory service for centralized authentication.
+Power management device from Alpha Technologies. Likely a UPS or PDU.
 
 ## Tasks
-- [ ] Document integrated services.
+- [ ] Confirm device model.
+- [ ] Integrate with Monitoring (Prometheus/Grafana).

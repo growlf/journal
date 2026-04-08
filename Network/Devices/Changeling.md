@@ -1,18 +1,19 @@
 ---
-ip: DHCP
+ip: 192.168.88.147
 tags:
   - phone
   - devices
 os: android
-Updated:
+Updated: 2026-04-07
 Active: true
 type: phone
-IP:
+IP: 192.168.88.147
 model: Samsung Z-Fold phone
 Cores: 8
 RAM: 16
 Storage: 1000
 networks:
+  - 192.168.88.0/24
 services:
 ---
 # Description

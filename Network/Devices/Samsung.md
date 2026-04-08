@@ -1,17 +1,15 @@
 ---
 Updated: 2026-04-07
 Active: true
-type: service-host
-IP: 192.168.42.12
-model: LLDAP (LXC 118)
-os: Debian
-MAC: BC:24:11:B5:E4:75
+type: appliance
+IP: 192.168.42.157
+model: Samsung Device
+os: Tizen?
+MAC: B8:B4:09:1A:E7:DB
 networks:
   - 192.168.42.0/24
 tags:
-  - service
-  - ldap
-  - auth
+  - electronics
   - devices
 ---
 # Description
@@ -24,7 +22,7 @@ tags:
 - networks: **`=this.networks`**
 - tags: **`=this.tags`**
 
-LXC hosting the LLDAP directory service for centralized authentication.
+Samsung device found on the network. Could be a Smart TV or appliance.
 
 ## Tasks
-- [ ] Document integrated services.
+- [ ] Verify device type.

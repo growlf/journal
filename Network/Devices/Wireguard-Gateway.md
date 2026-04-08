@@ -2,17 +2,17 @@
 Updated: 2026-04-07
 Active: true
 type: service-host
-IP: 192.168.42.12
-model: LLDAP (LXC 118)
-os: Debian
-MAC: BC:24:11:B5:E4:75
+IP: 192.168.42.3
+model: Wireguard (LXC)
+os: Linux
+MAC: BC:24:11:6D:28:F0
 networks:
   - 192.168.42.0/24
 tags:
-  - service
-  - ldap
-  - auth
-  - devices
+  - network
+  - security
+  - vpn
+  - services
 ---
 # Description
 - Last Updated: **`=this.Updated`**
@@ -24,7 +24,8 @@ tags:
 - networks: **`=this.networks`**
 - tags: **`=this.tags`**
 
-LXC hosting the LLDAP directory service for centralized authentication.
+The primary VPN gateway for remote access to the home lab.
 
 ## Tasks
-- [ ] Document integrated services.
+- [ ] Document peer configuration policy.
+- [ ] Review access logs regularly.

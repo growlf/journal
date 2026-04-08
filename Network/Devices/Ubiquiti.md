@@ -1,18 +1,17 @@
 ---
 Updated: 2026-04-07
 Active: true
-type: service-host
-IP: 192.168.42.12
-model: LLDAP (LXC 118)
-os: Debian
-MAC: BC:24:11:B5:E4:75
+type: network
+IP: 192.168.42.132
+model: Ubiquiti Device
+os: UniFi
+MAC: 68:D7:9A:51:F1:CA
 networks:
   - 192.168.42.0/24
 tags:
-  - service
-  - ldap
-  - auth
+  - network
   - devices
+  - ubiquiti
 ---
 # Description
 - Last Updated: **`=this.Updated`**
@@ -24,7 +23,8 @@ tags:
 - networks: **`=this.networks`**
 - tags: **`=this.tags`**
 
-LXC hosting the LLDAP directory service for centralized authentication.
+Network device from Ubiquiti (likely an Access Point or Switch).
 
 ## Tasks
-- [ ] Document integrated services.
+- [ ] Confirm device model (e.g., UAP-AC-PRO).
+- [ ] Link to UniFi Controller.

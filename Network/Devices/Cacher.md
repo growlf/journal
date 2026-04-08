@@ -1,20 +1,17 @@
 ---
-type: LXC
-IP:
-model: Apt-cacher-ng
-os: linux
-services: "[[Apt Cacher NG]]"
-ports:
-tags:
-  - router
-  - network
-owner: Garth Johnson
-RAM:
-Cores: 4
-Storage:
-networks:
-Updated:
+Updated: 2026-04-07
 Active: true
+type: service-host
+IP: 192.168.42.8
+model: Apt-Cacher-NG (LXC 103)
+os: Debian
+MAC: BC:24:11:36:31:5F
+networks:
+  - 192.168.42.0/24
+tags:
+  - service
+  - cacher
+  - devices
 ---
 # Description
 - Last Updated: **`=this.Updated`**
@@ -23,12 +20,10 @@ Active: true
 - IP: **`=this.IP`**
 - model: **`=this.model`**
 - os: **`=this.os`**
-- Cores: **`=this.Cores`**
-- RAM (GB): **`=this.RAM`**
-- Storage (TB): **`=this.Storage`**
 - networks: **`=this.networks`**
-- services: **`=this.services`**
 - tags: **`=this.tags`**
-- owner: **`=this.owner`**
+
+LXC hosting the Apt-Cacher-NG service to speed up updates for other Linux nodes.
+
 ## Tasks
-- [ ] Complete the information fields for this device
+- [ ] Check disk space for the cache directory.

@@ -16,6 +16,9 @@ views:
       - Storage
       - RAM
       - Cores
+      - MAC
+      - networks
+      - tags
     sort:
       - property: RAM
         direction: ASC
