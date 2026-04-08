@@ -2,13 +2,12 @@
 Updated: 2026-04-07
 Active: true
 type: wireless-router
-IP: 192.168.88.1
-model: MikroTik hAP ax^3
-os: RouterOS 7.19.4
-MAC: 48:A9:8A:E2:A0:16
+IP: 10.0.2.1
+model: House Router (Concept)
+os: RouterOS
 networks:
-  - 192.168.88.0/24 (Home WiFi)
-  - 192.168.42.104/24 (Uplink to Office)
+  - 10.0.2.0/24 (Residence Subnet)
+  - 10.0.1.x (Uplink to Office)
 tags:
   - network
   - devices
@@ -16,29 +15,9 @@ tags:
   - wifi
 ---
 # Description
-- Last Updated: **`=this.Updated`**
-- Active: **`=this.Active`**
-- Type:  `=this.type`
-- IP: **`=this.IP`**
-- model: **`=this.model`**
-- os: **`=this.os`**
-- networks: **`=this.networks`**
-- tags: **`=this.tags`**
+**Concept Page:** Secondary router providing WiFi 6 for the residence. It acts as a downstream gateway from the Office core.
 
-Primary Router for the residence, providing high-speed WiFi 6 via the hAP ax^3 hardware. It acts as a gateway for the residence while linking back to the Office infrastructure.
-
-## Hardware Specs
-- **CPU:** 4-core ARM64 @ 1.3GHz
-- **RAM:** 1 GB
-- **WiFi:** WiFi 6 (ax)
-
-## Discovered Assets (DHCP Leases)
-- **Workstations:** [[Network/Devices/Pheonix|Phoenix]] (192.168.88.200), [[Network/Devices/Changeling|Changeling]] (192.168.88.147), [[Network/Devices/Sterling|Sterling]] (192.168.88.136).
-- **IoT:** 8x ESP Home/Sensors, 4x Wyze Bulbs, 3x Google Home Minis.
-- **Appliances:** LG Smart Fridge, LG webOS TV, Solar Envoy.
-- **Mobile:** Lisa's S24 Ultra.
-
-## Tasks
-- [x] Extract DHCP leases and hardware model.
-- [ ] Push SSH keys for passwordless access (use Garl1yc password once).
-- [ ] Document firewall/isolation rules between House and Office.
+## Architectural Role
+- **WiFi Gateway:** Manages the residence DHCP pool and mobile device access.
+- **Uplink:** Connects via physical Ethernet to the Core Office router.
+- **Isolation:** Provides a buffer between home IoT devices and critical office infrastructure.

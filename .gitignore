@@ -212,3 +212,8 @@ Discord/
 Excalidraw/
 People/
 .trash/
+
+# NetYeti OPSEC - Internal Only
+Internal/
+Network/Devices/Archive/
+*.local.md

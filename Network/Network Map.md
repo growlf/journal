@@ -18,9 +18,9 @@ tags:
 
 ## 🛠️ Maintenance & Updates
 If the "Ground Truth" changes, follow these steps:
-1.  **Open the Source:** [[_assets/NetworkMap.excalidraw|Edit Network Map Source]].
-2.  **Update the Drawing:** Add/Move devices as needed.
-3.  **Automatic Sync:** The plugin is configured to automatically export an updated **`_assets/NetworkMap.svg`** on save.
+1.  **Open the Source:** [[_assets/PublicNetworkMap.excalidraw|Edit Network Map Source]].
+2.  **Update the Drawing:** Add/Move concepts as needed.
+3.  **Automatic Sync:** The plugin is configured to automatically export an updated **`_assets/PublicNetworkMap.svg`** on save.
 4.  **Publish:** Quartz will automatically pick up the new SVG on the next build.
 
 ---

@@ -1,0 +1,81 @@
+{
+	"type": "excalidraw",
+	"version": 2,
+	"source": "https://excalidraw.com",
+	"elements": [
+		{
+			"type": "rectangle",
+			"id": "public-gw",
+			"x": 400, "y": -100, "width": 200, "height": 80,
+			"strokeColor": "#1864ab", "backgroundColor": "#e7f5ff", "fillStyle": "hachure", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "angle": 0, "roundness": {"type": 3},
+			"boundElements": [{"id": "txt-gw", "type": "text"}], "updated": 1712530000000
+		},
+		{
+			"type": "text", "id": "txt-gw", "x": 410, "y": -85, "width": 180, "height": 50,
+			"text": "ISP Fiber Modem\n(Static Public Block)",
+			"fontSize": 16, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "public-gw"
+		},
+		{
+			"type": "rectangle", "id": "core-router",
+			"x": 400, "y": 100, "width": 200, "height": 100,
+			"strokeColor": "#c92a2a", "backgroundColor": "#fff5f5", "fillStyle": "hachure", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "angle": 0, "roundness": {"type": 3},
+			"boundElements": [{"id": "txt-cr", "type": "text"}], "updated": 1712530000000
+		},
+		{
+			"type": "text", "id": "txt-cr", "x": 410, "y": 115, "width": 180, "height": 70,
+			"text": "Core Router (Office)\n10.0.1.1\nPerimeter Firewall",
+			"fontSize": 16, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "core-router"
+		},
+		{
+			"type": "rectangle", "id": "pve-concept",
+			"x": 700, "y": 100, "width": 200, "height": 100,
+			"strokeColor": "#2f9e44", "backgroundColor": "#ebfbee", "fillStyle": "hachure", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "angle": 0, "roundness": {"type": 3},
+			"boundElements": [{"id": "txt-pve-c", "type": "text"}], "updated": 1712530000000
+		},
+		{
+			"type": "text", "id": "txt-pve-c", "x": 710, "y": 115, "width": 180, "height": 70,
+			"text": "Hypervisor Host\n10.0.1.10\nZFS Storage Cluster",
+			"fontSize": 16, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "pve-concept"
+		},
+		{
+			"type": "rectangle", "id": "house-router-c",
+			"x": 400, "y": 400, "width": 200, "height": 100,
+			"strokeColor": "#c92a2a", "backgroundColor": "#fff5f5", "fillStyle": "hachure", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "angle": 0, "roundness": {"type": 3},
+			"boundElements": [{"id": "txt-hr-c", "type": "text"}], "updated": 1712530000000
+		},
+		{
+			"type": "text", "id": "txt-hr-c", "x": 410, "y": 415, "width": 180, "height": 70,
+			"text": "House Router\n10.0.2.1\nResidence WiFi",
+			"fontSize": 16, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "house-router-c"
+		},
+		{
+			"type": "ellipse", "id": "iot-cloud-c",
+			"x": 700, "y": 400, "width": 200, "height": 120,
+			"strokeColor": "#ae3ec9", "backgroundColor": "#f8f0fc", "fillStyle": "hachure", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "angle": 0, "roundness": {"type": 2},
+			"boundElements": [{"id": "txt-iot-c", "type": "text"}], "updated": 1712530000000
+		},
+		{
+			"type": "text", "id": "txt-iot-c", "x": 710, "y": 435, "width": 180, "height": 50,
+			"text": "IoT / Home Automation\nWiFi Segment",
+			"fontSize": 16, "fontFamily": 1, "textAlign": "center", "verticalAlign": "middle", "containerId": "iot-cloud-c"
+		},
+		{
+			"type": "arrow", "id": "lnk-1", "x": 500, "y": -20, "points": [[0, 0], [0, 120]],
+			"startBinding": {"elementId": "public-gw"}, "endBinding": {"elementId": "core-router"}, "endArrowhead": "arrow"
+		},
+		{
+			"type": "arrow", "id": "lnk-2", "x": 500, "y": 200, "points": [[0, 0], [0, 200]],
+			"strokeWidth": 2, "strokeStyle": "solid", "startBinding": {"elementId": "core-router"}, "endBinding": {"elementId": "house-router-c"}, "endArrowhead": "arrow"
+		},
+		{
+			"type": "arrow", "id": "lnk-3", "x": 600, "y": 150, "points": [[0, 0], [100, 0]],
+			"startBinding": {"elementId": "core-router"}, "endBinding": {"elementId": "pve-concept"}, "endArrowhead": "arrow"
+		},
+		{
+			"type": "arrow", "id": "lnk-4", "x": 600, "y": 450, "points": [[0, 0], [100, 10]],
+			"strokeColor": "#ae3ec9", "strokeWidth": 2, "strokeStyle": "dashed", "startBinding": {"elementId": "house-router-c"}, "endBinding": {"elementId": "iot-cloud-c"}, "endArrowhead": "arrow"
+		}
+	],
+	"appState": { "viewBackgroundColor": "#ffffff", "theme": "light" },
+	"files": {}
+}
