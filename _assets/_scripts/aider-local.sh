@@ -5,8 +5,8 @@
 # This endpoint is pre-baked with Intel SYCL/oneAPI optimizations.
 OLLAMA_ENDPOINT="${OLLAMA_API_BASE:-http://localhost:11434}"
 
-# Default model: Qwen 2.5 7B (Arc-optimized)
-MODEL="${1:-qwen2.5:7b}"
+# Default model: Qwen 2.5 Coder 14B (Arc-optimized)
+MODEL="${1:-qwen2.5-coder:14b}"
 shift # Remove the model name from arguments
 
 # Check if the Docker container is running

@@ -20,11 +20,12 @@ To deploy a high-performance Ollama instance with 100% Intel Arc GPU offloading.
 
 ## The PACE Plan for Intel Arc Deployment
 
-### **Primary (P): Containerized SYCL (IPEX-LLM)**
+### **Primary (P): Containerized SYCL (IPEX-LLM / ava-agentone)**
 This is the recommended approach. It packages the oneAPI/Level Zero drivers into a stable Docker container, bypassing local dependency hell.
 - **Implementation:** [[Network/Services/Ollama/index|Containerized Setup Guide]]
 - **Pros:** 100% GPU offload, zero-maintenance SYCL libraries, reproducible.
 - **Cons:** Slightly larger disk footprint (Docker image).
+- **Note (April 8, 2026):** We've transitioned to the `ava-agentone/ollama-intel` image as the official `intelanalytics` image has been archived.
 
 ### **Alternate (A): Manual SYCL Build (llama.cpp)**
 Use this if you need to run "close to the metal" or if you are developing custom C++ integrations.
@@ -54,7 +55,15 @@ ls -l /dev/dri
 ## Phase 2: Implementation (Select your Path)
 
 ### **Path P (Docker)**
-Follow the instructions in the [[Network/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose.
+Follow the instructions in the [[Network/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose. Alternatively, use the `toggle-ai.sh` script (located in `_assets/_scripts/`) for rapid deployment and status checks:
+
+```bash
+# Start the AI stack
+toggle-ai.sh start
+
+# Check status and GPU offload
+toggle-ai.sh status
+```
 
 ### **Path A (Manual)**
 1. **Toolkit:** Install Intel oneAPI Base Toolkit.

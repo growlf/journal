@@ -25,7 +25,25 @@ The following data points must **NEVER** be shared with any Cloud AI:
 - **Internal Network Maps:** Detailed IP addresses or firewall rules for private labs.
 - **Confidential Mentorship Notes:** Private student progress reports or FERPA-protected data.
 
-## 3. Signal Discipline (Sanitizing Prompts)
+## The Tactical Classification: Red-Yellow-Green
+To keep it simple for the students at BTC, we use the "Traffic Light" system for data discipline.
+
+| Level | Data Type | Permitted Strategy |
+| :--- | :--- | :--- |
+| **GREEN** | Public docs, man pages, generic code, general "stupid questions." | **Cloud (A) / Local (P)** |
+| **YELLOW** | Internal IP schemes (sanitized), non-sensitive configs, draft documentation. | **Local (P) ONLY** |
+| **RED** | Passwords, API Keys, SSH Private Keys, Student PII (FERPA), Network Maps. | **OFF-LIMITS** |
+
+> [!TIP] The NetYeti's Teachable Moment
+> "A **Manageable Mess** is when you share a generic config and the AI gives you a bad answer. A **Catastrophic Failure** is when you share your `.env` file and your lab's 'keys to the kingdom' end up in a training set for the next version of a model. **Always check your clipboard before you hit Enter.**"
+
+## 3. Agentic Tool Safety (Aider & OpenClaw)
+When using agentic tools that can "see" your filesystem, the risk of "Context Creep" increases.
+- **Aider:** Use `.aiderignore` to explicitly block sensitive folders like `.ssh`, `.git`, or `.env`. Never run Aider in the root of a sensitive project without a "Safety Check."
+- **OpenClaw:** Ensure the `allowlist` is enabled and restricted to your specific NetYeti ID. Use the `command-logger` to audit what the agent is reading from your vault.
+- **Context Hygiene:** Only provide the AI the files it *needs* to complete the mission. Don't give it the whole "Armory" for a simple "recon mission."
+
+## 4. Signal Discipline (Sanitizing Prompts)
 Before sending a prompt to the **Alternate (A)** layer (Cloud AI), perform the following:
 - **Redaction:** Replace "192.168.1.50" with `<INTERNAL_IP>`.
 - **Anonymization:** Use generic roles like "User A" or "Student 1."

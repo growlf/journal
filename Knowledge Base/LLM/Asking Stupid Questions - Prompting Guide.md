@@ -40,6 +40,26 @@ Be specific about what you want.
 Tell the AI to challenge you.
 - **Good:** "After you explain this, ask me a **Knowledge Check** question to see if I understood it. Don't be afraid to tell me if my approach is a 'stupid question' in the wrong direction!"
 
+## The Local-First Advantage (Pillar of Learning)
+Why do we prompt locally on **Ollama** before hitting the cloud?
+1. **Privacy:** You can ask the *really* stupid questions without them being logged in a corporate data center.
+2. **Speed:** Instant iteration. If the prompt fails, tweak it and go again. No tokens, no cost.
+3. **Exploration:** You are the "Admin" of the brain. You can see the model load, watch the VRAM usage, and understand the *mechanics* of the intelligence.
+
+---
+
+## NetYeti Tactical Prompting: The Multi-Turn Strategy
+Don't try to get the "perfect" answer in one go. That's a **Common Pitfall**. Use a multi-turn approach to build a "Knowledge Bridge."
+
+### Turn 1: The Briefing (Set the Stage)
+> "I am a student at BTC working on a Linux Home Lab. Act as a Senior Technology Instructor (The NetYeti). I want to learn about [Topic, e.g., SSH Keys]. Before we start, tell me the **Primary (P)** concept I need to understand."
+
+### Turn 2: The Deep Dive (Ask the "Stupid" Question)
+> "Okay, I understand [Topic]. Now, here is the 'stupid question': Why do I need a passphrase if the key is already 'secure'? Explain this using a **Teachable Moment** about a 'Manageable Mess'."
+
+### Turn 3: The Practical (The AAR)
+> "Write a step-by-step guide for me to generate an Ed25519 key. After each step, explain **WHY** we are doing it. At the end, give me a **Knowledge Check**."
+
 ---
 
 ## The Troubleshooting PACE Plan
@@ -69,4 +89,4 @@ When you are stuck on a technical problem, use this prompt structure:
 - What is the difference between a "Manageable Mess" and a "Catastrophic Failure"?
 
 ---
-*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[Knowledge Base/LLM/AI Education Project|AI Education Project]]*
+*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[Knowledge Base/LLM/The AI Homelab Story|The AI Homelab Story]], [[Knowledge Base/LLM/AI Education Project|AI Education Project]]*

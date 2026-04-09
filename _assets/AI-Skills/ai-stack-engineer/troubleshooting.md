@@ -1,7 +1,10 @@
-# AI Stack Purge Log - April 5, 2026
+# AI Stack Purge Log - April 5-8, 2026
 
-## Items Purged during Phase 3 "Scorched Earth"
-- **Services:** `ollama.service` (disabled/stopped), `llama-serve.service` (disabled/stopped).
+## Items Purged/Decommissioned
+- **Services:** 
+  - `ollama.service` (Host-level): disabled/stopped.
+  - `llama-serve.service` (User-level): decommissioned (April 8, 2026).
+  - `ollama-warm.service` (User-level): decommissioned (April 8, 2026).
 - **Binaries (Ghost Check):**
   - `/usr/local/bin/ollama`
   - `/usr/local/lib/ollama` (Library)
@@ -17,4 +20,4 @@
   - All unused Docker volumes pruned.
 
 ## Next Step
-Proceed to **Phase 4: Clean Slate & Intel Arc Validation**.
+Maintain the **Primary (P)** stack via **Port 11434 (Ollama Docker)** and `toggle-ai.sh`.

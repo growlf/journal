@@ -15,7 +15,7 @@ services:
       - ONEAPI_DEVICE_SELECTOR=level_zero:0
       - ZES_ENABLE_SYSMAN=1
       # Unload model after 30 min of inactivity (adjust as needed)
-      - OLLAMA_KEEP_ALIVE=30m
+      - OLLAMA_KEEP_ALIVE=-1
     volumes:
       - /home/netyeti/.ollama:/root/.ollama
       - /home/netyeti/.ssh/id_ed25519_ollama:/root/.ollama/id_ed25519:ro

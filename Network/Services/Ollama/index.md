@@ -13,34 +13,34 @@ tags:
 Garth, this is the "NetYeti" way to fix those "retries." We're using the **Primary (P)** layer of your PACE plan—a containerized approach that bypasses the "manageable mess" of manual SYCL builds.
 
 ## The Strategy
-We are using the `intelanalytics/ipex-llm-inference-cpp-xpu` image. This is Intel's optimized build of `llama.cpp` and `Ollama` that speaks the **Level Zero** protocol natively to your **Xe Driver**.
+We have transitioned to the `ghcr.io/ava-agentone/ollama-intel` image. This community-maintained build replaces the archived `intelanalytics` image and provides superior support for **Meteor Lake** and **Arrow Lake** iGPUs via **Level Zero** and **SYCL**.
 
 ### The `docker-compose.yml`
 ```yaml
 services:
   ollama-arc:
-    image: intelanalytics/ipex-llm-inference-cpp-xpu:latest
+    image: ghcr.io/ava-agentone/ollama-intel:latest
     container_name: ollama-arc
     environment:
-      - DEVICE=Arc
       - OLLAMA_INTEL_GPU=true
-      - ONEAPI_DEVICE_SELECTOR=level_zero:0
-      - ZES_ENABLE_SYSMAN=1
-      - OLLAMA_KEEP_ALIVE=30m
+      - OLLAMA_DEBUG=1
+      - OLLAMA_KEEP_ALIVE=-1  # Keep models loaded for instant response
     volumes:
-      - /home/netyeti/.ollama:/root/.ollama
+      - ./ollama_data:/root/.ollama
       - /home/netyeti/.ssh/id_ed25519_ollama:/root/.ollama/id_ed25519:ro
       - /home/netyeti/.ssh/id_ed25519_ollama.pub:/root/.ollama/id_ed25519.pub:ro
     devices:
-      - /dev/dri:/dev/dri
+      - /dev/dri/card1:/dev/dri/card1
+      - /dev/dri/renderD128:/dev/dri/renderD128
     ports:
       - "11434:11434"
-    restart: always
+    restart: unless-stopped
     shm_size: '16gb'  # Shared memory for Intel iGPUs
+    mem_limit: 32g
 ```
 
 ## How to Deploy
-1.  **Navigate** to the directory where you've saved the `docker-compose.yml`.
+1.  **Navigate** to `Network/Services/Ollama/`.
 2.  **Pull and Start:**
     ```bash
     docker compose up -d
@@ -48,17 +48,15 @@ services:
 3.  **Verify the Handshake:**
     Check the container logs to see if it detects the GPU:
     ```bash
-    docker logs ollama-arc | grep -E "GPU|level_zero"
+    docker logs ollama-arc | grep -E "GPU|level_zero|SYCL0"
     ```
 
-> [!CAUTION] Common Pitfall: "No Device Found"
-> If the container starts but doesn't see the GPU, it's almost always a permission issue with `/dev/dri`. Ensure your user is in the `render` group on the host:
-> `sudo usermod -aG render $USER`
-> (Requires a new shell/session to apply!)
+> [!CAUTION] Common Pitfall: "Archived Image"
+    The original `intelanalytics/ipex-llm-inference-cpp-xpu` image was archived on Jan 28, 2026. If you see "404 Not Found" during a pull, you must update your `docker-compose.yml` to use the `ava-agentone` image.
 
 ## Knowledge Check
 - **Why are we ignoring `intel_gpu_top`?** Because it's an `i915`-focused tool. On Meteor Lake (Xe driver), it's looking for the wrong "speedometer." The engine is running fine, the tool is just "lost."
-- **Why 16GB `shm_size`?** Meteor Lake iGPUs use system RAM as VRAM. By giving the container 16GB of shared memory, we're ensuring it has enough "breathing room" for larger models (like Qwen 2.5 Coder 7B).
+- **Why `/dev/dri/card1`?** On some Meteor Lake systems, `card0` is the display controller and `card1` (or vice-versa) is the compute engine. Passing both ensures the container finds the right hardware for SYCL acceleration.
 
 ---
 *Related: [[Knowledge Base/LLM/index]], [[Knowledge Base/Virtualization/Docker/index]]*

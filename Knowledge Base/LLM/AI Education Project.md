@@ -25,7 +25,7 @@ To create simple, repeatable educational tools and documentation that help peopl
 ## Key Deliverables
 - [x] **[[Knowledge Base/LLM/Ollama Setup Guide|Ollama Setup Guide]]:** A simple SOP for running LLMs on consumer hardware (SYCL-optimized).
 - [x] **[[Knowledge Base/LLM/Asking Stupid Questions - Prompting Guide|Prompt Engineering for Students]]:** A guide on how to ask "stupid questions" to get smart answers from AI.
-- [x] **AI Safety SOP:** Best practices for protecting sensitive data while using LLMs.
+- [x] **[[Policies/SOP - AI Safety and Data Discipline|AI Safety SOP]]:** Best practices for protecting sensitive data while using LLMs.
 - [x] **[[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|Hybrid Solution Architectures]]:** Documentation on connecting local LLMs with external tools (like this Obsidian Vault!).
 
 ## Current Collaborators
