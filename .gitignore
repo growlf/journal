@@ -217,3 +217,8 @@ People/
 Internal/
 Network/Devices/Archive/
 *.local.md
+
+# AI Cache & Vector Databases
+.smtcmp_vector_db.tar.gz
+.smtcmp_json_db/
+.copilot/

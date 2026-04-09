@@ -29,7 +29,7 @@ To create simple, repeatable educational tools and documentation that help peopl
 - [x] **[[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|Hybrid Solution Architectures]]:** Documentation on connecting local LLMs with external tools (like this Obsidian Vault!).
 
 ## Current Collaborators
-- [[Garth Johnson]] (The NetYeti)
+- [[index|Garth Johnson]] (The NetYeti)
 - Gemini CLI (AI Assistant & Force Multiplier)
 - [[Knowledge Base/Mentor-based Internship|Cascade STEAM Service Corp]]
 

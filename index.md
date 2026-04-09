@@ -4,10 +4,37 @@ tags:
 title: Journal of The NetYeti
 aliases:
   - BMS
+  - NetYeti
+  - Hey You!
+  - Garth Johnson
+Email: netyeti@thenetyeti.com
+Phone: tel://360-320-6626
+Role: Supervisor
+Discord ID: https://discord.com/users/227141869962919936
+Nickname: NetYeti
+mentor: true
+intern: false
 ---
-![[1197883.jpg]]My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that [[Knowledge Base/Development/Obsidian/index|Obsidian]] helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
-## Who am I?
-I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I was born with a curious mind and an urge to question everything. Technology was placed in my view early in life and I found it to be the perfect playground to create and explore. I am an avid supporter of all things fun+community+educational.
+![[1197883.jpg|right|250]]
+
+> [!abstract] About Garth (The NetYeti)
+> I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson. I'm a DevOps professional, a Technology Instructor at Bellingham Technical College, and an autodidact with a passion for sharing knowledge. Over the years, I have worked for organizations like Microsoft, DARPA, and IBM, and I served in the US Army as a psychiatric nurse and battle systems strategist. Today, I'm an activist in the local tech-ed community and a founding member of Cascade STEAM.
+
+This is my personal journal of technology-land adventures ...and other ramblings. I use [[Obsidian]] to organize my thoughts and [[GitHub-Quartz-Obsidian]] to publish them. I strongly believe in "asking the *stupid* questions" because if not me, then who will? Critical thinking requires the fuel of knowledge, and I'm here to help "raise the water level" with everyone.
+## Skills
+- **Mentorship and Instruction:** Passing the torch to the next generation of techs.
+- **Technology:**
+	- **Coding:** Many languages, but I prefer Python for most tactical tools.
+	- **Electronics & Hardware:** From breadboards to server racks.
+	- **Networking:** Building the "pipes" that connect the world.
+	- **Cyber-security:** Protecting the fortress and teaching signal discipline.
+	- **Operating Systems:** Fluent in most, but Linux is my native tongue.
+- **Public Speaking:** Sharing ideas on stages like LinuxFest NW.
+- **Community Building:** Founding member of Cascade STEAM.
+- **Business Management:** Helping startups achieve lift-off.
+
+## Interests
+Making ripples of knowledge and creative intent. Inspiring new minds and sharing the results. AI, Iot, containerization, quantum computing, and... anything else that looks interesting :) 
 
 > [!IMPORTANT] A Note on AI Ethics
 > As an AI Advocate and Instructor, I believe in using every tool at our disposal to "raise the water level" of our collective knowledge. This journal is a living experiment in human-AI co-creation. I use AI ethically and carefully—not to replace my voice, but to amplify it, organize the "manageable mess," and ensure that my students and peers have the most accurate and well-linked information possible. I treat AI as a "force multiplier," but the tactical decisions and core philosophy remain 100% NetYeti.
@@ -27,8 +54,9 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 - [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire. A prime example of the student became the Master.
 - [Sam](https://github.com/orgs/RoboRuckus/people/ShVerni) - The dude is on fire! While not a journaler per-se, he is a prolific open-source contributor and peer that actively (and constantly) mentors and shares. Check out his [RoboRuckus](https://www.roboruckus.com/) and [Fabrica-IO](https://github.com/FabricaIO/FabricaIO-App/wiki/App-Usage) projects. His coding may "merely be a hobby" for *him*, but the ideas and info are well constructed and implemented at an exemplary level.
 - [Lance](https://lanceleonard.com/) - One of my oldest friends and fellow technology buffs.
-### Contact
-Most of us can generally be found on the [Cascade Steam Discord](http://hub.cascadesteam.org/) or at any of the [Cascade STEAM](https://www.meetup.com/cascadesteam/) meetups. Also see my [[Communities]] page for more meetup opportunities.
+## Contact
+- **Discord:** [NetYeti on Discord](https://discord.com/users/227141869962919936)
+- **Community:** Find me on the [Cascade Steam Discord](http://hub.cascadesteam.org/) , at [Cascade STEAM](https://www.meetup.com/cascadesteam/) meetups, and also the [[Communities]] that I frequent more meetup opportunities.
 ## Current Projects
 ### Cascade STEAM Service Corp
 Working with local colleges, local businesses, and [[BMS]] to create a Internship/Mentorship business model that allows for actual experience for new college graduates in our community as a free service.

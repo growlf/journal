@@ -1,0 +1,38 @@
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: always
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - OPEN_TERMINAL_URL=http://open-terminal:8000
+      - OPEN_TERMINAL_API_KEY=b9f916233a86e2d3767985d36e000e4a
+    volumes:
+      - open-webui:/app/backend/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - open-webui-net
+
+  open-terminal:
+    image: ghcr.io/open-webui/open-terminal:latest
+    container_name: open-terminal
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - OPEN_TERMINAL_API_KEY=b9f916233a86e2d3767985d36e000e4a
+    volumes:
+      - open-terminal-data:/home/user
+    networks:
+      - open-webui-net
+
+volumes:
+  open-webui:
+    external: true
+  open-terminal-data:
+
+networks:
+  open-webui-net:

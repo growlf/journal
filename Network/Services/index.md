@@ -14,6 +14,7 @@ This is the index of services running in the home lab.
 - [[Knowledge Base/Services/Monitoring/Grafana.md|Grafana]]: Visualization and analytics platform.
 - [[Network/Services/NetBox.md|NetBox]]: IP Address Management (IPAM) and DCIM.
 - [[Network/Services/Ollama/index.md|Ollama]]: Local-First AI with Intel Arc acceleration.
+- [[Network/Services/Open-WebUI/index.md|Open WebUI]]: Multi-model frontend for Ollama and OpenAI.
 - [[Network/Services/NFS.md|NFS]]: Network File System for shared storage.
 - [[Knowledge Base/Services/Monitoring/NtopNG.md|NtopNG]]: High-speed web-based traffic analysis.
 - [[Knowledge Base/Storage/Openmediavault.md|Openmediavault]]: Next-generation network attached storage.

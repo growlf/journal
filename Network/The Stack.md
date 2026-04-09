@@ -52,7 +52,7 @@ Follow this sequence to build your "Command Center":
 9.  **[[Knowledge Base/Virtualization/Docker/Docker Registry|Docker Registry]]:** Local image cache for faster deployments.
 10. **[[Knowledge Base/Virtualization/PXEBoot|PXE Boot]]:** Rapid staging and network booting.
 11. **[[Knowledge Base/Virtualization/Docker/Portainer|Portainer]] & [[Knowledge Base/Virtualization/Docker/index|Docker]]:** Container management made easy.
-12. **[[Network/Services/Ollama/index|Ollama]] / [[Knowledge Base/LLM/LocalAI|LocalAI]]:** Your Local AI "Force Multiplier."
+12. **[[Network/Services/Ollama/index|Ollama]] / [[Network/Services/Open-WebUI/index|Open WebUI]]:** Your Local AI "Force Multiplier" and Frontend.
 13. **[[Knowledge Base/LLM/OpenClaw|OpenClaw]]:** Your AI "Command and Control" (C2) layer. Orchestrates LLMs and provides tool access (Gog/Places, Search, Shell).
 
 ## 4) Monitoring & Visibility
