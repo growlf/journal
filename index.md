@@ -5,7 +5,7 @@ title: Journal of The NetYeti
 aliases:
   - BMS
 ---
-![[banner.svg]] My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that [[Knowledge Base/Development/Obsidian/index|Obsidian]] helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
+![[1197883.jpg]]My personal journal of technology-land adventures ...and other ramblings.  I am using [[Obsidian]] to generate and maintain this journal, and then [[GitHub-Quartz-Obsidian]] to publish it. I like it because it is easy to show someone else how to do - and it is free! The best part is that [[Knowledge Base/Development/Obsidian/index|Obsidian]] helps me organize and connect my thoughts, schedule tasks, and collaborate with others - and yet it stays simple to use.
 ## Who am I?
 I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson - among other things.  I was born with a curious mind and an urge to question everything. Technology was placed in my view early in life and I found it to be the perfect playground to create and explore. I am an avid supporter of all things fun+community+educational.
 
