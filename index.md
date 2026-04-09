@@ -21,6 +21,15 @@ intern: false
 > I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson. I'm a DevOps professional, a Technology Instructor at Bellingham Technical College, and an autodidact with a passion for sharing knowledge. Over the years, I have worked for organizations like Microsoft, DARPA, and IBM, and I served in the US Army as a psychiatric nurse and battle systems strategist. Today, I'm an activist in the local tech-ed community and a founding member of Cascade STEAM.
 
 This is my personal journal of technology-land adventures ...and other ramblings. I use [[Obsidian]] to organize my thoughts and [[GitHub-Quartz-Obsidian]] to publish them. I strongly believe in "asking the *stupid* questions" because if not me, then who will? Critical thinking requires the fuel of knowledge, and I'm here to help "raise the water level" with everyone.
+
+I write from a standpoint of a technology professional and also a student - always curious and always learning. I strongly believe in "asking the *stupid* questions" because "if not me, then who will?" There is always someone in the audience that is either too shy or afraid to ask "*that*" question which is deemed too obvious (aka - common sense is not so common). Critical thinking requires the fuel of knowledge to have any accuracy or value in  outcomes.
+
+After years of working in the tech industry, I now 
+- instruct at [Bellingham Technical College](https://www.btc.edu/)
+- freelance and consult with clients and non-profit or educational organizations
+- am a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a local 501.c3 non-profit organization dedicated to many of the things that I hold dear
+- am a board member of the [Linuxfest Northwest](https://lfnw.org) organization that puts one of the largest free Linux festivals together in the USA - right here in little ole Bellingham Washington!
+- am very involved in multiple local [[Communities|community organizations]].
 ## Skills
 - **Mentorship and Instruction:** Passing the torch to the next generation of techs.
 - **Technology:**
@@ -39,14 +48,6 @@ Making ripples of knowledge and creative intent. Inspiring new minds and sharing
 > [!IMPORTANT] A Note on AI Ethics
 > As an AI Advocate and Instructor, I believe in using every tool at our disposal to "raise the water level" of our collective knowledge. This journal is a living experiment in human-AI co-creation. I use AI ethically and carefully—not to replace my voice, but to amplify it, organize the "manageable mess," and ensure that my students and peers have the most accurate and well-linked information possible. I treat AI as a "force multiplier," but the tactical decisions and core philosophy remain 100% NetYeti.
 
-I write from a standpoint of a technology professional and also a student - always curious and always learning. I strongly believe in "asking the *stupid* questions" because "if not me, then who will?" There is always someone in the audience that is either too shy or afraid to ask "*that*" question which is deemed too obvious (aka - common sense is not so common). Critical thinking requires the fuel of knowledge to have any accuracy or value in  outcomes.
-
-After years of working in the tech industry, I now 
-- instruct at [Bellingham Technical College](https://www.btc.edu/)
-- freelance and consult with clients and non-profit or educational organizations
-- am a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a local 501.c3 non-profit organization dedicated to many of the things that I hold dear
-- am a board member of the [Linuxfest Northwest](https://lfnw.org) organization that puts one of the largest free Linux festivals together in the USA - right here in little ole Bellingham Washington!
-- am very involved in multiple local [[Communities|community organizations]].
 ### Friends, Peers, Students, and Associates (who blog)
 Without friends and peers, where is the fun of discovery?  Sharing is caring, and the following is growing list of cool folx are also into the sharing spirit of what they do and what they know and learn.  I am of the opinion that *who we are as individuals* is a reflection of, and reflected by, the people with whom we associate. So.. here are a few that also blog/journal - check 'em out, these are some fun and engaging folx :)
 - [Viv](https://itsvivianmill.github.io/journal), [Lili](https://lynxee123.github.io/journal/), [Ricky](https://rigunkes.github.io/obsidian-quartz-page/) - Student's with amazing passion and drive to become technology professionals. DISCLAIMER: many students are not listed, as each must personally give permission to list them *and* have a site to point to - it's a [FERPA](https://studentprivacy.ed.gov/ferpa) thing. *This is also a nudge to other students who are not yet listed.* ;)
