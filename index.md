@@ -59,15 +59,18 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 - **Discord:** [NetYeti on Discord](https://discord.com/users/227141869962919936)
 - **Community:** Find me on the [Cascade Steam Discord](http://hub.cascadesteam.org/) , at [Cascade STEAM](https://www.meetup.com/cascadesteam/) meetups, and also the [[Communities]] that I frequent more meetup opportunities.
 ## Current Projects
-### Cascade STEAM Service Corp
-Working with local colleges, local businesses, and [[BMS]] to create a Internship/Mentorship business model that allows for actual experience for new college graduates in our community as a free service.
 
-### [[Knowledge Base/Development/Obsidian/index|Obsidian]] Sync (self-hosted)
-I self hosting my own [[Knowledge Base/Development/Obsidian/index|Obsidian]] Sync service for my journal (and several other collaborative projects as well). I am writing some notes about it in the [[CouchDB|obsidian-sync]] page.  It is surprisingly very easy to setup and maintain. This is actually a part of a larger (and ongoing project - [[Home Lab 101]])
+### [[Knowledge Base/LLM/AI Education Project|AI Education & Empowerment]]
+My primary focus is demystifying AI and moving it from a "black box" to a "force multiplier" for everyone. This project uses a **Local-First Hybrid** strategy (the [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]]) to ensure privacy, autonomy, and low-cost access to LLMs.
+
+### [[Knowledge Base/Community/Mentor-based Internship|Cascade STEAM Service Corp]]
+Working with local colleges, businesses, and the [[BMS|Bellingham Makerspace]] to build a mentorship-based internship model. The goal is to provide real-world experience for new graduates as a community-driven service.
+
+### [[Home Lab 101|The Stack]]
+The ongoing evolution of my self-hosted environment. This includes everything from [[CouchDB|Obsidian LiveSync]] and specialized Proxmox LXC containers to the networking "pipes" that keep the Yeti's cave connected. This project is documented in the [[Network/The Stack|The Stack]].
 
 ### Miscellaneous
-Throughout my pages, you may see task boxes littered throughout. This is how I leave notes to myself for things that still need polishing or completing. I use Obsidian plugins to manage them. This journal is a *living* document that changes frequently and is in constant edit-mode. 
-
+You'll see task boxes scattered throughout this vault—these are my "manageable mess" of notes and to-dos. This journal is a living document, constantly being edited and refined.
 ## Recent Changes / Additions
 Site-wide listing of last 40 creations and modifications over the last 4 days:
 %% DATAVIEW_PUBLISHER: start
