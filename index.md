@@ -15,9 +15,8 @@ Nickname: NetYeti
 mentor: true
 intern: false
 ---
-![[1197883.jpg|right|250]]
-
 > [!abstract] About Garth (The NetYeti)
+> <span style="float: right; margin: 0 0 15px 15px;">![[1197883.jpg|250]]</span>
 > I am The NetYeti—Garth Johnson to some, "hey, you!" or "Yeti" to others. I'm a DevOps professional, a Technology Instructor at [Bellingham Technical College](https://www.btc.edu/), and a lifelong autodidact. My journey has taken me from the US Army (as a psychiatric nurse and battle systems strategist) to roles at Microsoft, DARPA, and IBM. Today, I'm a founding member of [Cascade STEAM](https://www.cascadesteam.org), a board member for [Linuxfest Northwest](https://lfnw.org), and an activist dedicated to "raising the water level" of knowledge in our community.
 
 This is my personal journal of technology-land adventures and other ramblings. I use [[Obsidian]] to organize my thoughts and [[GitHub-Quartz-Obsidian]] to publish them. I write from the dual standpoint of a technology professional and a curious student—always learning, always questioning.
