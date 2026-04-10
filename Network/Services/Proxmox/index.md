@@ -19,14 +19,14 @@ title: Proxmox
 > [!TIP] Operational Discipline
 > **P (Primary):** Proxmox VE Cluster (2 or more nodes for High Availability).
 > **A (Alternate):** Single-Node Proxmox installation with regular backups to [[Proxmox Backup Server]].
-> **C (Contingency):** Standalone [[LXC]] or [[Docker]] hosts on a separate hardware node.
+> **C (Contingency):** Standalone [[Knowledge Base/Virtualization/LXC|LXC]] or [[Knowledge Base/Virtualization/Docker/index|Docker]] hosts on a separate hardware node.
 > **E (Emergency):** Direct host-based applications running on a fresh Linux install.
 
 ## SOP: Creating a Virtual Command Post
 1. **Prepare Hardware:** Ensure your CPU supports VT-x or AMD-v.
 2. **Install Proxmox:** Download the ISO and follow the installation wizard.
 3. **Configure Storage:** Set up ZFS for data integrity and snapshots.
-4. **Deploy Services:** Start creating your [[LXC]] containers and Virtual Machines.
+4. **Deploy Services:** Start creating your [[Knowledge Base/Virtualization/LXC|LXC]] containers and Virtual Machines.
 5. **Set Up Backups:** Connect to your [[Proxmox Backup Server]] and schedule daily backups.
 
 ## Check for Understanding
@@ -34,4 +34,4 @@ title: Proxmox
 - Why is it important to have a dedicated hardware node (Primary) instead of a virtualized one (Alternate)?
 
 ---
-*Related: [[Knowledge Base/LXC]], [[Proxmox Backup Server]], [[Network/The Stack]]*
+*Related: [[Knowledge Base/Virtualization/LXC|LXC]], [[Proxmox Backup Server]], [[Network/The Stack]]*

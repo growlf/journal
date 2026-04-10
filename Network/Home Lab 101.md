@@ -18,36 +18,36 @@ Having a safe environment to explore and experiment within makes learning much e
 ## Overview
 
 ### Step 1 - Document EVERYTHING!!
-I will use [[Obsidian]] for this.  You might want to do so as well.  It is a very easy to use note taking application and can be extended to the universe and **beyond!** (We will also cover this application and it's capabilities in more depth in other documents and sessions)
+I will use [[Knowledge Base/Development/Obsidian/index|Obsidian]] for this.  You might want to do so as well.  It is a very easy to use note taking application and can be extended to the universe and **beyond!** (We will also cover this application and it's capabilities in more depth in other documents and sessions)
 Why document? Memory is a curious and fickle thing - and collaboration is easier when you can share tangible content. I highly recommend looking at my dear friend Vivian's [documentation](https://itsvivianmill.github.io/journal/Instructions/How-to-Create-a-GitHub-Journal-with-Obsidian) on creating an Obsidian managed, Github hosted, free, public journal.
 ### Step 2 - Acquire the Basic Hardware Components
 Beyond the obvious cabling and individual system's LAN network interfaces, we will require the following:
-- A Modem/internet-interface with service to the internet (aka an [[ISP]])
-- [[Knowledge Base/Router|Router]] 
-- [[Knowledge Base/Firewall|Firewall]] 
-- [[Knowledge Base/WiFi|WiFi]] Access point
-- [[Knowledge Base/DNS/index|DNS]] server
-- [[Knowledge Base/DHCP|DHCP]] server
+- A Modem/internet-interface with service to the internet (aka an [[Knowledge Base/Networking/ISP|ISP]])
+- [[Knowledge Base/Networking/Router|Router]] 
+- [[Knowledge Base/Networking/Firewall|Firewall]] 
+- [[Knowledge Base/Networking/WiFi|WiFi]] Access point
+- [[Knowledge Base/Networking/DNS/index|DNS]] server
+- [[Knowledge Base/Networking/DHCP|DHCP]] server
 
 > [!NOTE] Residential Internet Customers
-> In most residential environments, you will find all of these in a *single* device that is installed by the [[ISP]] (see the relevant diagram below). We will, ultimately, want to have individual devices/services for each purpose. However, we can create or add these later, as we progress towards our goals.
+> In most residential environments, you will find all of these in a *single* device that is installed by the [[Knowledge Base/Networking/ISP|ISP]] (see the relevant diagram below). We will, ultimately, want to have individual devices/services for each purpose. However, we can create or add these later, as we progress towards our goals.
 
 Other hardware that will be needed:
-- [[Knowledge Base/UPS|UPS]] - Uninterrupted Power Supply
+- [[Knowledge Base/Hardware/UPS|UPS]] - Uninterrupted Power Supply
 - One (or more) user stations (i.e. laptops, desktops, etc)
-- One (or more) Hypervisor server (we will use [[Network/Services/Proxmox/index|Proxmox]] - for VMs, [[Knowledge Base/LXC|LXCs]], [[Knowledge Base/Docker/index|Docker]], etc) (supporting VT-X or AMD-v and hyper-threading)
-- [[Knowledge Base/NAS|NAS]] with ample storage. One is good, two is better.
+- One (or more) Hypervisor server (we will use [[Network/Services/Proxmox/index|Proxmox]] - for VMs, [[Knowledge Base/Virtualization/LXC|LXCs]], [[Knowledge Base/Virtualization/Docker/index|Docker]], etc) (supporting VT-X or AMD-v and hyper-threading)
+- [[Knowledge Base/Storage/NAS|NAS]] with ample storage. One is good, two is better.
 
 ### Step 3 - General Design Concepts
 
 > [!NOTE] Static IP
-> Static IP is a nice to have, but not a requirement. It can certainly make it a little easier to access your home lab remotely, but we can still achieve reliable remote access using things like [[Tailscale]] - even without it.
+> Static IP is a nice to have, but not a requirement. It can certainly make it a little easier to access your home lab remotely, but we can still achieve reliable remote access using things like [[Knowledge Base/Networking/Tailscale|Tailscale]] - even without it.
 
 Before we start putting any real effort into this plan for a home lab, we need to set the stage with some basic foundational assumptions.
-- **Security** - at every layer, starting from the [[Knowledge Base/Router|router]] and all the way to your apps and documentation.
-	- [[Knowledge Base/Firewall|Firewall]] should be default-drop-all for all outside access and intentionally modified (with versioning control) to allow specific services through. External logging to a monitoring/alerting solution such as [[Knowledge Base/Monitoring|Grafana]] is an absolute must. Internal rules can be more open.
-	- Basic network design should include provision for separation between network environments. For example the [[Knowledge Base/WiFi|WiFi]] access should be entirely isolated from the infrastructure services. The infrastructure services should be accessed through a proxy and only directly available from within their own physically isolated network. A shared physical layer with multiple routed traffic is not enough.
-	- Good passwords, [[Knowledge Base/MFA|MFA]], and tokens where possible.
+- **Security** - at every layer, starting from the [[Knowledge Base/Networking/Router|router]] and all the way to your apps and documentation.
+	- [[Knowledge Base/Networking/Firewall|Firewall]] should be default-drop-all for all outside access and intentionally modified (with versioning control) to allow specific services through. External logging to a monitoring/alerting solution such as [[Knowledge Base/Services/Monitoring/index|Grafana]] is an absolute must. Internal rules can be more open.
+	- Basic network design should include provision for separation between network environments. For example the [[Knowledge Base/Networking/WiFi|WiFi]] access should be entirely isolated from the infrastructure services. The infrastructure services should be accessed through a proxy and only directly available from within their own physically isolated network. A shared physical layer with multiple routed traffic is not enough.
+	- Good passwords, [[Knowledge Base/Services/MFA|MFA]], and tokens where possible.
 - **Reduce your bandwidth usage** replication as much as possible (get your money's worth)
 	- Caching and proxies should be used to minimize system updates impact on bandwidth.
 - **One source of truth** - always try to keep a single "source of truth" rather than replicate documents in multiple locations where information schisms can occur without being noticed. Keep it as simple as possible.  Things tend to get complicated without any help.
@@ -63,18 +63,18 @@ These are things to be created/made-available as we go, and are not immediately 
 - **Apt-cacher**: Linux systems use bandwith to install and update. By using a caching proxy, you use local LAN resources and substantially increase the speed of installs and updates, and also reduce the bandwidth usage on your internet facing side of things.
 - **Network Storage**: All applications need to store data. It's what they do.
 - **Network & Resource Monitoring**. If you dont know about it - *it can and will still hurt you!*
-- **[[Knowledge Base/Docker/index|Docker]] manager**: [[Knowledge Base/Docker/index|Docker]] containers are amazing, but can also be dificult to manage after you get a few stacks of them running. Consider a tool like [[Portainer]].
+- **[[Knowledge Base/Virtualization/Docker/index|Docker]] manager**: [[Knowledge Base/Virtualization/Docker/index|Docker]] containers are amazing, but can also be dificult to manage after you get a few stacks of them running. Consider a tool like [[Knowledge Base/Virtualization/Docker/Portainer|Portainer]].
 - **Email**: (external - for now)
 - **Website**: (MANY choices, but we will get to thatv later) Blog your journey. Create a web store for your software, art, or what ever. Join the web!
-- **Documentation Collaboration hub** ([[Knowledge Base/Obsidian/CouchDB Deployment Files|CouchDB]] for LIve Sync with [[Knowledge Base/Obsidian/index|Obsidian]])
-- **Internal [[Knowledge Base/DNS/index|DNS]]**: (aka split DNS) should be available to the LANs and set as default in the [[Knowledge Base/DHCP|DHCP]] settings to allow easier access to systems that will not be available to the Internet directly (i.e. the many [[Knowledge Base/DHCP|DHCP]] addressed systems, which should be in specific zones and not able to conflict with infrastructure)
+- **Documentation Collaboration hub** ([[Knowledge Base/Development/Obsidian/CouchDB Deployment Files|CouchDB]] for LIve Sync with [[Knowledge Base/Development/Obsidian/index|Obsidian]])
+- **Internal [[Knowledge Base/Networking/DNS/index|DNS]]**: (aka split DNS) should be available to the LANs and set as default in the [[Knowledge Base/Networking/DHCP|DHCP]] settings to allow easier access to systems that will not be available to the Internet directly (i.e. the many [[Knowledge Base/Networking/DHCP|DHCP]] addressed systems, which should be in specific zones and not able to conflict with infrastructure)
 ## Lets Get Started
 
-Lets assume that you are using a standard residential [[ISP]] access with the supplied "router" that is an "all in one" device. This is the typical scenario for most people. There are some drawbacks to this environment, but we can augment the basics and overcome the barriers. Your network might look something like this:
+Lets assume that you are using a standard residential [[Knowledge Base/Networking/ISP|ISP]] access with the supplied "router" that is an "all in one" device. This is the typical scenario for most people. There are some drawbacks to this environment, but we can augment the basics and overcome the barriers. Your network might look something like this:
  ![[basic residential network map.svg]]
  What we are going to build, will look more like this:
  ![[basic homelab network map.svg]]
-Once you understand all of the above, make a plan for what you want to build and achieve.  Write it down - even if it is just a copy of this document. Draw some diagrams and make some lists. Then, continue on to actually building [[The Stack]].
+Once you understand all of the above, make a plan for what you want to build and achieve.  Write it down - even if it is just a copy of this document. Draw some diagrams and make some lists. Then, continue on to actually building [[Network/The Stack|The Stack]].
 
 > [!CHECK] NetYeti Knowledge Check
 > - Can you explain the difference between a **Primary** and **Alternate** plan for your DNS?

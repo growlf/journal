@@ -30,7 +30,7 @@ Key characteristics
 ## Self Hosting Obsidian Sync
 Setting up a basic CouchDB service is actually very simple and very easily customized to specific needs. Below is an example that I use as a guide to setting up my own Obsidian-Sync. It is curated from many web pages and documentations sources and (hopefully) simplified/streamlined for an average "new-user" experience through my own trials and tribulation along the way.
 ### Prerequisites
-Of course, step one is to have [[Obsidian]] installed and understand the basics of how to enable the community plugins and configure them.  Don't worry, for this process we only need to add a single plugin and I will show the general screens that need to be configured.  I would strongly recommend having your own domain as well.  Without one, you may not be able to fully secure this service, which can be  important when making it available to the internet.
+Of course, step one is to have [[Knowledge Base/Development/Obsidian/index|Obsidian]] installed and understand the basics of how to enable the community plugins and configure them.  Don't worry, for this process we only need to add a single plugin and I will show the general screens that need to be configured.  I would strongly recommend having your own domain as well.  Without one, you may not be able to fully secure this service, which can be  important when making it available to the internet.
 ### Step 1- Choose a Network Environment
 Like most services, you will need a static IP (one way or another) to connect to the sync service with obsidian - and to enable proper security protocols such as SSL. There are three common scenarios that I am focusing on here:
 - User with access to a static IP address (commercial or otherwise) - aka [[#Static IP]]
@@ -40,7 +40,7 @@ Most users will fall into the second or third categories, and that's where thing
 #### Static IP
 In this scenario, you will have an IP address that never changes. If you do not know if you have this, it generally means that you do not.  Many ISPs will offer this feature (at an additional cost) only by specific request.  This what I have and I also use my own domain name which was purchased looooong ago to simplify access by name and not just numbers.
 #### Dynamic IP
-Tools such as [[Tailscale]] can be used to simulate a static IP nicely. 
+Tools such as [[Knowledge Base/Networking/Tailscale|Tailscale]] can be used to simulate a static IP nicely. 
 > [!TIP] The NetYeti "Magic" for Dynamic IPs
 > If you're on a residential connection, Tailscale is your best friend. It creates a "Tailnet"—a secure, private mesh network. Once your CouchDB server and your Obsidian device (laptop, phone, tablet) are both on the Tailnet, you can use the **Tailscale IP** (e.g., `100.x.y.z`) as your hostname. This bypasses the need for Port Forwarding and Dynamic DNS entirely.
 > 
@@ -53,8 +53,8 @@ An alternative is to use a hosting provider such as AWS, Google, or MS Azure whe
 
 ### Step 2 - Choose a Deployment Strategy
 There are several ways to deploy our solution:
-- [[Docker]]
-- [[LXC]]
+- [[Knowledge Base/Virtualization/Docker/index|Docker]]
+- [[Knowledge Base/Virtualization/LXC|LXC]]
 - Virtual Machine
 - Kubernetes
 - Dedicated system (Raspberry Pi?)
@@ -64,7 +64,7 @@ I will be focusing on the Docker and LXC options because [[Network/Services/Prox
 ### Step 3 - Configure and Deploy
 We will want the following information ready:
 1.  **Hostname** and **Port** - the default port is 5984 and is fine as is. We wont be exposing it to the outside internet directly.
-2.  **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[Vaultwarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy. If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
+2.  **Username** and **Password** to use as the initial admin user's credentials. Pick something not obvious and use a Password manager (such as [[Knowledge Base/Services/Vaultwarden|Vaultwarden]]) to generate and store these. Remember, this service will be Internet facing, so be creative - not lazy. If you are using the Proxmox Script for LXC, these values are prompted during the installation process.
 
 #### Deployment Methods
 - **If you are using Portainer (Docker):**

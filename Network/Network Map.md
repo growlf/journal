@@ -12,7 +12,7 @@ tags:
 > In a "Manageable Mess," your visual maps are your primary navigation. We use an **Auto-Updating SVG** export for the static site (Quartz). This ensures that every time the source drawing is saved, the published map is automatically refreshed with zero extra steps.
 
 ## Current Topology
-![[NetworkMap.svg]]
+![[NetworkMap.light.svg]]
 
 ---
 

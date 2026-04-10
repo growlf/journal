@@ -37,9 +37,12 @@ Perform a "Signal Sweep" to find anything not reporting to the hypervisor or rou
    - *Look for:* XCC/IPMI controllers, IoT sensors, and mobile devices.
 
 ## 5. Phase 4: Documentation (The NetYeti Way)
-- **Archive Offline Devices:** Move any devices not found during the scan to `Network/Devices/Archive/`.
-- **Update Active Devices:** Ensure all discovered IPs and services are reflected in the `Network/Devices/` folder.
-- **Update the Map:** Verify the physical and logical links in the **[[Network/Network Map.excalidraw|Network Map]]**.
+- **Archive Offline Devices:** Move any devices not found during the scan to `Internal/Devices/Archive/`.
+- **Update Active Devices:** Ensure all discovered IPs and services are reflected in the `Internal/Devices/` folder.
+- **Sanitize for Public Consumption:** Run the sanitization script to update the public `Network/Devices/` folder:
+  `python3 _scripts/sanitize-network.py`
+  - *Note:* This ensures real MACs and internal IPs are scrubbed before publishing.
+- **Update the Map:** Verify the physical and logical links in the **[[Network/Network Map|Network Map]]**.
 
 ---
 
