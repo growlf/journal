@@ -222,3 +222,4 @@ Network/Devices/Archive/
 .smtcmp_vector_db.tar.gz
 .smtcmp_json_db/
 .copilot/
+/copilot/
