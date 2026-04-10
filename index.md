@@ -18,32 +18,32 @@ intern: false
 ![[1197883.jpg|right|250]]
 
 > [!abstract] About Garth (The NetYeti)
-> I am The NetYeti. I answer to "hey, you!", "Yeti", and Garth Johnson. I'm a DevOps professional, a Technology Instructor at Bellingham Technical College, and an autodidact with a passion for sharing knowledge. Over the years, I have worked for organizations like Microsoft, DARPA, and IBM, and I served in the US Army as a psychiatric nurse and battle systems strategist. Today, I'm an activist in the local tech-ed community and a founding member of Cascade STEAM.
+> I am The NetYeti—Garth Johnson to some, "hey, you!" or "Yeti" to others. I'm a DevOps professional, a Technology Instructor at [Bellingham Technical College](https://www.btc.edu/), and a lifelong autodidact. My journey has taken me from the US Army (as a psychiatric nurse and battle systems strategist) to roles at Microsoft, DARPA, and IBM. Today, I'm a founding member of [Cascade STEAM](https://www.cascadesteam.org), a board member for [Linuxfest Northwest](https://lfnw.org), and an activist dedicated to "raising the water level" of knowledge in our community.
 
-This is my personal journal of technology-land adventures ...and other ramblings. I use [[Obsidian]] to organize my thoughts and [[GitHub-Quartz-Obsidian]] to publish them. I strongly believe in "asking the *stupid* questions" because if not me, then who will? Critical thinking requires the fuel of knowledge, and I'm here to help "raise the water level" with everyone.
+This is my personal journal of technology-land adventures and other ramblings. I use [[Obsidian]] to organize my thoughts and [[GitHub-Quartz-Obsidian]] to publish them. I write from the dual standpoint of a technology professional and a curious student—always learning, always questioning.
 
-I write from a standpoint of a technology professional and also a student - always curious and always learning. I strongly believe in "asking the *stupid* questions" because "if not me, then who will?" There is always someone in the audience that is either too shy or afraid to ask "*that*" question which is deemed too obvious (aka - common sense is not so common). Critical thinking requires the fuel of knowledge to have any accuracy or value in  outcomes.
+I strongly believe in "asking the *stupid* questions" because, if not me, then who will? There's always someone in the audience who is too shy to ask the "obvious" question. Since common sense isn't always common, I'm here to provide the fuel of knowledge that critical thinking requires to have accuracy and value.
 
-After years of working in the tech industry, I now 
-- instruct at [Bellingham Technical College](https://www.btc.edu/)
-- freelance and consult with clients and non-profit or educational organizations
-- am a founding member of [Cascade STEAM](https://www.cascadesteam.org) - a local 501.c3 non-profit organization dedicated to many of the things that I hold dear
-- am a board member of the [Linuxfest Northwest](https://lfnw.org) organization that puts one of the largest free Linux festivals together in the USA - right here in little ole Bellingham Washington!
-- am very involved in multiple local [[Communities|community organizations]].
+After years in the industry, my current focus includes:
+- **Instruction:** Teaching the next generation at BTC.
+- **Community Building:** Leading at Cascade STEAM and LinuxFest NW.
+- **Consulting:** Helping non-profits and educational organizations find their footing.
+- **Engagement:** Active involvement in various local [[Communities]].
+
 ## Skills
-- **Mentorship and Instruction:** Passing the torch to the next generation of techs.
-- **Technology:**
-	- **Coding:** Many languages, but I prefer Python for most tactical tools.
-	- **Electronics & Hardware:** From breadboards to server racks.
-	- **Networking:** Building the "pipes" that connect the world.
-	- **Cyber-security:** Protecting the fortress and teaching signal discipline.
-	- **Operating Systems:** Fluent in most, but Linux is my native tongue.
-- **Public Speaking:** Sharing ideas on stages like LinuxFest NW.
-- **Community Building:** Founding member of Cascade STEAM.
-- **Business Management:** Helping startups achieve lift-off.
+- **Mentorship & Instruction:** Curriculum development and passing the torch to the next generation.
+- **Technology & Infrastructure:**
+	- **Coding:** Multi-lingual, with a preference for Python in tactical tools.
+	- **Hardware:** Full-stack expertise from breadboards to server racks.
+	- **Networking:** Designing and building the "pipes" that connect the world.
+	- **Cyber-security:** Tactical signal discipline and architectural defense.
+	- **Operating Systems:** Linux native with fluency in modern environments.
+- **Public Speaking:** Sharing ideas through technical keynotes and workshops.
+- **Strategic Leadership:** Founding and managing non-profit organizations.
+- **Business Management:** Navigating the path from startup to operational success.
 
 ## Interests
-Making ripples of knowledge and creative intent. Inspiring new minds and sharing the results. AI, Iot, containerization, quantum computing, and... anything else that looks interesting :) 
+Making ripples of knowledge and creative intent. Inspiring new minds and sharing the results. AI, IoT, containerization, quantum computing, and... anything else that looks interesting :) 
 
 > [!IMPORTANT] A Note on AI Ethics
 > As an AI Advocate and Instructor, I believe in using every tool at our disposal to "raise the water level" of our collective knowledge. This journal is a living experiment in human-AI co-creation. I use AI ethically and carefully—not to replace my voice, but to amplify it, organize the "manageable mess," and ensure that my students and peers have the most accurate and well-linked information possible. I treat AI as a "force multiplier," but the tactical decisions and core philosophy remain 100% NetYeti.
