@@ -57,40 +57,28 @@ Making ripples of knowledge and creative intent. Inspiring new minds and sharing
 - 📡 [[Network/Home Lab 101|Home Lab 101]]
 - 🏗️ [[Network/The Stack|The Stack]]
 - 🗺️ [[Network/Network Map|Network Map]]
-- 🤖 [[Knowledge Base/LLM/index|AI & LLM Docs]]
+- 🤖 [[Knowledge Base/LLM/index|AI Education & Empowerment]]
 - 🛠️ [[Policies/index|SOPs & Policies]]
 
 ### ⚡ Quick Links
-- 🚀 [[Internal/Launch Page|Internal Launch Dashboard]]
-- 📊 [[Internal/LLM Usage Statistics|LLM Usage Stats]]
-- 📝 [[Internal/daily/index|Daily Logs]]
+- 📡 [[Network/Home Lab 101|Home Lab 101]]
+- 🏗️ [[Network/The Stack|The Stack]]
+- 🗺️ [[Network/Network Map|Network Map]]
+- 🤖 [[Knowledge Base/LLM/index|AI Education & Empowerment]]
 - 🤝 [[Communities|Communities & Networking]]
-- 🏗️ [[index#Current Projects|Current Projects]]
 
 ---
 
 ## 📈 Growth & Learning
 
 ### 🌱 Personal Growth
-- 💪 [[Internal/Personal/Growth/Fitness/index|Fitness]]
-- 💼 [[Internal/Personal/Growth/Career Development/index|Career Development]]
-- 🤝 [[Internal/Personal/Growth/Relationships/index|Relationships]]
+- 🏛️ [[Network/Growth/index|Methodology for Personal Development]]
+- 📈 [[Network/Growth/index|Tracking Career Milestones]]
 
 ### 🎓 Learning Notes
-- 📐 [[Internal/Learning/Mathematics/index|Mathematics]]
-- 🏛️ [[Internal/Learning/History/index|History]]
-- 🤖 [[Internal/Learning/AI/index|AI Systems]]
-
----
-
-## 📋 Project Management
-
-> [!todo]+ Active Tasks
-> ```tasks
-> not done
-> hide recurrence rule
-> limit 10
-> ```
+- 📐 [[Network/Learning/index|Mathematics & Technical Proficiency]]
+- 🏛️ [[Network/Learning/index|Historical Context & Strategy]]
+- 🤖 [[Network/Learning/index|AI Systems & Ethics]]
 
 ---
 
@@ -103,7 +91,7 @@ My primary focus is demystifying AI and moving it from a "black box" to a "force
 Working with local colleges, businesses, and the [[BMS|Bellingham Makerspace]] to build a mentorship-based internship model. The goal is to provide real-world experience for new graduates as a community-driven service.
 
 ### 🏰 [[Home Lab 101|The Stack]]
-The ongoing evolution of my self-hosted environment. Documented in [[Network/The Stack|The Stack]].
+The ongoing evolution of my self-hosted environment. This includes everything from [[CouchDB|Obsidian LiveSync]] and specialized Proxmox LXC containers to the networking "pipes" that keep the Yeti's cave connected. This project is documented in the [[Network/The Stack|The Stack]].
 
 ---
 
@@ -125,23 +113,24 @@ WHERE
   !contains(file.folder, "daily")
   AND !contains(file.folder, "_templates")
   AND !contains(file.folder, "_assets")
+  AND !contains(file.folder, "Internal")
+  AND !contains(file.folder, "Discord")
 SORT file.mtime DESC
 LIMIT 10
 ```
 %%
 
-| File                                                                                                                       | Updated                   |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| [[Network/AAR - Network Discovery (Concept).md\|AAR - Network Discovery (Concept)]]                                        | 12:33 AM - April 08, 2026 |
-| [[Network/Network Map.md\|Network Map]]                                                                                    | 12:33 AM - April 08, 2026 |
-| [[Network/Devices/House-Router.md\|House-Router]]                                                                          | 12:33 AM - April 08, 2026 |
-| [[Network/Devices/Core-Router.md\|Core-Router]]                                                                            | 12:33 AM - April 08, 2026 |
-| [[Network/Devices/Hypervisor.md\|Hypervisor]]                                                                              | 12:33 AM - April 08, 2026 |
-| [[Internal/Devices/Archive/index.md\|index]]                                                                               | 12:32 AM - April 08, 2026 |
-| [[Internal/AAR - Network Discovery and Recon.md\|AAR - Network Discovery and Recon]]                                       | 12:32 AM - April 08, 2026 |
-| [[Internal/Devices/Ubiquiti.md\|Ubiquiti]]                                                                                 | 12:32 AM - April 08, 2026 |
-| [[Internal/Devices/Wireguard-Gateway.md\|Wireguard-Gateway]]                                                               | 12:32 AM - April 08, 2026 |
-| [[Internal/Devices/Technitium-DNS.md\|Technitium-DNS]]                                                                     | 12:32 AM - April 08, 2026 |
+| File                                                                               | Updated                   |
+| ---------------------------------------------------------------------------------- | ------------------------- |
+| [[Network/AAR - Network Discovery (Concept).md\|AAR - Network Discovery (Concept)]] | 12:33 AM - April 08, 2026 |
+| [[Network/Network Map.md\|Network Map]]                                            | 12:33 AM - April 08, 2026 |
+| [[Network/Devices/House-Router.md\|House-Router]]                                  | 12:33 AM - April 08, 2026 |
+| [[Network/Devices/Core-Router.md\|Core-Router]]                                    | 12:33 AM - April 08, 2026 |
+| [[Network/Devices/Hypervisor.md\|Hypervisor]]                                      | 12:33 AM - April 08, 2026 |
+| [[Policies/SOP - Performing a Network Audit and Asset Discovery.md\|SOP - Performing a Network Audit and Asset Discovery]] | 11:12 PM - April 07, 2026 |
+| [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                                  | 10:02 PM - April 07, 2026 |
+| [[Knowledge Base/LLM/OpenClaw.md\|OpenClaw]]                                       | 8:13 PM - April 07, 2026  |
+| [[Network/The Stack.md\|The Stack]]                                                | 8:13 PM - April 07, 2026  |
 
 %% DATAVIEW_PUBLISHER: end %%
 

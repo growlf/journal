@@ -1,24 +1,23 @@
+---
+title: Recent Activity
+---
+## 🕒 Recent Activity
 %% DATAVIEW_PUBLISHER: start
 ```dataview
-TABLE change[0] as "Action", change[1] as "Date"
-FLATTEN list( list("modified", file.mtime), list("created", file.ctime)) as change
-SORT change[1] DESC
-LIMIT 10
+TABLE 
+  file.mtime AS "Updated"
+WHERE 
+  !contains(file.folder, "daily")
+  AND !contains(file.folder, "_templates")
+  AND !contains(file.folder, "_assets")
+  AND !contains(file.folder, "Internal")
+  AND !contains(file.folder, "Discord")
+SORT file.mtime DESC
+LIMIT 40
 ```
 %%
 
-| File                                                 | Action   | Date                     |
-| ---------------------------------------------------- | -------- | ------------------------ |
-| [[Internal/daily/2025/09/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2026/02/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/index.md\|index]]              | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2026/01/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/12/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/11/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/10/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/08/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/07/index.md\|index]]           | modified | 1:04 AM - April 08, 2026 |
-| [[Internal/daily/2025/11/2025-11-11.md\|2025-11-11]] | modified | 1:04 AM - April 08, 2026 |
+| File | Updated |
+| ---- | ------- |
 
 %% DATAVIEW_PUBLISHER: end %%
-

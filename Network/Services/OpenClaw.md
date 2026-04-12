@@ -36,4 +36,4 @@ openclaw status
 ```
 
 ---
-**Related:** [[Internal/Launch Page]], [[Knowledge Base/LLM/OpenClaw]], [[Network/The Stack]]
+**Related:** [[Knowledge Base/LLM/OpenClaw]], [[Network/The Stack]]
