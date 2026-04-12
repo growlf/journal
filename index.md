@@ -21,20 +21,12 @@ intern: false
 
 ## 🚀 Mission Control
 
-=== multi-column-start: Main_Nav
-```column-settings
-Number of Columns: 2
-Border: off
-```
-
 ### 🧠 Knowledge Base
 - 📡 [[Network/Home Lab 101|Home Lab 101]]
 - 🏗️ [[Network/The Stack|The Stack]]
 - 🗺️ [[Network/Network Map|Network Map]]
 - 🤖 [[Knowledge Base/LLM/index|AI & LLM Docs]]
 - 🛠️ [[Policies/index|SOPs & Policies]]
-
-=== end-column ===
 
 ### ⚡ Quick Links
 - 🚀 [[Internal/Launch Page|Internal Launch Dashboard]]
@@ -43,31 +35,19 @@ Border: off
 - 🤝 [[Communities|Communities & Networking]]
 - 🏗️ [[index#Current Projects|Current Projects]]
 
-=== multi-column-end
-
 ---
 
 ## 📈 Growth & Learning
-
-=== multi-column-start: Growth_Nav
-```column-settings
-Number of Columns: 2
-Border: off
-```
 
 ### 🌱 Personal Growth
 - 💪 [[Internal/Personal/Growth/Fitness/index|Fitness]]
 - 💼 [[Internal/Personal/Growth/Career Development/index|Career Development]]
 - 🤝 [[Internal/Personal/Growth/Relationships/index|Relationships]]
 
-=== end-column ===
-
 ### 🎓 Learning Notes
 - 📐 [[Internal/Learning/Mathematics/index|Mathematics]]
 - 🏛️ [[Internal/Learning/History/index|History]]
 - 🤖 [[Internal/Learning/AI/index|AI Systems]]
-
-=== multi-column-end
 
 ---
 
