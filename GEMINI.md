@@ -19,13 +19,14 @@ The vault is structured to support a high-fidelity Home Lab, community instructi
 ### 📡 Command & Control (Internal)
 - **`Internal/`**: The "Black Site." Contains the actual IPs, MACs, and hardware serials of the lab. **NEVER COMMIT THIS TO GIT.**
 - **`Internal/daily/`**: Tactical logs organized by `YYYY/MM/` subfolders. Includes automated "Yesterday/Tomorrow" navigation links.
-- **`Internal/Devices/`**: The true identity of every node on the wire (MikroTik, Proxmox, IBM Clusters).
+- **`Internal/Devices/`**: The true identity of every node on the wire.
+- **`Internal/Personal/` & `Internal/Learning/`**: Private notes on growth, fitness, and specific academic subjects.
 
 ### 📖 Instruction (Public)
-- **`Network/Devices/`**: Sanitized "Concept Twins" of the lab hardware for public instruction.
-- **`Policies/`**: Standard Operating Procedures (SOPs) for common tasks (e.g., "Deploying a New LXC", "Network Audit").
-- **`Knowledge Base/`**: Deep-dive technical documentation on LLMs, Networking, and Virtualization.
-- **`Network/Network Map.md`**: The visual command map (Auto-updating SVG via Excalidraw).
+- **`Network/Devices/`**: Sanitized "Concept Twins" of the lab hardware.
+- **`Network/Growth/` & `Network/Learning/`**: Sanitized conceptual frameworks for development and education.
+- **`Policies/`**: Standard Operating Procedures (SOPs) for common tasks.
+- **`Knowledge Base/`**: Deep-dive technical documentation.
 
 ### 🛠️ Automation
 - **`_assets/_templates/`**: The blueprint for creating new consistent nodes, people, and daily logs.
