@@ -21,6 +21,7 @@ This is the index of services running in the home lab.
 - [[Knowledge Base/Virtualization/Docker/Portainer.md|Portainer]]: GUI for managing Docker and Swarm.
 - [[Network/Services/Proxmox/index.md|Proxmox]]: Virtualization platform management.
 - [[Network/Services/Proxmox/Proxmox Backup Server.md|Proxmox Backup Server]]: Backup solution for VMs and containers.
+- [[Network/Services/Backup/Ventoy Backup Script|Ventoy Backup Script]]: Portable rsync-based snapshot tool.
 - [[Network/Services/Proxmox/Proxmox Community Scripts.md|Proxmox Community Scripts]]: Automation scripts for Proxmox.
 - [[Network/Services/ReoLink.md|ReoLink]]: Security camera integration.
 

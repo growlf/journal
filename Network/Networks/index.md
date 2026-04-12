@@ -1,10 +1,3 @@
----
-banner: "![[network_banner.png]]"
-banner-display: auto
-banner-height: 200
-content-start: 160
-banner-repeat: false
-banner-fade: -165
-banner-x: 51
-banner-y: 31
----
+## Networks
+- [[Network/Networks/BMS/index|Bellingham Makerspace (BMS)]]: Community makerspace network (10.10.0.0/16).
+- [[Network/Home Lab 101|Home Lab / Office]]: Personal lab and office network.

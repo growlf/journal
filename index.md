@@ -61,15 +61,11 @@ Without friends and peers, where is the fun of discovery?  Sharing is caring, an
 
 ### [[Knowledge Base/LLM/AI Education Project|AI Education & Empowerment]]
 My primary focus is demystifying AI and moving it from a "black box" to a "force multiplier" for everyone. This project uses a **Local-First Hybrid** strategy (the [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]]) to ensure privacy, autonomy, and low-cost access to LLMs.
-
 ### [[Knowledge Base/Community/Mentor-based Internship|Cascade STEAM Service Corp]]
 Working with local colleges, businesses, and the [[BMS|Bellingham Makerspace]] to build a mentorship-based internship model. The goal is to provide real-world experience for new graduates as a community-driven service.
-
 ### [[Home Lab 101|The Stack]]
 The ongoing evolution of my self-hosted environment. This includes everything from [[CouchDB|Obsidian LiveSync]] and specialized Proxmox LXC containers to the networking "pipes" that keep the Yeti's cave connected. This project is documented in the [[Network/The Stack|The Stack]].
 
-### Miscellaneous
-You'll see task boxes scattered throughout this vault—these are my "manageable mess" of notes and to-dos. This journal is a living document, constantly being edited and refined.
 ## Recent Changes / Additions
 Site-wide listing of last 40 creations and modifications over the last 4 days:
 %% DATAVIEW_PUBLISHER: start

@@ -22,7 +22,7 @@ services:
       - /home/netyeti/.ssh/id_ed25519_ollama:/root/.ollama/id_ed25519:ro
       - /home/netyeti/.ssh/id_ed25519_ollama.pub:/root/.ollama/id_ed25519.pub:ro
     devices:
-      # Pass both DRM nodes explicitly — card0 for display, renderD128 for compute
+      # Pass both DRM nodes explicitly — card0 for display/compute, renderD128 for compute
       - /dev/dri/card0:/dev/dri/card0
       - /dev/dri/renderD128:/dev/dri/renderD128
     ports:
