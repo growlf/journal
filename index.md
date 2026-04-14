@@ -21,7 +21,7 @@ intern: false
 > <span style="float: right; margin: 0 0 15px 15px;">![[1197883.jpg|250]]</span>
 > I am The NetYeti—Garth Johnson to some, "hey, you!" or "Yeti" to others. I'm a DevOps professional, a Technology Instructor at [Bellingham Technical College](https://www.btc.edu/), and a lifelong autodidact. My journey has taken me from the US Army (as a psychiatric nurse and battle systems strategist) to roles at Microsoft, DARPA, and IBM. Today, I'm a founding member of [Cascade STEAM](https://www.cascadesteam.org), a board member for [Linuxfest Northwest](https://lfnw.org), and an activist dedicated to "raising the water level" of knowledge in our community.
 
-This is my personal journal of technology-land adventures and other ramblings. I use [[Obsidian]] to organize my thoughts and [[GitHub-Quartz-Obsidian]] to publish them. I write from the dual standpoint of a technology professional and a curious student—always learning, always questioning.
+This is my personal journal of technology-land adventures and other ramblings. I use [[Obsidian]] to organize my thoughts and [[Knowledge Base/Tricks 1/GitHub-Quartz-Obsidian]] to publish them. I write from the dual standpoint of a technology professional and a curious student—always learning, always questioning.
 
 I strongly believe in "asking the *stupid* questions" because, if not me, then who will? There's always someone in the audience who is too shy to ask the "obvious" question. Since common sense isn't always common, I'm here to provide the fuel of knowledge that critical thinking requires to have accuracy and value.
 
@@ -51,34 +51,32 @@ Making ripples of knowledge and creative intent. Inspiring new minds and sharing
 
 ---
 
-## 🚀 Mission Control
+## 🚀 The Overlook (Mission Control)
 
 ### 🧠 Knowledge Base
-- 📡 [[Network/Home Lab 101|Home Lab 101]]
-- 🏗️ [[Network/The Stack|The Stack]]
-- 🗺️ [[Network/Network Map|Network Map]]
-- 🤖 [[Knowledge Base/LLM/index|AI Education & Empowerment]]
-- 🛠️ [[Policies/index|SOPs & Policies]]
+- 📡 [[Learning/Home-Lab-Series/index|Home Lab 101]] — The Philosophical Foundation.
+- 🏗️ [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]] — The Forest Management Plan.
+- 🗺️ [[Network/Network Map|Network Map]] — The Visual Command Map.
+- 🎓 [[Learning/index|Learning & Education]] — Structured Courses and Modules.
+- 🛠️ [[Policies/index|SOPs & Forest Laws]] — Standard Operating Procedures.
 
-### ⚡ Quick Links
-- 📡 [[Network/Home Lab 101|Home Lab 101]]
-- 🏗️ [[Network/The Stack|The Stack]]
-- 🗺️ [[Network/Network Map|Network Map]]
-- 🤖 [[Knowledge Base/LLM/index|AI Education & Empowerment]]
-- 🤝 [[Communities|Communities & Networking]]
+### ⚡ Operational Shortcuts
+- 📝 [[Learning/Home-Lab-Series/index|Self-Healing Lab Tutorial]] — Our primary 2026 curriculum.
+- 📊 [[Internal/LLM Usage Statistics|LLM Usage Stats]] (Internal Only)
+- 🚀 [[Internal/Networks/Yeticraft/Launch Page|Yeticraft Launch Dashboard]] (Internal Only)
 
 ---
 
 ## 📈 Growth & Learning
 
-### 🌱 Personal Growth
-- 🏛️ [[Network/Growth/index|Methodology for Personal Development]]
-- 📈 [[Network/Growth/index|Tracking Career Milestones]]
+### 🌱 Personal Growth (Methodology)
+- 🏛️ [[Network/Growth/index|Personal Development Framework]]
+- 📈 [[Network/Growth/index|Career Milestones & Goal Setting]]
 
 ### 🎓 Learning Notes
-- 📐 [[Network/Learning/index|Mathematics & Technical Proficiency]]
-- 🏛️ [[Network/Learning/index|Historical Context & Strategy]]
-- 🤖 [[Network/Learning/index|AI Systems & Ethics]]
+- 📐 [[Learning/Mathematics/index|Mathematics & Technical Proficiency]]
+- 🏛️ [[Learning/History/index|Historical Context & Strategy]]
+- 🤖 [[Learning/AI/index|AI Systems & Ethics]]
 
 ---
 
@@ -90,8 +88,8 @@ My primary focus is demystifying AI and moving it from a "black box" to a "force
 ### 🏫 [[Knowledge Base/Community/Mentor-based Internship|Cascade STEAM Service Corp]]
 Working with local colleges, businesses, and the [[BMS|Bellingham Makerspace]] to build a mentorship-based internship model. The goal is to provide real-world experience for new graduates as a community-driven service.
 
-### 🏰 [[Home Lab 101|The Stack]]
-The ongoing evolution of my self-hosted environment. This includes everything from [[CouchDB|Obsidian LiveSync]] and specialized Proxmox LXC containers to the networking "pipes" that keep the Yeti's cave connected. This project is documented in the [[Network/The Stack|The Stack]].
+### 🏰 [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Default Stack]]
+The ongoing evolution of my self-hosted environment. Documented in the [[Learning/Home-Lab-Series/Default-Stack-Blueprint|Master Blueprint]].
 
 ---
 
@@ -114,23 +112,23 @@ WHERE
   AND !contains(file.folder, "_templates")
   AND !contains(file.folder, "_assets")
   AND !contains(file.folder, "Internal")
-  AND !contains(file.folder, "Discord")
 SORT file.mtime DESC
 LIMIT 10
 ```
 %%
 
-| File                                                                               | Updated                   |
-| ---------------------------------------------------------------------------------- | ------------------------- |
-| [[Network/AAR - Network Discovery (Concept).md\|AAR - Network Discovery (Concept)]] | 12:33 AM - April 08, 2026 |
-| [[Network/Network Map.md\|Network Map]]                                            | 12:33 AM - April 08, 2026 |
-| [[Network/Devices/House-Router.md\|House-Router]]                                  | 12:33 AM - April 08, 2026 |
-| [[Network/Devices/Core-Router.md\|Core-Router]]                                    | 12:33 AM - April 08, 2026 |
-| [[Network/Devices/Hypervisor.md\|Hypervisor]]                                      | 12:33 AM - April 08, 2026 |
-| [[Policies/SOP - Performing a Network Audit and Asset Discovery.md\|SOP - Performing a Network Audit and Asset Discovery]] | 11:12 PM - April 07, 2026 |
-| [[Knowledge Base/Hardware/Hardware.md\|Hardware]]                                  | 10:02 PM - April 07, 2026 |
-| [[Knowledge Base/LLM/OpenClaw.md\|OpenClaw]]                                       | 8:13 PM - April 07, 2026  |
-| [[Network/The Stack.md\|The Stack]]                                                | 8:13 PM - April 07, 2026  |
+| File                                                 | Updated                  |
+| ---------------------------------------------------- | ------------------------ |
+| [[index.md\|index]]                                  | 2:36 PM - April 13, 2026 |
+| [[Learning/Home-Lab-Series/Modules/index.md\|index]] | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/index.md\|index]]                   | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Virtualization/index.md\|index]]    | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Tricks 1/index.md\|index]]          | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Tricks 1/Examples/index.md\|index]] | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Tricks/index.md\|index]]            | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Tools/index.md\|index]]             | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Storage/index.md\|index]]           | 2:36 PM - April 13, 2026 |
+| [[Knowledge Base/Services/index.md\|index]]          | 2:36 PM - April 13, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%
 
