@@ -6,18 +6,18 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.PageTitle(),
-    Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
-      title: "Navigation",
-      folderClickBehavior: "link",
-      folderDefaultState: "open",
+      title: "Menu",
+      folderClickBehavior: "toggle",
+      folderDefaultState: "collapsed",
       useSavedState: false,
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "network"])
         return !omit.has(node.displayName?.toLowerCase() ?? "")
       },
     })),
+    Component.Search(),
+    Component.Darkmode(),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -28,7 +28,7 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// components for pages that display a single page
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -44,7 +44,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [],

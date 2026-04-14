@@ -1,17 +1,17 @@
 // ============================================================
-// NetYeti — Operation Grotto Window (The High-Fidelity Forest v9)
+// NetYeti — Operation Grotto Window (Grotto STEAM v10)
 // ============================================================
 
 :root {
-  // Grotto Palette (Ambient & Readable)
-  --grotto-light:      #e2e4d0; // Warm Sage/Stone
+  // Grotto Palette (Ambient & Warm)
+  --grotto-light:      #fdfaf3; // Warm Parchment
   --energy-glow:       #00ff8c; // Signal Green
-  --forest-moss:       #2d5a27; // Moss Green
+  --forest-moss:       #2d5a27; // Mossy Green
   --forest-dark:       #081006; // Shadow Green
   --forest-bark:       #1a0f00; // Bark Brown
   --forest-floor:      #020402; // Shadow Black
   
-  // Real Textures (Transparent PNG Patterns over gradients)
+  // Real Textures (High Fidelity)
   --bark-texture: url("https://www.transparenttextures.com/patterns/dark-wood.png");
   --leaf-texture: url("https://www.transparenttextures.com/patterns/leaves.png");
 
@@ -27,28 +27,22 @@
   --header-height: 80px;
 }
 
-[saved-theme="dark"] {
-  --grotto-light:      #1a2018;
-  --dark:              #d0d8c0;
-  --secondary:         #8faa7a;
-}
-
 // ------------------------------------------------------------
-// Immersive Atmosphere
+// Immersive Background & Canopy
 // ------------------------------------------------------------
 body {
   background-color: var(--forest-floor) !important;
   background-attachment: fixed;
   background-image: 
-    var(--leaf-texture),
-    radial-gradient(circle at 50% 0%, rgba(0, 255, 140, 0.08) 0%, transparent 60%),
+    var(--leaf-texture), // Leaf overlay
+    radial-gradient(circle at 50% 0%, rgba(90, 140, 62, 0.1) 0%, transparent 70%),
     linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
   margin: 0;
   padding: 0;
 }
 
 // ------------------------------------------------------------
-// Top Navigation (Horizontal Menu Fix)
+// Top Navigation (HORIZONTAL DROPDOWN)
 // ------------------------------------------------------------
 header {
   position: sticky;
@@ -57,15 +51,15 @@ header {
   height: var(--header-height);
   display: flex;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 3rem;
   background: rgba(5, 10, 4, 0.98) !important;
-  background-image: var(--bark-texture) !important; // Subtle wood grain in header
+  background-image: var(--bark-texture) !important; // Wood texture in header
   backdrop-filter: blur(20px);
   border-bottom: 3px solid var(--forest-moss);
   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
   z-index: 1000;
-  gap: 2rem;
-  overflow: visible !important; // CRITICAL: Allow dropdowns to show
+  gap: 3rem;
+  overflow: visible !important;
 }
 
 .page-title a {
@@ -76,80 +70,80 @@ header {
   text-decoration: none !important;
 }
 
-// Transform Explorer Component into Horizontal Bar
+// Transform Explorer into a Modern Horizontal Navbar
 header .explorer {
   flex: 1;
   display: block !important;
   visibility: visible !important;
-  opacity: 1 !important;
   
-  button#explorer { display: none !important; } // Hide the mobile toggle on desktop
+  button#explorer { display: none !important; } // Hide sidebar toggle
 
   #explorer-content {
     display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
   }
 
-  ul {
+  // The Top-Level List (Row)
+  ul#explorer-ul {
     display: flex !important;
     flex-direction: row !important;
     list-style: none !important;
     margin: 0 !important;
     padding: 0 !important;
-    gap: 2rem;
-    overflow: visible !important;
-
-    // Folder (Category)
-    li {
+    gap: 2.5rem;
+    
+    // Category Item
+    > li {
       position: relative;
       margin: 0 !important;
       
       .folder-container {
         display: flex;
         align-items: center;
-        padding: 1rem 0;
+        padding: 1.5rem 0;
         cursor: pointer;
         color: #c0c8b0 !important;
         font-weight: 700;
         text-transform: uppercase;
-        font-size: 0.85rem;
-        
+        font-size: 0.8rem;
+        letter-spacing: 1px;
         &:hover { color: var(--energy-glow) !important; }
-        svg { display: none; } // Hide folder icons
+        svg { display: none; }
       }
 
-      // The Dropdown Sub-menu
+      // The Actual Dropdown (Absolute Positioned)
       ul {
         position: absolute !important;
         top: 100% !important;
         left: 0 !important;
-        flex-direction: column !important; // Stack links vertically in dropdown
+        flex-direction: column !important;
         background: #0a1408 !important;
         background-image: var(--bark-texture) !important;
         border: 1px solid var(--forest-moss) !important;
         min-width: 240px !important;
-        padding: 1rem !important;
-        display: none !important; // Hide by default
+        padding: 1.5rem !important;
+        display: none !important; // HIDE BY DEFAULT
         box-shadow: 0 20px 50px rgba(0,0,0,1) !important;
-        border-radius: 0 0 8px 8px;
+        border-radius: 0 0 12px 12px;
         
         li {
           padding: 0.5rem 0 !important;
           border-bottom: 1px solid rgba(255,255,255,0.05);
-          width: 100%;
+          &:last-child { border: none; }
           
           a {
             color: #a0a890 !important;
             font-size: 0.9rem !important;
             text-transform: none !important;
-            display: block !important;
+            letter-spacing: 0;
             &:hover { color: var(--energy-glow) !important; }
           }
         }
       }
 
-      // Show on Hover
+      // SHOW DROPDOWN ON HOVER
       &:hover > ul {
         display: flex !important;
       }
@@ -158,13 +152,14 @@ header .explorer {
 }
 
 // ------------------------------------------------------------
-// The Grotto Frame (Sidebars)
+// The Grotto Frame (Visible Sidebar Textures)
 // ------------------------------------------------------------
 #quartz-body {
   display: grid !important;
   grid-template-columns: 240px 1fr 240px !important;
   grid-template-areas: "left center right" !important;
   width: 100%;
+  min-height: calc(100vh - var(--header-height));
   gap: 0 !important;
 }
 
@@ -173,7 +168,7 @@ header .explorer {
   background-image: 
     var(--leaf-texture),
     linear-gradient(to bottom, var(--forest-bark), var(--forest-dark)) !important;
-  background-size: 300px 300px, 100% 100%;
+  background-size: 200px 200px, 100% 100%;
   position: sticky;
   top: var(--header-height);
   height: calc(100vh - var(--header-height));
@@ -182,31 +177,38 @@ header .explorer {
   box-shadow: inset 0 0 60px rgba(0,0,0,1) !important;
 }
 
+.sidebar.left { grid-area: left; border-right: 1px solid rgba(0, 255, 140, 0.1) !important; }
+.sidebar.right { grid-area: right; border-left: 1px solid rgba(0, 255, 140, 0.1) !important; }
+
 // ------------------------------------------------------------
-// The Grotto Window (Main Focus Area)
+// The Grotto Window (Main Sanctuary)
 // ------------------------------------------------------------
 .center {
   grid-area: center;
   background-color: var(--grotto-light) !important;
   padding: 5rem;
   z-index: 5;
-  box-shadow: 0 0 120px rgba(0,0,0,1);
+  box-shadow: 0 0 150px rgba(0,0,0,1);
   position: relative;
-  min-height: 100vh;
 }
 
 // ------------------------------------------------------------
-// Final Contrast Hardening
+// Final Contrast & Link Kill
 // ------------------------------------------------------------
 a {
-  color: var(--forest-moss) !important; 
-  &:hover { color: var(--energy-glow) !important; text-decoration: underline !important; }
+  color: var(--forest-moss) !important; // FORCED MOSS LINKS
+  text-decoration: none;
+  &:hover {
+    color: var(--energy-glow) !important;
+    text-decoration: underline !important;
+  }
 }
 
 article {
   font-family: var(--bodyFont);
   color: var(--darkgray) !important;
   line-height: 2;
+  font-size: 1.25rem;
   
   h1, h2, h3 { font-family: var(--headerFont); color: var(--dark) !important; font-weight: 800; }
   
