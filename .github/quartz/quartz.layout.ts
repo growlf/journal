@@ -2,6 +2,24 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { jsx } from "preact/jsx-runtime" 
 
+// Custom Logo Component to match STEAM CSS
+const Logo = (props: any) => {
+  return jsx("div", {
+    className: "logo",
+    children: [
+      jsx("a", {
+        href: "/",
+        children: [
+          jsx("img", {
+            src: "/_assets/NetYeti.svg",
+            alt: "NetYeti Logo",
+          }),
+        ],
+      }),
+    ],
+  })
+}
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -48,7 +66,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.ConditionalRender({
-      component: Component.Logo(),
+      component: Logo,
       condition: (page) => page.fileData.frontmatter?.layout !== "landing-page",
     }),
     Component.MobileOnly(Component.Spacer()),
@@ -84,7 +102,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -95,7 +112,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta(),
   ],
   left: [
-    Component.Logo(),
+    Logo,
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
