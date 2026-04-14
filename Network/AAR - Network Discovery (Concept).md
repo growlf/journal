@@ -34,4 +34,4 @@ title: AAR - Network Discovery (Concept)
 
 ---
 **Status:** Complete (Sanitized)
-**Related:** [[Network Map 1]], [[Policies/SOP - Performing a Network Audit and Asset Discovery]]
+**Related:** [[Internal/Networks/Yeticraft/Network Map]], [[Policies/SOP - Performing a Network Audit and Asset Discovery]]

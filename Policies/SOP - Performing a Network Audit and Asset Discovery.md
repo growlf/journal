@@ -42,7 +42,7 @@ Perform a "Signal Sweep" to find anything not reporting to the hypervisor or rou
 - **Sanitize for Public Consumption:** Run the sanitization script to update the public `Network/Devices/` folder:
   `python3 _scripts/sanitize-network.py`
   - *Note:* This ensures real MACs and internal IPs are scrubbed before publishing.
-- **Update the Map:** Verify the physical and logical links in the **[[Network Map 1|Network Map 1]]**.
+- **Update the Map:** Verify the physical and logical links in the **[[Internal/Networks/Yeticraft/Network Map|Network Map 1]]**.
 
 ---
 

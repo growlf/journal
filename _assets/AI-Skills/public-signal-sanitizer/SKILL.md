@@ -13,7 +13,7 @@ Use this skill to maintain the boundary between the internal "Black Site" (`Inte
 1.  **Trigger:** Initiate after any update to `Internal/Devices/` or `Internal/Networks/`.
 2.  **Scrub:** Execute the sanitization engine to refresh the `Network/` folder.
 3.  **Audit:** Run recursive grep for `Internal/` or real subnet strings in public directories.
-4.  **Verification:** Confirm that [[Network Map 1]] correctly embeds the public SVG.
+4.  **Verification:** Confirm that [[Internal/Networks/Yeticraft/Network Map]] correctly embeds the public SVG.
 
 ## Tactical Mandates
 - **OPSEC First:** If in doubt, omit the link or sanitize the data.
