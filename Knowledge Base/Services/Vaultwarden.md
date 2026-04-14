@@ -19,7 +19,7 @@ tags:
 
 ## Secrets Reliability (The PACE Plan)
 > [!TIP] Information Discipline
-> **P (Primary):** Local Vaultwarden instance (Docker/LXC on [[Network/Services/Proxmox/index|Proxmox]]).
+> **P (Primary):** Local Vaultwarden instance (Docker/LXC on [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]]).
 > **A (Alternate):** Encrypted local backup of the Vaultwarden database (`db.sqlite3`).
 > **C (Contingency):** Bitwarden (Cloud-hosted) with a subset of critical recovery keys.
 > **E (Emergency):** Printed "Emergency Kit" with master password and 2FA recovery codes in a fire-safe.
@@ -35,4 +35,4 @@ tags:
 - Why do we use **Vaultwarden** instead of just a spreadsheet or a notebook?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/MFA]], [[Knowledge Base/Security]]*
+*Related: [[The Stack 1]], [[Knowledge Base/MFA]], [[Knowledge Base/Security]]*

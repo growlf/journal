@@ -17,18 +17,18 @@ tags:
 ## Firewall Reliability (The PACE Plan)
 > [!TIP] Connectivity Discipline
 > **P (Primary):** Dedicated hardware appliance (e.g., pfSense/OPNsense on a low-power PC).
-> **A (Alternate):** Virtualized Firewall instance on your Hypervisor (e.g., [[Network/Services/Proxmox/index|Proxmox]]).
+> **A (Alternate):** Virtualized Firewall instance on your Hypervisor (e.g., [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]]).
 > **C (Contingency):** Secondary "Cold-Standby" hardware or a basic router with strict ACLs.
 > **E (Emergency):** Direct connection with host-based firewalls (UFW/Firewalld) active on all critical nodes.
 
 ## Standard Operating Procedure (SOP) Best Practices
 1. **Default Deny:** Start by blocking everything. Only open what is strictly necessary.
 2. **Egress Filtering:** Control what your devices can reach on the internet.
-3. **Log & Review:** A firewall you don't monitor is just a "manageable mess" waiting to happen. Use [[Grafana]] or [[NtopNG]] to see what's happening.
+3. **Log & Review:** A firewall you don't monitor is just a "manageable mess" waiting to happen. Use [[Knowledge Base/Tools/Grafana]] or [[Knowledge Base/Tools/NtopNG]] to see what's happening.
 
 ## Check for Understanding
 - Why is a virtualized firewall (Alternate) generally less reliable than a physical one (Primary)?
 - If you have to "Emergency" bypass your firewall, what host-level security must be in place?
 
 ---
-*Related: [[Knowledge Base/Router]], [[Network/The Stack]], [[Security]]*
+*Related: [[Knowledge Base/Router]], [[The Stack 1]], [[Security]]*

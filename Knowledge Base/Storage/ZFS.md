@@ -19,7 +19,7 @@ title: ZFS
 
 ## Storage Reliability (The PACE Plan)
 > [!TIP] Data Discipline
-> **P (Primary):** ZFS Pool on local [[NAS]] or [[Network/Services/Proxmox/index|Proxmox]] node (RAID-Z or Mirrored).
+> **P (Primary):** ZFS Pool on local [[NAS]] or [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] node (RAID-Z or Mirrored).
 > **A (Alternate):** Automated ZFS Replication to a second ZFS node.
 > **C (Contingency):** ZFS Snapshots sent via `zfs send/recv` to offsite storage.
 > **E (Emergency):** Critical data backed up to an encrypted external drive (offline).
@@ -35,4 +35,4 @@ title: ZFS
 - What is the main difference between a **Primary** pool (local) and an **Alternate** pool (replicated)?
 
 ---
-*Related: [[Knowledge Base/NAS]], [[Proxmox Backup Server]], [[Knowledge Base/ZFS Backups]]*
+*Related: [[Knowledge Base/NAS]], [[Knowledge Base/Tools/Proxmox Backup Server]], [[Knowledge Base/ZFS Backups]]*

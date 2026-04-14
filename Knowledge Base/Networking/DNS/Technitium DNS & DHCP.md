@@ -25,7 +25,7 @@ is_service: true
 
 ## DNS/DHCP Reliability (The PACE Plan)
 > [!TIP] Information Discipline
-> **P (Primary):** Technitium DNS & DHCP (Main LXC on [[Network/Services/Proxmox/index|Proxmox]]).
+> **P (Primary):** Technitium DNS & DHCP (Main LXC on [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]]).
 > **A (Alternate):** Secondary Technitium node (Synchronized via API or manual export).
 > **C (Contingency):** Public DNS providers (e.g., 1.1.1.1, 8.8.8.8) with static IP reservations on critical nodes.
 > **E (Emergency):** Hardcoded `/etc/hosts` and manual static IP configuration for management interfaces.
@@ -42,4 +42,4 @@ is_service: true
 - If your Primary Technitium node fails, how do your clients know where the Alternate node is? (Hint: Check your **DHCP Scope** settings).
 
 ---
-*Related: [[Knowledge Base/Networking/DNS/index]], [[Knowledge Base/Networking/DHCP]], [[Network/The Stack]]*
+*Related: [[Knowledge Base/Networking/DNS/index]], [[Knowledge Base/Networking/DHCP]], [[The Stack 1]]*

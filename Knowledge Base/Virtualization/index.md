@@ -33,19 +33,19 @@ LIMIT 20
 ```
 %%
 
-| File                                                                                                             | Created                   | Updated                   |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------- |
-| [[Knowledge Base/Virtualization/index.md\|index]]                                                                | 11:13 PM - April 05, 2026 | 1:40 PM - April 07, 2026  |
-| [[Knowledge Base/Virtualization/Apt Cacher NG.md\|Apt Cacher NG]]                                                | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Cloud Init.md\|Cloud Init]]                                                      | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/Docker Registry.md\|Docker Registry]]                                     | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/Docker on LXC.md\|Docker on LXC]]                                         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/Portainer.md\|Portainer]]                                                 | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/Shutting Down a Single Swarm Node.md\|Shutting Down a Single Swarm Node]] | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/Smoother Updates.md\|Smoother Updates]]                                   | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/Swarm Shutdown.md\|Swarm Shutdown]]                                       | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/Docker/index.md\|index]]                                                         | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/LXC.md\|LXC]]                                                                    | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
-| [[Knowledge Base/Virtualization/PXEBoot.md\|PXEBoot]]                                                            | 11:13 PM - April 05, 2026 | 11:13 PM - April 05, 2026 |
+| File                                                                                                             | Created                  | Updated                   |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------- |
+| [[Knowledge Base/Virtualization/index.md\|index]]                                                                | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026  |
+| [[Knowledge Base/Virtualization/LXC.md\|LXC]]                                                                    | 8:33 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
+| [[Knowledge Base/Virtualization/Docker/index.md\|index]]                                                         | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
+| [[Knowledge Base/Virtualization/Docker/Docker Registry.md\|Docker Registry]]                                     | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
+| [[Knowledge Base/Virtualization/Apt Cacher NG.md\|Apt Cacher NG]]                                                | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
+| [[Knowledge Base/Virtualization/Cloud Init.md\|Cloud Init]]                                                      | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| [[Knowledge Base/Virtualization/Docker/Docker on LXC.md\|Docker on LXC]]                                         | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| [[Knowledge Base/Virtualization/Docker/Portainer.md\|Portainer]]                                                 | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| [[Knowledge Base/Virtualization/Docker/Shutting Down a Single Swarm Node.md\|Shutting Down a Single Swarm Node]] | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| [[Knowledge Base/Virtualization/Docker/Smoother Updates.md\|Smoother Updates]]                                   | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| [[Knowledge Base/Virtualization/PXEBoot.md\|PXEBoot]]                                                            | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| [[Knowledge Base/Virtualization/Docker/Swarm Shutdown.md\|Swarm Shutdown]]                                       | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
 
 %% DATAVIEW_PUBLISHER: end %%

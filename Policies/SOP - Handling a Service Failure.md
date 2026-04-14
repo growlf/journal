@@ -1,41 +1,40 @@
 ---
-title: SOP - Handling a Service Failure
+title: SOP - Forest Fire Suppression
 tags:
   - sop
   - troubleshooting
   - lab-ops
+  - forest-law
 ---
-# SOP: Handling a Service Failure
+# SOP: Forest Fire Suppression (Service Recovery)
 
 > [!NOTE] The Instructor's Perspective
-> In the Army, we called it "fault isolation." When a service fails, don't panic. Follow this SOP to identify the root cause and get it back online. Don't forget to conduct an [[AAR]] after you've fixed the issue!
+> When a tree falls in the forest, we don't panic. We isolate the hazard and Pass the Torch. Follow this SOP to identify the root cause of a service failure and get the signal back online.
 
 ## 1. Initial Assessment (The Recon Phase)
-- **Identify the Failed Service:** Which service is down? (e.g., `web-server-01`)
-- **Check for Connectivity:** Can you reach the service's IP address?
-- **Verify Other Services:** Are other services on the same host also down?
+- **Identify the Fallen Service:** Which service is down? (e.g., `cluster-llm`)
+- **Check for Signal:** Can you reach the service's IP address? Use the **[[.gemini/agents/network-recon-expert|Network Recon Expert]]** for a targeted port check.
+- **Verify the Host:** Are other services on the same host also down? Task the **[[.gemini/agents/hypervisor-ops-officer|Hypervisor Ops Officer]]** to check the node status.
 
 ## 2. Troubleshooting (The Investigation Phase)
 1. **Check the Logs:** Use `journalctl -u service-name` or check `/var/log/` for error messages.
 2. **Verify Resource Usage:** Check for high CPU, RAM, or Disk space usage.
-3. **Check Network Settings:** Ensure that the service's network settings are correct.
-4. **Restart the Service:** Use `systemctl restart service-name` to see if it comes back online.
-5. **Check for Recent Changes:** Did you or anyone else make changes to the service's configuration recently?
+3. **Restart the Service:** Use `systemctl restart service-name` to see if it comes back online.
+4. **Check for Recent Changes:** Consult the **Recent Activity** on your [[Internal/Networks/Yeticraft/index|Overlook Dashboard]].
 
 ## 3. Resolution (The Recovery Phase)
 1. **Apply the Fix:** Once you've identified the root cause, apply the necessary fix.
-2. **Verify the Fix:** Ensure that the service is running and accessible.
-3. **Document the Fix:** Update any relevant [[Knowledge Base]] items.
-4. **Conduct an AAR:** Use the [[_assets/_templates/AAR|AAR template]] to document the failure and how it was resolved.
+2. **Verify the Fix:** Task your AI Minions to verify the service is responding.
+3. **Document the Victory:** Update any relevant [[Knowledge Base]] items.
+4. **Conduct an AAR:** Use the [[_assets/_templates/AAR|AAR template]] to document the failure and how it was suppressed.
 
 ## 4. Prevention (The Mission-Ready Phase)
 - Update your **PACE Plan** if the failure was due to a lack of redundancy.
-- Consider adding additional monitoring or alerting for the service.
-- Share your findings with the community in a blog post or [[Discord]] message.
+- Consider adding additional monitoring or alerting via [[Internal/Networks/BMS/Services/Monitoring|Prometheus]].
 
 ---
-**Status:** (Complete / In-Progress)
+**Status:** Operational
 **Related Tasks:** 
 - [ ] Conduct AAR
-- [ ] Update documentation
+- [x] Update documentation
 - [ ] Share with community

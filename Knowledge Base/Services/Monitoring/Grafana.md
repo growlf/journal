@@ -13,7 +13,7 @@ Documentation: https://grafana.com/docs/
 ## Description
 Grafana is the open-source platform for monitoring and observability. It allows you to query, visualize, alert on, and understand your metrics no matter where they are stored.
 
-In our lab, it's typically used as the **P (Primary)** monitoring dashboard, often backed by [[Prometheus]] or [[InfluxDB]].
+In our lab, it's typically used as the **P (Primary)** monitoring dashboard, often backed by [[Knowledge Base/Tools/Prometheus]] or [[InfluxDB]].
 
 ## Knowledge Check
 - [ ] Have you connected your data sources?

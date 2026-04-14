@@ -31,4 +31,4 @@ title: DHCP
 - How does the "Static IP" plan (Emergency) help if your DHCP Quartermaster is offline?
 
 ---
-*Related: [[Knowledge Base/DNS/index|DNS]], [[Network/The Stack]], [[Knowledge Base/Firewall]]*
+*Related: [[Knowledge Base/DNS/index|DNS]], [[The Stack 1]], [[Knowledge Base/Firewall]]*

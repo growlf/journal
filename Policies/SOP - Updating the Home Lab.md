@@ -1,47 +1,42 @@
 ---
-title: SOP - Updating the Home Lab
+title: SOP - Maintaining the Forest Grove
 tags:
   - sop
   - lab-maintenance
   - lab-ops
+  - forest-law
 ---
-# SOP: Updating the Home Lab
+# SOP: Maintaining the Forest Grove (Updating)
 
 > [!NOTE] The Instructor's Perspective
-> In the Army, we had "maintenance schedules" for all our equipment. In your home lab, your software is that equipment. Updating your home lab isn't just about getting the latest features; it's about keeping your network secure and reliable. This SOP will ensure your lab stays in "mission-ready" condition.
+> In the Army, we had "maintenance schedules" for all our equipment. In your home lab, your software is that equipment. Keeping the grove well-pruned and healthy isn't just about getting the latest features; it's about keeping your network secure and reliable. This SOP ensures your forest stays in "mission-ready" condition.
 
 ## 1. Preparation (The Recon Phase)
-- **Check for Updates:** Review the update logs for your hypervisor, firewall, and core services.
-- **Review Release Notes:** Are there any breaking changes or critical security fixes?
-- **Verify Backups:** Ensure your [[Proxmox Backup Server]] and [[Vaultwarden]] backups are current.
+- **Check for Signal:** Review the update logs for your hypervisor, firewall, and core services.
+- **Consult the Minions:** Task the **[[.gemini/agents/ai-stack-engineer|AI Stack Engineer]]** to check for local model updates.
+- **Verify Backups:** Ensure your [[Internal/Networks/Yeticraft/Services/Backup/index|Backups]] are current and synchronized.
 
 ## 2. Maintenance (The Action Phase)
-1. **Update Hypervisor:** Start with your [[Network/Services/Proxmox/index|Proxmox]] nodes. Use `apt update && apt dist-upgrade`.
-2. **Update Firewall:** Check for updates for your [[Knowledge Base/Firewall|Firewall]].
-3. **Update Core Services:** Update your [[Knowledge Base/DNS|DNS]], [[Knowledge Base/DHCP|DHCP]], and [[Vaultwarden]] services.
-4. **Update LXCs and VMs:** Run `apt update && apt upgrade` on all your containers and virtual machines.
-5. **Reboot if Necessary:** Some updates (like kernels) require a reboot to take effect.
+1. **Update the Engine:** Start with your [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] nodes. Use `apt update && apt dist-upgrade`.
+2. **Update the Perimeter:** Check for updates for your [[Internal/Networks/Yeticraft/Devices/BMS-Gateway|MikroTik Routers]].
+3. **Update Core Services:** Update your [[Internal/Networks/Yeticraft/Services/Ollama/index|AI Engines]], DNS, and DHCP services.
+4. **Update the Minions:** Run updates on all specialized LXCs and VMs.
 
 ## 3. Verification (The After Action Phase)
-1. **Verify Services:** Ensure all your critical services are running and accessible.
-2. **Check the Logs:** Review the logs for any errors or warnings.
-3. **Verify Backups:** Ensure that your backups are still working after the updates.
-4. **Conduct an AAR:** Use the [[_assets/_templates/AAR|AAR template]] to document any issues or unexpected behaviors.
+1. **Verify Signal:** Ensure all your critical services are running and accessible.
+2. **Check forUnderstanding:** Task the **[[.gemini/agents/network-recon-expert|Network Recon Expert]]** to run a fresh sweep and verify all ports are open.
+3. **Conduct an AAR:** Document any "Wildfires" or unexpected behaviors in a fresh AAR.
 
-## 4. Lab Maintenance Reliability (The PACE Plan)
-> [!TIP] Operational Discipline
+## 4. Resilience Plan (The PACE Plan)
+> [!TIP] Forest Law
 > **P (Primary):** Regular, automated updates for all core services.
 > **A (Alternate):** Manual updates for complex or critical services.
-> **C (Contingency):** Roll back to the previous snapshot or backup if an update fails.
-> **E (Emergency):** Re-install the service from scratch using an [[Ansible]] playbook.
-
-## Check for Understanding
-- Why should we update our hypervisor (Primary) before our virtual machines (Alternate)?
-- What happens if an update fails? (Hint: Check your **Contingency** plan).
+> **C (Contingency):** Roll back to the previous ZFS snapshot or backup if an update fails.
+> **E (Emergency):** Re-deploy the node from the [[Learning/Home-Lab-Series/Default-Stack-Blueprint|Default Stack]] blueprint.
 
 ---
-**Status:** (Complete / In-Progress)
+**Status:** Operational
 **Related Tasks:** 
 - [ ] Conduct AAR
-- [ ] Update documentation
+- [x] Update documentation
 - [ ] Share with community

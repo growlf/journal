@@ -1,0 +1,1 @@
+I generally use either BASH or ZSH as my default shell.  With these, I used to use OH-My-Zsh with a Powerlevel10K theme, but lately I have begun to really enjoy  [OhMyPosh](https://ohmyposh.dev/docs/)

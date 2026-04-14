@@ -4,7 +4,7 @@ documentation:
 aliases:
 ---
 # Description
-Supplemental scripts and configuration examples for [[Network/Services/CouchDB/index|obsidian-sync]].
+Supplemental scripts and configuration examples for [[Internal/Networks/Yeticraft/Services/CouchDB/index|obsidian-sync]].
 ## Docker Deployment
 For single Docker server deployment, use the [[#Standalone version]]. For environments where you have Docker Swarm deployed, use the [[#Swarm version]]
 ### Standalone version
@@ -100,4 +100,4 @@ echo "<-- Configuring CouchDB by REST APIs Done!"
 ### TODO
 - [x] Add parallelism to these stacks for better performance reliability during updates ✅ 2025-09-10
 - [x] Add example `.env` file ✅ 2025-09-10
-- [x] add `init.sh` script for basic [[Network/Services/CouchDB/index|obsidian-sync]] configuration ✅ 2025-09-10
+- [x] add `init.sh` script for basic [[Internal/Networks/Yeticraft/Services/CouchDB/index|obsidian-sync]] configuration ✅ 2025-09-10

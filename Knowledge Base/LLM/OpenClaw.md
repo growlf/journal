@@ -51,4 +51,4 @@ Use the `command-logger` hook to keep an audit trail of all AI-initiated actions
 - What is the risk of enabling the "Shell" tool without an approval workflow?
 
 ---
-*Related: [[Network/The Stack]], [[Network/Services/Ollama/index]], [[Knowledge Base/LLM/index]]*
+*Related: [[The Stack 1]], [[Internal/Networks/Yeticraft/Services/Ollama/index]], [[Knowledge Base/LLM/index]]*

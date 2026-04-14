@@ -23,7 +23,7 @@ Since I am still an avid Ubuntu user and not yet converted to something like [Ni
 ## The Journey Begins
 I am not going to format this system till I ***know*** that I have a fool-proof solution to get me back up and running in a very short period of time - i.e. less than an hour or so.  While twiddling away on a solution that may take a day or three to create and have absolute faith in, I cannot afford actual down time on my daily driver.
 
-Using `deje-dupe`, I made a backup to my [[NAS]] - just to be safe. I made another using [[ZFS Backup]].  Just my user directory/zvol and a couple of known data directories, the OS will be handled with a fresh install. 
+Using `deje-dupe`, I made a backup to my [[NAS]] - just to be safe. I made another using [[Knowledge Base/Tricks/ZFS Backup]].  Just my user directory/zvol and a couple of known data directories, the OS will be handled with a fresh install. 
 ### Getting a list of Installed Packages
 I guess step one is to get a list of all of my installed packages, since I will want to make sure I have all of them **re**installed. To do that, we can use any one of several tools. In this case, however, I am going to use the old and sure way:
 ```bash
@@ -100,7 +100,7 @@ echo "Done. Created ${SCRIPT_DIR}/$(date +%Y-%m-%d)_${TARGET}.tar.gz"
 ```
 
 ### Testing in a Safe-space
-Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Network/Services/Proxmox/index]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
+Lets get a VM setup that I can test on, for safety and prevent my bumbling from causing data-loss.  Using my trusty [[Internal/Networks/Yeticraft/Services/Proxmox/index]] server, this is an easy task.  I already had a copy of the 24.04.2 Ubuntu Desktop ISO on there, so I generated an instance to throw things at and then immediately made a snapshot so that I can roll back to the last stage when things go wrong. 
 
 I *could* have used an `autoinstall.yml` as described [here](https://linuxconfig.org/how-to-write-and-perform-ubuntu-unattended-installations-with-autoinstall) and [here](https://nsg.cc/post/2024/autoinstall/), but I am in a hurry to get things moving. Besides, I suspect I can apply all of my steps easily to this option again later when I re-try for the umpteenth time - later on.  I just selected my usual config options manually.
 
@@ -144,7 +144,7 @@ sudo apt install /tmp/Modrinth\ App_0.10.3_amd64.deb -y
 sudo apt install /tmp/warp-terminal_0.2025.07.30.08.12.stable.02_amd64.deb -y
 sudo apt install /tmp/zoom_amd64.deb -y
 ```
-- Install [[Tailscale]]
+- Install [[Knowledge Base/Tools/Tailscale]]
 ```bash
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
@@ -174,7 +174,7 @@ Personal files/settings and customization from existing system (then I will comp
 	I made a complete backup, of course (just in case), and will be considering using a `zfs send` option in the future.
 - `.zshrc`, `.bashrc`, etc
 
-Taking a break and getting back to work on my [[Grafana]] project for a few.
+Taking a break and getting back to work on my [[Knowledge Base/Tools/Grafana]] project for a few.
 
 ### TODOs:
 - [x] Complete the rebuild process and test it fully from scratch. 🔼 🛫 2025-08-14 ✅ 2025-10-24

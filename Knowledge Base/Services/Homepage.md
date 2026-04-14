@@ -14,7 +14,7 @@ management_url: "http://<homepage-ip>:3000"
 
 ## Why a Dashboard?
 - **Centralization:** One place to access all your services.
-- **Monitoring:** Live status for your [[Network/Services/Proxmox/index|Proxmox]] nodes, Docker containers, and [[Knowledge Base/Storage/NAS|NAS]].
+- **Monitoring:** Live status for your [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] nodes, Docker containers, and [[Knowledge Base/Storage/NAS|NAS]].
 - **Customization:** Tailor the dashboard to your needs with easy-to-edit YAML configuration.
 - **Performance:** Lightweight and fast, perfect for running as a container.
 
@@ -28,7 +28,7 @@ management_url: "http://<homepage-ip>:3000"
 ## Standard Operating Procedure (SOP): Setting Up the Dashboard
 1. **Deploy:** Use Docker to spin up a Homepage instance.
 2. **Configure Services:** Add your services to `services.yaml` with their URLs and icons.
-3. **Add Widgets:** Integrate widgets for [[Network/Services/Proxmox/index|Proxmox]], Docker, and your [[Knowledge Base/Networking/Router|Router]] to see live stats.
+3. **Add Widgets:** Integrate widgets for [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]], Docker, and your [[Knowledge Base/Networking/Router|Router]] to see live stats.
 4. **Organize:** Use groups and bookmarks to categorize your services (e.g., "Infrastructure," "Media," "Development").
 5. **Verify:** Access the dashboard and ensure all links are working.
 
@@ -37,4 +37,4 @@ management_url: "http://<homepage-ip>:3000"
 - How does a dashboard help a student or peer navigate your home lab?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Virtualization/Docker/index]], [[Knowledge Base/Networking/Router]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Virtualization/Docker/index]], [[Knowledge Base/Networking/Router]]*

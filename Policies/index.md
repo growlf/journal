@@ -9,7 +9,7 @@ title: Policies & SOP
 
 ## Core Policies
 1. **Least Privilege:** Only grant the minimum level of access required.
-2. **Password Discipline:** Use a password manager ([[Vaultwarden]]) over "memorable" passwords.
+2. **Password Discipline:** Use a password manager ([[Knowledge Base/Tools/Vaultwarden]]) over "memorable" passwords.
 3. **Data Security:** Data at rest should be encrypted.
 4. **Consistency:** Never reuse passwords.
 5. **Simplicity:** Keep it simple. A simple system is easier to monitor and maintain.
@@ -31,4 +31,4 @@ title: Policies & SOP
 - How does the "Least Privilege" policy help in maintaining a secure network?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Firewall]], [[AAR]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Firewall]], [[AAR]]*

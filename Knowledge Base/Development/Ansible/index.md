@@ -36,4 +36,4 @@ tags:
 - How does "Documentation as Code" help a peer or student who joins your project later?
 
 ---
-*Related: [[Knowledge Base/ssh]], [[Network/Services/Proxmox/index|Proxmox]], [[Policies/SOP - Updating the Home Lab]]*
+*Related: [[Knowledge Base/ssh]], [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]], [[Policies/SOP - Updating the Home Lab]]*

@@ -27,11 +27,11 @@ title: Git
 1. **Commit Often:** Make small, frequent commits with clear, concise messages.
 2. **Branching:** Use branches for new features or bug fixes to avoid breaking the main codebase.
 3. **Pull Requests:** Use pull requests to review and merge changes from others.
-4. **Secrets Management:** Never commit secrets (like passwords or API keys) to your repository! Use [[Ansible Vault.md|Ansible Vault]] or [[Vaultwarden.md|Vaultwarden]].
+4. **Secrets Management:** Never commit secrets (like passwords or API keys) to your repository! Use [[Ansible Vault.md|Ansible Vault]] or [[Knowledge Base/Tools/Vaultwarden|Vaultwarden]].
 
 ## Check for Understanding
 - Why is it important to have a **Centralized Git Repository** (Primary) instead of just relying on your local repository (Alternate)?
 - How does the "Rollback" plan (Contingency) help if you make a mistake in your code?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Ansible/index|Ansible]], [[Knowledge Base/Vaultwarden]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Ansible/index|Ansible]], [[Knowledge Base/Vaultwarden]]*

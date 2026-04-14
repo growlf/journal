@@ -18,7 +18,7 @@ We have transitioned the **Primary (P)** layer of the PACE plan from a manual so
 
 ## The Updated Stack
 - **Endpoint:** `http://localhost:11434`
-- **Docker Compose:** Located in `Network/Services/Ollama/docker-compose.yml`.
+- **Docker Compose:** Located in `Internal/Networks/Yeticraft/Services/Ollama/docker-compose.yml`.
 - **Primary Model:** `qwen2.5:7b` (High performance, perfect for coding).
 
 ## Knowledge Check & Future SOP:
@@ -28,4 +28,4 @@ We have transitioned the **Primary (P)** layer of the PACE plan from a manual so
 Onward to more coding, less waiting! 🚀
 
 ---
-*Related: [[Network/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/Ollama Setup Guide|Ollama Setup Guide]]*
+*Related: [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/Ollama Setup Guide|Ollama Setup Guide]]*

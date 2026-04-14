@@ -17,13 +17,13 @@ title: Router
 ## Router Reliability (The PACE Plan)
 > [!TIP] Connectivity Discipline
 > **P (Primary):** Dedicated hardware router (e.g., pfSense/OPNsense on a low-power PC).
-> **A (Alternate):** Virtualized Router instance on your Hypervisor (e.g., [[Network/Services/Proxmox/index|Proxmox]]).
+> **A (Alternate):** Virtualized Router instance on your Hypervisor (e.g., [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]]).
 > **C (Contingency):** Secondary "Cold-Standby" hardware or a basic router with strict ACLs.
 > **E (Emergency):** Direct connection to the internet (with host-based firewalls active on all critical nodes).
 
 ## Standard Operating Procedure (SOP) Best Practices
 1. **Redundancy:** Have a secondary router ready in case the primary one fails.
-2. **Monitoring:** Use [[Grafana]] or [[NtopNG]] to monitor traffic flow.
+2. **Monitoring:** Use [[Knowledge Base/Tools/Grafana]] or [[Knowledge Base/Tools/NtopNG]] to monitor traffic flow.
 3. **Firmware Updates:** Keep your router's firmware updated to ensure security.
 
 ## Check for Understanding
@@ -31,4 +31,4 @@ title: Router
 - How does NAT (Network Address Translation) help in managing multiple devices on a single network?
 
 ---
-*Related: [[Knowledge Base/Firewall]], [[Network/The Stack]], [[Security]]*
+*Related: [[Knowledge Base/Firewall]], [[The Stack 1]], [[Security]]*

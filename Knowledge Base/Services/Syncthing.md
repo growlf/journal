@@ -38,4 +38,4 @@ management_url: "http://<syncthing-ip>:8384"
 - How does a decentralized system like Syncthing increase your lab's reliability?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Storage/NAS]], [[Knowledge Base/Storage/index]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Storage/NAS]], [[Knowledge Base/Storage/index]]*

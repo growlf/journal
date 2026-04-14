@@ -37,4 +37,4 @@ management_url: "http://<registry-ip>:5000"
 - How does a "Pull-Through Cache" save bandwidth for your entire lab?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Virtualization/Docker/index]], [[Knowledge Base/Apt Cacher NG]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Virtualization/Docker/index]], [[Knowledge Base/Apt Cacher NG]]*

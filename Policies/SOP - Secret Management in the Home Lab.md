@@ -35,7 +35,7 @@ id_ed25519*
 ```
 
 ### b. Bind Mounts for Containers
-When deploying services like [[Network/Services/Ollama/index|Ollama]], use bind mounts to point to "sterilized" host directories.
+When deploying services like [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama]], use bind mounts to point to "sterilized" host directories.
 ```yaml
 volumes:
   - /home/netyeti/.ollama:/root/.ollama  # Pointing to the host's supply point
@@ -58,4 +58,4 @@ volumes:
 - What is the difference between a **Primary** secrets manager and a **Contingency** `.env` file?
 
 ---
-*Related: [[Knowledge Base/Networking/Security]], [[Knowledge Base/Services/Vaultwarden]], [[Network/The Stack]]*
+*Related: [[Knowledge Base/Networking/Security]], [[Knowledge Base/Services/Vaultwarden]], [[The Stack 1]]*

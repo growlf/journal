@@ -20,7 +20,7 @@ title: SSH
 ## Remote Access Reliability (The PACE Plan)
 > [!TIP] Access Discipline
 > **P (Primary):** SSH Keys via LAN (Internal network).
-> **A (Alternate):** SSH Keys via [[Wireguard]] or [[Tailscale]] VPN.
+> **A (Alternate):** SSH Keys via [[Knowledge Base/Tools/Wireguard]] or [[Knowledge Base/Tools/Tailscale]] VPN.
 > **C (Contingency):** Proxmox Web Console (No-SSH fallback).
 > **E (Emergency):** Physical KVM (Keyboard, Video, Mouse) at the server rack.
 
@@ -33,9 +33,9 @@ title: SSH
 
 ## Check for Understanding
 - Why is an Ed25519 key preferred over an RSA key in a modern environment?
-- What happens to your **Alternate** plan if your [[Wireguard]] service fails?
+- What happens to your **Alternate** plan if your [[Knowledge Base/Tools/Wireguard]] service fails?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Shell]], [[Ansible]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Shell]], [[Ansible]]*
 
 

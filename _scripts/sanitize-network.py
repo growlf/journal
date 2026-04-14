@@ -2,7 +2,7 @@ import os
 import re
 import yaml
 
-INTERNAL_DIR = "Internal/Devices"
+INTERNAL_DIR = "Internal/Networks/Yeticraft/Devices"
 PUBLIC_DIR = "Network/Devices"
 
 # Mapping for sensitive fields to sanitize

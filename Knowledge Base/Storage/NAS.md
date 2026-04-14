@@ -1,27 +1,28 @@
 ---
-title: NAS - Network Attached Storage
+Updated: 2026-04-13
+tags:
+  - storage
+  - infrastructure
+  - instruction
 ---
+# Knowledge Base: Network Attached Storage (NAS)
 
-# The NetYeti's Storage Pillar: NAS
+> [!NOTE] The Instructor's Perspective
+> In a home lab, a NAS isn't just a hard drive with a network cable. It's the "Vault" for your data. It provides the persistent storage that your virtualized workloads (LXCs/VMs) need to survive a host failure.
 
-Network Attached Storage (NAS) is the "heart" of your data ecosystem. It provides centralized storage for all your machines, containers, and VMs.
+## 1. Why a dedicated NAS?
+- **Centralization:** One place to manage RAID, quotas, and backups.
+- **Protocol Flexibility:** Serves data via **NFS** (for Linux/Proxmox), **SMB** (for Windows/Mac), and **iSCSI** (for block-level storage).
+- **Redundancy:** Protects against single-disk failures via RAID-Z or Mirroring.
 
-## Why a NAS?
-- **Centralization:** One place for all your data, backups, and media.
-- **Redundancy:** Protecting against single drive failures.
-- **Access:** High-speed storage accessible via NFS, SMB, or iSCSI.
+## 2. NAS Architectures in the Default Stack
+- **Physical:** A dedicated node (e.g., your Synology or a TrueNAS build).
+- **Virtualized:** Passing through an HBA (Host Bus Adapter) to an LXC/VM running OpenMediaVault or ZFS.
 
-## Storage Stack Choices
-1.  **TrueNAS:** The gold standard for ZFS-based storage. Reliable, feature-rich, but hungry for RAM.
-2.  **Unraid:** Great for mixing drive sizes, simple to set up, but not as performance-focused as ZFS.
-3.  **Proxmox + ZFS:** Great if you want your storage and virtualization on the same box (but "don't put all your eggs in one basket").
+## 3. How to connect Proxmox to your NAS
+1.  **NFS:** Best for ISOs and backups. Low overhead.
+2.  **iSCSI:** Best for VM disks. High performance, block-level access.
 
-## PACE Plan for NAS Data
-- **P (Primary):** The NAS itself (with RAID/ZFS).
-- **A (Alternate):** Offsite backup (to a second NAS or Cloud).
-- **C (Contingency):** Cold storage (USB drives or Tape).
-- **E (Emergency):** Critical documents on an encrypted "survival" USB.
-
-### Knowledge Check:
-- Are your backups automated? (If not, they don't exist!)
-- Have you tested your drive failure recovery?
+---
+**Status:** Operational
+**Related:** [[Internal/Networks/Yeticraft/Devices/Synology]], [[Network/The Stack]]

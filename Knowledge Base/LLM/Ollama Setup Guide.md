@@ -22,7 +22,7 @@ To deploy a high-performance Ollama instance with 100% Intel Arc GPU offloading.
 
 ### **Primary (P): Containerized SYCL (IPEX-LLM / ava-agentone)**
 This is the recommended approach. It packages the oneAPI/Level Zero drivers into a stable Docker container, bypassing local dependency hell.
-- **Implementation:** [[Network/Services/Ollama/index|Containerized Setup Guide]]
+- **Implementation:** [[Internal/Networks/Yeticraft/Services/Ollama/index|Containerized Setup Guide]]
 - **Pros:** 100% GPU offload, zero-maintenance SYCL libraries, reproducible.
 - **Cons:** Slightly larger disk footprint (Docker image).
 - **Note (April 8, 2026):** We've transitioned to the `ava-agentone/ollama-intel` image as the official `intelanalytics` image has been archived.
@@ -55,7 +55,7 @@ ls -l /dev/dri
 ## Phase 2: Implementation (Select your Path)
 
 ### **Path P (Docker)**
-Follow the instructions in the [[Network/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose. Alternatively, use the `toggle-ai.sh` script (located in `_assets/_scripts/`) for rapid deployment and status checks:
+Follow the instructions in the [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose. Alternatively, use the `toggle-ai.sh` script (located in `_assets/_scripts/`) for rapid deployment and status checks:
 
 ```bash
 # Start the AI stack
@@ -96,4 +96,4 @@ clients:
 - **The Teachable Moment (April 5, 2026):** We hit a **Common Pitfall** where the `docker-compose.yml` was mounting `/root/.ollama` to a non-existent folder (`ollama_data`) instead of the host's actual data folder (`~/.ollama`). This caused "500 errors" and "mkdir" failures inside the container. 
     - **Lesson:** Always verify your **Bind Mounts**. If the host path doesn't exist, Docker will sometimes create it as an empty directory with root permissions, "clogging" your supply line. By aligning the volume mapping, we got our **Primary (P)** AI layer back on the line!
 
-*Related: [[Network/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/index|AI Command Center]]*
+*Related: [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/index|AI Command Center]]*

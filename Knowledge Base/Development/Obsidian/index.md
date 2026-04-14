@@ -8,13 +8,13 @@ tags:
 # Obsidian: The Knowledge Forge
 
 > [!NOTE] The Instructor's Perspective
-> In the Army, we had a "Battle Book"—a single source of truth for every mission. In your lab, [[Obsidian]] is that battle book. It’s not just for taking notes; it’s for forging connections between what you know and what you’re learning. It’s the foundational tool that keeps our [[Network/The Stack|Stack]] from becoming a "manageable mess."
+> In the Army, we had a "Battle Book"—a single source of truth for every mission. In your lab, [[Obsidian]] is that battle book. It’s not just for taking notes; it’s for forging connections between what you know and what you’re learning. It’s the foundational tool that keeps our [[The Stack 1|Stack]] from becoming a "manageable mess."
 
 ## Why use it?
 - **Ownership:** Your data is stored in plain-text Markdown files on your own hardware.
 - **Connection:** Link your thoughts, projects, and people together to see the "big picture."
 - **Extensibility:** A huge ecosystem of plugins (like Dataview and Excalidraw) and services.
-- **Publishing:** Easily share your journey with the world using [[GitHub-Quartz-Obsidian]].
+- **Publishing:** Easily share your journey with the world using [[Knowledge Base/Development/Obsidian/GitHub-Quartz-Obsidian]].
 
 ## Documentation Reliability (The PACE Plan)
 > [!TIP] Information Discipline
@@ -54,4 +54,4 @@ LIMIT 10
 - How does the **Alternate** plan (GitHub) help you collaborate with other students or peers?
 
 ---
-*Related: [[Knowledge Base/Mark Down]], [[GitHub-Quartz-Obsidian]], [[Network/Home Lab 101]]*
+*Related: [[Knowledge Base/Mark Down]], [[Knowledge Base/Development/Obsidian/GitHub-Quartz-Obsidian]], [[Learning/Home Lab 101]]*

@@ -28,7 +28,7 @@ title: WiFi Access Points (WAP)
 
 ## Check for Understanding
 - Why should we avoid using a single SSID for both our lab and our guests?
-- If the WiFi goes down, what is the fastest way to regain access to your [[Network/Services/Proxmox/index|Proxmox]] node?
+- If the WiFi goes down, what is the fastest way to regain access to your [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] node?
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/Firewall]], [[Ubiquiti UAP-AC-PRO]]*
+*Related: [[The Stack 1]], [[Knowledge Base/Firewall]], [[Ubiquiti UAP-AC-PRO]]*

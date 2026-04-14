@@ -18,7 +18,7 @@ title: WireGuard - The modern VPN
 
 ## VPN Reliability (The PACE Plan)
 > [!TIP] Remote Access Discipline
-> **P (Primary):** [[Tailscale]] (Zero-config, peer-to-peer mesh using WireGuard).
+> **P (Primary):** [[Knowledge Base/Networking/Tailscale]] (Zero-config, peer-to-peer mesh using WireGuard).
 > **A (Alternate):** Self-hosted WireGuard instance on your [[Knowledge Base/Networking/Router|Router]] (pfSense/OPNsense).
 > **C (Contingency):** Secondary WireGuard instance on a standalone [[Knowledge Base/Virtualization/LXC|LXC]] or [[Knowledge Base/Virtualization/Docker/index|Docker]] host.
 > **E (Emergency):** SSH jump box with public-key authentication only (The "No-VPN" fallback).
@@ -35,4 +35,4 @@ title: WireGuard - The modern VPN
 - What is the main difference between a **Primary** Tailscale setup and an **Alternate** manual WireGuard setup? (Hint: Think about NAT traversal).
 
 ---
-*Related: [[Knowledge Base/Networking/Tailscale]], [[Knowledge Base/Networking/Router]], [[Network/The Stack]]*
+*Related: [[Knowledge Base/Networking/Tailscale]], [[Knowledge Base/Networking/Router]], [[The Stack 1]]*

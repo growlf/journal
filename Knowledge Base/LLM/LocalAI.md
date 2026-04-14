@@ -38,4 +38,4 @@ management_url: "http://<localai-ip>:8080"
 - How does LocalAI differ from Ollama in terms of its primary use case? (Hint: Think about "ease of use" vs. "API compatibility").
 
 ---
-*Related: [[Knowledge Base/LLM/index]], [[Network/Services/Ollama/index]], [[Knowledge Base/Virtualization/Docker/index]]*
+*Related: [[Knowledge Base/LLM/index]], [[Internal/Networks/Yeticraft/Services/Ollama/index]], [[Knowledge Base/Virtualization/Docker/index]]*

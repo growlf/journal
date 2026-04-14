@@ -68,4 +68,4 @@ Why do we go through the trouble of building this local fortress? Because it res
 4. **Local First, Cloud Second:** Keep your data in your "fortress" (The Homelab). Use the cloud as a "Force Multiplier," not a crutch.
 
 ---
-*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[Network/The Stack]], [[Network/Services/Ollama/index]]*
+*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[The Stack 1]], [[Internal/Networks/Yeticraft/Services/Ollama/index]]*

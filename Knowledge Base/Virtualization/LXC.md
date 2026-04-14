@@ -26,11 +26,11 @@ title: Linux Containers (LXC)
 ## Standard Operating Procedure (SOP) Best Practices
 1. **Unprivileged is Default:** For security, always use unprivileged containers unless you have a specific hardware pass-through requirement.
 2. **Template Management:** Keep your templates updated. A stale template is a security hole waiting to be exploited.
-3. **Backup Regularly:** Use [[Proxmox Backup Server]] to ensure your "backpack" isn't lost if the host goes down.
+3. **Backup Regularly:** Use [[Knowledge Base/Tools/Proxmox Backup Server]] to ensure your "backpack" isn't lost if the host goes down.
 
 ## Check for Understanding
 - Why does an LXC container boot faster than a VM? (Hint: Think about the kernel).
 - What is the main security risk of using a "privileged" container?
 
 ---
-*Related: [[Network/Services/Proxmox/index|Proxmox]], [[Knowledge Base/Docker|Docker]], [[Knowledge Base/Apt Cacher NG]]*
+*Related: [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]], [[Knowledge Base/Docker|Docker]], [[Knowledge Base/Apt Cacher NG]]*

@@ -5,7 +5,7 @@ Creation date: 2025-09-11 00:43
 Documentation:
 aliases:
 ---
-Current designdoc for live [[Network/Services/CouchDB/index]]:
+Current designdoc for live [[Internal/Networks/Yeticraft/Services/CouchDB/index]]:
 ```jscript
 function t (newDoc, oldDoc, userCtx, secObj) {
   if (newDoc._deleted === true) {

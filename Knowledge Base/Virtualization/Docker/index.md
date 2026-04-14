@@ -8,7 +8,7 @@ tags:
 # Docker: The Portable App Container
 
 > [!NOTE] The Instructor's Perspective
-> In our labs, we want to be able to move our applications around easily. If an LXC is a "backpack" for a service, then Docker is the standardized "shipping container." It ensures that your application runs the same way, whether it's on your laptop or a production server. It's a key part of our [[Network/The Stack|Stack]].
+> In our labs, we want to be able to move our applications around easily. If an LXC is a "backpack" for a service, then Docker is the standardized "shipping container." It ensures that your application runs the same way, whether it's on your laptop or a production server. It's a key part of our [[The Stack 1|Stack]].
 
 ## Why use it?
 - **Portability:** Run the same container anywhere.
@@ -54,4 +54,4 @@ LIMIT 10
 - Why is it important to tag your Docker images with specific versions?
 
 ---
-*Related: [[Knowledge Base/LXC]], [[Network/Services/Proxmox/index|Proxmox]], [[Knowledge Base/Apt Cacher NG]]*
+*Related: [[Knowledge Base/LXC]], [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]], [[Knowledge Base/Apt Cacher NG]]*

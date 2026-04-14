@@ -32,4 +32,4 @@ title: DNS
 - How does the "Hardcoded IP" plan (Emergency) help if your DNS Translator is offline?
 
 ---
-*Related: [[Knowledge Base/DHCP]], [[Network/The Stack]], [[Knowledge Base/Firewall]]*
+*Related: [[Knowledge Base/DHCP]], [[The Stack 1]], [[Knowledge Base/Firewall]]*
