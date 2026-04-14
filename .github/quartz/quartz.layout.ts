@@ -10,16 +10,11 @@ export const sharedPageComponents: SharedLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       title: "Menu",
-      useSavedState: true,
-      sortFn: (a, b) => {
-        if ((!a.file && !b.file) || (a.file && b.file)) {
-          return a.displayName.localeCompare(b.displayName)
-        }
-        if (a.file && !b.file) return 1
-        else return -1
-      },
+      folderClickBehavior: "toggle",
+      folderDefaultState: "collapsed",
+      useSavedState: false,
       filterFn: (node) => {
-        const omit = new Set(["_assets", "internal"])
+        const omit = new Set(["_assets", "internal", "network"])
         return !omit.has(node.displayName?.toLowerCase() ?? "")
       },
     })),
@@ -28,6 +23,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "GitHub": "https://github.com/growlf/journal",
+      "Cascade STEAM": "https://cascadesteam.org",
     },
   }),
 }
@@ -40,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
-  left: [], // Sidebars are now purely for forest atmosphere and supplemental info
+  left: [], 
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),

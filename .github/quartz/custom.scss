@@ -1,36 +1,39 @@
 // ============================================================
-// NetYeti — Operation Grotto Window (Horizontal Command v7)
+// NetYeti — Operation Grotto Window (The STEAM Edition v8)
 // ============================================================
 
 :root {
-  // Grotto Palette
-  --grotto-light:      #e2e4d0; 
-  --energy-glow:       #00ff8c; 
-  --forest-moss:       #2d5a27; 
-  --forest-bark:       #1a0f00; 
-  --forest-dark:       #081006; 
-  --forest-floor:      #020402; 
+  // Grotto Palette (Ambient & Readable)
+  --grotto-light:      #e2e4d0; // Warm Sage/Stone
+  --energy-glow:       #00ff8c; // Signal Green
+  --forest-moss:       #2d5a27; // Moss Green
+  --forest-dark:       #081006; // Shadow Green
+  --forest-bark:       #1a0f00; // Bark Brown
+  --forest-floor:      #020402; // Shadow Black
+  
+  // High-Contrast Leaf Texture (Inline SVG)
+  --leaf-texture: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 20c-15 0-25 15-25 30s10 30 25 30 25-15 25-30-10-30-25-30zm0 40c-8 0-15-7-15-15s7-15 15-15 15 7 15 15-7 15-15 15z' fill='%231c3a18' fill-opacity='0.4'/%3E%3Cpath d='M20 10c3 5 3 15 0 20s-10 5-10 0 7-15 10-20z' fill='%232d5a27' fill-opacity='0.3'/%3E%3C/svg%3E");
 
-  // Visible Texture (High Contrast Leaves)
-  --leaf-texture: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5c-8 0-15 7-15 15s7 15 15 15 15-7 15-15-7-15-15-15zm0 25c-5 0-10-5-10-10s5-10 10-10 10 5 10 10-5 10-10 10z' fill='%232d5a27' fill-opacity='0.4'/%3E%3Cpath d='M10 40c-3 0-6 3-6 6s3 6 6 6 6-3 6-6-3-6-6-6z' fill='%231c3a18' fill-opacity='0.3'/%3E%3C/svg%3E");
-
-  // Quartz Overrides
-  --light: var(--grotto-light);
-  --secondary: var(--forest-moss);
-  --tertiary: var(--energy-glow);
-  --dark: #141a0d;
-  --darkgray: #2a3020;
+  // Quartz Variable Force-Sync
+  --light: var(--grotto-light) !important;
+  --secondary: var(--forest-moss) !important;
+  --tertiary: var(--energy-glow) !important;
+  --dark: #141a0d !important;
+  --darkgray: #1a1f15 !important; // Darker text for contrast
+  
+  --headerFont: "Playfair Display", serif;
+  --bodyFont: "Inter", sans-serif;
   --header-height: 80px;
 }
 
 [saved-theme="dark"] {
-  --grotto-light:      #121e0f;
+  --grotto-light:      #1a2018;
   --dark:              #d0d8c0;
   --secondary:         #8faa7a;
 }
 
 // ------------------------------------------------------------
-// Immersive Atmosphere
+// Global Atmosphere (The Forest Floor)
 // ------------------------------------------------------------
 body {
   background-color: var(--forest-floor) !important;
@@ -39,10 +42,11 @@ body {
     radial-gradient(circle at 50% 0%, rgba(0, 255, 140, 0.08) 0%, transparent 60%),
     linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
   margin: 0;
+  padding: 0;
 }
 
 // ------------------------------------------------------------
-// Top Navigation (Horizontal Menu Bar)
+// Command Bar (Top Horizontal Navigation)
 // ------------------------------------------------------------
 header {
   position: sticky;
@@ -55,47 +59,47 @@ header {
   background: rgba(5, 10, 4, 0.98);
   backdrop-filter: blur(20px);
   border-bottom: 3px solid var(--forest-moss);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   z-index: 1000;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .page-title a {
   color: var(--energy-glow) !important;
-  font-family: "Playfair Display", serif;
+  font-family: var(--headerFont);
   font-size: 2rem !important;
-  text-decoration: none;
   font-weight: 800;
-  white-space: nowrap;
+  text-decoration: none !important;
 }
 
-// Transform Explorer into Horizontal Bar
+// RESTORE: Transform Explorer into a Horizontal Dropdown Menu
 header .explorer {
   flex: 1;
   display: flex;
   align-items: center;
   
-  // Hide the toggle button if it exists
+  // Hide the Quartz sidebar toggle button
   button#explorer { display: none !important; }
 
+  // Ensure content is visible in header
   #explorer-content {
     display: block !important;
     width: 100%;
   }
 
-  // Top level UL
+  // The Top-Level List (Horizontal)
   ul#explorer-ul {
     display: flex !important;
     flex-direction: row !important;
     list-style: none !important;
     margin: 0 !important;
     padding: 0 !important;
-    gap: 2rem;
+    gap: 2.5rem;
     
-    // Top level LI (Categories)
+    // Top-level LI (Dropdown trigger)
     > li {
       position: relative;
-      padding: 1rem 0;
+      padding: 1.5rem 0;
       
       .folder-container {
         display: flex;
@@ -103,74 +107,73 @@ header .explorer {
         gap: 0.5rem;
         cursor: pointer;
         color: #c0c8b0 !important;
-        font-weight: 600;
+        font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 0.85rem;
+        letter-spacing: 1.5px;
+        font-size: 0.8rem;
+        transition: color 0.2s;
         
         &:hover { color: var(--energy-glow) !important; }
-        svg { display: none; } // Hide folder icons for cleaner look
+        svg { display: none; } // Hide standard icons
       }
 
-      // Dropdown sub-menus
+      // Dropdown sub-menus (The actual dropdown)
       ul {
         position: absolute;
         top: 100%;
         left: 0;
-        background: rgba(10, 20, 8, 0.98);
+        background: #0a1408;
         border: 1px solid var(--forest-moss);
-        border-radius: 0 0 8px 8px;
-        min-width: 220px;
-        padding: 1rem !important;
+        border-radius: 0 0 12px 12px;
+        min-width: 240px;
+        padding: 1.5rem !important;
         display: none; // Hidden by default
-        box-shadow: 0 15px 40px rgba(0,0,0,0.9);
+        box-shadow: 0 20px 50px rgba(0,0,0,1);
+        z-index: 1001;
         
         li {
-          padding: 0.5rem 0;
+          padding: 0.6rem 0;
           border-bottom: 1px solid rgba(255,255,255,0.05);
           &:last-child { border: none; }
           
           a {
             color: #a0a890 !important;
-            font-size: 0.9rem !important;
+            font-size: 0.95rem !important;
             text-transform: none;
             letter-spacing: 0;
+            display: block;
             &:hover { color: var(--energy-glow) !important; }
           }
         }
       }
 
+      // Hover Logic
       &:hover > ul {
-        display: block !important; // Show dropdown on hover
+        display: block !important;
       }
     }
   }
 }
 
-// Search & Darkmode align far right
-header .search, 
-header .darkmode {
-  flex: 0;
-}
-
 // ------------------------------------------------------------
-// The Grotto Frame (Visible Texture)
+// The Grotto Frame (Three Column Grid)
 // ------------------------------------------------------------
 #quartz-body {
   display: grid !important;
-  grid-template-columns: 200px 1fr 200px !important;
+  grid-template-columns: 240px 1fr 240px !important;
   grid-template-areas: "left center right" !important;
   width: 100%;
   min-height: calc(100vh - var(--header-height));
+  gap: 0 !important;
 }
 
-// Sidebar "Tree Trunks" with Heavy Texture
+// Sidebar "Tree Trunks" with Visible Texture
 .sidebar {
   background-color: var(--forest-dark) !important;
   background-image: 
     var(--leaf-texture),
     linear-gradient(to bottom, var(--forest-bark), var(--forest-dark)) !important;
-  background-size: 150px 150px, 100% 100%;
+  background-size: 120px 120px, 100% 100%;
   position: sticky;
   top: var(--header-height);
   height: calc(100vh - var(--header-height));
@@ -180,63 +183,71 @@ header .darkmode {
 
 .sidebar.left { 
   grid-area: left; 
-  box-shadow: inset -30px 0 60px rgba(0,0,0,0.9); 
-  border-right: 2px solid rgba(0, 255, 140, 0.1) !important;
+  box-shadow: inset -40px 0 80px rgba(0,0,0,1); 
+  border-right: 1px solid rgba(0, 255, 140, 0.1) !important;
 }
 
 .sidebar.right { 
   grid-area: right; 
-  box-shadow: inset 30px 0 60px rgba(0,0,0,0.9); 
-  border-left: 2px solid rgba(0, 255, 140, 0.1) !important;
+  box-shadow: inset 40px 0 80px rgba(0,0,0,1); 
+  border-left: 1px solid rgba(0, 255, 140, 0.1) !important;
+  color: #c0c8b0;
+  padding: 2rem 1.5rem;
 }
 
-// The Grotto Window
+// ------------------------------------------------------------
+// The Grotto Window (Main Focus Area)
+// ------------------------------------------------------------
 .center {
   grid-area: center;
-  background-color: var(--grotto-light);
+  background-color: var(--grotto-light) !important;
   padding: 5rem;
   z-index: 5;
-  box-shadow: 0 0 120px rgba(0,0,0,1);
+  box-shadow: 0 0 150px rgba(0,0,0,1); // Maximum depth
   position: relative;
   overflow-x: hidden;
 }
 
 // ------------------------------------------------------------
-// Content & Contrast Fixes
+// Link & Content Fix (The STEAM Standard)
 // ------------------------------------------------------------
 a {
-  color: var(--forest-moss) !important; // Forced forest green links
+  color: var(--forest-moss) !important; // Force kill bright blue
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   
   &:hover {
     color: var(--energy-glow) !important;
-    text-underline-offset: 4px;
     text-decoration: underline !important;
   }
 }
 
 article {
-  font-family: "Inter", sans-serif;
-  color: var(--darkgray) !important;
+  font-family: var(--bodyFont);
+  color: var(--darkgray) !important; // Forced contrast
   line-height: 2;
+  font-size: 1.25rem;
   
-  h1, h2, h3 { font-family: "Playfair Display", serif; color: var(--dark) !important; font-weight: 700; }
+  h1, h2, h3 { 
+    font-family: var(--headerFont); 
+    color: var(--dark) !important; 
+    font-weight: 800; 
+  }
   
   h2 {
-    border-left: 10px solid var(--forest-moss);
+    border-left: 12px solid var(--forest-moss);
     padding-left: 1.5rem;
     margin-top: 5rem;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
   }
 }
 
 // ------------------------------------------------------------
-// Responsive (Mobile Signal)
+// Mobile Scaling
 // ------------------------------------------------------------
 @media (max-width: 1200px) {
-  header { padding: 0 1rem; gap: 1rem; height: 60px; }
-  header .explorer { display: none; } // Let standard menu handle it
+  header { padding: 0 1rem; gap: 1rem; }
+  header .explorer { display: none; } // Standard Quartz mobile menu takes over
   #quartz-body {
     grid-template-columns: 1fr !important;
     grid-template-areas: "center" !important;
