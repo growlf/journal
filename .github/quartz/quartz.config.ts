@@ -2,6 +2,11 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import * as Component from "./quartz/components"
 
+/**
+ * Quartz 4 Configuration
+ *
+ * See https://quartz.jzhao.xyz/configuration for more information.
+ */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "The NetYeti's Journal",
@@ -13,8 +18,8 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "growlf.github.io/journal",
-    ignorePatterns: ["private", "_templates", ".obsidian", ".gemini", ".git", "_assets", "Internal"],
-    defaultDateType: "created",
+    ignorePatterns: ["private", "templates", ".obsidian", "**/README.md", "Internal"],
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -53,7 +58,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
@@ -82,7 +87,9 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
+      Plugin.Favicon(),
       Plugin.NotFoundPage(),
+      Plugin.CustomOgImages(),
     ],
   },
 }

@@ -1,29 +1,56 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { jsx } from "preact/jsx-runtime" 
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
-  afterBody: [],
-  footer: Component.Footer({
-    links: {
-      "GitHub": "https://github.com/growlf/journal",
-      "Cascade STEAM": "https://cascadesteam.org",
-    },
-  }),
+  header: [
+    Component.DocumentContent({ 
+      targetSlug: "assets/fragments/global-header", 
+    }),
+  ],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 5,
+        filter: (f) => {
+          return !(f.slug?.startsWith("assets/") || f.slug?.startsWith("templates/"))
+        },
+      }),
+      condition: (page) => page.fileData.slug == "index",
+    }),
+    Component.DocumentContent({targetSlug: "assets/fragments/global-footer", }),
+  ],
+  footer: Component.CSFooter(),
 }
 
 // components for pages that display a single page
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs({showCurrentPage: false,}),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.frontmatter?.layout !== "landing-page",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.frontmatter?.layout !== "landing-page",
+    }),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => page.fileData.frontmatter?.layout !== "landing-page",
+    }),    
   ],
   left: [
-    Component.PageTitle(),
+    Component.ConditionalRender({
+      component: Component.Logo(),
+      condition: (page) => page.fileData.frontmatter?.layout !== "landing-page",
+    }),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -32,28 +59,42 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer({
       title: "Directory",
-      folderClickBehavior: "link",
       filterFn: (node) => {
-        const omit = new Set(["_assets", "internal", "templates"])
-        return !omit.has(node.displayName?.toLowerCase() ?? "")
+        const omit = new Set(["assets", "internal", "templates"])
+        return !omit.has(node.displayName.toLowerCase())
       },
     })
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.DesktopOnly((props) => {
+      const isLandingPage = props.fileData.frontmatter?.layout === "landing-page"
+      if (isLandingPage) return null
+      return jsx(props.displayClass ?? "div", {
+        children: [
+          Component.TableOfContents()(props),
+        ],
+      })
+    }),
   ],
 }
 
+// components for pages that display lists of pages
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs({showCurrentPage: false,}),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+  ],
   left: [
-    Component.PageTitle(),
+    Component.Logo(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -62,14 +103,14 @@ export const defaultListPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer({
       title: "Directory",
-      folderClickBehavior: "link",
       filterFn: (node) => {
-        const omit = new Set(["_assets", "internal", "templates"])
-        return !omit.has(node.displayName?.toLowerCase() ?? "")
+        const omit = new Set(["assets", "internal", "templates"])
+        return !omit.has(node.displayName.toLowerCase())
       },
     })
   ],
