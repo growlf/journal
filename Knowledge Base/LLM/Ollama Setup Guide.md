@@ -55,7 +55,7 @@ ls -l /dev/dri
 ## Phase 2: Implementation (Select your Path)
 
 ### **Path P (Docker)**
-Follow the instructions in the [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose. Alternatively, use the `toggle-ai.sh` script (located in `_assets/_scripts/`) for rapid deployment and status checks:
+Follow the instructions in the [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Container Service]] page to deploy via Docker Compose. Alternatively, use the `toggle-ai.sh` script (located in `_assets/_assets/_scripts/`) for rapid deployment and status checks:
 
 ```bash
 # Start the AI stack

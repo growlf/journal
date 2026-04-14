@@ -10,7 +10,7 @@ Use this power to audit, prioritize, and clear the forest backlog. It leverages 
 - **Mission Handoff:** Identifies `scan`, `fix`, `document`, or `update` tasks for AI execution.
 
 ## Usage Protocol
-1.  **Recon:** Run `python3 _scripts/manage-backlog.py` immediately.
+1.  **Recon:** Run `python3 _assets/_scripts/manage-backlog.py` immediately.
 2.  **Brief:** Present the synchronized briefing to the NetYeti.
 3.  **Compress:** If context is heavy, suggest `/compress` before the next task.
 

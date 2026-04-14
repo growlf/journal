@@ -13,7 +13,7 @@ Use this skill to perform network reconnaissance and synchronize the results wit
 1.  **Identify Subnet:** Determine the target range (e.g., 10.10.0.0/24).
 2.  **Select Context:** Choose the network folder (e.g., BMS, Yeticraft).
 3.  **Execute Engine:** Run the sync script:
-    `python3 _scripts/recon-vault-sync.py [NetworkName] [Subnet]`
+    `python3 _assets/_scripts/recon-vault-sync.py [NetworkName] [Subnet]`
 4.  **Verification:** Check the `Internal/` network device folder to ensure frontmatter is correctly populated.
 
 ## Tactical Mandates

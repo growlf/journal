@@ -3,15 +3,16 @@ import * as Component from "./quartz/components"
 import { jsx } from "preact/jsx-runtime" 
 
 // Custom Logo Component to match STEAM CSS
+// Note: Using absolute URL to ensure it resolves correctly on GitHub Pages subpaths
 const Logo = (props: any) => {
   return jsx("div", {
     className: "logo",
     children: [
       jsx("a", {
-        href: "/",
+        href: "https://growlf.github.io/journal/",
         children: [
           jsx("img", {
-            src: "/_assets/NetYeti.svg",
+            src: "https://growlf.github.io/journal/_assets/NetYeti.svg",
             alt: "NetYeti Logo",
           }),
         ],
@@ -82,7 +83,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Directory",
-      folderClickBehavior: "link",
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "_templates"])
         return !omit.has(node.displayName.toLowerCase())
@@ -126,7 +126,6 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Directory",
-      folderClickBehavior: "link",
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "_templates"])
         return !omit.has(node.displayName.toLowerCase())

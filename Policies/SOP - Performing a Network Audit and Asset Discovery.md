@@ -40,7 +40,7 @@ Perform a "Signal Sweep" to find anything not reporting to the hypervisor or rou
 - **Archive Offline Devices:** Move any devices not found during the scan to `Internal/Networks/Yeticraft/Devices/Archive/`.
 - **Update Active Devices:** Ensure all discovered IPs and services are reflected in the `Internal/Devices/` folder.
 - **Sanitize for Public Consumption:** Run the sanitization script to update the public `Network/Devices/` folder:
-  `python3 _scripts/sanitize-network.py`
+  `python3 _assets/_scripts/sanitize-network.py`
   - *Note:* This ensures real MACs and internal IPs are scrubbed before publishing.
 - **Update the Map:** Verify the physical and logical links in the **[[Internal/Networks/Yeticraft/Network Map|Network Map 1]]**.
 

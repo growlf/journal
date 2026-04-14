@@ -57,5 +57,5 @@ fi
 
 echo "----------------------------------------"
 echo -e "${MAGENTA}📊 Gemini Cloud Token Budget${NC}"
-python3 "$HOME/Obsidian/Journal/_scripts/calc-usage-pulse.py"
+python3 "$HOME/Obsidian/Journal/_assets/_scripts/calc-usage-pulse.py"
 echo "----------------------------------------"

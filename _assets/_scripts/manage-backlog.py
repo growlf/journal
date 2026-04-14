@@ -129,7 +129,7 @@ def ensure_daily():
 
 if __name__ == "__main__":
     # Ensure root index is protected
-    os.system("python3 _scripts/protect-index.py")
+    os.system("python3 _assets/_scripts/protect-index.py")
     ensure_daily()
     remaining = sync_and_audit()
     print(generate_briefing(remaining))
