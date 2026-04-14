@@ -462,3 +462,30 @@ $nav-search-width: 260px;
   }
   #{$dropdown-base} ul li:hover > .folder-outer { display: block !important; }
 }
+
+// ─── Whitespace Suppression (NetYeti Fix) ──────────────────────────────────
+// Quartz 4 uses CSS Grid for animations which can leave empty space.
+// We force the grid tracks to collapse and reset all list margins.
+
+.explorer .folder-outer {
+  grid-template-rows: 1fr !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.explorer ul.explorer-ul, 
+.explorer ul.content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.explorer li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+// Ensure dropdown links are tight
+.sidebar.left .explorer .explorer-content > ul.explorer-ul > li > .folder-outer ul li > a {
+  padding: 0.3rem 1.2rem !important;
+  margin: 0 !important;
+}
