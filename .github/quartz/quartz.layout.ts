@@ -9,9 +9,9 @@ export const sharedPageComponents: SharedLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
-      title: "Menu",
-      folderClickBehavior: "toggle",
-      folderDefaultState: "collapsed",
+      title: "Navigation",
+      folderClickBehavior: "link",
+      folderDefaultState: "open",
       useSavedState: false,
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "network"])
