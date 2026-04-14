@@ -1,5 +1,5 @@
 ---
-title: Learning & Education (Concepts)
+title: Learning & Education
 ---
 ## Overview
 This section documents the structured approach to learning new subjects and maintaining technical proficiency.

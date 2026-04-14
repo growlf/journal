@@ -16,7 +16,7 @@ export const sharedPageComponents: SharedLayout = {
         title: "Recent Notes",
         limit: 5,
         filter: (f) => {
-          return !(f.slug?.startsWith("assets/") || f.slug?.startsWith("templates/"))
+          return !(f.slug?.startsWith("_assets/") || f.slug?.startsWith("_templates/") || f.slug?.startsWith("Internal/"))
         },
       }),
       condition: (page) => page.fileData.slug == "index",
@@ -64,6 +64,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Directory",
+      folderClickBehavior: "link",
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "_templates"])
         return !omit.has(node.displayName.toLowerCase())
@@ -108,6 +109,7 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Directory",
+      folderClickBehavior: "link",
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "_templates"])
         return !omit.has(node.displayName.toLowerCase())
