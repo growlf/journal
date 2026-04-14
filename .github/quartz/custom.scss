@@ -100,18 +100,20 @@ h2 { font-size: var(--text-2xl); font-weight: 600; }
 h3 { font-size: var(--text-xl);  font-weight: 500; }
 h4 { font-size: var(--text-lg);  font-weight: 500; }
 
-// Left accent bars on content headings (not in hero)
-.page-content article {
+// Left accent bars on content headings
+article {
   h2 {
     border-left: 3px solid var(--secondary);
-    padding-left: 0.65rem;
-    margin-left: -0.8rem;
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
   }
 
   h3 {
     border-left: 2px solid var(--tertiary);
-    padding-left: 0.55rem;
-    margin-left: -0.7rem;
+    padding-left: 0.65rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
   }
 }
 
@@ -258,6 +260,23 @@ table {
 }
 
 // ------------------------------------------------------------
+// Hero Page Style
+// ------------------------------------------------------------
+.hero-page {
+  .page-header {
+    margin-bottom: 3rem;
+  }
+  
+  .page-title {
+    font-size: var(--text-hero);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--dark);
+    line-height: 1.1;
+  }
+}
+
+// ------------------------------------------------------------
 // Sidebar nav items
 // ------------------------------------------------------------
 #quartz-body .sidebar {
@@ -322,13 +341,20 @@ table {
 // ------------------------------------------------------------
 // Responsive content width
 // ------------------------------------------------------------
-.page > #quartz-body .center {
+.page .center,
+#quartz-body .center,
+.page-content {
   max-width: var(--content-max);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 1100px) {
-  .page > #quartz-body .center {
+  .page .center,
+  #quartz-body .center,
+  .page-content {
     max-width: 100%;
+    padding: 0 1rem;
   }
 }
 
