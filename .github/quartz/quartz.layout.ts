@@ -65,7 +65,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "Directory",
       filterFn: (node) => {
-        const omit = new Set(["assets", "internal", "templates"])
+        const omit = new Set(["_assets", "internal", "_templates"])
         return !omit.has(node.displayName.toLowerCase())
       },
     })
@@ -109,7 +109,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       title: "Directory",
       filterFn: (node) => {
-        const omit = new Set(["assets", "internal", "templates"])
+        const omit = new Set(["_assets", "internal", "_templates"])
         return !omit.has(node.displayName.toLowerCase())
       },
     })
