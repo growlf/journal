@@ -1,9 +1,11 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import * as Component from "./quartz/components"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The Netyeti's Journal",
+    pageTitle: "The NetYeti's Journal",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,32 +19,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Playfair Display",
-        body: "Inter",
-        code: "JetBrains Mono",
+        header: "Rubik",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#f4f1eb",
-          lightgray: "#c8bfa8",
-          gray: "#6a5a3a",
-          darkgray: "#2a1f0e",
-          dark: "#1c3a18",
-          secondary: "#3a5c2e",
-          tertiary: "#2d9fb5",
-          highlight: "rgba(90,140,62,0.10)",
-          textHighlight: "rgba(168,200,120,0.35)",
+          light: "#fdfaf3",
+          lightgray: "#d46329ff",
+          gray: "#b8b8b8",
+          darkgray: "#1a1f15",
+          dark: "#2d5a27",
+          secondary: "#2d5a27",
+          tertiary: "#00ff8c",
+          highlight: "rgba(0, 255, 140, 0.1)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#121e0f",
-          lightgray: "#1e3318",
-          gray: "#6a8a5a",
-          darkgray: "#c8dab0",
-          dark: "#e8f0d4",
+          light: "#020402",
+          lightgray: "#d46329ff",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#00ff8c",
           secondary: "#8faa7a",
-          tertiary: "#7ecfde",
-          highlight: "rgba(143,170,122,0.15)",
-          textHighlight: "rgba(168,200,120,0.25)",
+          tertiary: "#00ff8c",
+          highlight: "rgba(0, 255, 140, 0.15)",
+          textHighlight: "rgba(0, 171, 197, 0.43)",
         },
       },
     },
@@ -72,7 +74,7 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({ pageBody: Component.Content() }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,

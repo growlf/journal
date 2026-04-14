@@ -1,9 +1,11 @@
 // ============================================================
-// NetYeti — Operation Grotto Window (The STEAM Replication v11)
+// NetYeti — Operation Grotto Window (STEAM Replication v12)
 // ============================================================
 
+@use "./base.scss";
+
 :root {
-  // STEAM Color Palette (Standard & Forced)
+  // STEAM Palette Refined for Forest
   --light:             #fdfaf3 !important;
   --energy-glow:       #00ff8c;
   --forest-moss:       #2d5a27;
@@ -11,19 +13,18 @@
   --forest-dark:       #081006;
   --forest-floor:      #020402;
 
-  // Quartz Force-Overrides (Matches cascadesteam.org)
-  --secondary:         #2d5a27 !important; // Links
-  --tertiary:          #00ff8c !important; // Accents
-  --dark:              #141a0d !important; // Strong text
-  --darkgray:          #1a1f15 !important; // Body text
+  // Force Link Colors
+  --secondary:         #2d5a27 !important;
+  --tertiary:          #00ff8c !important;
+  --dark:              #141a0d !important;
+  --darkgray:          #1a1f15 !important;
   
-  // Real Textures
+  // Real High-Contrast Textures
   --bark-texture: url("https://www.transparenttextures.com/patterns/dark-wood.png");
   --leaf-texture: url("https://www.transparenttextures.com/patterns/leaves.png");
 
   --headerFont: "Playfair Display", serif;
   --bodyFont: "Inter", sans-serif;
-  --header-height: 80px;
 }
 
 [saved-theme="dark"] {
@@ -33,7 +34,7 @@
 }
 
 // ------------------------------------------------------------
-// Global Layout (Grotto Atmosphere)
+// Global Layout & Atmosphere
 // ------------------------------------------------------------
 body {
   background-color: var(--forest-floor) !important;
@@ -42,133 +43,132 @@ body {
     var(--leaf-texture),
     radial-gradient(circle at 50% 0%, rgba(0, 255, 140, 0.08) 0%, transparent 60%),
     linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
-  margin: 0;
-  padding: 0;
 }
 
-// ------------------------------------------------------------
-// THE NAVBAR (STEAM Implementation)
-// ------------------------------------------------------------
-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: var(--header-height);
-  display: flex;
-  align-items: center;
-  padding: 0 3rem;
-  background: rgba(5, 10, 4, 0.98) !important;
-  background-image: var(--bark-texture) !important;
-  backdrop-filter: blur(20px);
-  border-bottom: 3px solid var(--forest-moss);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-  z-index: 1000;
-  gap: 2rem;
-  overflow: visible !important; // CRITICAL for dropdowns
-}
+// ─── STEAM Navbar Transformation (Desktop Only) ───────────────────────────
 
-.page-title a {
-  color: var(--energy-glow) !important;
-  font-family: var(--headerFont);
-  font-size: 1.8rem !important;
-  font-weight: 800;
-  text-decoration: none !important;
-}
+$nav-height: 60px;
+$nav-search-width: 300px; 
+$nav-left-offset: 40px;
 
-// Transform the Explorer into a Horizontal Navbar
-header .explorer {
-  flex: 1;
-  display: block !important;
-  visibility: visible !important;
-  
-  button#explorer { display: none !important; } // Kill the toggle
-
-  #explorer-content {
-    display: block !important;
-    background: transparent !important;
-    border: none !important;
-    padding: 0 !important;
+@media (min-width: 801px) {
+  body {
+    padding-top: $nav-height;
   }
 
-  // The Top-Level Categories
-  ul#explorer-ul {
+  // Navbar Background & Sticky Logic
+  .sidebar.left .explorer,
+  .sidebar.left .flex-component {
+    position: fixed;
+    top: 0;
+    height: $nav-height;
+    background: rgba(5, 10, 4, 0.98) !important;
+    background-image: var(--bark-texture) !important;
+    backdrop-filter: blur(15px);
+    border-bottom: 2px solid var(--forest-moss);
+    z-index: 300;
+    display: flex !important;
+    align-items: center;
+  }
+
+  // Search & Controls (Far Right)
+  .sidebar.left .flex-component {
+    right: 0;
+    width: $nav-search-width;
+    justify-content: flex-end;
+    padding: 0 2rem;
+    gap: 1rem;
+    z-index: 301;
+  }
+
+  // The Main Navbar (Full Width)
+  .sidebar.left .explorer {
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding: 0 #{$nav-search-width} 0 #{$nav-left-offset};
+    overflow: visible;
+
+    button.desktop-explorer { display: none !important; }
+  }
+
+  // Navigation List (Horizontal)
+  .sidebar.left .explorer .explorer-content {
     display: flex !important;
     flex-direction: row !important;
-    list-style: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    gap: 2rem;
-    overflow: visible !important;
-
-    > li {
-      position: relative !important;
-      margin: 0 !important;
+    align-items: stretch;
+    height: 100%;
+    
+    > ul.explorer-ul {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: stretch;
+      gap: 2rem;
+      padding: 0; margin: 0;
+      overflow: visible !important;
       
-      .folder-container {
+      > li {
+        position: relative !important;
         display: flex !important;
-        align-items: center !important;
-        padding: 1.2rem 0 !important;
-        cursor: pointer !important;
-        color: #c0c8b0 !important;
-        font-weight: 700 !important;
-        text-transform: uppercase !important;
-        font-size: 0.85rem !important;
-        letter-spacing: 1px !important;
+        align-items: center;
         
-        &:hover { color: var(--energy-glow) !important; }
-        svg { display: none !important; }
-      }
-
-      // THE DROPDOWN (STEAM Logic)
-      ul {
-        position: absolute !important;
-        top: 100% !important;
-        left: 0 !important;
-        display: none !important; // Hidden by default
-        flex-direction: column !important;
-        background: #0a1408 !important;
-        background-image: var(--bark-texture) !important;
-        border: 1px solid var(--forest-moss) !important;
-        min-width: 220px !important;
-        padding: 1.2rem !important;
-        box-shadow: 0 20px 50px rgba(0,0,0,1) !important;
-        border-radius: 0 0 12px 12px !important;
-        z-index: 1001 !important;
-        
-        li {
-          padding: 0.5rem 0 !important;
-          border-bottom: 1px solid rgba(255,255,255,0.05);
-          width: 100%;
-          
-          a {
-            color: #a0a890 !important;
-            font-size: 0.9rem !important;
-            text-transform: none !important;
-            display: block !important;
-            font-weight: 400 !important;
-            &:hover { color: var(--energy-glow) !important; text-decoration: none !important; }
+        .folder-container {
+          .folder-icon { display: none; }
+          div > a.folder-title {
+            color: var(--energy-glow) !important;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-decoration: none;
+            &:hover { text-shadow: 0 0 10px var(--energy-glow); }
           }
         }
-      }
 
-      // HOVER TRIGGER
-      &:hover > ul {
-        display: flex !important;
+        // Dropdown Logic (The STEAM Secret)
+        .folder-outer {
+          display: none !important;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: #0a1408 !important;
+          background-image: var(--bark-texture) !important;
+          border: 1px solid var(--forest-moss);
+          min-width: 220px;
+          padding: 1rem !important;
+          border-radius: 0 0 8px 8px;
+          box-shadow: 0 15px 40px rgba(0,0,0,1);
+          z-index: 400;
+          
+          ul {
+            padding: 0 !important;
+            border: none !important;
+            
+            li a {
+              color: #c0c8b0 !important;
+              padding: 0.5rem 0;
+              display: block;
+              font-size: 0.9rem;
+              &:hover { color: var(--energy-glow) !important; }
+            }
+          }
+        }
+
+        &:hover > .folder-outer {
+          display: block !important;
+        }
       }
     }
   }
 }
 
 // ------------------------------------------------------------
-// The Grotto Frame (Three Column Grid)
+// The Grotto Frame (Sidebars)
 // ------------------------------------------------------------
 #quartz-body {
   display: grid !important;
   grid-template-columns: 240px 1fr 240px !important;
   grid-template-areas: "left center right" !important;
-  width: 100%;
-  min-height: calc(100vh - var(--header-height));
-  gap: 0 !important;
 }
 
 .sidebar {
@@ -176,12 +176,11 @@ header .explorer {
   background-image: 
     var(--leaf-texture),
     linear-gradient(to bottom, var(--forest-bark), var(--forest-dark)) !important;
-  background-size: 300px 300px, 100% 100%;
+  background-size: 200px 200px, 100% 100%;
   position: sticky;
-  top: var(--header-height);
-  height: calc(100vh - var(--header-height));
+  top: $nav-height;
+  height: calc(100vh - #{$nav-height});
   z-index: 10;
-  border: none !important;
   box-shadow: inset 0 0 60px rgba(0,0,0,1) !important;
 }
 
@@ -189,7 +188,7 @@ header .explorer {
 .sidebar.right { grid-area: right; border-left: 1px solid rgba(0, 255, 140, 0.1) !important; }
 
 // ------------------------------------------------------------
-// The Grotto Window (Main Focus Area)
+// The Grotto Window (Content Area)
 // ------------------------------------------------------------
 .center {
   grid-area: center;
@@ -197,19 +196,12 @@ header .explorer {
   padding: 5rem;
   z-index: 5;
   box-shadow: 0 0 150px rgba(0,0,0,1);
-  position: relative;
   min-height: 100vh;
 }
 
 // ------------------------------------------------------------
-// Link & Content Hardening
+// STEAM Typography & Contrast
 // ------------------------------------------------------------
-a {
-  color: var(--forest-moss) !important; 
-  text-decoration: none;
-  &:hover { color: var(--energy-glow) !important; text-decoration: underline !important; }
-}
-
 article {
   font-family: var(--bodyFont);
   color: var(--darkgray) !important;
@@ -225,11 +217,8 @@ article {
   }
 }
 
-// ------------------------------------------------------------
-// Mobile Support
-// ------------------------------------------------------------
-@media (max-width: 1200px) {
-  header .explorer { display: none !important; }
+// Mobile Reset
+@media (max-width: 800px) {
   #quartz-body { grid-template-columns: 1fr !important; grid-template-areas: "center" !important; }
   .sidebar { display: none !important; }
   .center { padding: 2rem !important; }
