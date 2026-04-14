@@ -26,9 +26,6 @@ cta_secondary:
   label: "About Garth"
   url: "/"
 ---
-
-
-
 # 🏔️ Journal of The NetYeti
 
 > [!abstract] About Garth (The NetYeti)
