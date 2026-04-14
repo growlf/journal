@@ -1,375 +1,214 @@
 // ============================================================
-// NetYeti Forest Theme — custom.scss
-// Location in repo: quartz/styles/custom.scss
-// REPLACES the existing custom.scss entirely.
+// NetYeti — Operation Grotto Window (Quartz 4)
 // ============================================================
 
-
-
-
-// ------------------------------------------------------------
-// Google Fonts — loaded here as fallback if cdnCaching is off
-// quartz.config.ts handles the import when cdnCaching is true
-// ------------------------------------------------------------
-// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
-
-// ------------------------------------------------------------
-// Forest color token overrides (CSS custom properties)
-// These supplement what Quartz injects from quartz.config.ts
-// and give us named semantic tokens to use in other partials.
-// ------------------------------------------------------------
 :root {
-  // Forest greens
-  --forest-deep:       #1c3a18;
-  --forest-canopy:     #2a3d1e;
-  --forest-understory: #3a5c2e;
-  --forest-fern:       #5a8c3e;
-  --forest-sage:       #8faa7a;
-  --forest-meadow:     #a8c878;
-  --forest-lichen:     #dce8cc;
-  --forest-mist:       #e8f0d4;
+  // Grotto Palette (Well-lit center)
+  --grotto-light:      #f4f1eb; // Birchbark
+  --grotto-stone:      #e0e0d0; // Warm Stone
+  --energy-glow:       #00ff8c; // Pulsing Vine Energy
+  
+  // Forest Palette (Shadowed edges)
+  --forest-dark:       #0e1a0b; 
+  --forest-bark:       #1a0f00;
+  --forest-floor:      #050804;
 
-  // Neutral woodland
-  --forest-birchbark:  #f4f1eb;
-  --forest-driftwood:  #c8bfa8;
-  --forest-bark:       #6a5a3a;
-  --forest-loam:       #2a1f0e;
+  // Quartz Variable Overrides
+  --light: var(--grotto-light);
+  --lightgray: #c8bfa8;
+  --gray: #6a5a3a;
+  --darkgray: #2a1f0e;
+  --dark: #1c3a18;
+  --secondary: #3a5c2e;
+  --tertiary: #2d9fb5;
+  --highlight: rgba(0, 255, 140, 0.1);
 
-  // Stream accent (links, callouts, info)
-  --stream-deep:       #1a6b7a;
-  --stream-mid:        #2d9fb5;
-  --stream-light:      #7ecfde;
-  --stream-mist:       #e6f6f9;
-
-  // Typography scale
-  --text-xs:   0.75rem;
-  --text-sm:   0.875rem;
-  --text-base: 1.0625rem;   // 17px — slightly above default for comfort
-  --text-lg:   1.2rem;
-  --text-xl:   1.5rem;
-  --text-2xl:  2rem;
-  --text-3xl:  2.75rem;
-  --text-hero: clamp(2.2rem, 5vw, 3.5rem);  // responsive hero title
+  // Typography
+  --headerFont: "Playfair Display", serif;
+  --bodyFont: "Inter", sans-serif;
+  --codeFont: "JetBrains Mono", monospace;
 
   // Layout
-  --content-max: 760px;
-  --hero-min-h:  420px;
-  --radius-sm:   4px;
-  --radius-md:   8px;
-  --radius-lg:   12px;
+  --content-max: 840px;
+  --header-height: 60px;
 }
 
 [saved-theme="dark"] {
-  --forest-deep:       #e8f0d4;
-  --forest-canopy:     #c8dab0;
-  --forest-understory: #8faa7a;
-  --forest-fern:       #5a8c3e;
-  --forest-sage:       #3a5c2e;
-  --forest-lichen:     #1e3318;
-  --forest-mist:       #121e0f;
-
-  --forest-birchbark:  #0e1a0b;
-  --forest-driftwood:  #1e3318;
-  --forest-bark:       #6a8a5a;
-  --forest-loam:       #c8dab0;
-
-  --stream-deep:       #7ecfde;
-  --stream-mid:        #2d9fb5;
-  --stream-light:      #1a6b7a;
-  --stream-mist:       #0d2a30;
+  --grotto-light:      #121e0f;
+  --grotto-stone:      #1e3318;
+  --dark:              #e8f0d4;
+  --secondary:         #8faa7a;
+  --highlight:         rgba(0, 255, 140, 0.15);
 }
 
 // ------------------------------------------------------------
-// Base typography
+// Forest Floor & Canopy (Global Layout)
 // ------------------------------------------------------------
 body {
-  font-size: var(--text-base);
-  line-height: 1.8;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--headerFont);
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-}
-
-h1 { font-size: var(--text-3xl); font-weight: 600; }
-h2 { font-size: var(--text-2xl); font-weight: 600; }
-h3 { font-size: var(--text-xl);  font-weight: 500; }
-h4 { font-size: var(--text-lg);  font-weight: 500; }
-
-// Left accent bars on content headings
-article {
-  h2 {
-    border-left: 3px solid var(--secondary);
-    padding-left: 0.75rem;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
-  }
-
-  h3 {
-    border-left: 2px solid var(--tertiary);
-    padding-left: 0.65rem;
-    margin-bottom: 1rem;
-    margin-top: 1.5rem;
-  }
+  background-color: var(--forest-floor);
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(90, 140, 62, 0.15) 0%, transparent 70%),
+    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm56-76c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm-45 37c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm50 52c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-46-6c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm30-3c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-6-63c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM48 94c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM8 22c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm56 13c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM5 4c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm40 82c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm52-5c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-4-48c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM30 62c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm40 34c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM15 45c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm31 2c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm57-15c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-86 37c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm91-42c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-10 88c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-84-16c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm78-76c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-7 24c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-22 5c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-46 33c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM67 70c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM91 50c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 62c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm48 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM84 18c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm15 25c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM5 62c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm44 1c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm25 7c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm14 0c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 39c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm42 37c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm35-50c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 5c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm40 34c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM30 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm24 28c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm14-29c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm25 21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm7 25c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-35-1c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-7 40c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 19c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm44-3c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm36 2c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-49 17c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm28 51c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-40-20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm56-52c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-9-1c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-43 79c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm40-83c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm14 80c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm32-18c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-80-73c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm55 44c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM13 28c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm59 78c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm14 21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM5 31c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm22 11c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm6 64c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm46-14c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm13 10c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM33 7c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm11 85c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM83 99c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM44 4c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-2 58c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm29-56c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-28 13c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm39 21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM90 57c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-31 11c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM82 19c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-12 71c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM95 2c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM54 85c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM65 6c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM79 7c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM7 24c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm78 5c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM16 59c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm29 27c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM13 5c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm33 28c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM67 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM14 0c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%231c3a18' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 // ------------------------------------------------------------
-// Links
+// The Grotto Frame (Sidebars & Center)
 // ------------------------------------------------------------
-a {
-  color: var(--secondary);
-  text-decoration: none;
-  transition: color 0.15s ease;
+.page {
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+  grid-template-areas: "left center right";
+  min-height: 100vh;
+}
 
-  &:hover {
-    color: var(--tertiary);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-  }
+// The "Tree Trunks"
+.left, .right {
+  background-color: var(--forest-dark);
+  background-image: linear-gradient(to bottom, var(--forest-bark), var(--forest-dark));
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset -10px 0 20px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.right {
+  box-shadow: inset 10px 0 20px rgba(0,0,0,0.5);
+}
+
+// Pulsing Vines Pseudo-elements
+.left::after, .right::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 10c20 50 40 20 60 70s20 80 50 100' stroke='%2300ff8c' stroke-width='2' fill='none' stroke-opacity='0.3'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  animation: vine-energy 4s infinite ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes vine-energy {
+  0%, 100% { opacity: 0.1; filter: blur(2px); }
+  50% { opacity: 0.6; filter: blur(0px); }
+}
+
+// The Grotto Window (Main Area)
+.center {
+  grid-area: center;
+  background-color: var(--grotto-light);
+  margin: 20px;
+  padding: 40px;
+  border-radius: 60% 40% 70% 30% / 40% 50% 60% 50%; // Organic window shape
+  box-shadow: 0 0 50px rgba(0,0,0,0.8), 0 0 20px rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.05);
+  position: relative;
+  z-index: 5;
+  transition: border-radius 10s ease-in-out;
+}
+
+.center:hover {
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
 
 // ------------------------------------------------------------
-// Tags / pills
+// Top Navigation Bar
 // ------------------------------------------------------------
-.tag-link,
-a[href^="/tags/"] {
-  display: inline-block;
-  background: var(--forest-lichen);
-  color: var(--forest-understory);
-  border: 1px solid var(--forest-sage);
-  border-radius: var(--radius-sm);
-  padding: 2px 9px;
-  font-size: var(--text-xs);
-  font-family: var(--bodyFont);
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  transition: background 0.15s;
-
-  &:hover {
-    background: var(--forest-sage);
-    color: var(--forest-deep);
-    text-decoration: none;
-  }
-}
-
-[saved-theme="dark"] .tag-link,
-[saved-theme="dark"] a[href^="/tags/"] {
-  background: var(--forest-lichen);
-  color: var(--forest-meadow);
-  border-color: var(--forest-sage);
-}
-
-// ------------------------------------------------------------
-// Callout blocks — forest-aware
-// ------------------------------------------------------------
-.callout {
-  border-radius: var(--radius-md);
-  border-left: 4px solid var(--secondary);
-  padding: 1rem 1.25rem;
-
-  &[data-callout="note"],
-  &[data-callout="info"] {
-    border-left-color: var(--stream-mid);
-    background: var(--stream-mist);
-  }
-
-  &[data-callout="warning"],
-  &[data-callout="caution"] {
-    border-left-color: #b87d2a;
-    background: #fdf3e3;
-  }
-
-  &[data-callout="danger"],
-  &[data-callout="bug"] {
-    border-left-color: #c0392b;
-    background: #fdf0ee;
-  }
-
-  &[data-callout="tip"],
-  &[data-callout="success"] {
-    border-left-color: var(--forest-fern);
-    background: var(--forest-mist);
-  }
-}
-
-// ------------------------------------------------------------
-// Code blocks
-// ------------------------------------------------------------
-pre {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--lightgray);
-  font-size: 0.875rem;
-  line-height: 1.65;
-}
-
-code {
-  font-size: 0.875em;
-  background: var(--forest-lichen);
-  color: var(--forest-understory);
-  padding: 0.15em 0.4em;
-  border-radius: 3px;
-}
-
-[saved-theme="dark"] code {
-  background: var(--forest-lichen);
-  color: var(--forest-meadow);
-}
-
-// ------------------------------------------------------------
-// Blockquote
-// ------------------------------------------------------------
-blockquote {
-  border-left: 3px solid var(--forest-driftwood);
-  padding: 0.5rem 1.25rem;
-  color: var(--gray);
-  font-style: italic;
-  font-family: var(--headerFont);
-  font-size: var(--text-lg);
-}
-
-// ------------------------------------------------------------
-// Tables
-// ------------------------------------------------------------
-table {
-  border-collapse: collapse;
+header {
+  position: sticky;
+  top: 0;
+  height: var(--header-height);
   width: 100%;
-  font-size: var(--text-sm);
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  background: rgba(14, 26, 11, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 255, 140, 0.2);
+  z-index: 100;
+  gap: 2rem;
+}
 
-  th {
-    background: var(--forest-lichen);
-    color: var(--forest-deep);
-    font-weight: 600;
-    text-align: left;
-    padding: 0.5rem 0.75rem;
-    border-bottom: 2px solid var(--forest-sage);
-  }
+.page-title {
+  font-size: 1.5rem !important;
+  margin: 0 !important;
+  color: var(--energy-glow) !important;
+}
 
-  td {
-    padding: 0.45rem 0.75rem;
-    border-bottom: 1px solid var(--lightgray);
-  }
-
-  tr:last-child td {
-    border-bottom: none;
-  }
+// Header Dropdown (Explorer)
+header .explorer {
+  position: relative;
 }
 
 // ------------------------------------------------------------
-// Hero Page Style
+// Jumbotron (Hero Page)
 // ------------------------------------------------------------
 .hero-page {
+  .center {
+    border-radius: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
   .page-header {
-    margin-bottom: 3rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: 
+      linear-gradient(to bottom, rgba(0,0,0,0.3), var(--grotto-light)),
+      url("/_assets/network_banner.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 50% 50% / 0 0 10% 10%;
+    margin-bottom: 4rem;
+  }
+
+  .page-title {
+    font-size: 4rem !important;
+    color: white !important;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  }
+}
+
+// ------------------------------------------------------------
+// Content Styles
+// ------------------------------------------------------------
+article {
+  font-family: var(--bodyFont);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--darkgray);
+
+  h1, h2, h3 {
+    font-family: var(--headerFont);
+    color: var(--dark);
+  }
+
+  h2 {
+    border-left: 4px solid var(--secondary);
+    padding-left: 1rem;
+    margin-top: 3rem;
+  }
+}
+
+// ------------------------------------------------------------
+// Responsive
+// ------------------------------------------------------------
+@media (max-width: 1100px) {
+  .page {
+    grid-template-columns: 1fr;
+    grid-template-areas: "center";
   }
   
-  .page-title {
-    font-size: var(--text-hero);
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: var(--dark);
-    line-height: 1.1;
-  }
-}
-
-// ------------------------------------------------------------
-// Sidebar nav items
-// ------------------------------------------------------------
-#quartz-body .sidebar {
-  .folder-title,
-  .folder-outer > .folder-li > .folder-title {
-    font-weight: 500;
-    font-size: var(--text-sm);
-    letter-spacing: 0.02em;
+  .left, .right {
+    display: none;
   }
 
-  a:hover,
-  .active > a {
-    color: var(--secondary);
-  }
-}
-
-// ------------------------------------------------------------
-// Graph view — forest node colors
-// ------------------------------------------------------------
-.graph {
-  .node circle {
-    fill: var(--forest-fern);
-  }
-
-  .node.current circle {
-    fill: var(--secondary);
-    stroke: var(--forest-meadow);
-    stroke-width: 2px;
-  }
-
-  .link {
-    stroke: var(--forest-driftwood);
-  }
-}
-
-// ------------------------------------------------------------
-// Search
-// ------------------------------------------------------------
-#search-container {
-  .search-button {
-    border-radius: var(--radius-md);
-    transition: background 0.15s;
-
-    &:hover {
-      background: var(--forest-lichen);
-    }
-  }
-
-  #search-bar {
-    border-radius: var(--radius-md);
-    border: 1.5px solid var(--lightgray);
-    font-size: var(--text-sm);
-
-    &:focus {
-      border-color: var(--secondary);
-      outline: none;
-      box-shadow: 0 0 0 3px rgba(90, 140, 62, 0.15);
-    }
-  }
-}
-
-// ------------------------------------------------------------
-// Responsive content width
-// ------------------------------------------------------------
-.page .center,
-#quartz-body .center,
-.page-content {
-  max-width: var(--content-max);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 1100px) {
-  .page .center,
-  #quartz-body .center,
-  .page-content {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-}
-
-// ------------------------------------------------------------
-// Print
-// ------------------------------------------------------------
-@media print {
-  .sidebar,
-  #search-container,
-  .graph-outer {
-    display: none !important;
-  }
-
-  body {
-    font-size: 12pt;
-    color: #000;
+  .center {
+    border-radius: 0 !important;
+    margin: 0;
+    padding: 20px;
   }
 }

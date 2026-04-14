@@ -13,18 +13,12 @@ Discord ID: https://discord.com/users/227141869962919936
 Nickname: NetYeti
 mentor: true
 intern: false
+banner: "_assets/network_banner.png"
 cssclasses: [hero-page]
 hero:
-eyebrow: "Journal of"
-title: "The NetYeti"
-titleAccent: "Yeti"
-tagline: "DevOps · Education · Community · Technology from the forest floor to the cloud"
-cta_primary:
-label: "Explore the Knowledge Base"
-url: "/Knowledge-Base"
-cta_secondary:
-  label: "About Garth"
-  url: "/"
+  eyebrow: "Journal of"
+  title: "The NetYeti"
+  tagline: "DevOps · Education · Community · Technology from the forest floor to the cloud"
 ---
 # 🏔️ Journal of The NetYeti
 
