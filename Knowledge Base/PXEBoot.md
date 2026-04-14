@@ -1,17 +1,8 @@
 ---
-tags:
-  - deployment
-  - staging
-  - orchestration
-  - networking
-  - dhcp
-  - dns
-Creation date: Monday April 4th 2022 11:18:30
-modification date: 
-Documentation: https://heimdalsecurity.com/blog/what-is-pxe-boot/
-aliases:
+redirect: [[Knowledge Base/Networking/PXEBoot]]
 ---
----
-### ToDo
+# PXE Boot & Netbooting
 
-- [ ] Document what is PXE and netbooting etc. Purpose and value, etc
+This page has moved to the Networking section.
+
+See: [[Knowledge Base/Networking/PXEBoot|Knowledge Base: PXE Boot & Netbooting]]

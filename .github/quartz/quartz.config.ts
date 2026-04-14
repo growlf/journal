@@ -14,12 +14,12 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "_templates", ".obsidian", ".gemini", ".git"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "hosted",
+      fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Georgia, 'Times New Roman', serif",
-        body: "system-ui, -apple-system, sans-serif",
-        code: "'JetBrains Mono', 'Fira Code', monospace",
+        header: "Playfair Display",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -54,6 +54,10 @@ const config: QuartzConfig = {
         priority: ["frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
+        theme: {
+          light: "github-light",
+          dark: "github-dark",
+        },
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
