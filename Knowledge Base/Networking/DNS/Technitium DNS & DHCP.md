@@ -42,4 +42,4 @@ is_service: true
 - If your Primary Technitium node fails, how do your clients know where the Alternate node is? (Hint: Check your **DHCP Scope** settings).
 
 ---
-*Related: [[Knowledge Base/Networking/DNS/index]], [[Knowledge Base/Networking/DHCP]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Networking/DNS/index]], [[Knowledge Base/Networking/DHCP]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*

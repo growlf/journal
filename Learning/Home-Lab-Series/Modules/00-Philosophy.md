@@ -44,4 +44,4 @@ Our goal isn't just to build a server. It's to build a **Force Multiplier** for 
 ---
 **Next Module:** [[Learning/Home-Lab-Series/Modules/01-Physical|The Physical Pillars]]
 **Status:** Operational
-**Related:** [[Learning/Home Lab 101]], [[index]]
+**Related:** [[Learning/Home-Lab-Series/index|Home Lab 101]], [[index]]

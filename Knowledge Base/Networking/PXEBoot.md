@@ -25,4 +25,4 @@ We use **[[Internal/Networks/Yeticraft/Devices/Technitium-DNS|Technitium]]** to 
 
 ---
 **Status:** Operational
-**Related:** [[Knowledge Base/Networking/DNS/Technitium DNS & DHCP]], [[Network/The Stack]]
+**Related:** [[Knowledge Base/Networking/DNS/Technitium DNS & DHCP]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]

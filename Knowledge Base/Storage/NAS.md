@@ -25,4 +25,4 @@ tags:
 
 ---
 **Status:** Operational
-**Related:** [[Internal/Networks/Yeticraft/Devices/Synology]], [[Network/The Stack]]
+**Related:** [[Internal/Networks/Yeticraft/Devices/Synology]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]

@@ -25,7 +25,7 @@ title: AAR - {{title}}
 - **Improves:** *What needs to change? What "stupid questions" should have been asked earlier?*
 
 ## 5. Knowledge Transfer (The NetYeti Way)
-*How can this experience help a student or peer? List any new [[Knowledge Base]] items needed or updates to [[The Stack 1]].*
+*How can this experience help a student or peer? List any new [[Knowledge Base]] items needed or updates to [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]].*
 
 ---
 **Status:** (Complete / In-Progress / Ongoing)

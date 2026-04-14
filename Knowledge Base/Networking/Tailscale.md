@@ -36,4 +36,4 @@ title: Tailscale - The zero-config VPN
 - What is "Subnet Routing," and how does it help you access non-Tailscale devices on your network?
 
 ---
-*Related: [[Knowledge Base/Networking/Wireguard]], [[Knowledge Base/Networking/Router]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Networking/Wireguard]], [[Knowledge Base/Networking/Router]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*

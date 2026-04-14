@@ -33,4 +33,4 @@ title: Ubiquiti UAP-AC-PRO
 - How does the UniFi Controller help you manage multiple access points?
 
 ---
-*Related: [[Knowledge Base/Networking/WiFi]], [[Knowledge Base/Hardware/Hardware]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Networking/WiFi]], [[Knowledge Base/Hardware/Hardware]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*

@@ -36,6 +36,6 @@ title: SSH
 - What happens to your **Alternate** plan if your [[Knowledge Base/Tools/Wireguard]] service fails?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/Shell]], [[Ansible]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/Shell]], [[Ansible]]*
 
 

@@ -6,10 +6,10 @@ tags:
   - blueprint
   - default-stack
 ---
-# The Default-Stack Blueprint: Master Summary
+# The Default Stack: Master Blueprint
 
 > [!abstract] Mission Summary
-> This page serves as the definitive "Command Package" for the Self-Healing Lab. It consolidates the architecture, tools, and tactical mandates of the NetYeti **Default Stack**.
+> This page serves as the definitive "Command Package" for the Self-Healing Lab. It consolidates the architecture, tools, and tactical mandates of the NetYeti **Default Stack**. This is the operational engine that powers the Forest Guardian.
 
 ## 🏗️ Architectural Overview
 The Self-Healing Lab is built on a **GitOps-First** and **Local-AI** foundation.
@@ -20,12 +20,12 @@ The Self-Healing Lab is built on a **GitOps-First** and **Local-AI** foundation.
 - **The Bridge:** [[Network/Devices/House-Router|Residential WiFi]] (MikroTik ax3).
 
 ### 2. The Command Stack (Software)
-- **Engine:** Proxmox VE (Virtualization).
-- **Blueprint:** OpenTofu / Ansible (Infrastructure as Code).
-- **Force Multiplier:** Ollama / OpenClaw (Local AI).
-- **Tactical Notebook:** Obsidian / Quartz (Documentation).
+- **Hypervisor:** Proxmox VE (Virtualization).
+- **Infrastructure:** OpenTofu / Ansible (Infrastructure as Code).
+- **AI Engine:** Ollama / OpenClaw (Local AI).
+- **Control Center:** Obsidian / Quartz (Documentation).
 
-### 3. The Core Signal Map
+### 3. The Core Signal Map (PACE)
 1. **P (Primary):** Local LAN / On-Premise Compute.
 2. **A (Alternate):** Cloud Fallback / Remote Clusters.
 3. **C (Contingency):** Tailscale / Wireguard Mesh.
@@ -43,4 +43,4 @@ If you are building from scratch, follow the modules in this sequence:
 *Self-Healing Lab Note: Documentation is a Signal. Maintain your tactical notebook like your career depends on it.*
 
 **Status:** Operational (v2.0 Blueprint)
-**Related:** [[Learning/Home-Lab-Series/index]], [[Network/index]]
+**Related:** [[Learning/Home-Lab-Series/index|Home Lab 101]], [[Learning/Home-Lab-Series/Package/README|The Stack Package]]

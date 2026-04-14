@@ -57,4 +57,4 @@ Connect your vault to a GitHub repository. Use the `Bake and Commit` workflow to
 ---
 **Course Wrap-up:** [[Learning/Home-Lab-Series/index|Back to Syllabus]]
 **Status:** Operational
-**Related:** [[Knowledge Base/Development/Obsidian/index]], [[Learning/Home Lab 101]]
+**Related:** [[Knowledge Base/Development/Obsidian/index]], [[Learning/Home-Lab-Series/index|Home Lab 101]]

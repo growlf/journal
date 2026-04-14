@@ -37,4 +37,4 @@ management_url: "http://<homepage-ip>:3000"
 - How does a dashboard help a student or peer navigate your home lab?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/Virtualization/Docker/index]], [[Knowledge Base/Networking/Router]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/Virtualization/Docker/index]], [[Knowledge Base/Networking/Router]]*

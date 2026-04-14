@@ -31,4 +31,4 @@ title: Router
 - How does NAT (Network Address Translation) help in managing multiple devices on a single network?
 
 ---
-*Related: [[Knowledge Base/Firewall]], [[The Stack 1]], [[Security]]*
+*Related: [[Knowledge Base/Firewall]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Security]]*

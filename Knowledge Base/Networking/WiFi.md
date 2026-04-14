@@ -31,4 +31,4 @@ title: WiFi Access Points (WAP)
 - If the WiFi goes down, what is the fastest way to regain access to your [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] node?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/Firewall]], [[Ubiquiti UAP-AC-PRO]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/Firewall]], [[Ubiquiti UAP-AC-PRO]]*

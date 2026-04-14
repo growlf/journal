@@ -36,4 +36,4 @@ tags:
 - How does rsync's "delta transfer" algorithm save you time and bandwidth?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/ssh]], [[Knowledge Base/Storage/NAS]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/ssh]], [[Knowledge Base/Storage/NAS]]*

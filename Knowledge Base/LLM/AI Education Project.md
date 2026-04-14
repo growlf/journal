@@ -34,4 +34,4 @@ To create simple, repeatable educational tools and documentation that help peopl
 - [[Knowledge Base/Mentor-based Internship|Cascade STEAM Service Corp]]
 
 ---
-*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[The Stack 1]], [[Policies/index|Policies & SOPs]]*
+*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Policies/index|Policies & SOPs]]*

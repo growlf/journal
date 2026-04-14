@@ -53,4 +53,4 @@ Perform a "Signal Sweep" to find anything not reporting to the hypervisor or rou
 
 ---
 **Status:** Operational
-**Related:** [[Policies/SOP - Secret Management in the Home Lab]], [[The Stack 1]]
+**Related:** [[Policies/SOP - Secret Management in the Home Lab]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]

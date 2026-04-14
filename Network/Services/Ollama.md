@@ -18,4 +18,4 @@ In the Default Stack, Ollama is deployed as a containerized service, often with 
 - **Instructional:** Provides a platform for students to learn about model weights, quantization, and context windows.
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/LLM/Ollama Setup Guide]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/LLM/Ollama Setup Guide]]*

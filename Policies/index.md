@@ -31,4 +31,4 @@ title: Policies & SOP
 - How does the "Least Privilege" policy help in maintaining a secure network?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/Firewall]], [[AAR]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/Firewall]], [[AAR]]*

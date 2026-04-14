@@ -19,4 +19,4 @@ OpenClaw acts as a C2 (Command and Control) layer, bridging the gap between the 
 - **Signal Continuity:** Ensures a persistent context across different interaction points (Terminal, Web, Discord).
 
 ---
-*Related: [[Network/The Stack]], [[Knowledge Base/LLM/OpenClaw]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/LLM/OpenClaw]]*

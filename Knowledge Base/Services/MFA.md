@@ -34,4 +34,4 @@ MFA combines at least two different types of evidence to verify a user's identit
 - If you lose your phone, how do you regain access to your accounts? (Hint: Check your **Emergency** plan).
 
 ---
-*Related: [[Knowledge Base/Services/Vaultwarden]], [[Knowledge Base/Networking/Security]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Services/Vaultwarden]], [[Knowledge Base/Networking/Security]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*

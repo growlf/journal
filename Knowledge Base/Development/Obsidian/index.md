@@ -54,4 +54,4 @@ LIMIT 10
 - How does the **Alternate** plan (GitHub) help you collaborate with other students or peers?
 
 ---
-*Related: [[Knowledge Base/Mark Down]], [[Knowledge Base/Development/Obsidian/GitHub-Quartz-Obsidian]], [[Learning/Home Lab 101]]*
+*Related: [[Knowledge Base/Mark Down]], [[Knowledge Base/Development/Obsidian/GitHub-Quartz-Obsidian]], [[Learning/Home-Lab-Series/index|Home Lab 101]]*

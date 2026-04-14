@@ -58,4 +58,4 @@ volumes:
 - What is the difference between a **Primary** secrets manager and a **Contingency** `.env` file?
 
 ---
-*Related: [[Knowledge Base/Networking/Security]], [[Knowledge Base/Services/Vaultwarden]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Networking/Security]], [[Knowledge Base/Services/Vaultwarden]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*

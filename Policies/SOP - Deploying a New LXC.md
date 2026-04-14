@@ -43,7 +43,7 @@ tags:
 
 ## 4. Knowledge Transfer (The NetYeti Way)
 - Document any specific configuration steps in a new [[Knowledge Base]] entry.
-- Update your [[The Stack 1]] documentation if this container is a core service.
+- Update your [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]] documentation if this container is a core service.
 - **AAR:** Conduct a brief After Action Review if any "manageable messes" occurred during deployment.
 
 ---

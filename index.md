@@ -54,14 +54,14 @@ Making ripples of knowledge and creative intent. Inspiring new minds and sharing
 ## 🚀 The Overlook (Mission Control)
 
 ### 🧠 Knowledge Base
-- 📡 [[Learning/Home-Lab-Series/index|Home Lab 101]] — The Philosophical Foundation.
-- 🏗️ [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]] — The Forest Management Plan.
+- 📡 [[Learning/Home-Lab-Series/index|Home Lab 101]] — The Self-Healing Lab (Tutorial).
+- 🏗️ [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]] — The Master Blueprint & Architecture.
 - 🗺️ [[Network/Network Map|Network Map]] — The Visual Command Map.
 - 🎓 [[Learning/index|Learning & Education]] — Structured Courses and Modules.
 - 🛠️ [[Policies/index|SOPs & Forest Laws]] — Standard Operating Procedures.
 
 ### ⚡ Operational Shortcuts
-- 📝 [[Learning/Home-Lab-Series/index|Self-Healing Lab Tutorial]] — Our primary 2026 curriculum.
+- 📝 [[Learning/Home-Lab-Series/Package/README|The Stack Package]] — Rapid deployment repository.
 - 📊 [[Internal/LLM Usage Statistics|LLM Usage Stats]] (Internal Only)
 - 🚀 [[Internal/Networks/Yeticraft/Launch Page|Yeticraft Launch Dashboard]] (Internal Only)
 
@@ -89,7 +89,7 @@ My primary focus is demystifying AI and moving it from a "black box" to a "force
 Working with local colleges, businesses, and the [[BMS|Bellingham Makerspace]] to build a mentorship-based internship model. The goal is to provide real-world experience for new graduates as a community-driven service.
 
 ### 🏰 [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Default Stack]]
-The ongoing evolution of my self-hosted environment. Documented in the [[Learning/Home-Lab-Series/Default-Stack-Blueprint|Master Blueprint]].
+The ongoing evolution of my self-hosted environment. Documented in the [[Learning/Home-Lab-Series/Default-Stack-Blueprint|Master Blueprint]] and deployable via [[Learning/Home-Lab-Series/Package/README|The Stack Package]].
 
 ---
 
@@ -99,6 +99,8 @@ The ongoing evolution of my self-hosted environment. Documented in the [[Learnin
 - [Keith](https://kmatthews123.github.io/) - The "lets try it" guy. No-fear explorer and engineer extraordinaire.
 - [Sam](https://github.com/orgs/RoboRuckus/people/ShVerni) - Prolific open-source contributor and peer. Check out [RoboRuckus](https://www.roboruckus.com/).
 - [Lance](https://lanceleonard.com/) - One of my oldest friends and fellow technology buffs.
+- [Northwest Technology](https://www.nwtechnology.com/) - a local partner and amazing solutions architect
+- [Creed Technology](https://www.creedtechnology.com/) -Frequent mentor in our Cascade 
 
 ---
 

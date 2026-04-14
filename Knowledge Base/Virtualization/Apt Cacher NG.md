@@ -36,4 +36,4 @@ tags:
 - Why do we use a dedicated configuration file in `apt.conf.d` instead of modifying the main `apt.conf`?
 
 ---
-*Related: [[The Stack 1]], [[Linux]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Linux]]*

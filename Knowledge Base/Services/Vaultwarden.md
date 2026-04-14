@@ -35,4 +35,4 @@ tags:
 - Why do we use **Vaultwarden** instead of just a spreadsheet or a notebook?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/MFA]], [[Knowledge Base/Security]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/MFA]], [[Knowledge Base/Security]]*

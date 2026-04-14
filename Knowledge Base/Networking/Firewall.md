@@ -31,4 +31,4 @@ tags:
 - If you have to "Emergency" bypass your firewall, what host-level security must be in place?
 
 ---
-*Related: [[Knowledge Base/Router]], [[The Stack 1]], [[Security]]*
+*Related: [[Knowledge Base/Router]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Security]]*

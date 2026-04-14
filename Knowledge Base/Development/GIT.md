@@ -34,4 +34,4 @@ title: Git
 - How does the "Rollback" plan (Contingency) help if you make a mistake in your code?
 
 ---
-*Related: [[The Stack 1]], [[Knowledge Base/Ansible/index|Ansible]], [[Knowledge Base/Vaultwarden]]*
+*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/Ansible/index|Ansible]], [[Knowledge Base/Vaultwarden]]*

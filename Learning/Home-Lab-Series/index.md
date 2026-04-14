@@ -7,10 +7,10 @@ tags:
   - automation
   - instructor
 ---
-# The Self-Healing Lab: A 2026 Tutorial Series
+# The Self-Healing Lab (Home Lab 101): A 2026 Tutorial Series
 
 > [!NOTE] The Instructor's Perspective
-> Welcome to the front line of home lab technology. In this series, we aren't just clicking buttons in a UI. We are building a **Self-Maintaining, Self-Documenting Command Center.** By the end of this course, you will have a lab where code is the ground truth, and AI is your force multiplier.
+> Welcome to the front line of home lab technology. In this series, we aren't just clicking buttons in a UI. We are building a **Self-Maintaining, Self-Documenting Command Center.** By the end of this course, you will have a lab where code is the ground truth, and AI is your force multiplier. This is the definitive "Home Lab 101" for the modern Guardian.
 
 ---
 
@@ -18,13 +18,13 @@ tags:
 This series is designed to be followed in sequence. Each module builds on the "Signal" of the previous one.
 
 ### 🏁 Phase 0: Foundations
-- **[[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Master Blueprint]]** — The high-level OPORD for the Default Stack.
+- **[[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Master Blueprint (The Stack)]]** — The high-level OPORD for the Default Stack.
 - **[[Learning/Home-Lab-Series/Modules/00-Philosophy|Module 0: The Philosophy]]** — Why automated labs? The PACE plan for reliability.
+- **[[Learning/Home-Lab-Series/Package/README|The Stack Package]]** — Cloneable repository for rapid deployment.
 
-- **[[Learning/Home-Lab-Series/Modules/01-Physical|Module 1: The Physical Pillars]]** — Hardware selection for the modern era (Intel Arc, Meteor Lake).
-
-### 🏗️ Phase 1: The Hypervisor
-- **[[Learning/Home-Lab-Series/Modules/02-Proxmox|Module 2: The Ground Truth]]** — Proxmox setup and the "Golden Image" workflow with Packer.
+### 🏁 Phase 1: Infrastructure
+- **[[Learning/Home-Lab-Series/Modules/01-Physical|Module 1: The Physical Pillars]]** — Hardware selection (Intel Arc, Meteor Lake).
+- **[[Learning/Home-Lab-Series/Modules/02-Proxmox|Module 2: The Ground Truth]]** — Proxmox setup and the "Golden Image" workflow.
 - **[[Learning/Home-Lab-Series/Modules/03-GitOps|Module 3: The Blueprint]]** — Infrastructure as Code (IaC) with OpenTofu and Ansible.
 
 ### 🤖 Phase 2: AI & Documentation
@@ -39,5 +39,5 @@ This series is designed to be followed in sequence. Each module builds on the "S
 - A GitHub account for your GitOps "Ground Truth."
 
 ---
-**Status:** In-Development (Drafting Module 0)
-**Related:** [[Learning/Home-Lab-Series/Home Lab 101]], [[The Stack 1]]
+**Status:** Operational (2026 Curriculum)
+**Related:** [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Network/index]]

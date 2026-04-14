@@ -53,4 +53,4 @@ By the end of this module, you will:
 ---
 **Next Module:** [[Learning/Home-Lab-Series/Modules/{{next_module_path}}|{{next_module_title}}]]
 **Status:** In-Development
-**Related:** [[Learning/Home-Lab-Series/index]], [[The Stack 1]]
+**Related:** [[Learning/Home-Lab-Series/index]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]

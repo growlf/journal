@@ -35,4 +35,4 @@ title: WireGuard - The modern VPN
 - What is the main difference between a **Primary** Tailscale setup and an **Alternate** manual WireGuard setup? (Hint: Think about NAT traversal).
 
 ---
-*Related: [[Knowledge Base/Networking/Tailscale]], [[Knowledge Base/Networking/Router]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Networking/Tailscale]], [[Knowledge Base/Networking/Router]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*

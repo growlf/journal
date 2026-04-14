@@ -43,8 +43,8 @@ Things that just make life interesting and/or are just too cool not to play with
 
 ## Check for Understanding
 - Why are Intel NUCs or Micro-PCs becoming more popular for home labs than old enterprise servers? (Hint: Think about noise and power).
-- What hardware feature is required for modern virtualization? (Hint: Check Step 2 of [[Learning/Home Lab 101]]).
+- What hardware feature is required for modern virtualization? (Hint: Check Step 2 of [[Learning/Home-Lab-Series/index|Home Lab 101]]).
 
 ---
-*Related: [[Knowledge Base/Networking/Router]], [[Knowledge Base/Storage/NAS]], [[The Stack 1]]*
+*Related: [[Knowledge Base/Networking/Router]], [[Knowledge Base/Storage/NAS]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]]*
 
