@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
     Component.PageTitle(),
     Component.DesktopOnly(Component.Explorer({
       title: "Menu",
-      folderClickBehavior: "toggle",
-      folderDefaultState: "collapsed",
+      folderClickBehavior: "link",
+      folderDefaultState: "open",
       useSavedState: false,
       filterFn: (node) => {
         const omit = new Set(["_assets", "internal", "network"])

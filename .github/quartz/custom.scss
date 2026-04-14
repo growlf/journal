@@ -1,48 +1,53 @@
 // ============================================================
-// NetYeti — Operation Grotto Window (Grotto STEAM v10)
+// NetYeti — Operation Grotto Window (The STEAM Replication v11)
 // ============================================================
 
 :root {
-  // Grotto Palette (Ambient & Warm)
-  --grotto-light:      #fdfaf3; // Warm Parchment
-  --energy-glow:       #00ff8c; // Signal Green
-  --forest-moss:       #2d5a27; // Mossy Green
-  --forest-dark:       #081006; // Shadow Green
-  --forest-bark:       #1a0f00; // Bark Brown
-  --forest-floor:      #020402; // Shadow Black
+  // STEAM Color Palette (Standard & Forced)
+  --light:             #fdfaf3 !important;
+  --energy-glow:       #00ff8c;
+  --forest-moss:       #2d5a27;
+  --forest-bark:       #1a0f00;
+  --forest-dark:       #081006;
+  --forest-floor:      #020402;
+
+  // Quartz Force-Overrides (Matches cascadesteam.org)
+  --secondary:         #2d5a27 !important; // Links
+  --tertiary:          #00ff8c !important; // Accents
+  --dark:              #141a0d !important; // Strong text
+  --darkgray:          #1a1f15 !important; // Body text
   
-  // Real Textures (High Fidelity)
+  // Real Textures
   --bark-texture: url("https://www.transparenttextures.com/patterns/dark-wood.png");
   --leaf-texture: url("https://www.transparenttextures.com/patterns/leaves.png");
 
-  // Quartz Variable Force-Sync
-  --light: var(--grotto-light) !important;
-  --secondary: var(--forest-moss) !important;
-  --tertiary: var(--energy-glow) !important;
-  --dark: #141a0d !important;
-  --darkgray: #1a1f15 !important; 
-  
   --headerFont: "Playfair Display", serif;
   --bodyFont: "Inter", sans-serif;
   --header-height: 80px;
 }
 
+[saved-theme="dark"] {
+  --light:             #121e0f !important;
+  --dark:              #d0d8c0 !important;
+  --secondary:         #8faa7a !important;
+}
+
 // ------------------------------------------------------------
-// Immersive Background & Canopy
+// Global Layout (Grotto Atmosphere)
 // ------------------------------------------------------------
 body {
   background-color: var(--forest-floor) !important;
   background-attachment: fixed;
   background-image: 
-    var(--leaf-texture), // Leaf overlay
-    radial-gradient(circle at 50% 0%, rgba(90, 140, 62, 0.1) 0%, transparent 70%),
+    var(--leaf-texture),
+    radial-gradient(circle at 50% 0%, rgba(0, 255, 140, 0.08) 0%, transparent 60%),
     linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
   margin: 0;
   padding: 0;
 }
 
 // ------------------------------------------------------------
-// Top Navigation (HORIZONTAL DROPDOWN)
+// THE NAVBAR (STEAM Implementation)
 // ------------------------------------------------------------
 header {
   position: sticky;
@@ -53,13 +58,13 @@ header {
   align-items: center;
   padding: 0 3rem;
   background: rgba(5, 10, 4, 0.98) !important;
-  background-image: var(--bark-texture) !important; // Wood texture in header
+  background-image: var(--bark-texture) !important;
   backdrop-filter: blur(20px);
   border-bottom: 3px solid var(--forest-moss);
   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
   z-index: 1000;
-  gap: 3rem;
-  overflow: visible !important;
+  gap: 2rem;
+  overflow: visible !important; // CRITICAL for dropdowns
 }
 
 .page-title a {
@@ -70,13 +75,13 @@ header {
   text-decoration: none !important;
 }
 
-// Transform Explorer into a Modern Horizontal Navbar
+// Transform the Explorer into a Horizontal Navbar
 header .explorer {
   flex: 1;
   display: block !important;
   visibility: visible !important;
   
-  button#explorer { display: none !important; } // Hide sidebar toggle
+  button#explorer { display: none !important; } // Kill the toggle
 
   #explorer-content {
     display: block !important;
@@ -85,65 +90,68 @@ header .explorer {
     padding: 0 !important;
   }
 
-  // The Top-Level List (Row)
+  // The Top-Level Categories
   ul#explorer-ul {
     display: flex !important;
     flex-direction: row !important;
     list-style: none !important;
     margin: 0 !important;
     padding: 0 !important;
-    gap: 2.5rem;
-    
-    // Category Item
+    gap: 2rem;
+    overflow: visible !important;
+
     > li {
-      position: relative;
+      position: relative !important;
       margin: 0 !important;
       
       .folder-container {
-        display: flex;
-        align-items: center;
-        padding: 1.5rem 0;
-        cursor: pointer;
+        display: flex !important;
+        align-items: center !important;
+        padding: 1.2rem 0 !important;
+        cursor: pointer !important;
         color: #c0c8b0 !important;
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 0.8rem;
-        letter-spacing: 1px;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        font-size: 0.85rem !important;
+        letter-spacing: 1px !important;
+        
         &:hover { color: var(--energy-glow) !important; }
-        svg { display: none; }
+        svg { display: none !important; }
       }
 
-      // The Actual Dropdown (Absolute Positioned)
+      // THE DROPDOWN (STEAM Logic)
       ul {
         position: absolute !important;
         top: 100% !important;
         left: 0 !important;
+        display: none !important; // Hidden by default
         flex-direction: column !important;
         background: #0a1408 !important;
         background-image: var(--bark-texture) !important;
         border: 1px solid var(--forest-moss) !important;
-        min-width: 240px !important;
-        padding: 1.5rem !important;
-        display: none !important; // HIDE BY DEFAULT
+        min-width: 220px !important;
+        padding: 1.2rem !important;
         box-shadow: 0 20px 50px rgba(0,0,0,1) !important;
-        border-radius: 0 0 12px 12px;
+        border-radius: 0 0 12px 12px !important;
+        z-index: 1001 !important;
         
         li {
           padding: 0.5rem 0 !important;
           border-bottom: 1px solid rgba(255,255,255,0.05);
-          &:last-child { border: none; }
+          width: 100%;
           
           a {
             color: #a0a890 !important;
             font-size: 0.9rem !important;
             text-transform: none !important;
-            letter-spacing: 0;
-            &:hover { color: var(--energy-glow) !important; }
+            display: block !important;
+            font-weight: 400 !important;
+            &:hover { color: var(--energy-glow) !important; text-decoration: none !important; }
           }
         }
       }
 
-      // SHOW DROPDOWN ON HOVER
+      // HOVER TRIGGER
       &:hover > ul {
         display: flex !important;
       }
@@ -152,7 +160,7 @@ header .explorer {
 }
 
 // ------------------------------------------------------------
-// The Grotto Frame (Visible Sidebar Textures)
+// The Grotto Frame (Three Column Grid)
 // ------------------------------------------------------------
 #quartz-body {
   display: grid !important;
@@ -168,7 +176,7 @@ header .explorer {
   background-image: 
     var(--leaf-texture),
     linear-gradient(to bottom, var(--forest-bark), var(--forest-dark)) !important;
-  background-size: 200px 200px, 100% 100%;
+  background-size: 300px 300px, 100% 100%;
   position: sticky;
   top: var(--header-height);
   height: calc(100vh - var(--header-height));
@@ -181,27 +189,25 @@ header .explorer {
 .sidebar.right { grid-area: right; border-left: 1px solid rgba(0, 255, 140, 0.1) !important; }
 
 // ------------------------------------------------------------
-// The Grotto Window (Main Sanctuary)
+// The Grotto Window (Main Focus Area)
 // ------------------------------------------------------------
 .center {
   grid-area: center;
-  background-color: var(--grotto-light) !important;
+  background-color: var(--light) !important;
   padding: 5rem;
   z-index: 5;
   box-shadow: 0 0 150px rgba(0,0,0,1);
   position: relative;
+  min-height: 100vh;
 }
 
 // ------------------------------------------------------------
-// Final Contrast & Link Kill
+// Link & Content Hardening
 // ------------------------------------------------------------
 a {
-  color: var(--forest-moss) !important; // FORCED MOSS LINKS
+  color: var(--forest-moss) !important; 
   text-decoration: none;
-  &:hover {
-    color: var(--energy-glow) !important;
-    text-decoration: underline !important;
-  }
+  &:hover { color: var(--energy-glow) !important; text-decoration: underline !important; }
 }
 
 article {
