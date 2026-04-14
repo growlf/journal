@@ -1,7 +1,6 @@
 ---
 tags:
   - about
-title: Journal of The NetYeti
 aliases:
   - BMS
   - NetYeti
@@ -14,7 +13,22 @@ Discord ID: https://discord.com/users/227141869962919936
 Nickname: NetYeti
 mentor: true
 intern: false
+cssclasses: [hero-page]
+hero:
+eyebrow: "Journal of"
+title: "The NetYeti"
+titleAccent: "Yeti"
+tagline: "DevOps · Education · Community · Technology from the forest floor to the cloud"
+cta_primary:
+label: "Explore the Knowledge Base"
+url: "/Knowledge-Base"
+cta_secondary:
+  label: "About Garth"
+  url: "/"
 ---
+
+
+
 # 🏔️ Journal of The NetYeti
 
 > [!abstract] About Garth (The NetYeti)

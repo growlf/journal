@@ -1,49 +1,349 @@
-// Custom styles for Quartz
-@use "./base.scss";
+// ============================================================
+// NetYeti Forest Theme — custom.scss
+// Location in repo: quartz/styles/custom.scss
+// REPLACES the existing custom.scss entirely.
+// ============================================================
 
-// put your custom CSS here!
+@use "./base";
+@use "./forest-layout";
 
-[saved-theme='dark']  h1, h2, h3, h4, h5, h6, thead{
-    text-shadow: 0px 0px 8px #63d4af9a;
-}
-[saved-theme='dark'] h1 {
-    color: #90ffc4;
-}
-[saved-theme='dark'] h2 {
-    color: #6cff9f;
-}
-[saved-theme='dark'] h3 {
-    color: #48d378;
-}
-[saved-theme='dark'] h4 {
-    color: #34b360;
+// ------------------------------------------------------------
+// Google Fonts — loaded here as fallback if cdnCaching is off
+// quartz.config.ts handles the import when cdnCaching is true
+// ------------------------------------------------------------
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+// ------------------------------------------------------------
+// Forest color token overrides (CSS custom properties)
+// These supplement what Quartz injects from quartz.config.ts
+// and give us named semantic tokens to use in other partials.
+// ------------------------------------------------------------
+:root {
+  // Forest greens
+  --forest-deep:       #1c3a18;
+  --forest-canopy:     #2a3d1e;
+  --forest-understory: #3a5c2e;
+  --forest-fern:       #5a8c3e;
+  --forest-sage:       #8faa7a;
+  --forest-meadow:     #a8c878;
+  --forest-lichen:     #dce8cc;
+  --forest-mist:       #e8f0d4;
+
+  // Neutral woodland
+  --forest-birchbark:  #f4f1eb;
+  --forest-driftwood:  #c8bfa8;
+  --forest-bark:       #6a5a3a;
+  --forest-loam:       #2a1f0e;
+
+  // Stream accent (links, callouts, info)
+  --stream-deep:       #1a6b7a;
+  --stream-mid:        #2d9fb5;
+  --stream-light:      #7ecfde;
+  --stream-mist:       #e6f6f9;
+
+  // Typography scale
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1.0625rem;   // 17px — slightly above default for comfort
+  --text-lg:   1.2rem;
+  --text-xl:   1.5rem;
+  --text-2xl:  2rem;
+  --text-3xl:  2.75rem;
+  --text-hero: clamp(2.2rem, 5vw, 3.5rem);  // responsive hero title
+
+  // Layout
+  --content-max: 760px;
+  --hero-min-h:  420px;
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
 }
 
-[saved-theme='light'] h1, h2, h3, h4, h5, h6, thead{
-    text-shadow: 3px 3px 5px #0970139a;
+[saved-theme="dark"] {
+  --forest-deep:       #e8f0d4;
+  --forest-canopy:     #c8dab0;
+  --forest-understory: #8faa7a;
+  --forest-fern:       #5a8c3e;
+  --forest-sage:       #3a5c2e;
+  --forest-lichen:     #1e3318;
+  --forest-mist:       #121e0f;
+
+  --forest-birchbark:  #0e1a0b;
+  --forest-driftwood:  #1e3318;
+  --forest-bark:       #6a8a5a;
+  --forest-loam:       #c8dab0;
+
+  --stream-deep:       #7ecfde;
+  --stream-mid:        #2d9fb5;
+  --stream-light:      #1a6b7a;
+  --stream-mist:       #0d2a30;
 }
 
-div.popover-hint {
-    background-color: #015b0a0d;
-    padding: 15px;
-    border-radius: 15px;
-    border-color: black;
-    border-width: 1px;
-    box-shadow: 3px 3px 7px #000000b3;
+// ------------------------------------------------------------
+// Base typography
+// ------------------------------------------------------------
+body {
+  font-size: var(--text-base);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-[saved-theme=light] code[data-theme*=\ ] {
-    background-color: #333333;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headerFont);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
-[saved-theme=dark] code[data-theme*=\ ] {
-    background-color: #1a1a1a;
+h1 { font-size: var(--text-3xl); font-weight: 600; }
+h2 { font-size: var(--text-2xl); font-weight: 600; }
+h3 { font-size: var(--text-xl);  font-weight: 500; }
+h4 { font-size: var(--text-lg);  font-weight: 500; }
+
+// Left accent bars on content headings (not in hero)
+.page-content article {
+  h2 {
+    border-left: 3px solid var(--secondary);
+    padding-left: 0.65rem;
+    margin-left: -0.8rem;
+  }
+
+  h3 {
+    border-left: 2px solid var(--tertiary);
+    padding-left: 0.55rem;
+    margin-left: -0.7rem;
+  }
 }
 
-[saved-theme=light] code[data-theme*=\ ] span {
-    color: #46ff7c;
+// ------------------------------------------------------------
+// Links
+// ------------------------------------------------------------
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--tertiary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 }
 
-[saved-theme=dark] code[data-theme*=\ ] span {
-    color: #288f47;
+// ------------------------------------------------------------
+// Tags / pills
+// ------------------------------------------------------------
+.tag-link,
+a[href^="/tags/"] {
+  display: inline-block;
+  background: var(--forest-lichen);
+  color: var(--forest-understory);
+  border: 1px solid var(--forest-sage);
+  border-radius: var(--radius-sm);
+  padding: 2px 9px;
+  font-size: var(--text-xs);
+  font-family: var(--bodyFont);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: background 0.15s;
+
+  &:hover {
+    background: var(--forest-sage);
+    color: var(--forest-deep);
+    text-decoration: none;
+  }
+}
+
+[saved-theme="dark"] .tag-link,
+[saved-theme="dark"] a[href^="/tags/"] {
+  background: var(--forest-lichen);
+  color: var(--forest-meadow);
+  border-color: var(--forest-sage);
+}
+
+// ------------------------------------------------------------
+// Callout blocks — forest-aware
+// ------------------------------------------------------------
+.callout {
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--secondary);
+  padding: 1rem 1.25rem;
+
+  &[data-callout="note"],
+  &[data-callout="info"] {
+    border-left-color: var(--stream-mid);
+    background: var(--stream-mist);
+  }
+
+  &[data-callout="warning"],
+  &[data-callout="caution"] {
+    border-left-color: #b87d2a;
+    background: #fdf3e3;
+  }
+
+  &[data-callout="danger"],
+  &[data-callout="bug"] {
+    border-left-color: #c0392b;
+    background: #fdf0ee;
+  }
+
+  &[data-callout="tip"],
+  &[data-callout="success"] {
+    border-left-color: var(--forest-fern);
+    background: var(--forest-mist);
+  }
+}
+
+// ------------------------------------------------------------
+// Code blocks
+// ------------------------------------------------------------
+pre {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--lightgray);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+code {
+  font-size: 0.875em;
+  background: var(--forest-lichen);
+  color: var(--forest-understory);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}
+
+[saved-theme="dark"] code {
+  background: var(--forest-lichen);
+  color: var(--forest-meadow);
+}
+
+// ------------------------------------------------------------
+// Blockquote
+// ------------------------------------------------------------
+blockquote {
+  border-left: 3px solid var(--forest-driftwood);
+  padding: 0.5rem 1.25rem;
+  color: var(--gray);
+  font-style: italic;
+  font-family: var(--headerFont);
+  font-size: var(--text-lg);
+}
+
+// ------------------------------------------------------------
+// Tables
+// ------------------------------------------------------------
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: var(--text-sm);
+
+  th {
+    background: var(--forest-lichen);
+    color: var(--forest-deep);
+    font-weight: 600;
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid var(--forest-sage);
+  }
+
+  td {
+    padding: 0.45rem 0.75rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Sidebar nav items
+// ------------------------------------------------------------
+#quartz-body .sidebar {
+  .folder-title,
+  .folder-outer > .folder-li > .folder-title {
+    font-weight: 500;
+    font-size: var(--text-sm);
+    letter-spacing: 0.02em;
+  }
+
+  a:hover,
+  .active > a {
+    color: var(--secondary);
+  }
+}
+
+// ------------------------------------------------------------
+// Graph view — forest node colors
+// ------------------------------------------------------------
+.graph {
+  .node circle {
+    fill: var(--forest-fern);
+  }
+
+  .node.current circle {
+    fill: var(--secondary);
+    stroke: var(--forest-meadow);
+    stroke-width: 2px;
+  }
+
+  .link {
+    stroke: var(--forest-driftwood);
+  }
+}
+
+// ------------------------------------------------------------
+// Search
+// ------------------------------------------------------------
+#search-container {
+  .search-button {
+    border-radius: var(--radius-md);
+    transition: background 0.15s;
+
+    &:hover {
+      background: var(--forest-lichen);
+    }
+  }
+
+  #search-bar {
+    border-radius: var(--radius-md);
+    border: 1.5px solid var(--lightgray);
+    font-size: var(--text-sm);
+
+    &:focus {
+      border-color: var(--secondary);
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(90, 140, 62, 0.15);
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Responsive content width
+// ------------------------------------------------------------
+.page > #quartz-body .center {
+  max-width: var(--content-max);
+}
+
+@media (max-width: 1100px) {
+  .page > #quartz-body .center {
+    max-width: 100%;
+  }
+}
+
+// ------------------------------------------------------------
+// Print
+// ------------------------------------------------------------
+@media print {
+  .sidebar,
+  #search-container,
+  .graph-outer {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+  }
 }

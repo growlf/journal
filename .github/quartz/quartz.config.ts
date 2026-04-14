@@ -57,9 +57,42 @@ const config: QuartzConfig = {
         priority: ["frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
+        // ============================================================
+        // NetYeti Forest Theme — drop this into your quartz.config.ts
+        // Replace the entire `theme: { ... }` block with this.
+        // ============================================================
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          fontOrigin: "googleFonts",
+          cdnCaching: true,
+          typography: {
+            header: "Playfair Display",   // serif — editorial, eye-catching headings
+            body: "Inter",                 // clean, highly readable body text
+            code: "JetBrains Mono",       // crisp monospace for code blocks
+          },
+          colors: {
+            lightMode: {
+              light: "#f4f1eb",           // Birchbark — warm off-white page background
+              lightgray: "#c8bfa8",       // Driftwood — borders, dividers
+              gray: "#6a5a3a",            // Bark — muted labels, secondary text
+              darkgray: "#2a1f0e",        // Loam — primary body text
+              dark: "#1c3a18",            // Deep Forest — headings, strong emphasis
+              secondary: "#3a5c2e",       // Understory — links, active nav items
+              tertiary: "#2d9fb5",        // Stream Mid — hover states, highlights
+              highlight: "rgba(90,140,62,0.10)",   // Fern tint — search highlight
+              textHighlight: "rgba(168,200,120,0.35)", // Meadow tint — text mark
+            },
+            darkMode: {
+              light: "#121e0f",           // Night Forest — page background
+              lightgray: "#1e3318",       // Shadow — borders, dividers
+              gray: "#6a8a5a",            // Moonlit Bark — muted text
+              darkgray: "#c8dab0",        // Pale Canopy — body text
+              dark: "#e8f0d4",            // Mist — headings
+              secondary: "#8faa7a",       // Sage — links, active nav
+              tertiary: "#7ecfde",        // Stream Light — hover states
+              highlight: "rgba(143,170,122,0.15)", // Sage tint — search highlight
+              textHighlight: "rgba(168,200,120,0.25)", // Meadow tint
+            },
+          },
         },
         keepBackground: false,
       }),
