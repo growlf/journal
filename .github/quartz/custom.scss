@@ -1,37 +1,37 @@
 // ============================================================
-// NetYeti — Operation Grotto Window (Refined v2)
+// NetYeti — Operation Grotto Window (Grotto Ambient v3)
 // ============================================================
 
 :root {
-  // Grotto Palette
-  --grotto-light:      #fcfaf5; 
-  --grotto-glow:       rgba(255, 255, 255, 0.8);
+  // Grotto Palette (Ambient & Warm)
+  --grotto-light:      #e2e4d0; // Sun-drenched Sage/Stone
+  --grotto-glow:       rgba(226, 228, 208, 0.4);
   --energy-glow:       #00ff8c; 
   
-  // Forest Palette
-  --forest-dark:       #0a1408; 
-  --forest-bark:       #140a00;
-  --forest-floor:      #030503;
+  // Forest Palette (Deep & Immersive)
+  --forest-dark:       #081006; 
+  --forest-bark:       #100800;
+  --forest-floor:      #020402;
 
   // Quartz Overrides
   --light: var(--grotto-light);
-  --lightgray: #d1c7b1;
-  --gray: #8a7a5a;
-  --darkgray: #3a2f1e;
-  --dark: #1c3a18;
+  --lightgray: #b1b8a0;
+  --gray: #5a634a;
+  --darkgray: #2a3020;
+  --dark: #141a0d;
   --secondary: #2d5a27;
-  --tertiary: #2d9fb5;
-  --highlight: rgba(0, 255, 140, 0.08);
+  --tertiary: #1a6b7a;
+  --highlight: rgba(0, 255, 140, 0.1);
 
   --headerFont: "Playfair Display", serif;
   --bodyFont: "Inter", sans-serif;
-  --header-height: 70px;
+  --header-height: 60px;
 }
 
 [saved-theme="dark"] {
-  --grotto-light:      #121e0f;
-  --dark:              #e8f0d4;
-  --secondary:         #a8c878;
+  --grotto-light:      #1a2018;
+  --dark:              #d0d8c0;
+  --secondary:         #8faa7a;
 }
 
 // ------------------------------------------------------------
@@ -41,50 +41,61 @@ body {
   background-color: var(--forest-floor);
   background-attachment: fixed;
   background-image: 
-    radial-gradient(circle at 50% 0%, rgba(0, 255, 140, 0.1) 0%, transparent 50%),
-    linear-gradient(to bottom, transparent, rgba(0,0,0,0.8));
+    radial-gradient(circle at 50% 0%, rgba(0, 255, 140, 0.05) 0%, transparent 60%),
+    linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
+  margin: 0;
+  padding: 0;
 }
 
 // ------------------------------------------------------------
-// The Grotto Frame
+// The Grotto Frame (Fixed Layout)
 // ------------------------------------------------------------
-.page {
+#quartz-body {
   display: grid;
-  grid-template-columns: 240px 1fr 240px;
+  grid-template-columns: 260px 1fr 260px;
   grid-template-areas: "left center right";
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-height));
   gap: 0;
+  width: 100%;
 }
 
 // Sidebar "Trees"
-.left, .right {
+.sidebar.left, .sidebar.right {
   background: var(--forest-dark);
   border: none;
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
   z-index: 10;
-  color: #e0e0d0 !important; // Light text for dark trees
+  color: #c0c8b0 !important; 
+  position: sticky;
+  top: var(--header-height);
+  height: calc(100vh - var(--header-height));
   overflow-y: auto;
   
-  // Invert component colors for the dark background
   a, .folder-title, button {
-    color: #c8dab0 !important;
+    color: #a0a890 !important;
     &:hover { color: var(--energy-glow) !important; }
   }
 }
 
-.left { box-shadow: inset -15px 0 30px rgba(0,0,0,0.7); }
-.right { box-shadow: inset 15px 0 30px rgba(0,0,0,0.7); }
+.sidebar.left { 
+  grid-area: left;
+  box-shadow: inset -20px 0 40px rgba(0,0,0,0.8); 
+}
+.sidebar.right { 
+  grid-area: right;
+  box-shadow: inset 20px 0 40px rgba(0,0,0,0.8); 
+}
 
-// The Grotto Window (Main Focus)
+// The Grotto Window (Main Area)
 .center {
   grid-area: center;
   background-color: var(--grotto-light);
-  padding: 3rem;
+  padding: 4rem;
   z-index: 5;
-  box-shadow: 0 0 100px rgba(0,0,0,0.9);
-  min-height: 100vh;
-  border-left: 1px solid rgba(255,255,255,0.05);
-  border-right: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 0 80px rgba(0,0,0,0.9);
+  border-left: 1px solid rgba(255,255,255,0.03);
+  border-right: 1px solid rgba(255,255,255,0.03);
+  max-width: 100%;
 }
 
 // ------------------------------------------------------------
@@ -98,44 +109,41 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3rem;
-  background: rgba(10, 20, 8, 0.9);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(0, 255, 140, 0.3);
-  z-index: 100;
+  padding: 0 2rem;
+  background: rgba(5, 10, 4, 0.95);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(0, 255, 140, 0.15);
+  z-index: 1000;
 }
 
 .page-title {
   font-family: var(--headerFont);
-  font-size: 1.8rem !important;
-  font-weight: 700;
+  font-size: 1.6rem !important;
   color: var(--energy-glow) !important;
 }
 
 // ------------------------------------------------------------
-// Pulse Animation (The Life Signal)
+// Pulse Animation (Subtle Vitality)
 // ------------------------------------------------------------
-.left::before, .right::before {
+.sidebar.left::after, .sidebar.right::after {
   content: "";
   position: absolute;
-  top: 0; left: 0; width: 4px; height: 100%;
-  background: var(--energy-glow);
-  box-shadow: 0 0 15px var(--energy-glow);
+  top: 0; left: 0; width: 2px; height: 100%;
+  background: linear-gradient(to bottom, transparent, var(--energy-glow), transparent);
   opacity: 0;
-  animation: signal-pulse 8s infinite;
+  animation: life-pulse 10s infinite linear;
 }
 
-.right::before { left: auto; right: 0; }
+.sidebar.right::after { left: auto; right: 0; }
 
-@keyframes signal-pulse {
-  0%, 100% { opacity: 0; height: 0%; top: 0; }
-  10% { opacity: 0.8; height: 20%; }
-  50% { opacity: 0.4; height: 100%; }
-  90% { opacity: 0; height: 0%; top: 100%; }
+@keyframes life-pulse {
+  0% { opacity: 0; top: -100%; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; top: 100%; }
 }
 
 // ------------------------------------------------------------
-// Jumbotron (Hero)
+// Jumbotron (Hero Landing)
 // ------------------------------------------------------------
 .hero-page {
   .center {
@@ -143,8 +151,10 @@ header {
   }
   
   .page-header {
-    height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.4), var(--grotto-light)), url("/_assets/network_banner.png");
+    height: 55vh;
+    background: 
+      linear-gradient(rgba(0,0,0,0.5), rgba(226, 228, 208, 0.2)),
+      url("/_assets/network_banner.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -152,28 +162,26 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
-    text-shadow: 0 5px 15px rgba(0,0,0,0.8);
+    text-shadow: 0 4px 12px rgba(0,0,0,0.9);
     
-    h1 { font-size: 5rem; margin: 0; }
-    p { font-size: 1.5rem; max-width: 600px; text-align: center; }
+    h1 { font-size: 4.5rem; margin: 0; font-family: var(--headerFont); }
+    p { font-size: 1.4rem; max-width: 700px; text-align: center; font-style: italic; opacity: 0.9; }
   }
 }
 
 // ------------------------------------------------------------
-// Content Refinement
+// Content Styles
 // ------------------------------------------------------------
 article {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--darkgray);
+
   h2 {
-    border-left: 5px solid var(--secondary);
-    padding-left: 1.5rem;
+    border-left: 6px solid var(--secondary);
+    padding-left: 1.25rem;
     margin-top: 4rem;
     color: var(--dark);
-  }
-  
-  blockquote {
-    background: rgba(0, 255, 140, 0.03);
-    border-left: 4px solid var(--tertiary);
-    border-radius: 0 8px 8px 0;
   }
 }
 
@@ -181,11 +189,10 @@ article {
 // Responsive Logic
 // ------------------------------------------------------------
 @media (max-width: 1200px) {
-  .page {
+  #quartz-body {
     grid-template-columns: 1fr;
     grid-template-areas: "center";
   }
-  .left, .right { display: none; }
+  .sidebar { display: none !important; }
   .center { padding: 2rem; border: none; }
-  header { padding: 0 1rem; }
 }
