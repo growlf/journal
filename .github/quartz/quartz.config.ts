@@ -19,12 +19,17 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "_templates", ".obsidian", ".gemini", ".git"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "hosted",
       cdnCaching: true,
+      //typography: {
+      //  header: "Workbench",
+      //  body: "Walter Turncoat",
+      //  code: "IBM Plex Mono",
+      //},
       typography: {
-        header: "Workbench",
-        body: "Walter Turncoat",
-        code: "IBM Plex Mono",
+        header: "Georgia, 'Times New Roman', serif",
+        body: "system-ui, -apple-system, sans-serif",
+        code: "'JetBrains Mono', 'Fira Code', monospace",
       },
       colors: {
         lightMode: {
