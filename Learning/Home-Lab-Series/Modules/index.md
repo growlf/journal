@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder  | Documents                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Modules | [[Learning/Home-Lab-Series/Modules/00-Philosophy.md\|00-Philosophy]] \| [[Learning/Home-Lab-Series/Modules/01-Physical.md\|01-Physical]] \| [[Learning/Home-Lab-Series/Modules/02-Proxmox.md\|02-Proxmox]] \| [[Learning/Home-Lab-Series/Modules/03-GitOps.md\|03-GitOps]] \| [[Learning/Home-Lab-Series/Modules/04-AI-C2.md\|04-AI-C2]] \| [[Learning/Home-Lab-Series/Modules/05-Obsidian.md\|05-Obsidian]] \| [[Learning/Home-Lab-Series/Modules/index.md\|index]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,14 +31,14 @@ LIMIT 20
 ```
 %%
 
-| File                                                                 | Created                  | Updated                   |
-| -------------------------------------------------------------------- | ------------------------ | ------------------------- |
-| [[Learning/Home-Lab-Series/Modules/index.md\|index]]                 | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026  |
-| [[Learning/Home-Lab-Series/Modules/05-Obsidian.md\|05-Obsidian]]     | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
-| [[Learning/Home-Lab-Series/Modules/00-Philosophy.md\|00-Philosophy]] | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
-| [[Learning/Home-Lab-Series/Modules/01-Physical.md\|01-Physical]]     | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
-| [[Learning/Home-Lab-Series/Modules/03-GitOps.md\|03-GitOps]]         | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
-| [[Learning/Home-Lab-Series/Modules/02-Proxmox.md\|02-Proxmox]]       | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
-| [[Learning/Home-Lab-Series/Modules/04-AI-C2.md\|04-AI-C2]]           | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| File | Created | Updated |
+| --- | --- |
+| [[Learning/Home-Lab-Series/Modules/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[Learning/Home-Lab-Series/Modules/00-Philosophy|00-Philosophy]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Learning/Home-Lab-Series/Modules/05-Obsidian|05-Obsidian]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Learning/Home-Lab-Series/Modules/02-Proxmox|02-Proxmox]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Learning/Home-Lab-Series/Modules/03-GitOps|03-GitOps]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Learning/Home-Lab-Series/Modules/04-AI-C2|04-AI-C2]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Learning/Home-Lab-Series/Modules/01-Physical|01-Physical]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

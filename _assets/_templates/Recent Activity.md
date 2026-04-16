@@ -17,47 +17,47 @@ LIMIT 40
 ```
 %%
 
-| File                                                                            | Updated                   |
-| ------------------------------------------------------------------------------- | ------------------------- |
-| [[index.md\|index]]                                                             | 2:36 PM - April 13, 2026  |
-| [[Learning/Home-Lab-Series/Modules/index.md\|index]]                            | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/index.md\|index]]                                              | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Virtualization/index.md\|index]]                               | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Tricks 1/index.md\|index]]                                     | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Tricks 1/Examples/index.md\|index]]                            | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Tricks/index.md\|index]]                                       | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Tools/index.md\|index]]                                        | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Storage/index.md\|index]]                                      | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Services/index.md\|index]]                                     | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Hardware/index.md\|index]]                                     | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Development/index.md\|index]]                                  | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Development/Shell/Shell (921428).md\|Shell (921428)]]          | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Community/index.md\|index]]                                    | 2:36 PM - April 13, 2026  |
-| [[GEMINI.md\|GEMINI]]                                                           | 2:25 PM - April 13, 2026  |
-| [[Knowledge Base/Networking/PXEBoot.md\|PXEBoot]]                               | 2:23 PM - April 13, 2026  |
-| [[Knowledge Base/Storage/NAS.md\|NAS]]                                          | 2:23 PM - April 13, 2026  |
-| [[Knowledge Base/Tools/Docker.md\|Docker]]                                      | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/CouchDB.md\|CouchDB]]                                    | 11:29 PM - April 12, 2026 |
-| [[Learning/The Stack 1.md\|The Stack 1]]                                        | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tricks 1/Replicating my Desktop.md\|Replicating my Desktop]]   | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/ZFS.md\|ZFS]]                                                  | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Obsidian.md\|Obsidian]]                                        | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/LXC.md\|LXC]]                                                  | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tricks/Replicating my Desktop.md\|Replicating my Desktop]]     | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Development/Obsidian/index.md\|index]]                         | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tricks 1/Wireguard Search Domain.md\|Wireguard Search Domain]] | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tricks 1/Proxmox Commandline.md\|Proxmox Commandline]]         | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Wireguard.md\|Wireguard]]                                | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Technitium.md\|Technitium]]                              | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/HomeAssistant.md\|HomeAssistant]]                        | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Grafana.md\|Grafana]]                                    | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Apt Cacher NG.md\|Apt Cacher NG]]                        | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/DNS.md\|DNS]]                                                  | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Cloud Init.md\|Cloud Init]]                                    | 11:29 PM - April 12, 2026 |
-| [[Policies/index.md\|index]]                                                    | 11:29 PM - April 12, 2026 |
-| [[Policies/SOP - Updating the Home Lab.md\|SOP - Updating the Home Lab]]        | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Virtualization/LXC.md\|LXC]]                                   | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tricks/Wireguard Search Domain.md\|Wireguard Search Domain]]   | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Storage/ZFS.md\|ZFS]]                                          | 11:29 PM - April 12, 2026 |
+| File | Updated |
+| --- | --- |
+| [[Learning/Home-Lab-Series/Package/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Learning/Home-Lab-Series/Modules/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Development/Shell/Shell (921428)|Shell (921428)]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Development/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Storage/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tricks/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/Docker|Docker]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Virtualization/LXC|LXC]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Virtualization/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Community/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/CouchDB|CouchDB]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Services/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Hardware/index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/index|index]] | 12:29 AM - April 16, 2026 |
+| [[index|index]] | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tricks/Examples/index|index]] | 12:26 AM - April 16, 2026 |
+| [[Policies/Project - KB Refactor|Project - KB Refactor]] | 12:11 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/Ansible|Ansible]] | 7:15 PM - April 15, 2026 |
+| [[Knowledge Base/Tricks/Gemini-CLI-Mastery|Gemini-CLI-Mastery]] | 7:10 PM - April 15, 2026 |
+| [[Knowledge Base/Storage/ZFS|ZFS]] | 7:10 PM - April 15, 2026 |
+| [[Knowledge Base/Tools/Obsidian|Obsidian]] | 6:58 PM - April 15, 2026 |
+| [[Network/AAR - Network Environment Switcher (Concept)|AAR - Network Environment Switcher (Concept)]] | 5:15 PM - April 15, 2026 |
+| [[Network/Networks/index|index]] | 5:15 PM - April 15, 2026 |
+| [[Network/Devices/Technitium-DNS|Technitium-DNS]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Alpha-UPS|Alpha-UPS]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Pheonix|Pheonix]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Changeling|Changeling]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/LisaSU25|LisaSU25]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/index.base|index.base]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Synology|Synology]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Lenovo-XCC|Lenovo-XCC]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Routerboard|Routerboard]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Gearbox|Gearbox]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Samsung|Samsung]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Sliver|Sliver]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Interceptor|Interceptor]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/dn2|dn2]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Cacher|Cacher]] | 5:11 PM - April 15, 2026 |
+| [[Network/Devices/Ubiquiti|Ubiquiti]] | 5:11 PM - April 15, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder                  | Documents                                                                                                                      |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| public-signal-sanitizer | [[_assets/AI-Skills/public-signal-sanitizer/index.md\|index]] \| [[_assets/AI-Skills/public-signal-sanitizer/SKILL.md\|SKILL]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,9 +31,9 @@ LIMIT 20
 ```
 %%
 
-| File                                                          | Created                  | Updated                  |
-| ------------------------------------------------------------- | ------------------------ | ------------------------ |
-| [[_assets/AI-Skills/public-signal-sanitizer/index.md\|index]] | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/public-signal-sanitizer/SKILL.md\|SKILL]] | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/AI-Skills/public-signal-sanitizer/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/public-signal-sanitizer/SKILL|SKILL]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

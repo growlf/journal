@@ -17,4 +17,4 @@ Creation date: Monday April 4th 2022 11:18:30
 - [Docker](https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugins-in-community-docker) plugin
 - [Discord](https://docs.ansible.com/ansible/latest/collections/community/general/discord_module.html#ansible-collections-community-general-discord-module) plugin
 ### ToDo
-- [ ] Start actually documenting steps and tricks I have found over the years.  Especially some of the new stuff that makes this tool even BETTER.
+- [x] Start actually documenting steps and tricks I have found over the years.  Especially some of the new stuff that makes this tool even BETTER.

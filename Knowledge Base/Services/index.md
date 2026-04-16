@@ -12,10 +12,9 @@ SORT lastPart
 ```
 %%
 
-| Folder     | Documents                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Monitoring | [[Knowledge Base/Services/Monitoring/Grafana.md\|Grafana]] \| [[Knowledge Base/Services/Monitoring/index.md\|index]] \| [[Knowledge Base/Services/Monitoring/NtopNG.md\|NtopNG]]                                                                                                                                                                                                                                                         |
-| Services   | [[Knowledge Base/Services/Discord Webhooks.md\|Discord Webhooks]] \| [[Knowledge Base/Services/DjangoCMS.md\|DjangoCMS]] \| [[Knowledge Base/Services/Email.md\|Email]] \| [[Knowledge Base/Services/Homepage.md\|Homepage]] \| [[Knowledge Base/Services/index.md\|index]] \| [[Knowledge Base/Services/MFA.md\|MFA]] \| [[Knowledge Base/Services/Syncthing.md\|Syncthing]] \| [[Knowledge Base/Services/Vaultwarden.md\|Vaultwarden]] |
+| Folder | Documents |
+| --- | --- |
+| Monitoring | [[Knowledge Base/Services/Monitoring/Grafana|Grafana]] | [[Knowledge Base/Services/Monitoring/NtopNG|NtopNG]] |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -33,18 +32,18 @@ LIMIT 20
 ```
 %%
 
-| File                                                              | Created                  | Updated                   |
-| ----------------------------------------------------------------- | ------------------------ | ------------------------- |
-| [[Knowledge Base/Services/index.md\|index]]                       | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Services/Monitoring/index.md\|index]]            | 8:33 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Services/Monitoring/Grafana.md\|Grafana]]        | 8:33 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Services/Vaultwarden.md\|Vaultwarden]]           | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
-| [[Knowledge Base/Services/Syncthing.md\|Syncthing]]               | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
-| [[Knowledge Base/Services/MFA.md\|MFA]]                           | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
-| [[Knowledge Base/Services/Homepage.md\|Homepage]]                 | 8:33 PM - April 12, 2026 | 11:18 PM - April 12, 2026 |
-| [[Knowledge Base/Services/Discord Webhooks.md\|Discord Webhooks]] | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
-| [[Knowledge Base/Services/DjangoCMS.md\|DjangoCMS]]               | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
-| [[Knowledge Base/Services/Email.md\|Email]]                       | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
-| [[Knowledge Base/Services/Monitoring/NtopNG.md\|NtopNG]]          | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026  |
+| File | Created | Updated |
+| --- | --- |
+| [[Knowledge Base/Services/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[Knowledge Base/Services/Email|Email]] | 8:08 PM - April 15, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/DjangoCMS|DjangoCMS]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Syncthing|Syncthing]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Vaultwarden|Vaultwarden]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/MFA|MFA]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Discord Webhooks|Discord Webhooks]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Homepage|Homepage]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Monitoring/NtopNG|NtopNG]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Monitoring/index|index]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Services/Monitoring/Grafana|Grafana]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

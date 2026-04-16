@@ -12,12 +12,11 @@ SORT lastPart
 ```
 %%
 
-| Folder            | Documents                                                                                                                                                                                                                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ai-stack-engineer | [[_assets/AI-Skills/ai-stack-engineer/index.md\|index]] \| [[_assets/AI-Skills/ai-stack-engineer/Ollama Signal Report.md\|Ollama Signal Report]] \| [[_assets/AI-Skills/ai-stack-engineer/SKILL.md\|SKILL]] \| [[_assets/AI-Skills/ai-stack-engineer/troubleshooting.md\|troubleshooting]] |
-| assets            | [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]]                                                                                                                                                                                                                             |
-| references        | [[_assets/AI-Skills/ai-stack-engineer/references/example_reference.md\|example_reference]] \| [[_assets/AI-Skills/ai-stack-engineer/references/index.md\|index]]                                                                                                                           |
-| scripts           | [[_assets/AI-Skills/ai-stack-engineer/scripts/index.md\|index]]                                                                                                                                                                                                                            |
+| Folder | Documents |
+| --- | --- |
+| assets |  |
+| references | [[_assets/AI-Skills/ai-stack-engineer/references/example_reference|example_reference]] |
+| scripts |  |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -35,15 +34,15 @@ LIMIT 20
 ```
 %%
 
-| File                                                                                       | Created                  | Updated                  |
-| ------------------------------------------------------------------------------------------ | ------------------------ | ------------------------ |
-| [[_assets/AI-Skills/ai-stack-engineer/scripts/index.md\|index]]                            | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/references/index.md\|index]]                         | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/index.md\|index]]                                    | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]]                             | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/SKILL.md\|SKILL]]                                    | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/Ollama Signal Report.md\|Ollama Signal Report]]      | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/references/example_reference.md\|example_reference]] | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
-| [[_assets/AI-Skills/ai-stack-engineer/troubleshooting.md\|troubleshooting]]                | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/AI-Skills/ai-stack-engineer/scripts/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/assets/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/references/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/SKILL|SKILL]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/troubleshooting|troubleshooting]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/Ollama Signal Report|Ollama Signal Report]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/AI-Skills/ai-stack-engineer/references/example_reference|example_reference]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

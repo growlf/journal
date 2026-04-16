@@ -1,37 +1,22 @@
 ---
 tags:
-  - version-control
-  - git
-  - devops
-title: Git
+  - github
+  - projects
+  - glossary
+Creation date: Monday April 4th 2022 11:18:30
+Documentation: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+aliases:
+  - version control system
 ---
-# Git: The Time Machine for Code
-
-> [!NOTE] The Instructor's Perspective
-> In the Army, we had "mission logs" and "situation reports." If you didn't document what happened, it didn't happen. In your home lab, Git is your mission log. It's a "time machine" for your code and configuration. If you make a mistake, you can just "roll back" to a previous state. It's efficient, repeatable, and keeps your lab from becoming an "unmanageable mess."
-
-## Why use it?
-- **Version Control:** Track every change you make to your code and configuration.
-- **Collaboration:** Share your work with others and merge their changes back in.
-- **Rollback:** Easily revert to a previous state if something goes wrong.
-- **Documentation:** Your commit messages *are* your documentation.
-
-## Code Reliability (The PACE Plan)
-> [!TIP] Operational Discipline
-> **P (Primary):** Centralized Git Repository (e.g., GitHub, GitLab, or Gitea).
-> **A (Alternate):** Local Git repository on your primary workstation (e.g., Laptop).
-> **C (Contingency):** Manual backups of your code and configuration (e.g., `tar.gz` or `zip`).
-> **E (Emergency):** Re-writing your code from scratch (The ultimate "No-Git" fallback).
-
-## Standard Operating Procedure (SOP) Best Practices
-1. **Commit Often:** Make small, frequent commits with clear, concise messages.
-2. **Branching:** Use branches for new features or bug fixes to avoid breaking the main codebase.
-3. **Pull Requests:** Use pull requests to review and merge changes from others.
-4. **Secrets Management:** Never commit secrets (like passwords or API keys) to your repository! Use [[Ansible Vault.md|Ansible Vault]] or [[Knowledge Base/Tools/Vaultwarden|Vaultwarden]].
-
-## Check for Understanding
-- Why is it important to have a **Centralized Git Repository** (Primary) instead of just relying on your local repository (Alternate)?
-- How does the "Rollback" plan (Contingency) help if you make a mistake in your code?
-
 ---
-*Related: [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Knowledge Base/Ansible/index|Ansible]], [[Knowledge Base/Vaultwarden]]*
+As in [GitHub](https://github.com) - but certainly not limited to just that well known remote repository.  Git is a free and open-source distributed version control system (DVCS) designed to manage changes in source code during software development. It allows multiple developers to collaborate on the same project efficiently by tracking modifications, enabling easy reversion to previous versions, and facilitating the merging of different contributions.
+
+Key aspects of Git:
+- [ Version Control:](https://www.google.com/search?num=10&newwindow=1&cs=1&sca_esv=04212f82de24ae4c&sxsrf=AE3TifNIU-Ouy-9L8vfGuJX86i2E-_vemQ%3A1753233843968&q=Version+Control&sa=X&ved=2ahUKEwis_4mD6dGOAxXyBzQIHURbOyMQxccNegQIEBAD&mstk=AUtExfBnmKLeeI9A3VpAOr971Ek-FCEmvCX6qe5qUSnnHIXTOBWkun7-AYGqgg3NskPF98uExQ8XuicDiA_WlE_t5XP4owg-jpMLVXHvM2dfvUhJRy1FRhnV9lSxOOnmnyiPnQuxsg00bOw1xLesKxMB-bmcMhKhQ4tgJkgvqNnmkmQXMoM&csui=3)
+    Git records every change made to a project's files, creating a history of snapshots (called "commits"). This allows developers to track modifications, see who made what changes, and revert to any previous state of the project.
+- [Distributed Nature:](https://www.google.com/search?num=10&newwindow=1&cs=1&sca_esv=04212f82de24ae4c&sxsrf=AE3TifNIU-Ouy-9L8vfGuJX86i2E-_vemQ%3A1753233843968&q=Distributed+Nature&sa=X&ved=2ahUKEwis_4mD6dGOAxXyBzQIHURbOyMQxccNegQIFBAD&mstk=AUtExfBnmKLeeI9A3VpAOr971Ek-FCEmvCX6qe5qUSnnHIXTOBWkun7-AYGqgg3NskPF98uExQ8XuicDiA_WlE_t5XP4owg-jpMLVXHvM2dfvUhJRy1FRhnV9lSxOOnmnyiPnQuxsg00bOw1xLesKxMB-bmcMhKhQ4tgJkgvqNnmkmQXMoM&csui=3)
+    Unlike older centralized version control systems, Git is distributed. This means every developer has a complete, local copy of the entire repository, including its full history. This enables offline work and faster operations as most actions are performed locally.
+- [Branching and Merging:](https://www.google.com/search?num=10&newwindow=1&cs=1&sca_esv=04212f82de24ae4c&sxsrf=AE3TifNIU-Ouy-9L8vfGuJX86i2E-_vemQ%3A1753233843968&q=Branching+and+Merging&sa=X&ved=2ahUKEwis_4mD6dGOAxXyBzQIHURbOyMQxccNegQIFhAD&mstk=AUtExfBnmKLeeI9A3VpAOr971Ek-FCEmvCX6qe5qUSnnHIXTOBWkun7-AYGqgg3NskPF98uExQ8XuicDiA_WlE_t5XP4owg-jpMLVXHvM2dfvUhJRy1FRhnV9lSxOOnmnyiPnQuxsg00bOw1xLesKxMB-bmcMhKhQ4tgJkgvqNnmkmQXMoM&csui=3)
+    Git offers powerful branching capabilities, allowing developers to create isolated "branches" to work on new features or bug fixes without affecting the main codebase. These branches can then be easily merged back into the main line of development, with Git assisting in resolving any conflicts that may arise.
+- [Collaboration:](https://www.google.com/search?num=10&newwindow=1&cs=1&sca_esv=04212f82de24ae4c&sxsrf=AE3TifNIU-Ouy-9L8vfGuJX86i2E-_vemQ%3A1753233843968&q=Collaboration&sa=X&ved=2ahUKEwis_4mD6dGOAxXyBzQIHURbOyMQxccNegQIFRAD&mstk=AUtExfBnmKLeeI9A3VpAOr971Ek-FCEmvCX6qe5qUSnnHIXTOBWkun7-AYGqgg3NskPF98uExQ8XuicDiA_WlE_t5XP4owg-jpMLVXHvM2dfvUhJRy1FRhnV9lSxOOnmnyiPnQuxsg00bOw1xLesKxMB-bmcMhKhQ4tgJkgvqNnmkmQXMoM&csui=3)
+    Git facilitates collaborative development by providing mechanisms to share changes between repositories. Developers can "push" their local commits to a remote repository (like GitHub or GitLab) and "pull" changes made by others, ensuring everyone is working on the most up-to-date version of the project.

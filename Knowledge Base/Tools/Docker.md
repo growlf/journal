@@ -8,7 +8,7 @@ aliases:
   - Docker
 ---
 ---
-This will surely result in an entire tree of things...  then again, there is plenty of existing documentation on [Docker](https://www.docker.com/). Scads of it. So I will probably stick with just documenting lesser-known tricks and methods that make Docker really zing.  Like how to have [[Knowledge Base/Tricks 1/Smoother Updates]] ;)
+This will surely result in an entire tree of things...  then again, there is plenty of existing documentation on [Docker](https://www.docker.com/). Scads of it. So I will probably stick with just documenting lesser-known tricks and methods that make Docker really zing.  Like how to have [[Knowledge Base/Tricks/Smoother Updates]] ;)
 
 ### Links
 - [Installation](https://get.docker.com/) script 

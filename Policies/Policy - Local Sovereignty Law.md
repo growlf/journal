@@ -24,6 +24,9 @@ The following assets are under **Sovereignty Protection**:
 - **Interface Naming:** The Phoenix VPN interface must ALWAYS be named `wg-phoenix`. This ensures monitoring and firewall rules remain consistent even if NetworkManager renames the device.
 - **Dynamic Netplan Discovery:** The enforcement logic must dynamically find the correct Netplan file by searching for the "Phoenix" name, avoiding fragile reliance on hardcoded UUID-based filenames.
 
+### 🏰 Hypervisor Integrity
+- **No Docker on PVE Hosts:** To maintain the stability of the Proxmox (PVE) kernel and networking stack, Docker must **never** be installed on a host node (e.g., `frank`, `pve`, `pve2`). All containerized services must run in isolated VMs or LXCs.
+
 ### 🌐 DNS Layer
 - **DNS Overrides:** Manual `/etc/hosts` entries used to bypass circular dependencies (like the BMS Bitwarden link) must be preserved.
 

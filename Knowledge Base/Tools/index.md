@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder | Documents                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Tools  | [[Knowledge Base/Tools/Ansible.md\|Ansible]] \| [[Knowledge Base/Tools/Apt Cacher NG.md\|Apt Cacher NG]] \| [[Knowledge Base/Tools/Beszel.md\|Beszel]] \| [[Knowledge Base/Tools/CouchDB.md\|CouchDB]] \| [[Knowledge Base/Tools/DjangoCMS.md\|DjangoCMS]] \| [[Knowledge Base/Tools/Docker.md\|Docker]] \| [[Knowledge Base/Tools/Grafana.md\|Grafana]] \| [[Knowledge Base/Tools/Harbor.md\|Harbor]] \| [[Knowledge Base/Tools/HomeAssistant.md\|HomeAssistant]] \| [[Knowledge Base/Tools/Homepage.md\|Homepage]] \| [[Knowledge Base/Tools/index.md\|index]] \| [[Knowledge Base/Tools/LXC.md\|LXC]] \| [[Knowledge Base/Tools/Nextcloud.md\|Nextcloud]] \| [[Knowledge Base/Tools/NtopNG.md\|NtopNG]] \| [[Knowledge Base/Tools/Portainer.md\|Portainer]] \| [[Knowledge Base/Tools/Prometheus.md\|Prometheus]] \| [[Knowledge Base/Tools/Proxmox Backup Server.md\|Proxmox Backup Server]] \| [[Knowledge Base/Tools/Proxmox.md\|Proxmox]] \| [[Knowledge Base/Tools/Registry.md\|Registry]] \| [[Knowledge Base/Tools/Semaphore.md\|Semaphore]] \| [[Knowledge Base/Tools/Shell.md\|Shell]] \| [[Knowledge Base/Tools/Tailscale.md\|Tailscale]] \| [[Knowledge Base/Tools/Technitium.md\|Technitium]] \| [[Knowledge Base/Tools/Vaultwarden.md\|Vaultwarden]] \| [[Knowledge Base/Tools/Wireguard.md\|Wireguard]] \| [[Knowledge Base/Tools/Wordpress.md\|Wordpress]] \| [[Knowledge Base/Tools/WorkAdventure.md\|WorkAdventure]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 ## Recent Changes / Additions
@@ -31,28 +30,28 @@ LIMIT 20
 ```
 %%
 
-| File                                                                     | Created                   | Updated                   |
-| ------------------------------------------------------------------------ | ------------------------- | ------------------------- |
-| [[Knowledge Base/Tools/index.md\|index]]                                 | 10:46 PM - April 12, 2026 | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Tools/Docker.md\|Docker]]                               | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/CouchDB.md\|CouchDB]]                             | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Wireguard.md\|Wireguard]]                         | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Technitium.md\|Technitium]]                       | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/HomeAssistant.md\|HomeAssistant]]                 | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Grafana.md\|Grafana]]                             | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Apt Cacher NG.md\|Apt Cacher NG]]                 | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/WorkAdventure.md\|WorkAdventure]]                 | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Wordpress.md\|Wordpress]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Vaultwarden.md\|Vaultwarden]]                     | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Tailscale.md\|Tailscale]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Proxmox.md\|Proxmox]]                             | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Shell.md\|Shell]]                                 | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Semaphore.md\|Semaphore]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Registry.md\|Registry]]                           | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Portainer.md\|Portainer]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Proxmox Backup Server.md\|Proxmox Backup Server]] | 10:46 PM - April 12, 2026 | 10:46 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Prometheus.md\|Prometheus]]                       | 10:46 PM - April 12, 2026 | 10:46 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/NtopNG.md\|NtopNG]]                               | 10:46 PM - April 12, 2026 | 10:46 PM - April 12, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[Knowledge Base/Tools/CouchDB|CouchDB]] | 12:29 AM - April 16, 2026 | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/Ansible|Ansible]] | 7:15 PM - April 15, 2026 | 7:15 PM - April 15, 2026 |
+| [[Knowledge Base/Tools/Obsidian|Obsidian]] | 8:08 PM - April 15, 2026 | 6:58 PM - April 15, 2026 |
+| [[Knowledge Base/Tools/Technitium|Technitium]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Prometheus|Prometheus]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Harbor|Harbor]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Tailscale|Tailscale]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/LXC|LXC]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Wireguard|Wireguard]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Proxmox|Proxmox]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Apt Cacher NG|Apt Cacher NG]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Homepage|Homepage]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Vaultwarden|Vaultwarden]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Grafana|Grafana]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Beszel|Beszel]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Semaphore|Semaphore]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/WorkAdventure|WorkAdventure]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Wordpress|Wordpress]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Shell|Shell]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%## Contents:
 %% DATAVIEW_PUBLISHER: start
@@ -65,9 +64,8 @@ SORT lastPart
 ```
 %%
 
-| Folder | Documents                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Tools  | [[Knowledge Base/Tools/Ansible.md\|Ansible]] \| [[Knowledge Base/Tools/Apt Cacher NG.md\|Apt Cacher NG]] \| [[Knowledge Base/Tools/Beszel.md\|Beszel]] \| [[Knowledge Base/Tools/CouchDB.md\|CouchDB]] \| [[Knowledge Base/Tools/DjangoCMS.md\|DjangoCMS]] \| [[Knowledge Base/Tools/Docker.md\|Docker]] \| [[Knowledge Base/Tools/Grafana.md\|Grafana]] \| [[Knowledge Base/Tools/Harbor.md\|Harbor]] \| [[Knowledge Base/Tools/HomeAssistant.md\|HomeAssistant]] \| [[Knowledge Base/Tools/Homepage.md\|Homepage]] \| [[Knowledge Base/Tools/index.md\|index]] \| [[Knowledge Base/Tools/LXC.md\|LXC]] \| [[Knowledge Base/Tools/Nextcloud.md\|Nextcloud]] \| [[Knowledge Base/Tools/NtopNG.md\|NtopNG]] \| [[Knowledge Base/Tools/Portainer.md\|Portainer]] \| [[Knowledge Base/Tools/Prometheus.md\|Prometheus]] \| [[Knowledge Base/Tools/Proxmox Backup Server.md\|Proxmox Backup Server]] \| [[Knowledge Base/Tools/Proxmox.md\|Proxmox]] \| [[Knowledge Base/Tools/Registry.md\|Registry]] \| [[Knowledge Base/Tools/Semaphore.md\|Semaphore]] \| [[Knowledge Base/Tools/Shell.md\|Shell]] \| [[Knowledge Base/Tools/Tailscale.md\|Tailscale]] \| [[Knowledge Base/Tools/Technitium.md\|Technitium]] \| [[Knowledge Base/Tools/Vaultwarden.md\|Vaultwarden]] \| [[Knowledge Base/Tools/Wireguard.md\|Wireguard]] \| [[Knowledge Base/Tools/Wordpress.md\|Wordpress]] \| [[Knowledge Base/Tools/WorkAdventure.md\|WorkAdventure]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -85,27 +83,27 @@ LIMIT 20
 ```
 %%
 
-| File                                                                     | Created                   | Updated                   |
-| ------------------------------------------------------------------------ | ------------------------- | ------------------------- |
-| [[Knowledge Base/Tools/index.md\|index]]                                 | 10:46 PM - April 12, 2026 | 2:36 PM - April 13, 2026  |
-| [[Knowledge Base/Tools/Docker.md\|Docker]]                               | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/CouchDB.md\|CouchDB]]                             | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Wireguard.md\|Wireguard]]                         | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Technitium.md\|Technitium]]                       | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/HomeAssistant.md\|HomeAssistant]]                 | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Grafana.md\|Grafana]]                             | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Apt Cacher NG.md\|Apt Cacher NG]]                 | 10:46 PM - April 12, 2026 | 11:29 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/WorkAdventure.md\|WorkAdventure]]                 | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Wordpress.md\|Wordpress]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Vaultwarden.md\|Vaultwarden]]                     | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Tailscale.md\|Tailscale]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Proxmox.md\|Proxmox]]                             | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Shell.md\|Shell]]                                 | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Semaphore.md\|Semaphore]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Registry.md\|Registry]]                           | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Portainer.md\|Portainer]]                         | 10:46 PM - April 12, 2026 | 10:47 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Proxmox Backup Server.md\|Proxmox Backup Server]] | 10:46 PM - April 12, 2026 | 10:46 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/Prometheus.md\|Prometheus]]                       | 10:46 PM - April 12, 2026 | 10:46 PM - April 12, 2026 |
-| [[Knowledge Base/Tools/NtopNG.md\|NtopNG]]                               | 10:46 PM - April 12, 2026 | 10:46 PM - April 12, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[Knowledge Base/Tools/CouchDB|CouchDB]] | 12:29 AM - April 16, 2026 | 12:29 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[Knowledge Base/Tools/Ansible|Ansible]] | 7:15 PM - April 15, 2026 | 7:15 PM - April 15, 2026 |
+| [[Knowledge Base/Tools/Obsidian|Obsidian]] | 8:08 PM - April 15, 2026 | 6:58 PM - April 15, 2026 |
+| [[Knowledge Base/Tools/Technitium|Technitium]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Prometheus|Prometheus]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Harbor|Harbor]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Tailscale|Tailscale]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/LXC|LXC]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Wireguard|Wireguard]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Proxmox|Proxmox]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Apt Cacher NG|Apt Cacher NG]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Homepage|Homepage]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Vaultwarden|Vaultwarden]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Grafana|Grafana]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Beszel|Beszel]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Semaphore|Semaphore]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/WorkAdventure|WorkAdventure]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Wordpress|Wordpress]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Tools/Shell|Shell]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

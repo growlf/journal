@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder    | Documents                                                                                                                                                                                                                                                                                                |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Community | [[Knowledge Base/Community/CAB.md\|CAB]] \| [[Knowledge Base/Community/Discord Linkable ID.md\|Discord Linkable ID]] \| [[Knowledge Base/Community/FLOSS.md\|FLOSS]] \| [[Knowledge Base/Community/index.md\|index]] \| [[Knowledge Base/Community/Mentor-based Internship.md\|Mentor-based Internship]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,12 +31,12 @@ LIMIT 20
 ```
 %%
 
-| File                                                                             | Created                  | Updated                  |
-| -------------------------------------------------------------------------------- | ------------------------ | ------------------------ |
-| [[Knowledge Base/Community/index.md\|index]]                                     | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[Knowledge Base/Community/CAB.md\|CAB]]                                         | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
-| [[Knowledge Base/Community/Discord Linkable ID.md\|Discord Linkable ID]]         | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
-| [[Knowledge Base/Community/FLOSS.md\|FLOSS]]                                     | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
-| [[Knowledge Base/Community/Mentor-based Internship.md\|Mentor-based Internship]] | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[Knowledge Base/Community/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[Knowledge Base/Community/CAB|CAB]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Community/Discord Linkable ID|Discord Linkable ID]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Community/Mentor-based Internship|Mentor-based Internship]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[Knowledge Base/Community/FLOSS|FLOSS]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

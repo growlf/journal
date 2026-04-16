@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder                 | Documents                                                                                                                    |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| hypervisor-ops-officer | [[_assets/AI-Skills/hypervisor-ops-officer/index.md\|index]] \| [[_assets/AI-Skills/hypervisor-ops-officer/SKILL.md\|SKILL]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,9 +31,9 @@ LIMIT 20
 ```
 %%
 
-| File                                                         | Created                  | Updated                  |
-| ------------------------------------------------------------ | ------------------------ | ------------------------ |
-| [[_assets/AI-Skills/hypervisor-ops-officer/index.md\|index]] | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/hypervisor-ops-officer/SKILL.md\|SKILL]] | 8:33 PM - April 12, 2026 | 8:33 PM - April 12, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/AI-Skills/hypervisor-ops-officer/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/hypervisor-ops-officer/SKILL|SKILL]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

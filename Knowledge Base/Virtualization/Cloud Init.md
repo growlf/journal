@@ -8,7 +8,8 @@ tags:
   - template
 Creation date: Monday April 4th 2022 11:18:30
 ---
-The following is a quick-guide to generating a clean instance-template for use for your [[Internal/Networks/Yeticraft/Services/Proxmox/index]] virtual machines.
+-----
+The following is a quick-guide to generating a clean instance-template for use for your [[Knowledge Base/Tools/Proxmox]] virtual machines.
 ### Download an 'img'
 First, select an appropriate image from [the list](https://cloud-images.ubuntu.com/daily/server/releases/noble/release/). Then, download the selected cloud-init image (I chose the latest release of Noble Numbat).
 ```bash
@@ -52,7 +53,7 @@ qm clone 9000 201 --name "new-ubuntu-vm"
 
 A preliminary test has indeed confirmed that this setup functions seamlessly on CEPH volumes. The next logical step involves integrating this configuration into my Ansible playbooks for enhanced automation and streamlined server management.
 
-This integration will not only simplify the process of managing multiple servers but also ensure consistency across all environments, thereby reducing potential errors caused by manual configurations. By leveraging [[Knowledge Base/Ansible/index]]'s capabilities to automate repetitive tasks, I can focus on more complex aspects of server administration while maintaining a high level of efficiency and reliability.
+This integration will not only simplify the process of managing multiple servers but also ensure consistency across all environments, thereby reducing potential errors caused by manual configurations. By leveraging [[Ansible]]'s capabilities to automate repetitive tasks, I can focus on more complex aspects of server administration while maintaining a high level of efficiency and reliability.
 
 To achieve this, I need to update my playbooks with the necessary modifications, including changing the import locations for images and updating commands that reference them. This will involve a combination of Ansible's `import_image` module and possibly some custom scripting to handle specific requirements.
 

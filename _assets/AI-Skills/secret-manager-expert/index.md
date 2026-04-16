@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder                | Documents                                                                                                                  |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| secret-manager-expert | [[_assets/AI-Skills/secret-manager-expert/index.md\|index]] \| [[_assets/AI-Skills/secret-manager-expert/SKILL.md\|SKILL]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,9 +31,9 @@ LIMIT 20
 ```
 %%
 
-| File                                                        | Created                  | Updated                  |
-| ----------------------------------------------------------- | ------------------------ | ------------------------ |
-| [[_assets/AI-Skills/secret-manager-expert/index.md\|index]] | 2:24 PM - April 13, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/secret-manager-expert/SKILL.md\|SKILL]] | 2:24 PM - April 13, 2026 | 2:24 PM - April 13, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/AI-Skills/secret-manager-expert/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/secret-manager-expert/SKILL|SKILL]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

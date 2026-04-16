@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder        | Documents                                                                                                  |
-| ------------- | ---------------------------------------------------------------------------------------------------------- |
-| task-sergeant | [[_assets/AI-Skills/task-sergeant/index.md\|index]] \| [[_assets/AI-Skills/task-sergeant/SKILL.md\|SKILL]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,9 +31,9 @@ LIMIT 20
 ```
 %%
 
-| File                                                | Created                  | Updated                  |
-| --------------------------------------------------- | ------------------------ | ------------------------ |
-| [[_assets/AI-Skills/task-sergeant/index.md\|index]] | 2:16 PM - April 13, 2026 | 2:36 PM - April 13, 2026 |
-| [[_assets/AI-Skills/task-sergeant/SKILL.md\|SKILL]] | 2:16 PM - April 13, 2026 | 2:16 PM - April 13, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/AI-Skills/task-sergeant/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/AI-Skills/task-sergeant/SKILL|SKILL]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

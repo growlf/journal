@@ -1,33 +1,14 @@
 ---
-title: Domain
+tags:
+  - dns
+  - networking
+  - glossary
+Creation date: Monday April 4th 2022 11:18:30
+Documentation:
 ---
+---
+A domain, or domain name, is a human-friendly identifier for a website or other online resource, acting as a user-friendly alternative to the numerical IP address. It's the name you type into a browser to reach a specific website, like "yeticraft.net".
 
-# Domains: The Address Book of the Internet
+You can purchase a domain through a Registrar such as [Cloudflare](https://www.cloudflare.com/), [Namecheap](https://www.namecheap.com/), etc.
 
-A domain (e.g., `netyeti.net`) is a human-readable "alias" for an IP address.
-
-## Why a Domain in the Lab?
-- **Ease of Use:** `router.home.arpa` is easier than `192.168.1.1`.
-- **SSL/TLS:** You need a domain to get a valid certificate from Let's Encrypt (using the DNS-01 challenge).
-- **Organization:** Subdomains can group your services (`nas.netyeti.net`, `plex.netyeti.net`).
-
-## NetYeti's Strategy for Domains
-1.  **Public Domain:** Register one (via Cloudflare, Namecheap, etc.) for external access (with a VPN!).
-2.  **Internal Domain:** Use `.home.arpa` (RFC 8375) or a subdomain of your public domain (`internal.netyeti.net`).
-3.  **Local Resolution:** Use Pi-hole or Technitium to resolve internal domains to local IPs.
-
-## Common TLDs (Top-Level Domains)
-- `.net` / `.com` / `.org`: Standard.
-- `.home.arpa`: Recommended for internal non-routable domains.
-- `.internal`: A newer emerging standard.
-
-## Domain & DNS Reliability (The PACE Plan)
-> [!TIP] Information Discipline
-> **P (Primary):** Internal [[Technitium DNS & DHCP]] (Recursive & Authoritative for local zones).
-> **A (Alternate):** Secondary Technitium node or [[AdGuard Home]] instance.
-> **C (Contingency):** Public DNS providers (e.g., 1.1.1.1, 8.8.8.8) with hardcoded `/etc/hosts` for critical infrastructure.
-> **E (Emergency):** Direct IP access (bypass DNS entirely for management interfaces).
-
-### Knowledge Check:
-- Are you using "Split-Horizon DNS" to resolve your public domain to local IPs when you're at home?
-- Is your "Dynamic DNS" (DDNS) client updating your IP automatically?
+Running your own local domain is easy with a home-lab running a split [[DNS]].

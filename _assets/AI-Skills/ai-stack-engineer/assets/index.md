@@ -12,9 +12,8 @@ SORT lastPart
 ```
 %%
 
-| Folder | Documents                                                      |
-| ------ | -------------------------------------------------------------- |
-| assets | [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]] |
+| Folder | Documents |
+| --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
 
@@ -32,8 +31,8 @@ LIMIT 20
 ```
 %%
 
-| File                                                           | Created                  | Updated                  |
-| -------------------------------------------------------------- | ------------------------ | ------------------------ |
-| [[_assets/AI-Skills/ai-stack-engineer/assets/index.md\|index]] | 8:33 PM - April 12, 2026 | 2:36 PM - April 13, 2026 |
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/AI-Skills/ai-stack-engineer/assets/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%
