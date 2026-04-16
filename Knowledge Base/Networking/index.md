@@ -32,3 +32,6 @@ This section covers the networking fundamentals and specific configurations for 
 ## Reference
 - [[Knowledge Base/Networking/pfSense.md|pfSense]]: Open-source firewall.
 - [[Knowledge Base/Networking/OPNsense.md|OPNsense]]: HardenedBSD firewall.
+
+## Tactical Notes
+- [[Knowledge Base/Networking/Tactical-SSH-GitHub-Keys.md|Tactical SSH: GitHub Keys]]: Rapid provisioning via public key retrieval.

@@ -28,25 +28,31 @@ def sync_and_audit():
     file_map = {} # path -> content
 
     # --- PHASE 1: RECON ---
-    for root, dirs, files in os.walk(VAULT_ROOT):
-        if any(ignored in root for ignored in [".git", ".obsidian", ".trash"]): continue
-        for file in files:
-            if file.endswith(".md"):
-                path = os.path.join(root, file)
-                try:
-                    with open(path, 'r', encoding='utf-8', errors='ignore') as f:
-                        content = f.read()
-                        file_map[path] = content
-                        for m in task_pattern.finditer(content):
-                            full_match, status_char, task_text = m.groups()
-                            clean_text = task_text.strip()
-                            is_done = status_char.lower() == 'x'
-                            
-                            if clean_text not in completion_registry:
-                                completion_registry[clean_text] = is_done
-                            elif is_done: # If we find even one completed version, mark the registry as done
-                                completion_registry[clean_text] = True
-                except: continue
+    # Use grep to find files containing potential tasks, much faster than walking every file in Python
+    try:
+        grep_cmd = ["grep", "-rl", "-E", "^\\s*-\\s\\[[ xX]\\]", VAULT_ROOT]
+        import subprocess
+        candidate_files = subprocess.check_output(grep_cmd).decode('utf-8').splitlines()
+    except subprocess.CalledProcessError:
+        candidate_files = [] # No tasks found
+
+    for path in candidate_files:
+        if any(ignored in path for ignored in [".git", ".obsidian", ".trash"]): continue
+        if not path.endswith(".md"): continue
+        try:
+            with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+                content = f.read()
+                file_map[path] = content
+                for m in task_pattern.finditer(content):
+                    full_match, status_char, task_text = m.groups()
+                    clean_text = task_text.strip()
+                    is_done = status_char.lower() == 'x'
+                    
+                    if clean_text not in completion_registry:
+                        completion_registry[clean_text] = is_done
+                    elif is_done: 
+                        completion_registry[clean_text] = True
+        except: continue
 
     # --- PHASE 2: AUTO-COMPLETE DUPLICATES ---
     changes_made = 0

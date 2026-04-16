@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "globalping": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jsdelivr/globalping-mcp-server"
+      ]
+    },
+    "napalm": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@stiltzkin10/napalm-geminicli-extension"
+      ]
+    }
+  }
+}

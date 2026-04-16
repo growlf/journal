@@ -26,8 +26,12 @@ Our architecture doesn't rely on just one brain. We use a combination of **Local
    - **Endpoint:** Google Gemini / Anthropic Claude.
    - **Use Case:** High-complexity synthesis, vault-wide strategy, complex formatting.
 
-3. **Contingency (C): Manual SYCL / Secondary Nodes**
+3. **Contingency (C): Manual SYCL / Secondary Nodes / Network Diagnostics**
    - **Fallback:** Manual `llama.cpp` builds or secondary servers (e.g., [[Network/Devices/Sterling|Sterling]]).
+   - **Diagnostic Powers:** 
+     - **GlobalPing:** Testing network reachability from global probes.
+     - **NAPALM:** Multi-vendor network automation (Mikrotik/RouterOS support).
+     - **Manual WireGuard Scripts:** Direct peer-to-peer verification via `check-bms-vpn.sh`.
 
 4. **Emergency (E): Human Intel & Physical Reference**
    - **Fallback:** The NetYeti himself and his shelf of O'Reilly books.
