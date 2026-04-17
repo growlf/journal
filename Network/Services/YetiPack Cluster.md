@@ -20,6 +20,9 @@ tags:
 | **Lab-2** | 10.10.1.139 | Lab Node | Workstation |
 | **Lab-3** | 10.10.1.30 | Lab Node | Workstation |
 | **Lab-4** | 10.10.1.238 | Lab Node | Workstation |
+| **Yeti-500** | 10.10.1.194 | Swarm Node | LXC (PVE) |
+| **Yeti-501** | 10.10.1.195 | Swarm Node | LXC (PVE) |
+| **Yeti-502** | 10.10.1.196 | Swarm Node | LXC (PVE) |
 | **Sterling** | 192.168.88.136 | Home LAN | Windows Workstation |
 
 ---

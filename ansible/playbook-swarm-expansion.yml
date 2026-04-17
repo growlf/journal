@@ -1,0 +1,7 @@
+---
+- name: Expand the Swarm
+  hosts: swarm_nodes
+  become: yes
+  gather_facts: yes
+  roles:
+    - ollama

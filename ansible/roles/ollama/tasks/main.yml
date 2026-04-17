@@ -1,0 +1,50 @@
+---
+- name: Install dependencies
+  apt:
+    name:
+      - curl
+      - rsync
+      - zstd
+    state: present
+    update_cache: yes
+
+- name: Check if Ollama is installed
+  command: which ollama
+  register: ollama_binary_path
+  ignore_errors: yes
+  changed_when: false
+
+- name: Install Ollama
+  shell: curl -fsSL https://ollama.com/install.sh | sh
+  when: ollama_binary_path.rc != 0
+
+- name: Re-check Ollama binary path
+  command: which ollama
+  register: ollama_binary_path
+  changed_when: false
+
+- name: Create ollama user
+  user:
+    name: ollama
+    system: yes
+    shell: /bin/false
+
+- name: Configure Ollama service
+  template:
+    src: ollama.service.j2
+    dest: /etc/systemd/system/ollama.service
+  notify: Restart Ollama
+
+- name: Ensure Ollama is started and enabled
+  systemd:
+    name: ollama
+    state: started
+    enabled: yes
+
+- name: Pull standard models
+  command: ollama pull {{ item }}
+  loop:
+    - llama3.1
+    - smollm
+  async: 600
+  poll: 0
