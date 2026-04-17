@@ -30,9 +30,11 @@ To implement **Ansible** as the primary orchestration and configuration manageme
 ### 🔄 Phase 2: Script Migration (Translating the Dialect)
 We will migrate our existing library of manual scripts into reusable **Ansible Roles**.
 1.  **`check-llm-status.sh`** -> `ansible-role-ollama-monitor`
-2.  **`sync-ollama-herd.sh`** -> `ansible-playbook-sync-herd` (using the `synchronize` module).
-3.  **`check-arc-gpu.sh`** -> `ansible-role-intel-gpu-manager` (to handle device drift).
-4.  **`warden-handshake.sh`** -> `ansible-playbook-daily-briefing`.
+2.  **`sync-ollama-herd.sh`** -> `ansible-playbook-sync-herd`
+3.  **`check-arc-gpu.sh`** -> `ansible-role-intel-gpu-manager`
+4.  **`warden-handshake.sh`** -> `ansible-playbook-daily-briefing`
+5.  **`ollama_provisioner.sh`** -> `ansible-playbook-provision-herd` (New!)
+6.  **`net_yeti_audit.sh`** -> `ansible-role-network-audit` (New!)
 
 ### 🛡️ Phase 3: Security & Vault Integration
 *   **Zero-Bake Law Enforcement:** Integrate Ansible with the **Bitwarden Vault**.

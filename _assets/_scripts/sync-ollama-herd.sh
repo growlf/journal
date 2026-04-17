@@ -3,7 +3,7 @@
 # Synchronizes models across the distributed AI swarm using rsync and LAN.
 
 # --- Config ---
-ALL_NODES=("phoenix" "gemini" "nuk1" "lab1" "lab2" "lab3" "lab4")
+ALL_NODES=("phoenix" "gemini" "nuk1" "lab1" "lab2" "lab3" "lab4" "sterling")
 HOSTNAME=$(hostname)
 
 # Mapping of nodes to their local model paths
@@ -15,6 +15,7 @@ PATHS["lab1"]="/usr/share/ollama/.ollama/models"
 PATHS["lab2"]="/usr/share/ollama/.ollama/models"
 PATHS["lab3"]="/usr/share/ollama/.ollama/models"
 PATHS["lab4"]="/usr/share/ollama/.ollama/models"
+PATHS["sterling"]="C:/Users/elyza/.ollama/models"
 
 # Detect our local path
 LOCAL_MODELS=${PATHS[$HOSTNAME]}
@@ -35,6 +36,13 @@ echo "[Signal] Starting Ollama Herd Sync (Gestalt Synchronization) on $HOSTNAME.
 # 1. Pull from everyone else to this node (The Aggregator/Sync point)
 for node in "${ALL_NODES[@]}"; do
     if [[ "$node" == "$HOSTNAME" ]]; then continue; fi
+    
+    # Quick reachability and rsync check
+    if ! ssh -o ConnectTimeout=2 "$node" "rsync --version" > /dev/null 2>&1; then
+        echo "[Warning] Node $node is unreachable or lacks rsync. Skipping sync."
+        continue
+    fi
+
     echo "--- Pulling from $node ---"
     
     REMOTE_PATH="${PATHS[$node]}"

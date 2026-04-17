@@ -1,0 +1,33 @@
+---
+- name: AI Task Dispatch
+  hosts: "{{ target_node | default('phoenix') }}"
+  gather_facts: no
+  vars:
+    task_prompt: "Review the current server-side MASQUERADE rules on this system and provide a security audit report in markdown format."
+    model_to_use: "llama3"
+  tasks:
+    - name: Process AI task locally using Ollama
+      ansible.builtin.uri:
+        url: "http://localhost:11434/api/generate"
+        method: POST
+        body_format: json
+        body:
+          model: "{{ model_to_use }}"
+          prompt: "{{ task_prompt }}"
+          stream: false
+        return_content: yes
+      register: ai_response
+      ignore_errors: yes
+
+    - name: Write AI response to the vault
+      ansible.builtin.copy:
+        content: |
+          # AI Task Result: {{ inventory_hostname }}
+          **Prompt:** {{ task_prompt }}
+          **Timestamp:** {{ lookup('pipe', 'date') }}
+          
+          ## Response:
+          {{ ai_response.json.response }}
+        dest: "/home/netyeti/Obsidian/Journal/Internal/AI_Reports/{{ inventory_hostname }}_{{ lookup('pipe', 'date +%Y%m%d%H%M%S') }}.md"
+      delegate_to: localhost
+      when: ai_response.status == 200

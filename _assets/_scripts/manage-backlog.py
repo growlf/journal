@@ -96,7 +96,7 @@ def sync_and_audit():
             
     return final_tasks
 
-def generate_briefing(tasks):
+def generate_fallback_briefing(tasks):
     tasks.sort(key=lambda x: (x['priority'], x['due'] or '9999-99-99'))
     ai_tasks = [t for t in tasks if t['ai_ready']]
     manual_tasks = [t for t in tasks if not t['ai_ready']]
@@ -125,6 +125,40 @@ def generate_briefing(tasks):
     briefing += f"\n--- \n*Law of the Forest: Task the Warden by saying: 'Warden, execute the AI handoff.'*"
     return briefing
 
+def generate_briefing_with_ollama(tasks):
+    import json
+    import subprocess
+    
+    tasks.sort(key=lambda x: (x['priority'], x['due'] or '9999-99-99'))
+    
+    prompt = f"""You are 'The Warden', the task sergeant for Garth Johnson (The NetYeti). 
+Analyze the following list of active objectives from the Obsidian vault and generate a 'Warden's Tactical Briefing'.
+
+RULES:
+- Maintain the 'NetYeti' tone: expert, veteran-inspired (PACE), direct, and pragmatic.
+- Use Obsidian Markdown formatting (callouts, tasks, etc.).
+- Categorize tasks into 'Minion Powers' (AI/Automated tasks) and 'Guardian Directives' (Manual/Garth-required).
+- Highlight the most critical items (🔺) and provide a brief 'Instructor's Note' on why they matter.
+- Be concise but insightful.
+
+TASK LIST:
+{json.dumps(tasks, indent=2)}
+"""
+    
+    try:
+        # Using curl for minimal dependency (already verified available on system)
+        payload = json.dumps({
+            "model": "llama3.1:latest",
+            "prompt": prompt,
+            "stream": False
+        })
+        cmd = ["curl", "-s", "-X", "POST", "http://localhost:11434/api/generate", "-d", payload]
+        result = subprocess.check_output(cmd).decode('utf-8')
+        return json.loads(result).get('response', "Error: No response from Ollama.")
+    except Exception as e:
+        # Fallback if Ollama is down or curl fails
+        return generate_fallback_briefing(tasks)
+
 def ensure_daily():
     path = get_today_path()
     if not os.path.exists(path):
@@ -138,4 +172,7 @@ if __name__ == "__main__":
     os.system("python3 _assets/_scripts/protect-index.py")
     ensure_daily()
     remaining = sync_and_audit()
-    print(generate_briefing(remaining))
+    
+    # Use the offloaded local AI briefing
+    briefing = generate_briefing_with_ollama(remaining)
+    print(briefing)

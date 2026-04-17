@@ -1,0 +1,35 @@
+---
+- name: The Great Forest Recon (Discovery)
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+    subnets:
+      - "192.168.88.0/24" # Home
+      - "10.10.0.0/24"    # BMS Management
+      - "192.168.42.0/24" # Office
+    scan_output_dir: "/home/netyeti/.gemini/tmp/journal/recon"
+  tasks:
+    - name: Ensure scan output directory exists
+      ansible.builtin.file:
+        path: "{{ scan_output_dir }}"
+        state: directory
+
+    - name: Perform ping sweep across subnets
+      ansible.builtin.shell: "nmap -sn {{ item }} -oG {{ scan_output_dir }}/scan_{{ item | replace('/', '_') }}.gnmap"
+      loop: "{{ subnets }}"
+      register: nmap_scans
+
+    - name: Parse nmap results into a unified list
+      ansible.builtin.shell: |
+        grep "Up" {{ scan_output_dir }}/*.gnmap | awk '{print $2}' | sort -u
+      register: discovered_ips
+
+    - name: Report discovered hosts
+      ansible.builtin.debug:
+        msg: "Discovered {{ discovered_ips.stdout_lines | length }} live hosts in the forest."
+
+    - name: Save discovered list for next phase
+      ansible.builtin.copy:
+        content: "{{ discovered_ips.stdout }}"
+        dest: "{{ scan_output_dir }}/live_hosts.txt"

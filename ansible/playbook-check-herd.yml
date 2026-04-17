@@ -1,0 +1,42 @@
+---
+- name: Herd Status Check
+  hosts: ollama_herd
+  gather_facts: yes
+  tasks:
+    - name: Check Ollama service status (Linux)
+      ansible.builtin.systemd:
+        name: ollama
+      register: ollama_service
+      when: ansible_os_family != "Windows"
+      ignore_errors: yes
+
+    - name: Check Ollama process (Windows)
+      ansible.windows.win_powershell:
+        script: "Get-Process ollama -ErrorAction SilentlyContinue"
+      register: ollama_process_win
+      when: ansible_os_family == "Windows"
+
+    - name: Query Ollama API for models (Linux)
+      ansible.builtin.uri:
+        url: "http://localhost:11434/api/tags"
+        method: GET
+        return_content: yes
+      register: ollama_api_linux
+      when: ansible_os_family != "Windows"
+      ignore_errors: yes
+
+    - name: Query Ollama API for models (Windows)
+      ansible.windows.win_uri:
+        url: "http://localhost:11434/api/tags"
+        method: GET
+        return_content: yes
+      register: ollama_api_win
+      when: ansible_os_family == "Windows"
+      ignore_errors: yes
+
+    - name: Report Herd Signal
+      ansible.builtin.debug:
+        msg: >
+          [{{ inventory_hostname }}] 
+          Status: {{ 'ACTIVE' if ((ollama_api_linux.status | default(0) == 200) or (ollama_api_win.status | default(0) == 200)) else 'OFFLINE' }}
+          Models: {{ (ollama_api_linux.json.models | map(attribute='name') | list | join(', ')) if (ollama_api_linux.json | default(None)) else ((ollama_api_win.json.models | map(attribute='name') | list | join(', ')) if (ollama_api_win.json | default(None)) else 'N/A') }}
