@@ -52,16 +52,16 @@ Use the `deploy_yeti_sidecar.sh` script to push the sidecar to a new node.
     - `-p 11435:11435`: Exposes the Sidecar API.
 
 ### 3. Maintaining the Herd with Ansible
-The "Ollama Herd" is managed via Ansible in `/ansible/inventory/hosts.ini`. 
+The "Ollama Herd" is managed via Ansible in `/Learning/Ansible Automated Lab Manual/inventory/hosts.ini`. 
 
 **Check Herd Status:**
 ```bash
-ansible-playbook -i ansible/inventory/hosts.ini ansible/playbook-check-herd.yml
+ansible-playbook -i Learning/Ansible Automated Lab Manual/inventory/hosts.ini Learning/Ansible Automated Lab Manual/playbook-check-herd.yml
 ```
 
 **Dispatch a Task:**
 ```bash
-ansible-playbook -i ansible/inventory/hosts.ini ansible/playbook-dispatch-task.yml -e "target_node=lab1 task_prompt='Audit the logs'"
+ansible-playbook -i Learning/Ansible Automated Lab Manual/inventory/hosts.ini Learning/Ansible Automated Lab Manual/playbook-dispatch-task.yml -e "target_node=lab1 task_prompt='Audit the logs'"
 ```
 
 ## 🚀 Farming Jobs in Parallel
@@ -77,4 +77,4 @@ For high-volume LLM tasks, use the `parallel_ollama.py` script. It reads the nod
 - How does the `Parallel_Offloading_Reports.md` help with "Orchestrator Review"?
 
 ---
-*Related: [[Sparse Page]], [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]], [[ansible/index|Ansible Automation]]*
+*Related: [[Sparse Page]], [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]], [[Learning/Ansible Automated Lab Manual/index|Ansible Automation]]*

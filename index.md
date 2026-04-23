@@ -61,6 +61,7 @@ Making ripples of knowledge and creative intent. Inspiring new minds and sharing
 ### 🧠 Knowledge Base
 - 📡 [[Learning/Home-Lab-Series/index|Home Lab 101]] — The Self-Healing Lab (Tutorial).
 - 🏗️ [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]] — The Master Blueprint & Architecture.
+- 🛠️ [[Learning/Ansible Automated Lab Manual/index|Ansible Manual]] — Automated Lab Infrastructure.
 - 🗺️ [[Sparse Page]] — The Visual Command Map.
 - 🎓 [[Learning/index|Learning & Education]] — Structured Courses and Modules.
 - 🛠️ [[Policies/index|SOPs & Forest Laws]] — Standard Operating Procedures.

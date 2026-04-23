@@ -22,19 +22,28 @@ def get_headers(file_path):
 def audit():
     all_files = []
     for r, d, f in os.walk(VAULT_ROOT):
+        # Skip hidden directories
+        if ".obsidian" in r or ".git" in r or ".gemini" in r:
+            continue
         for file in f:
-            if file.endswith(".md"):
-                all_files.append(os.path.join(r, file))
+            all_files.append(os.path.join(r, file))
 
     file_map = {}
     name_map = {}
     for f in all_files:
         rel = os.path.relpath(f, VAULT_ROOT)
         file_map[rel] = f
-        name = os.path.splitext(os.path.basename(f))[0]
+        name = os.path.basename(f) # Include extension for assets
         if name not in name_map:
             name_map[name] = []
         name_map[name].append(f)
+        
+        # Also map without extension for markdown files
+        if f.endswith(".md"):
+            name_no_ext = os.path.splitext(name)[0]
+            if name_no_ext not in name_map:
+                name_map[name_no_ext] = []
+            name_map[name_no_ext].append(f)
 
     broken_links = [] # Missing headers
     missing_files = [] # Sparse pages
@@ -46,6 +55,8 @@ def audit():
     mdlink_re = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
 
     for file_path in all_files:
+        if not file_path.endswith(".md"):
+            continue
         rel_source = os.path.relpath(file_path, VAULT_ROOT)
         try:
             with open(file_path, 'r', encoding='utf-8') as f:

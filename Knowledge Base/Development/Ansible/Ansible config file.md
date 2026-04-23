@@ -9,7 +9,7 @@ Ansible follows a specific order when looking for configuration files, with each
 1. **ANSIBLE_CONFIG environment variable** - If this environment variable is set, Ansible uses the file it points to and ignores all other locations.
 2. **ansible.cfg in the current directory** - Ansible checks for a configuration file in the directory where you run your ansible commands. This is ideal for project-specific settings.
 3. **~/.ansible.cfg in the user's home directory** - User-specific configuration that applies across all projects for that user.
-4. **/etc/ansible/ansible.cfg** - System-wide default configuration that applies to all users on the system.
+4. **/etc/Learning/Ansible Automated Lab Manual/ansible.cfg** - System-wide default configuration that applies to all users on the system.
 
 ## Example
 

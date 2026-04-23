@@ -24,8 +24,8 @@ Things that just make life interesting and/or are just too cool not to play with
 ### Personal Hardware and Home-lab
 To get an idea of what I use in my personal testing lab, here are a few of the devices:
 - [[Arc]]
-- [[Gearbox]]
+- [[Portable-Admin-Node]]
 - [[Intercepter]]
 - [[Nexus]]
-- [[Sliver]]
+- [[Auth-Service-Node]]
 - [[Sylph]]

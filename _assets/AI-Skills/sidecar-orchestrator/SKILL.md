@@ -37,10 +37,10 @@ To analyze logs from a remote host without full SSH overhead:
 ## Tooling Parity
 - **Ollama API:** Port 11434 (Standard Inference)
 - **Sidecar API:** Port 11435 (Host Management)
-- **Inventory:** `/ansible/inventory/hosts.ini` (The Source of Truth)
+- **Inventory:** `/Learning/Ansible Automated Lab Manual/inventory/hosts.ini` (The Source of Truth)
 
 ## Mandate: Local First
-ALWAYS check the status of the **Ollama Herd** via `ansible-playbook -i ansible/inventory/hosts.ini _assets/_scripts/playbook-check-herd.yml` before deciding to use Cloud AI (Alternate) for bulk tasks. If the herd is ACTIVE, use it.
+ALWAYS check the status of the **Ollama Herd** via `ansible-playbook -i Learning/Ansible Automated Lab Manual/inventory/hosts.ini _assets/_scripts/playbook-check-herd.yml` before deciding to use Cloud AI (Alternate) for bulk tasks. If the herd is ACTIVE, use it.
 
 ---
 *Related: [[Projects/Project - Yeti_Sidecar Herd Orchestration|Project: Yeti_Sidecar]], [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]]*
