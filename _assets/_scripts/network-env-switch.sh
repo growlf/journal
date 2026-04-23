@@ -6,7 +6,7 @@
 HOME_SSID="pipplew"
 HOME_SUBNET="192.168.88"
 
-BMS_SSIDS=("BMS-WiFi" "cascadesteam" "CascadeSTEAM" "bmswifi")
+BMS_SSIDS=("BMS-WiFi" "cascadesteam" "CascadeSTEAM" "bmswifi" "bmswifi1")
 BMS_SUBNET="10.10"
 
 WORK_SUBNET="192.168.42"
@@ -83,8 +83,8 @@ echo "--- Policy Applied ---"
 
 # --- Sanitization ---
 # Call the local sanitization script if it exists
-SAN_SCRIPT="/home/netyeti/Obsidian/Journal/_assets/_scripts/sanitize-network.py"
+SAN_SCRIPT="~/Obsidian/Journal/_assets/_scripts/sanitize-network.py"
 if [ -f "$SAN_SCRIPT" ]; then
     echo "[*] Running Sanitization Protocol..."
-    python3 "$SAN_SCRIPT" --path "/home/netyeti/Obsidian/Journal/Internal/daily/2026/04/2026-04-15.md"
+    python3 "$SAN_SCRIPT" --path "~/Obsidian/Journal/Internal/daily/2026/04/2026-04-15.md"
 fi

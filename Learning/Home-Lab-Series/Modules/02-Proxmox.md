@@ -61,4 +61,4 @@ Don't upload ISOs for every VM. Download a **Cloud-Init** image (Ubuntu/Debian).
 ---
 **Next Module:** [[Learning/Home-Lab-Series/Modules/03-GitOps|The Blueprint (GitOps)]]
 **Status:** Operational
-**Related:** [[Internal/Networks/Yeticraft/Services/Proxmox]], [[Policies/SOP - Deploying a New LXC]]
+**Related:** [[Sparse Page]], [[Policies/SOP - Deploying a New LXC]]

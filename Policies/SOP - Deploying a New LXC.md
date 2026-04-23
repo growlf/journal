@@ -20,7 +20,7 @@ tags:
 - **Signal Discipline:** Identify any secrets (passwords, API keys) the container will need. **DO NOT** hardcode them into the container's configuration. Use our [[Policies/SOP - Secret Management in the Home Lab|Secret Management SOP]].
 
 ## 2. Deployment (The Action Phase)
-1. **Open Proxmox:** Log in to your [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] node.
+1. **Open Proxmox:** Log in to your [[Sparse Page]] node.
 2. **Create Container:** Click "Create CT" in the top-right corner.
 3. **General Settings:**
    - **Hostname:** Give it a clear, descriptive name (e.g., `web-server-01`).
@@ -50,7 +50,7 @@ tags:
 **Status:** (Complete / In-Progress)
 **Related Tasks:** 
 - [ ] Add to [[Knowledge Base/Services/Monitoring/index|Monitoring]]
-- [ ] Schedule regular backups with [[Internal/Networks/Yeticraft/Services/Proxmox/Proxmox Backup Server|PBS]]
+- [ ] Schedule regular backups with [[Sparse Page]]
 - [ ] Conduct AAR
 
-*Related: [[Policies/SOP - Secret Management in the Home Lab]], [[Internal/Networks/Yeticraft/Services/Proxmox/index]]*
+*Related: [[Policies/SOP - Secret Management in the Home Lab]], [[Sparse Page]]*

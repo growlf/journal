@@ -5,7 +5,7 @@ tags:
 aliases:
 ---
 Local communities that I frequent and support:
-- [Bellingham Makerspace](https://bellinghammakerspace.org/)
+- [Bellingham Makerspace](https://lab.internal/)
 - [BTC Raspberry Pi Club](https://www.raspberrypiclub.org)
 - [Bellingham Codes](https://bellingham.codes/)
 - [Bellingham Linux Users Group](https://www.blug.org/)

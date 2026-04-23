@@ -24,7 +24,7 @@ To implement **Ansible** as the primary orchestration and configuration manageme
 3.  **Inventory Architecture:**
     *   Create a structured `inventory/` directory.
     *   Divide by site: `home.ini`, `bms.ini`, `office.ini`, `cascade.ini`.
-    *   Use `group_vars/` to define site-specific constants (DNS suffixes like `dhcp.bellinghammakerspace.org`, local gateways, etc.).
+    *   Use `group_vars/` to define site-specific constants (DNS suffixes like `dhcp.lab.internal`, local gateways, etc.).
 4.  **The "Ping" Test:** Verify connectivity to the **Ollama Herd** and **Swarm Nodes** using the `ansible all -m ping` command.
 
 ### 🔄 Phase 2: Script Migration (Translating the Dialect)
@@ -68,4 +68,4 @@ We will migrate our existing library of manual scripts into reusable **Ansible R
 *(To be completed after project closure)*
 
 ---
-**Related:** [[Policies/Policy - Local Sovereignty Law]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint]], [[Internal/Networks/Yeticraft/Services/Ollama/Signal Report]]
+**Related:** [[Policies/Policy - Local Sovereignty Law]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint]], [[Sparse Page]]

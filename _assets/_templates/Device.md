@@ -53,4 +53,4 @@ tags:
 
 ---
 **Status:** Operational
-**Related:** [[Internal/Networks/BMS/index]], [[Internal/Launch Page]]
+**Related:** [[Sparse Page]], [[Sparse Page]]

@@ -34,7 +34,7 @@ Before you dive into the technical details, read **[[Knowledge Base/LLM/The AI H
 > [!TIP] Information Discipline
 > **P (Primary):** Local Ollama Docker Instance (**gemma3:12b**, **qwen2.5-coder:14b**, **deepseek-r1:14b**) with Intel Arc (SYCL) acceleration.
 > **A (Alternate):** **Gemini (Cloud)** for complex synthesis and cross-vault strategy via **[[Knowledge Base/LLM/OpenClaw|OpenClaw]]**.
-> **C (Contingency):** Secondary local nodes (e.g., [[Network/Devices/Sterling|Sterling]]) or manual `llama.cpp` builds.
+> **C (Contingency):** Secondary local nodes (e.g., [[Sparse Page]]) or manual `llama.cpp` builds.
 > **E (Emergency):** Human expertise and physical reference books.
 
 ## SOP: AI Delegation & Usage

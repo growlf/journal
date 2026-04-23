@@ -1,5 +1,5 @@
 ---
-title: Testing
+title: Knowledge Base/Networking
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start
@@ -16,6 +16,7 @@ SORT lastPart
 | --- | --- |
 
 %% DATAVIEW_PUBLISHER: end %%
+
 ## Recent Changes / Additions
 %% DATAVIEW_PUBLISHER: start
 ```dataview
@@ -32,28 +33,29 @@ LIMIT 20
 
 | File | Created | Updated |
 | --- | --- |
-| [[Knowledge Base/Tools/CouchDB|CouchDB]] | 12:29 AM - April 16, 2026 | 12:29 AM - April 16, 2026 |
-| [[Knowledge Base/Tools/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
-| [[Knowledge Base/Tools/Ansible|Ansible]] | 7:15 PM - April 15, 2026 | 7:15 PM - April 15, 2026 |
-| [[Knowledge Base/Tools/Obsidian|Obsidian]] | 8:08 PM - April 15, 2026 | 6:58 PM - April 15, 2026 |
-| [[Knowledge Base/Tools/Technitium|Technitium]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Prometheus|Prometheus]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Harbor|Harbor]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Tailscale|Tailscale]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/LXC|LXC]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Wireguard|Wireguard]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Proxmox|Proxmox]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Apt Cacher NG|Apt Cacher NG]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Homepage|Homepage]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Vaultwarden|Vaultwarden]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Grafana|Grafana]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Beszel|Beszel]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Semaphore|Semaphore]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/WorkAdventure|WorkAdventure]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Wordpress|Wordpress]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Shell|Shell]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Recent Activity|Recent Activity]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Folder|Folder]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Project|Project]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/AAR|AAR]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Post-Implementation Review|Post-Implementation Review]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/dailynote|dailynote]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Discovery Time|Discovery Time]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Network|Network]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Service|Service]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Person|Person]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily|Daily]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Issue|Issue]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/index|index]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Project Proposal|Project Proposal]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Base|Base]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily2|Daily2]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Policy|Policy]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Device|Device]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/LearningModule|LearningModule]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/IssueTest|IssueTest]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
-%% DATAVIEW_PUBLISHER: end %%## Contents:
+%% DATAVIEW_PUBLISHER: end %%
+## Contents:
 %% DATAVIEW_PUBLISHER: start
 ```dataview
 TABLE join(sort(rows.file.link), " | ") as Documents
@@ -85,25 +87,25 @@ LIMIT 20
 
 | File | Created | Updated |
 | --- | --- |
-| [[Knowledge Base/Tools/CouchDB|CouchDB]] | 12:29 AM - April 16, 2026 | 12:29 AM - April 16, 2026 |
-| [[Knowledge Base/Tools/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
-| [[Knowledge Base/Tools/Ansible|Ansible]] | 7:15 PM - April 15, 2026 | 7:15 PM - April 15, 2026 |
-| [[Knowledge Base/Tools/Obsidian|Obsidian]] | 8:08 PM - April 15, 2026 | 6:58 PM - April 15, 2026 |
-| [[Knowledge Base/Tools/Technitium|Technitium]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Prometheus|Prometheus]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Harbor|Harbor]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Tailscale|Tailscale]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/LXC|LXC]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Wireguard|Wireguard]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Proxmox|Proxmox]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Apt Cacher NG|Apt Cacher NG]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Homepage|Homepage]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Vaultwarden|Vaultwarden]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Grafana|Grafana]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Beszel|Beszel]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Semaphore|Semaphore]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/WorkAdventure|WorkAdventure]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Wordpress|Wordpress]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Knowledge Base/Tools/Shell|Shell]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Recent Activity|Recent Activity]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Folder|Folder]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Project|Project]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/AAR|AAR]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Post-Implementation Review|Post-Implementation Review]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/dailynote|dailynote]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Discovery Time|Discovery Time]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Network|Network]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Service|Service]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Person|Person]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily|Daily]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Issue|Issue]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/index|index]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Project Proposal|Project Proposal]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Base|Base]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily2|Daily2]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Policy|Policy]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Device|Device]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/LearningModule|LearningModule]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/IssueTest|IssueTest]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

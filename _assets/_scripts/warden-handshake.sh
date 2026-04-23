@@ -2,7 +2,7 @@
 # Warden Handshake - NetYeti Power
 # Fast, efficient backlog report for session startup.
 
-VAULT_ROOT="/home/netyeti/Obsidian/Journal"
+VAULT_ROOT="~/Obsidian/Journal"
 SCRIPT_PATH="$VAULT_ROOT/_assets/_scripts/manage-backlog.py"
 
 # Ensure dependencies are available

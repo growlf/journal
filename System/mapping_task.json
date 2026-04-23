@@ -1,0 +1,6 @@
+[
+  {
+    "prompt": "Map the following 'Jungle Grotto' theme CSS to standard Quartz 4 classes. \n\nQuartz 4 Class Map:\n- Wrapper: .page\n- Content Area: article\n- Sidebars: .sidebar.left, .sidebar.right\n- Navigation: .explorer, .breadcrumb-container\n\nOriginal CSS:\n:root {\n  --grotto-bg: #C6E2B5;\n  --forest-green: #32CD32;\n  --bark-brown: #964B00;\n  --energy-pulse: rgba(50, 205, 50, 0.4);\n}\n[saved-theme=\"dark\"] {\n  --grotto-bg: #1F4D55;\n  --forest-shadow: #0D1B1E;\n  --fey-blue: #33CCFF;\n  --twinkle: rgba(51, 204, 255, 0.6);\n}\n.site-container {\n  display: grid;\n  grid-template-columns: 1fr minmax(auto, 1100px) 1fr;\n  background: var(--bark-brown);\n}\n.grotto-content {\n  background: var(--grotto-bg);\n  padding: clamp(20px, 5vw, 60px);\n  box-shadow: 0 0 50px rgba(0,0,0,0.3);\n}\n\nGoals:\n1. The page background should be the bark brown.\n2. The article (grotto) should be the light/dark grotto background and centered.\n3. Headers and links should use the forest green or fey blue.\n4. Apply the 'energy-flow' animation to the article border or headers.\n5. Keep the responsive image wrappers.",
+    "model": "qwen2.5-coder:14b"
+  }
+]

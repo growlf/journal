@@ -43,7 +43,7 @@ Connect your vault to a GitHub repository. Use the `Bake and Commit` workflow to
 
 ## ⚠️ Common Pitfalls & "Stupid Questions"
 - **Pitfall:** Leaking real IPs or passwords in your public folder.
-- **Fix:** Always check your `[[Internal/]]` links before you push. Use "Concept Twins" for sensitive hardware.
+- **Fix:** Always check your `[[Sparse Page]]` links before you push. Use "Concept Twins" for sensitive hardware.
 - **"Stupid Question":** "Do I have to document *everything*?"
 - **Answer:** No. Document the "Why" and the "How." The "What" should be handled by your automation scripts.
 

@@ -20,7 +20,7 @@ This series is designed to be followed in sequence. Each module builds on the "S
 ### 🏁 Phase 0: Foundations
 - **[[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Master Blueprint (The Stack)]]** — The high-level OPORD for the Default Stack.
 - **[[Learning/Home-Lab-Series/Modules/00-Philosophy|Module 0: The Philosophy]]** — Why automated labs? The PACE plan for reliability.
-- **[[Learning/Home-Lab-Series/Package/README|The Stack Package]]** — Cloneable repository for rapid deployment.
+- **[[Learning/Home-Lab-Series/Package/index|The Stack Package]]** — Cloneable repository for rapid deployment.
 
 ### 🏁 Phase 1: Infrastructure
 - **[[Learning/Home-Lab-Series/Modules/01-Physical|Module 1: The Physical Pillars]]** — Hardware selection (Intel Arc, Meteor Lake).
@@ -40,4 +40,4 @@ This series is designed to be followed in sequence. Each module builds on the "S
 
 ---
 **Status:** Operational (2026 Curriculum)
-**Related:** [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Network/index]]
+**Related:** [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Sparse Page]]

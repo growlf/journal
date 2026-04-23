@@ -35,11 +35,11 @@ id_ed25519*
 ```
 
 ### b. Bind Mounts for Containers
-When deploying services like [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama]], use bind mounts to point to "sterilized" host directories.
+When deploying services like [[Sparse Page]], use bind mounts to point to "sterilized" host directories.
 ```yaml
 volumes:
-  - /home/netyeti/.ollama:/root/.ollama  # Pointing to the host's supply point
-  - /home/netyeti/.ssh/id_ed25519:/root/.ssh/id_ed25519:ro # Read-only access to keys
+  - ~/.ollama:/root/.ollama  # Pointing to the host's supply point
+  - ~/.ssh/id_ed25519:/root/.ssh/id_ed25519:ro # Read-only access to keys
 ```
 
 ### c. Secrets Management PACE Plan

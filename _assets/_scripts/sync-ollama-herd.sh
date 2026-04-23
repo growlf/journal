@@ -8,22 +8,22 @@ HOSTNAME=$(hostname)
 
 # Mapping of nodes to their local model paths
 declare -A PATHS
-PATHS["phoenix"]="/home/netyeti/.ollama/models"
+PATHS["phoenix"]="~/.ollama/models"
 PATHS["gemini"]="/home/gemini/.ollama/models"
-PATHS["nuk1"]="/home/netyeti/.ollama/models"
+PATHS["nuk1"]="~/.ollama/models"
 PATHS["lab1"]="/usr/share/ollama/.ollama/models"
 PATHS["lab2"]="/usr/share/ollama/.ollama/models"
 PATHS["lab3"]="/usr/share/ollama/.ollama/models"
 PATHS["lab4"]="/usr/share/ollama/.ollama/models"
-PATHS["sterling"]="C:/Users/elyza/.ollama/models"
+PATHS["sterling"]="C:/Users/[USER]/.ollama/models"
 
 # Detect our local path
 LOCAL_MODELS=${PATHS[$HOSTNAME]}
 
 # If we are on a node not in the map, default to common paths
 if [[ -z "$LOCAL_MODELS" ]]; then
-    if [[ -d "/home/netyeti/.ollama/models" ]]; then
-        LOCAL_MODELS="/home/netyeti/.ollama/models"
+    if [[ -d "~/.ollama/models" ]]; then
+        LOCAL_MODELS="~/.ollama/models"
     elif [[ -d "/home/gemini/.ollama/models" ]]; then
         LOCAL_MODELS="/home/gemini/.ollama/models"
     else

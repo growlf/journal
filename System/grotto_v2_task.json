@@ -1,0 +1,10 @@
+[
+  {
+    "prompt": "Update the 'Jungle Grotto' theme CSS for Quartz 4. \n\nRequirements:\n1. **Texture Change**: Change the body background texture from 'wood' to a 'leafy forest canopy'. Use a transparent texture like 'https://www.transparenttextures.com/patterns/leaves.png'. Keep the dark jungle green/brown base colors.\n2. **Menu Interaction Fix**: The 'Grotto' (article area) is currently sitting on top of or interfering with the menu during scrolling. Ensure the top navbar (fixed at top) and sidebars have a higher z-index (e.g. 500) than the article (z-index 1). \n3. **Contrast Fix**: The menu text (Explorer links, folder titles, search bar) is too hard to see. Use high-contrast colors (e.g., #FFFFFF or bright forest green) for menu items. \n4. **Accents**: Add orchid (#DA70D6) or bright yellow (#FFD700) accents to hover states.\n\nOutput only the CSS code block.",
+    "model": "qwen2.5-coder:14b"
+  },
+  {
+    "prompt": "Update the 'Jungle Grotto' theme CSS for Quartz 4. \n\nRequirements:\n1. **Texture Change**: Change the body background texture from 'wood' to a 'leafy forest canopy'. Use a transparent texture like 'https://www.transparenttextures.com/patterns/leaves.png'. Keep the dark jungle green/brown base colors.\n2. **Menu Interaction Fix**: The 'Grotto' (article area) is currently sitting on top of or interfering with the menu during scrolling. Ensure the top navbar (fixed at top) and sidebars have a higher z-index (e.g. 500) than the article (z-index 1). \n3. **Contrast Fix**: The menu text (Explorer links, folder titles, search bar) is too hard to see. Use high-contrast colors (e.g., #FFFFFF or bright forest green) for menu items. \n4. **Accents**: Add orchid (#DA70D6) or bright yellow (#FFD700) accents to hover states.\n\nOutput only the CSS code block.",
+    "model": "llama3.1:8b"
+  }
+]

@@ -16,7 +16,7 @@ def sanitize_ip(ip):
 
 def sanitize_content(content):
     # Replace internal links with public ones if they exist
-    # [[Internal/Devices/SomeDevice]] -> [[Network/Devices/SomeDevice]]
+    # [[Sparse Page]] -> [[Sparse Page]]
     content = content.replace("[[Internal/Devices/", "[[Network/Devices/")
     # Sanitize IPs in the text
     content = sanitize_ip(content)

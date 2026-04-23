@@ -41,5 +41,5 @@ The NetYeti Stack is more than just a collection of services; it is a **Standard
 - **AAR Culture:** Document every major change with an After-Action Review.
 
 ---
-*Created by Garth Johnson (The NetYeti)*
+*Created by The NetYeti (The NetYeti)*
 *Part of the [[Learning/Home-Lab-Series/index|Self-Healing Lab Curriculum]].*

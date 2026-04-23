@@ -1,7 +1,7 @@
 # Skill: Secret Manager Expert (Vault Guardian)
 
 ## Description
-Use this skill to securely manage and retrieve credentials from the Bitwarden secrets manager (`bitwarden.bellinghammakerspace.org`) via the `bw` CLI. It ensures that sensitive data is provided to the AI Command Staff without ever being recorded in the permanent vault or logs.
+Use this skill to securely manage and retrieve credentials from the Bitwarden secrets manager (`bitwarden.lab.internal`) via the `bw` CLI. It ensures that sensitive data is provided to the AI Command Staff without ever being recorded in the permanent vault or logs.
 
 ## Capabilities
 - **Vault Status Check:** Monitors if the vault is locked, unlocked, or requires syncing.
@@ -19,4 +19,4 @@ Use this skill to securely manage and retrieve credentials from the Bitwarden se
 ## Tactical Mandates
 - **OPSEC Supreme:** Secrets are volatile. They exist only in RAM during execution and must never be written to disk.
 - **Sanitization:** If documenting an AAR, always use `<REDACTED>` for any sensitive field.
-- **Server Targeting:** Ensure `bw config server bitwarden.bellinghammakerspace.org` is correctly set.
+- **Server Targeting:** Ensure `bw config server bitwarden.lab.internal` is correctly set.

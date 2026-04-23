@@ -44,4 +44,4 @@ Running an autonomous agent is a "force multiplier," but it's also a "loaded wea
   - **Command:** `openclaw config set gateway.controlUi.allowInsecureAuth false`
 
 ---
-*Related: [[Policies/SOP - AI Safety and Data Discipline|AI Safety SOP]], [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Setup]], [[Knowledge Base/LLM/index|AI Command Center]]*
+*Related: [[Policies/SOP - AI Safety and Data Discipline|AI Safety SOP]], [[Sparse Page]], [[Knowledge Base/LLM/index|AI Command Center]]*

@@ -41,23 +41,23 @@ LIMIT 40
 | [[Knowledge Base/Tricks/Gemini-CLI-Mastery|Gemini-CLI-Mastery]] | 7:10 PM - April 15, 2026 |
 | [[Knowledge Base/Storage/ZFS|ZFS]] | 7:10 PM - April 15, 2026 |
 | [[Knowledge Base/Tools/Obsidian|Obsidian]] | 6:58 PM - April 15, 2026 |
-| [[Network/AAR - Network Environment Switcher (Concept)|AAR - Network Environment Switcher (Concept)]] | 5:15 PM - April 15, 2026 |
-| [[Network/Networks/index|index]] | 5:15 PM - April 15, 2026 |
-| [[Network/Devices/Technitium-DNS|Technitium-DNS]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Alpha-UPS|Alpha-UPS]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Pheonix|Pheonix]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Changeling|Changeling]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/LisaSU25|LisaSU25]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/index.base|index.base]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Synology|Synology]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Lenovo-XCC|Lenovo-XCC]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Routerboard|Routerboard]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Gearbox|Gearbox]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Samsung|Samsung]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Sliver|Sliver]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Interceptor|Interceptor]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/dn2|dn2]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Cacher|Cacher]] | 5:11 PM - April 15, 2026 |
-| [[Network/Devices/Ubiquiti|Ubiquiti]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:15 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:15 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
+| [[Sparse Page]] | 5:11 PM - April 15, 2026 |
 
 %% DATAVIEW_PUBLISHER: end %%

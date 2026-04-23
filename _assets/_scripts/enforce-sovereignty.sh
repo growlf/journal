@@ -17,8 +17,8 @@ else
         # Ensure 10.0.0.0/24 is present in allowed-ips
         if ! sudo grep -q "10.0.0.0/24" "$NETPLAN_FILE"; then
             echo "[!] Sovereignty Breach: 10.0.0.0/24 missing from AllowedIPs in $NETPLAN_FILE"
-            # Append it after the 10.10.0.0/16 entry
-            sudo sed -i '/"10.10.0.0\/16"/a \        - "10.0.0.0/24"' "$NETPLAN_FILE"
+            # Append it after the 10.0.1.0/16 entry
+            sudo sed -i '/"10.0.1.0\/16"/a \        - "10.0.0.0/24"' "$NETPLAN_FILE"
             NEED_APPLY=true
         fi
         
@@ -27,7 +27,7 @@ else
             echo "[!] Sovereignty Cleanup: Removing duplicate entries in $NETPLAN_FILE"
             # Remove all lines containing 10.0.0.0/24, then add it back once
             sudo sed -i '/10.0.0.0\/24/d' "$NETPLAN_FILE"
-            sudo sed -i '/"10.10.0.0\/16"/a \        - "10.0.0.0/24"' "$NETPLAN_FILE"
+            sudo sed -i '/"10.0.1.0\/16"/a \        - "10.0.0.0/24"' "$NETPLAN_FILE"
             NEED_APPLY=true
         fi
 
@@ -42,8 +42,8 @@ fi
 
 # 2. DNS Layer: /etc/hosts Overrides
 declare -A HOSTS_OVERRIDES=(
-    ["bitwarden.bellinghammakerspace.org"]="104.21.7.136"
-    ["vpn.bellinghammakerspace.org"]="207.224.235.194"
+    ["bitwarden.lab.internal"]="[PUBLIC_IP]"
+    ["vpn.lab.internal"]="[PUBLIC_IP]"
 )
 
 for host in "${!HOSTS_OVERRIDES[@]}"; do

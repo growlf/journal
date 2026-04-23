@@ -13,7 +13,7 @@ def run_command(cmd):
     return result.stdout.strip()
 
 def update_bw_item(node_name):
-    key_dir = f"/home/netyeti/Obsidian/Journal/Internal/Automation/Ansible/keys/{node_name}"
+    key_dir = f"~/Obsidian/Journal/Internal/Automation/Ansible/keys/{node_name}"
     if not os.path.exists(key_dir):
         print(f"No keys found for {node_name}. Skipping.")
         return

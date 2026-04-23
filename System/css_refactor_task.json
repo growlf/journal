@@ -1,0 +1,6 @@
+[
+  {
+    "prompt": "Refactor the following CSS to use Flexbox or Grid instead of floats for .image-left and .image-right. Ensure they are responsive and the text wraps correctly. \n\nCSS:\n.image-left { float: left; margin-right: 20px; max-width: 40%; }\n.image-right { float: right; margin-left: 20px; max-width: 40%; }\n\nAlso, improve the .jumbotron-hero to be truly responsive using aspect-ratio if possible.",
+    "model": "qwen2.5-coder:14b"
+  }
+]

@@ -12,8 +12,9 @@ echo "--- Deploying Sidecar to $TARGET ---"
 # 1. Cleanup: Kill existing sidecar
 $REMOTE_SUDO "docker stop yeti-sidecar 2>/dev/null; docker rm yeti-sidecar 2>/dev/null" "\""
 
-# 2. Build/Transfer logic (Simple: Send script and use Python container directly)
-scp -i $SSH_KEY -o StrictHostKeyChecking=no /home/gemini/AI_Stack/scripts/yeti_sidecar.py $SSH_USER@$TARGET:/tmp/yeti_sidecar.py
+# 2. Build/Transfer logic
+LOCAL_SCRIPT="~/Obsidian/Journal/_assets/_scripts/yeti_sidecar.py"
+scp -i $SSH_KEY -o StrictHostKeyChecking=no $LOCAL_SCRIPT $SSH_USER@$TARGET:/tmp/yeti_sidecar.py
 
 # 3. Launch Sidecar: Host-Binded Root and Restart-locked
 # Mounting host root to /host allows the container to participate in the host filesystem.

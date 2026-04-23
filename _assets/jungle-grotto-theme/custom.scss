@@ -1,0 +1,34 @@
+/* 🌿 JUNGLE GROTTO: NetYeti Swarm Design */
+:root {
+  --grotto-bg: #C6E2B5;
+  --forest-green: #32CD32;
+  --bark-brown: #964B00;
+  --energy-pulse: rgba(50, 205, 50, 0.4);
+}
+[saved-theme="dark"] {
+  --grotto-bg: #1F4D55;
+  --forest-shadow: #0D1B1E;
+  --fey-blue: #33CCFF;
+  --twinkle: rgba(51, 204, 255, 0.6);
+}
+.site-container {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 800px) 1fr;
+  background: var(--bark-brown);
+}
+.grotto-content {
+  background: var(--grotto-bg);
+  padding: 40px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.3);
+}
+@keyframes energy-flow {
+  0% { box-shadow: 0 0 5px var(--energy-pulse); }
+  50% { box-shadow: 0 0 20px var(--energy-pulse); }
+  100% { box-shadow: 0 0 5px var(--energy-pulse); }
+}
+.vine-decoration {
+  animation: energy-flow 3s infinite ease-in-out;
+}
+.image-left { float: left; margin-right: 20px; max-width: 40%; }
+.image-right { float: right; margin-left: 20px; max-width: 40%; }
+.jumbotron-hero { width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }

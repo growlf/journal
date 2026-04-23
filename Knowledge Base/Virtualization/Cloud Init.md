@@ -33,7 +33,7 @@ qm set 9000 --ide2 local-lvm:cloudinit
 # Setup the network
 qm set 9000 --ipconfig0 ip=dhcp
 qm set 9000 --searchdomain yeticraft.net
-qm set 9000 --nameserver 10.10.0.4
+qm set 9000 --nameserver 10.0.1.4
 # Create the user
 qm set 9000 --ciuser nexus --cipassword 'nexus'
 qm set 9000 --sshkeys ~/.ssh/vm_keys

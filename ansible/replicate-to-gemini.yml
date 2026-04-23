@@ -1,0 +1,94 @@
+---
+- name: Replicate Phoenix to Gemini (BMS Sister Node)
+  hosts: gemini
+  gather_facts: yes
+  vars:
+    local_journal: "~/Obsidian/Journal"
+    remote_journal: "/home/gemini/Obsidian/Journal"
+    local_gemini_config: "~/.gemini"
+    remote_gemini_config: "/home/gemini/.gemini"
+
+  tasks:
+    - name: Ensure remote directories exist
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: directory
+        mode: '0755'
+      loop:
+        - "/home/gemini/Obsidian"
+        - "/home/gemini/replication_backups"
+
+    - name: Create backup of remote Journal
+      ansible.builtin.shell: |
+        if [ -d "{{ remote_journal }}" ]; then
+          tar -czf /home/gemini/replication_backups/gemini_journal_pre_merge_{{ lookup('pipe', 'date +%Y%m%d%H%M') }}.tar.gz {{ remote_journal }}
+        fi
+      args:
+        executable: /bin/bash
+
+    - name: Create backup of remote .gemini config
+      ansible.builtin.shell: |
+        if [ -d "{{ remote_gemini_config }}" ]; then
+          tar -czf /home/gemini/replication_backups/gemini_config_pre_merge_{{ lookup('pipe', 'date +%Y%m%d%H%M') }}.tar.gz {{ remote_gemini_config }}
+        fi
+      args:
+        executable: /bin/bash
+
+    - name: Move remote Journal to side for merging
+      ansible.builtin.shell: |
+        if [ -d "{{ remote_journal }}" ]; then
+          rm -rf "{{ remote_journal }}.tmp"
+          mv "{{ remote_journal }}" "{{ remote_journal }}.tmp"
+        fi
+      args:
+        executable: /bin/bash
+
+    - name: Synchronize Journal from Phoenix to Gemini
+      ansible.posix.synchronize:
+        src: "{{ local_journal }}/"
+        dest: "{{ remote_journal }}/"
+        recursive: yes
+        rsync_opts:
+          - "--exclude=.git"
+          - "--exclude=.obsidian/workspace*"
+          - "--exclude=.obsidian/appearance.json"
+
+    - name: Merge Gemini's original journal back (fill in missing pieces)
+      ansible.builtin.shell: |
+        if [ -d "{{ remote_journal }}.tmp" ]; then
+          rsync -auv "{{ remote_journal }}.tmp/" "{{ remote_journal }}/"
+          mv "{{ remote_journal }}.tmp" "/home/gemini/replication_backups/journal_merge_source_{{ lookup('pipe', 'date +%Y%m%d%H%M') }}"
+        fi
+      args:
+        executable: /bin/bash
+
+    - name: Synchronize .gemini extensions from Phoenix to Gemini
+      ansible.posix.synchronize:
+        src: "{{ local_gemini_config }}/extensions/"
+        dest: "{{ remote_gemini_config }}/extensions/"
+        delete: yes
+        recursive: yes
+
+    - name: Merge .gemini config files (json, system.md, etc.)
+      ansible.posix.synchronize:
+        src: "{{ local_gemini_config }}/"
+        dest: "{{ remote_gemini_config }}/"
+        recursive: yes
+        rsync_opts:
+          - "--include=*.json"
+          - "--include=*.md"
+          - "--exclude=history"
+          - "--exclude=tmp"
+          - "--exclude=extensions"
+          - "--exclude=memory"
+          - "--exclude=installation_id"
+
+    - name: Ensure permissions are correct on Gemini
+      ansible.builtin.file:
+        path: "{{ item }}"
+        owner: gemini
+        group: gemini
+        recurse: yes
+      loop:
+        - "{{ remote_journal }}"
+        - "{{ remote_gemini_config }}"

@@ -13,7 +13,7 @@ Use this skill to perform deep audits, management, and lifecycle maintenance of 
 1.  **Node Recon:** Identify the physical node status via `pvecm status`.
 2.  **Inventory Scan:** Extract the current `pct` and `qm` lists.
 3.  **Storage Check:** Verify mount points and pool capacity (`pvesm status`).
-4.  **Maintenance:** Update [[Internal/Networks/Yeticraft/Services/Proxmox]] records with live telemetry.
+4.  **Maintenance:** Update [[Sparse Page]] records with live telemetry.
 
 ## Tactical Mandates
 - **Signal Integrity:** ALWAYS verify if a name refers to a physical node (e.g., `pve1`) or a virtual guest (e.g., `bee`) before documenting.

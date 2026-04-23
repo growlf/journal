@@ -20,7 +20,7 @@ tags:
 1. **Check the Logs:** Use `journalctl -u service-name` or check `/var/log/` for error messages.
 2. **Verify Resource Usage:** Check for high CPU, RAM, or Disk space usage.
 3. **Restart the Service:** Use `systemctl restart service-name` to see if it comes back online.
-4. **Check for Recent Changes:** Consult the **Recent Activity** on your [[Internal/Networks/Yeticraft/index|Overlook Dashboard]].
+4. **Check for Recent Changes:** Consult the **Recent Activity** on your [[Sparse Page]].
 
 ## 3. Resolution (The Recovery Phase)
 1. **Apply the Fix:** Once you've identified the root cause, apply the necessary fix.
@@ -30,7 +30,7 @@ tags:
 
 ## 4. Prevention (The Mission-Ready Phase)
 - Update your **PACE Plan** if the failure was due to a lack of redundancy.
-- Consider adding additional monitoring or alerting via [[Internal/Networks/BMS/Services/Monitoring|Prometheus]].
+- Consider adding additional monitoring or alerting via [[Sparse Page]].
 
 ---
 **Status:** Operational

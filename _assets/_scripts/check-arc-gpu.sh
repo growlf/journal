@@ -2,7 +2,7 @@
 # NetYeti Power: ARC GPU Device Discovery
 # Detects if Intel Arc is on card0 or card1 and updates the Ollama service.
 
-COMPOSE_PATH="/home/netyeti/Obsidian/Journal/Internal/Networks/Yeticraft/Services/Ollama/docker-compose.yml"
+COMPOSE_PATH="~/Obsidian/Journal/Internal/Networks/Yeticraft/Services/AI-Stack/docker-compose.yml"
 
 # Detect current card
 CURRENT_CARD=$(ls /dev/dri/card* | head -n 1 | xargs basename)

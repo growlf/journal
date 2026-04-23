@@ -28,6 +28,6 @@
           
           ## Response:
           {{ ai_response.json.response }}
-        dest: "/home/netyeti/Obsidian/Journal/Internal/AI_Reports/{{ inventory_hostname }}_{{ lookup('pipe', 'date +%Y%m%d%H%M%S') }}.md"
+        dest: "~/Obsidian/Journal/Internal/AI_Reports/{{ inventory_hostname }}_{{ lookup('pipe', 'date +%Y%m%d%H%M%S') }}.md"
       delegate_to: localhost
       when: ai_response.status == 200

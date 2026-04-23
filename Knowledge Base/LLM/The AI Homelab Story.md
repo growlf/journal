@@ -33,7 +33,7 @@ We stopped trying to "fix" the host OS and moved everything into **Docker**. By 
 With a working engine, we needed a strategy. We adopted the **PACE Plan** to ensure we always had "Signal Discipline":
 - **Primary (P): Local Ollama.** Our "boots on the ground." It handles 90% of the work—coding, summarization, and private data—without ever leaving the LAN.
 - **Alternate (A): Gemini Cloud.** The "High Command." Used for complex synthesis, cross-vault strategy, and when we need the "big brain" for massive context windows.
-- **Contingency (C):** Fallback nodes like [[Network/Devices/Sterling|Sterling]] or manual builds.
+- **Contingency (C):** Fallback nodes like [[Sparse Page]] or manual builds.
 - **Emergency (E):** Physical books and human expertise.
 
 ## Phase 4: OpenClaw (The Command & Control Layer)
@@ -68,4 +68,4 @@ Why do we go through the trouble of building this local fortress? Because it res
 4. **Local First, Cloud Second:** Keep your data in your "fortress" (The Homelab). Use the cloud as a "Force Multiplier," not a crutch.
 
 ---
-*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Internal/Networks/Yeticraft/Services/Ollama/index]]*
+*Related: [[Knowledge Base/LLM/index|AI Command Center]], [[Learning/Home-Lab-Series/Default-Stack-Blueprint|The Stack]], [[Sparse Page]]*

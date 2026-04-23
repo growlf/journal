@@ -29,7 +29,7 @@ Documentation:
 - **E (Emergency):** {{manual_or_local_only_access}}
 
 ## 🔗 Dependencies & Signal Flow
-- **Depends On:** [ ] [[Internal/Networks/BMS/Services/BMS-DNS|DNS]] | [ ] [[Internal/Networks/BMS/Services/BMS-NFS|Storage]]
+- **Depends On:** [ ] [[Sparse Page]] | [ ] [[Sparse Page]]
 - **Downstream:** {{what_breaks_if_this_fails}}
 
 ---
@@ -40,4 +40,4 @@ Documentation:
 
 ---
 **Status:** Operational
-**Related:** [[Internal/Networks/BMS/index]], [[Internal/Launch Page]]
+**Related:** [[Sparse Page]], [[Sparse Page]]

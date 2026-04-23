@@ -1,13 +1,14 @@
 import asyncio
-import httpx
 import json
 import os
 import sys
 import re
 from datetime import datetime
+import urllib.request
+import urllib.error
 
 # Configuration
-VAULT_ROOT = os.path.expanduser("~/Obsidian/Journal")
+VAULT_ROOT = os.environ.get("OBSIDIAN_VAULT_ROOT", os.path.expanduser("~/Obsidian/Journal"))
 CLUSTER_CONFIG_PATH = os.path.join(VAULT_ROOT, "Network/Services/YetiPack Cluster.md")
 JOURNAL_PATH = os.path.join(VAULT_ROOT, "Parallel_Offloading_Reports.md")
 LOG_DIR = os.path.expanduser("~/AI_Stack/logs/parallel/")
@@ -19,9 +20,6 @@ def discover_nodes():
     if os.path.exists(CLUSTER_CONFIG_PATH):
         with open(CLUSTER_CONFIG_PATH, "r") as f:
             content = f.read()
-            # Look for IP addresses in the markdown table
-            # Format: | **Lab-1** | 10.10.1.75 | ...
-            # Support both 10.x.x.x and 192.x.x.x
             matches = re.findall(r"\|\s*(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s*\|", content)
             for ip in matches:
                 if ip not in nodes:
@@ -29,39 +27,41 @@ def discover_nodes():
     return nodes
 
 async def process_task(node_ip, task_id, prompt, model):
-    """Send a single task to a specific node."""
+    """Send a single task to a specific node using standard library urllib."""
     url = f"http://{node_ip}:11434/api/generate"
-    payload = {
+    payload = json.dumps({
         "model": model,
         "prompt": prompt,
         "stream": False
-    }
+    }).encode('utf-8')
     
     start_time = datetime.now()
     try:
-        async with httpx.AsyncClient(timeout=180.0) as client:
-            response = await client.post(url, json=payload)
-            response.raise_for_status()
-            data = response.json()
-            result = data.get("response", "")
-            
-            status = "Completed"
-            # Handoff Logic: Check for specific keywords
-            if "QUESTION:" in result or "UNCERTAIN:" in result:
-                status = "Needs Orchestrator Review"
-            
-            end_time = datetime.now()
-            duration = (end_time - start_time).total_seconds()
-            
-            return {
-                "task_id": task_id,
-                "node": node_ip,
-                "prompt": prompt,
-                "response": result,
-                "status": status,
-                "duration": duration,
-                "timestamp": end_time.isoformat()
-            }
+        # We wrap the synchronous urllib in a thread pool to avoid blocking the event loop
+        loop = asyncio.get_event_loop()
+        def sync_req():
+            req = urllib.request.Request(url, data=payload, headers={'Content-Type': 'application/json'})
+            with urllib.request.urlopen(req, timeout=300) as response:
+                return response.read().decode('utf-8')
+        
+        raw_res = await loop.run_in_executor(None, sync_req)
+        data = json.loads(raw_res)
+        result = data.get("response", "")
+        
+        status = "Completed"
+        if "QUESTION:" in result or "UNCERTAIN:" in result:
+            status = "Needs Orchestrator Review"
+        
+        end_time = datetime.now()
+        return {
+            "task_id": task_id,
+            "node": node_ip,
+            "prompt": prompt,
+            "response": result,
+            "status": status,
+            "duration": (end_time - start_time).total_seconds(),
+            "timestamp": end_time.isoformat()
+        }
 
     except Exception as e:
         error_msg = f"Error on node {node_ip} for task {task_id}: {str(e)}"
@@ -76,7 +76,6 @@ async def process_task(node_ip, task_id, prompt, model):
         }
 
 async def worker(node_ip, queue, results):
-    """Worker that pulls tasks from the queue and processes them on a specific node."""
     while True:
         task = await queue.get()
         if task is None:
@@ -102,28 +101,21 @@ async def main():
         tasks = json.load(f)
         
     os.makedirs(LOG_DIR, exist_ok=True)
-    
     nodes = discover_nodes()
-    print(f"Discovered {len(nodes)} nodes: {', '.join(nodes)}")
     
     queue = asyncio.Queue()
     for i, task in enumerate(tasks):
         await queue.put((i, task))
         
-    # Add termination signals for workers
     for _ in nodes:
         await queue.put(None)
         
     results = []
-    # Create one worker per node
     workers = [asyncio.create_task(worker(node, queue, results)) for node in nodes]
-    
     await asyncio.gather(*workers)
     
-    # Sort results by task_id to maintain order in report
     results.sort(key=lambda x: x["task_id"])
     
-    # Generate consolidated Markdown report
     report_md = f"\n## Herd-Orchestrator Report - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
     report_md += "| Task ID | Node | Prompt | Status | Duration (s) |\n"
     report_md += "|---:|:---|:---|:---|---:|\n"
@@ -135,7 +127,6 @@ async def main():
             status_md = f"⚠️ {status_md}"
         elif res['status'] == "Failed":
             status_md = f"❌ {status_md}"
-            
         report_md += f"| {res['task_id']} | {res['node']} | {prompt_snippet} | {status_md} | {res['duration']:.2f} |\n"
     
     report_md += "\n### Herd Handoff Details\n\n"
@@ -143,15 +134,11 @@ async def main():
         report_md += f"#### Task {res['task_id']} (Node: {res['node']})\n"
         report_md += f"**Prompt:** {res['prompt']}\n\n"
         report_md += f"**Response:**\n{res['response']}\n\n"
-        if res['status'] == "Needs Orchestrator Review":
-            report_md += "> [!warning] Herd Handoff: Requires manual review due to uncertainty.\n\n"
         report_md += "---\n"
     
-    # Append to Obsidian Journal
     os.makedirs(os.path.dirname(JOURNAL_PATH), exist_ok=True)
     with open(JOURNAL_PATH, "a") as f:
         f.write(report_md)
-        
     print(f"Report generated: {JOURNAL_PATH}")
 
 if __name__ == "__main__":

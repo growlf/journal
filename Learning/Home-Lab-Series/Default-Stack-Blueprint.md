@@ -15,9 +15,9 @@ tags:
 The Self-Healing Lab is built on a **GitOps-First** and **Local-AI** foundation.
 
 ### 1. The Physical Pillars
-- **The Edge:** [[Network/Devices/Core-Router|Core Router]] (MikroTik RB4011/CRS326).
-- **The Engine:** [[Network/Devices/Hypervisor|Primary Hypervisor]] (Intel Meteor Lake / Arc).
-- **The Bridge:** [[Network/Devices/House-Router|Residential WiFi]] (MikroTik ax3).
+- **The Edge:** [[Sparse Page]] (MikroTik RB4011/CRS326).
+- **The Engine:** [[Sparse Page]] (Intel Meteor Lake / Arc).
+- **The Bridge:** [[Sparse Page]] (MikroTik ax3).
 
 ### 2. The Command Stack (Software)
 - **Hypervisor:** Proxmox VE (Virtualization).
@@ -43,4 +43,4 @@ If you are building from scratch, follow the modules in this sequence:
 *Self-Healing Lab Note: Documentation is a Signal. Maintain your tactical notebook like your career depends on it.*
 
 **Status:** Operational (v2.0 Blueprint)
-**Related:** [[Learning/Home-Lab-Series/index|Home Lab 101]], [[Learning/Home-Lab-Series/Package/README|The Stack Package]]
+**Related:** [[Learning/Home-Lab-Series/index|Home Lab 101]], [[Learning/Home-Lab-Series/Package/index|The Stack Package]]

@@ -1,0 +1,46 @@
+---
+- name: Comprehensive merge of ~/.gemini folders
+  hosts: gemini
+  gather_facts: no
+  tasks:
+    - name: Ensure history and memory directories exist on remote
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: directory
+        mode: '0755'
+      loop:
+        - "~/.gemini/history"
+        - "~/.gemini/memory"
+
+    - name: Merge History (Phoenix -> Gemini)
+      ansible.posix.synchronize:
+        src: "~/.gemini/history/"
+        dest: "~/.gemini/history/"
+        recursive: yes
+        rsync_opts: ["-auv"] # Archive, update only, verbose
+
+    - name: Merge Memory (Phoenix -> Gemini)
+      ansible.posix.synchronize:
+        src: "~/.gemini/memory/"
+        dest: "~/.gemini/memory/"
+        recursive: yes
+        rsync_opts: ["-auv"]
+
+    - name: Sync Root Configs and Sub-Agent Docs
+      ansible.posix.synchronize:
+        src: "~/.gemini/"
+        dest: "~/.gemini/"
+        recursive: no # Non-recursive for root files only
+        rsync_opts:
+          - "-auv"
+          - "--include=*.json"
+          - "--include=*.md"
+          - "--exclude=installation_id" # CRITICAL: PROTECT IDENTITY
+          - "--exclude=*" # Exclude everything else (dirs handled separately)
+
+    - name: Re-apply Gemini Path Patches (Post-Merge)
+      ansible.builtin.shell: |
+        sed -i 's|/home/netyeti|/home/gemini|g' ~/.gemini/projects.json
+        sed -i 's|~/Sandbox|/home/gemini/Sandbox|g' ~/.gemini/GEMINI.md
+      args:
+        executable: /bin/bash

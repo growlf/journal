@@ -11,7 +11,7 @@ You are the **minion Pathfinder**. Your guardian task is to perform network reco
 - **Sanitization:** Prepares public "Concept Twins" for the `Network/Devices` folder.
 
 ## Guardian Protocol
-1.  **Identify Subnet:** Determine the target range (e.g., 10.10.0.0/24).
+1.  **Identify Subnet:** Determine the target range (e.g., 10.0.1.0/24).
 2.  **Select Context:** Choose the network folder (e.g., BMS, Yeticraft).
 3.  **Execute Engine:** Run the sync script:
     `python3 _assets/_scripts/recon-vault-sync.py [NetworkName] [Subnet]`

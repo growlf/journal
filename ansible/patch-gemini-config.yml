@@ -1,0 +1,22 @@
+---
+- name: Patch Gemini Host Configuration
+  hosts: gemini
+  gather_facts: no
+  tasks:
+    - name: Correct projects.json paths for Gemini user
+      ansible.builtin.shell: |
+        sed -i 's|/home/netyeti|/home/gemini|g' ~/.gemini/projects.json
+      args:
+        executable: /bin/bash
+
+    - name: Correct GEMINI.md paths for Gemini user
+      ansible.builtin.shell: |
+        sed -i 's|~/Sandbox|/home/gemini/Sandbox|g' ~/.gemini/GEMINI.md
+      args:
+        executable: /bin/bash
+
+    - name: Update system.md for Gemini Hardware Profile
+      ansible.builtin.shell: |
+        sed -i '/### 4. System Specific Environment Facts/,/### 5. Vault Specifics/c\### 4. System Specific Environment Facts (Gemini Node)\n- **Primary AI Engine (P):** PyTorch 2.5.1 + Ollama (Managed by Signal-Smith).\n- **Hardware Anchor:** Nvidia RTX 3090 Ti (24GB VRAM).\n- **Network Interface:** 10.0.1.201 (static).\n- **Operational Mandate:** Monitor `api_server.log` and `ollama.log` daily. Report any "Radio Silence" to the Warden.\n' ~/.gemini/system.md
+      args:
+        executable: /bin/bash

@@ -36,4 +36,4 @@ NEVER hardcode keys or passwords.
 
 ---
 **Status:** Documented (2026-04-15)
-**Related:** [[Knowledge Base/LLM/More Powers for Gemini]], [[GEMINI.md]]
+**Related:** [[Knowledge Base/LLM/More Powers for Gemini]], [[System/GEMINI.md]]

@@ -28,4 +28,4 @@ We have transitioned the **Primary (P)** layer of the PACE plan from a manual so
 Onward to more coding, less waiting! 🚀
 
 ---
-*Related: [[Internal/Networks/Yeticraft/Services/Ollama/index|Ollama Container Setup]], [[Knowledge Base/LLM/Ollama Setup Guide|Ollama Setup Guide]]*
+*Related: [[Sparse Page]], [[Knowledge Base/LLM/Ollama Setup Guide|Ollama Setup Guide]]*

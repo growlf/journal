@@ -8,7 +8,7 @@ from datetime import datetime
 OPENCLAW_DIR = os.path.expanduser("~/.openclaw")
 SESSIONS_DIR = os.path.join(OPENCLAW_DIR, "agents/main/sessions")
 SESSIONS_INDEX = os.path.join(SESSIONS_DIR, "sessions.json")
-OUTPUT_FILE = "/home/netyeti/Obsidian/Journal/Internal/LLM Usage Statistics.md"
+OUTPUT_FILE = "~/Obsidian/Journal/Internal/LLM Usage Statistics.md"
 
 def parse_usage():
     stats = defaultdict(lambda: {"input": 0, "output": 0, "total": 0})

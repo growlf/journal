@@ -63,4 +63,4 @@ ssh user@node-ip
 
 ---
 **Status:** Operational
-**Related:** [[Knowledge Base/ssh|SSH Core]], [[Knowledge Base/Networking/index|Networking Index]], [[Internal/Networks/Yeticraft/Devices/index|Device Registry]]
+**Related:** [[Knowledge Base/ssh|SSH Core]], [[Knowledge Base/Networking/index|Networking Index]], [[Sparse Page]]

@@ -3,11 +3,11 @@
 ollama_model_path: "{{ model_paths[inventory_hostname] | default('/usr/share/ollama/.ollama/models') }}"
 
 model_paths:
-  phoenix: "/home/netyeti/.ollama/models"
+  phoenix: "~/.ollama/models"
   gemini: "/home/gemini/.ollama/models"
-  nuk1: "/home/netyeti/.ollama/models"
+  nuk1: "~/.ollama/models"
   lab1: "/usr/share/ollama/.ollama/models"
   lab2: "/usr/share/ollama/.ollama/models"
   lab3: "/usr/share/ollama/.ollama/models"
   lab4: "/usr/share/ollama/.ollama/models"
-  sterling: "C:/Users/elyza/.ollama/models"
+  sterling: "C:/Users/[USER]/.ollama/models"

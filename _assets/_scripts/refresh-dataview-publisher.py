@@ -2,7 +2,7 @@ import os
 import re
 from datetime import datetime, timedelta
 
-VAULT_ROOT = "/home/netyeti/Obsidian/Journal"
+VAULT_ROOT = "~/Obsidian/Journal"
 
 def get_relative_path(path):
     return os.path.relpath(path, VAULT_ROOT)

@@ -11,7 +11,7 @@ In a nutshell, Obsidian is a personal knowledge management and note-taking appli
 ## Working with Obsidian
 
 My current layout has evolved to be more dynamic. I have a vault with the following directory structure (the relevant parts at least):
-![[obsidian-directory-layout.svg]]
+![[_assets/obsidian-directory-layout.svg]]
 
 Previously, I used a `publish` directory to segregate public and private content. I have since removed that folder and implemented **[[DATAVIEW_PUBLISHER]]**. This allows me to use Dataview queries to dynamically generate index pages and content while keeping private information in the `Internal/` folder (which is Git-ignored). This ensures my templates and source files (such as Excalidraw files) stay out of the public journal while remaining in the same repository.
 

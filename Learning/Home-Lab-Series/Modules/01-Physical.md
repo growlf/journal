@@ -59,4 +59,4 @@ Disable "Secure Boot" (it interferes with Proxmox kernels) and enable **VT-x / A
 ---
 **Next Module:** [[Learning/Home-Lab-Series/Modules/02-Proxmox|The Ground Truth (Proxmox)]]
 **Status:** Operational
-**Related:** [[Learning/Home-Lab-Series/index]], [[Network/Devices/Hypervisor]]
+**Related:** [[Learning/Home-Lab-Series/index]], [[Sparse Page]]

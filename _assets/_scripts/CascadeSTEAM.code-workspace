@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../CascadeSTEAM"
+		},
+		{
+			"path": "../../../../Projects/quartz"
+		}
+	],
+	"settings": {
+		"sarif-viewer.connectToGithubCodeScanning": "off"
+	}
+}

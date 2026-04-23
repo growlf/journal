@@ -9,7 +9,7 @@ aliases:
 There are many reasons to use a split DNS. Sometimes we want to have different things available within our LAN than what we are offering to the public. Or maybe we only have one external IP address but want to offer multiple services on individual domain addresses.
 
 In the example below, the user experience we see, from outside, is getting a web page from `https://svc1.site.org/` and you can see the basic flow from that direction.  Pretty standard stuff.
-![[WebFlow.svg]]
+![[_assets/WebFlow.svg]]
 Notice how it differs slightly when coming at it from the LAN side.  Since DHCP will handout the internal DNS automatically and all statically assigned systems will have it as well, they will all request the address internally and get a `CNAME` record that further translates to three individual addresses.
 
 Those address are the three nodes in the [[Docker]] Swarm that are all running a special kind of network called an `overlay` network. Overly networks are very much like a `vlan` in that you need to offer port access intentionally, otherwise it is like a firewall - denying everything else. The overlay network has one more surprise though - it will route, load balance, and more. In this example it is routing the traffic on port 80 and 442 to the proxy container on `node2`. The proxy container just happens to be on that node at this moment. I might move later, and if it does, it will still have the traffic re-routed to it on the other node - automatically.

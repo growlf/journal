@@ -1,0 +1,46 @@
+---
+- name: Finalize Merge and Repair Symlinks on Gemini
+  hosts: gemini
+  gather_facts: no
+  vars:
+    remote_journal_assets: "/home/gemini/Obsidian/Journal/_assets"
+    remote_standalone_assets: "/home/gemini/_assets"
+    remote_skills_dir: "/home/gemini/.gemini/skills"
+
+  tasks:
+    - name: Merge standalone assets into Journal assets
+      ansible.builtin.shell: |
+        if [ -d "{{ remote_standalone_assets }}" ]; then
+          rsync -auv "{{ remote_standalone_assets }}/" "{{ remote_journal_assets }}/"
+          mv "{{ remote_standalone_assets }}" "/home/gemini/replication_backups/standalone_assets_backup_{{ lookup('pipe', 'date +%Y%m%d%H%M') }}"
+        fi
+      args:
+        executable: /bin/bash
+
+    - name: Repair symlinks in ~/.gemini/skills
+      ansible.builtin.shell: |
+        cd "{{ remote_skills_dir }}"
+        for link in *; do
+          if [ -L "$link" ]; then
+            target=$(readlink "$link")
+            if [[ "$target" == "/home/gemini/_assets/"* ]]; then
+              new_target="${target/\/home\/gemini\/_assets/\/home\/gemini\/Obsidian\/Journal\/_assets}"
+              ln -sf "$new_target" "$link"
+              echo "Updated $link to $new_target"
+            fi
+          fi
+        done
+      args:
+        executable: /bin/bash
+      register: symlink_repair
+
+    - name: Report symlink changes
+      ansible.builtin.debug:
+        var: symlink_repair.stdout_lines
+
+    - name: Ensure .env is correct for the new location
+      ansible.builtin.lineinfile:
+        path: /home/gemini/Obsidian/Journal/.gemini/.env
+        regexp: '^GEMINI_SYSTEM_MD='
+        line: 'GEMINI_SYSTEM_MD=./.gemini/system.md'
+        create: yes

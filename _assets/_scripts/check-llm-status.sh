@@ -49,9 +49,9 @@ else
 fi
 
 # 4. Home Herd Extension: Sterling (Port 11434 on local IP)
-if curl -s --max-time 1 http://192.168.88.136:11434/api/tags > /dev/null; then
-    S_MODELS=$(curl -s http://192.168.88.136:11434/api/tags | python3 -c "import sys, json; m=json.load(sys.stdin).get('models', []); print(', '.join([i['name'] for i in m[:3]]))")
-    echo -e "[${GREEN}H${NC}] Home Herd (Sterling): ${GREEN}ACTIVE${NC} (192.168.88.136)"
+if curl -s --max-time 1 http://192.168.0.136:11434/api/tags > /dev/null; then
+    S_MODELS=$(curl -s http://192.168.0.136:11434/api/tags | python3 -c "import sys, json; m=json.load(sys.stdin).get('models', []); print(', '.join([i['name'] for i in m[:3]]))")
+    echo -e "[${GREEN}H${NC}] Home Herd (Sterling): ${GREEN}ACTIVE${NC} (192.168.0.136)"
     echo -e "    Models: $S_MODELS..."
 else
     echo -e "[${YELLOW}H${NC}] Home Herd (Sterling): ${YELLOW}OFFLINE${NC}"

@@ -25,10 +25,10 @@ fi
 TOTP=$(oathtool --totp -b "$TOTP_SECRET")
 
 # 3. Authenticate
-echo "Authenticating with vpn.bellinghammakerspace.org..."
+echo "Authenticating with vpn.lab.internal..."
 COOKIE_FILE=$(mktemp)
-AUTH_RES=$(curl -s -k --resolve vpn.bellinghammakerspace.org:443:207.224.235.194 \
-  -X POST https://vpn.bellinghammakerspace.org/api/authenticate \
+AUTH_RES=$(curl -s -k --resolve vpn.lab.internal:443:[PUBLIC_IP] \
+  -X POST https://vpn.lab.internal/api/authenticate \
   -H "Content-Type: application/json" \
   -d "{\"username\":\"$USERNAME\", \"password\":\"$PASSWORD\", \"totp\":\"$TOTP\"}" \
   -c "$COOKIE_FILE")
@@ -42,9 +42,9 @@ fi
 
 # 4. Get Configuration Info
 echo "Retrieving peer status..."
-INFO=$(curl -s -k --resolve vpn.bellinghammakerspace.org:443:207.224.235.194 \
+INFO=$(curl -s -k --resolve vpn.lab.internal:443:[PUBLIC_IP] \
   -b "$COOKIE_FILE" \
-  "https://vpn.bellinghammakerspace.org/api/getWireguardConfigurationInfo?configurationName=wg0")
+  "https://vpn.lab.internal/api/getWireguardConfigurationInfo?configurationName=wg0")
 
 # 5. Report Status for 'Phoenix'
 PHOENIX_PEER=$(echo "$INFO" | jq -r '.data.configurationPeers[] | select(.name == "Phoenix")')

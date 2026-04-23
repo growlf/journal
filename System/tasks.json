@@ -1,0 +1,6 @@
+[
+  {
+    "prompt": "Review the following CSS for a 'Jungle Grotto' theme. Does it meet the requirement of being jungle-themed with energy animations and a light content area? CSS: \n\n/* 🌿 JUNGLE GROTTO: NetYeti Swarm Design */\n:root {\n  --grotto-bg: #C6E2B5;\n  --forest-green: #32CD32;\n  --bark-brown: #964B00;\n  --energy-pulse: rgba(50, 205, 50, 0.4);\n}\n[saved-theme=\"dark\"] {\n  --grotto-bg: #1F4D55;\n  --forest-shadow: #0D1B1E;\n  --fey-blue: #33CCFF;\n  --twinkle: rgba(51, 204, 255, 0.6);\n}\n.site-container {\n  display: grid;\n  grid-template-columns: 1fr minmax(auto, 800px) 1fr;\n  background: var(--bark-brown);\n}\n.grotto-content {\n  background: var(--grotto-bg);\n  padding: 40px;\n  box-shadow: 0 0 50px rgba(0,0,0,0.3);\n}\n@keyframes energy-flow {\n  0% { box-shadow: 0 0 5px var(--energy-pulse); }\n  50% { box-shadow: 0 0 20px var(--energy-pulse); }\n  100% { box-shadow: 0 0 5px var(--energy-pulse); }\n}\n.vine-decoration {\n  animation: energy-flow 3s infinite ease-in-out;\n}\n.image-left { float: left; margin-right: 20px; max-width: 40%; }\n.image-right { float: right; margin-left: 20px; max-width: 40%; }\n.jumbotron-hero { width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }",
+    "model": "qwen2.5-coder:14b"
+  }
+]

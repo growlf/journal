@@ -7,7 +7,7 @@ aliases:
 ---
 # Testing library additions
 
-![[lIBRARY.svg]]
+![[_assets/lIBRARY.svg]]
 ### Links
 - ...
 ### TODO

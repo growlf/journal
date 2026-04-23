@@ -12,8 +12,8 @@ tags:
 > In the Army, we call this "Mapping the Terrain." You can't secure what you can't see. This SOP defines how to perform a multi-layer reconnaissance of the Home Lab using Proxmox, MikroTik, and Nmap. This is a "Force Multiplier" for identifying "Ghost Devices" and ensuring "Signal Discipline."
 
 ## 1. Prerequisites
-- SSH Access to the **Proxmox Hypervisor** (192.168.42.10).
-- SSH Access to the **Office Router** (192.168.42.1) and **House Router** (192.168.88.1).
+- SSH Access to the **Proxmox Hypervisor** (192.168.2.10).
+- SSH Access to the **Office Router** (192.168.2.1) and **House Router** (192.168.0.1).
 - `nmap` installed on the workstation or a discovery node.
 
 ## 2. Phase 1: Edge Recon (MikroTik)
@@ -32,7 +32,7 @@ Check the "Command Post" for virtualized assets.
 
 ## 4. Phase 3: Active Scanning (Nmap)
 Perform a "Signal Sweep" to find anything not reporting to the hypervisor or router.
-1. **Host Discovery:** `nmap -sn 192.168.42.0/24` (and other subnets).
+1. **Host Discovery:** `nmap -sn 192.168.2.0/24` (and other subnets).
 2. **Deep Service Scan:** `nmap -A [target_ip]` for unidentified MAC addresses.
    - *Look for:* XCC/IPMI controllers, IoT sensors, and mobile devices.
 
@@ -42,7 +42,7 @@ Perform a "Signal Sweep" to find anything not reporting to the hypervisor or rou
 - **Sanitize for Public Consumption:** Run the sanitization script to update the public `Network/Devices/` folder:
   `python3 _assets/_scripts/sanitize-network.py`
   - *Note:* This ensures real MACs and internal IPs are scrubbed before publishing.
-- **Update the Map:** Verify the physical and logical links in the **[[Internal/Networks/Yeticraft/Network Map|Network Map 1]]**.
+- **Update the Map:** Verify the physical and logical links in the **[[Sparse Page]]**.
 
 ---
 

@@ -40,7 +40,7 @@ Use the `deploy_yeti_sidecar.sh` script to push the sidecar to a new node.
 
 ```bash
 # Usage: ./deploy_yeti_sidecar.sh <IP> <USER> <SSH_KEY> <SUDO_PASS>
-./deploy_yeti_sidecar.sh 10.10.1.252 netyeti ~/.ssh/id_rsa "my_secret_pass"
+./deploy_yeti_sidecar.sh 10.0.1.252 netyeti ~/.ssh/id_rsa "my_secret_pass"
 ```
 
 **What the script does:**
@@ -77,4 +77,4 @@ For high-volume LLM tasks, use the `parallel_ollama.py` script. It reads the nod
 - How does the `Parallel_Offloading_Reports.md` help with "Orchestrator Review"?
 
 ---
-*Related: [[Network/Services/YetiPack Cluster|YetiPack Cluster]], [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]], [[ansible/index|Ansible Automation]]*
+*Related: [[Sparse Page]], [[Knowledge Base/LLM/Hybrid Architecture - The PACE Plan|PACE Plan]], [[ansible/index|Ansible Automation]]*

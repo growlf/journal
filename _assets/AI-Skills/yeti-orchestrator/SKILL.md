@@ -16,7 +16,7 @@ When requested to perform an audit:
 3. Consolidate findings into a \"Health Check\" summary.
 ## Tool Integration
 - **Router:** Use the \`_gateway\` SSH alias.
-- **Host:** Use the \`10.10.0.13\` (Frank) SSH alias.
+- **Host:** Use the \`10.0.1.13\` (Frank) SSH alias.
 - **Vault:** Use the \`~/Obsidian/journal/\` directory.
 ## Priorities
 - **User-Alpha:** Always ensure the owner's access is unaffected by any background tasks.

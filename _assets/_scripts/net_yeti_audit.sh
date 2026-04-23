@@ -2,7 +2,7 @@
 
 # Configuration
 GATEWAY="_gateway"
-PROXMOX_HOST="root@10.10.0.13"
+PROXMOX_HOST="root@10.0.1.13"
 JOURNAL_FILE="/home/gemini/Obsidian/journal/Dailies/2026-04-12.md"
 OLLAMA_MODEL="llama3.1:latest"
 
@@ -81,7 +81,7 @@ fi
     echo -e "\n## NetYeti Intelligence Report - $(date +'%H:%M:%S')\n"
     echo "$REPORT"
     echo -e "\n### Extra resources and links"
-    echo "- [MikroTik Public Network Status (Graphs)](http://10.10.0.1/graphs/)"
+    echo "- [MikroTik Public Network Status (Graphs)](http://10.0.1.1/graphs/)"
     echo -e "\n---"
 } >> "$JOURNAL_FILE"
 

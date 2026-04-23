@@ -22,7 +22,7 @@ DNS = 10.X.X.X
 To:
 
 ```sh
-DNS = 10.X.X.X,bellinghammakerspace.org
+DNS = 10.X.X.X,lab.internal
 ```
 
 And the resolve issue was, pardon the pun, resolved!

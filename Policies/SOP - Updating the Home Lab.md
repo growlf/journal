@@ -14,12 +14,12 @@ tags:
 ## 1. Preparation (The Recon Phase)
 - **Check for Signal:** Review the update logs for your hypervisor, firewall, and core services.
 - **Consult the Minions:** Task the **[[.gemini/agents/ai-stack-engineer|AI Stack Engineer]]** to check for local model updates.
-- **Verify Backups:** Ensure your [[Internal/Networks/Yeticraft/Services/Backup/index|Backups]] are current and synchronized.
+- **Verify Backups:** Ensure your [[Sparse Page]] are current and synchronized.
 
 ## 2. Maintenance (The Action Phase)
-1. **Update the Engine:** Start with your [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]] nodes. Use `apt update && apt dist-upgrade`.
-2. **Update the Perimeter:** Check for updates for your [[Internal/Networks/Yeticraft/Devices/BMS-Gateway|MikroTik Routers]].
-3. **Update Core Services:** Update your [[Internal/Networks/Yeticraft/Services/Ollama/index|AI Engines]], DNS, and DHCP services.
+1. **Update the Engine:** Start with your [[Sparse Page]] nodes. Use `apt update && apt dist-upgrade`.
+2. **Update the Perimeter:** Check for updates for your [[Sparse Page]].
+3. **Update Core Services:** Update your [[Sparse Page]], DNS, and DHCP services.
 4. **Update the Minions:** Run updates on all specialized LXCs and VMs.
 
 ## 3. Verification (The After Action Phase)

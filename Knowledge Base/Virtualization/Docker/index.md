@@ -54,4 +54,4 @@ LIMIT 10
 - Why is it important to tag your Docker images with specific versions?
 
 ---
-*Related: [[Knowledge Base/LXC]], [[Internal/Networks/Yeticraft/Services/Proxmox/index|Proxmox]], [[Knowledge Base/Apt Cacher NG]]*
+*Related: [[Knowledge Base/LXC]], [[Sparse Page]], [[Knowledge Base/Apt Cacher NG]]*

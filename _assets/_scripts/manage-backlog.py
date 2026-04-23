@@ -3,7 +3,7 @@ import re
 import sys
 from datetime import datetime
 
-VAULT_ROOT = "/home/netyeti/Obsidian/Journal"
+VAULT_ROOT = "~/Obsidian/Journal"
 INTERNAL_DAILY = os.path.join(VAULT_ROOT, "Internal/daily")
 
 # Tasks Plugin Emoji Map
@@ -131,13 +131,13 @@ def generate_briefing_with_ollama(tasks):
     
     tasks.sort(key=lambda x: (x['priority'], x['due'] or '9999-99-99'))
     
-    prompt = f"""You are 'The Warden', the task sergeant for Garth Johnson (The NetYeti). 
+    prompt = f"""You are 'The Warden', the task sergeant for The NetYeti (The NetYeti). 
 Analyze the following list of active objectives from the Obsidian vault and generate a 'Warden's Tactical Briefing'.
 
 RULES:
 - Maintain the 'NetYeti' tone: expert, veteran-inspired (PACE), direct, and pragmatic.
 - Use Obsidian Markdown formatting (callouts, tasks, etc.).
-- Categorize tasks into 'Minion Powers' (AI/Automated tasks) and 'Guardian Directives' (Manual/Garth-required).
+- Categorize tasks into 'Minion Powers' (AI/Automated tasks) and 'Guardian Directives' (Manual/The NetYeti-required).
 - Highlight the most critical items (🔺) and provide a brief 'Instructor's Note' on why they matter.
 - Be concise but insightful.
 

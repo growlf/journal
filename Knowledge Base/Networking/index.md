@@ -1,37 +1,57 @@
 ---
-title: Networking
-tags:
-  - index
+title: Internal/Networks/Yeticraft/Services/Open-WebUI
 ---
-# Knowledge Base - Networking
+## Contents:
+%% DATAVIEW_PUBLISHER: start
+```dataview
+TABLE join(sort(rows.file.link), " | ") as Documents
+FLATTEN regexreplace(file.folder, ".*/", "") as lastPart
+WHERE contains(file.folder, this.file.folder)
+GROUP BY lastPart as Folder
+SORT lastPart
+```
+%%
 
-> In the Army, we call this the "Signal Corps." If the comms go down, the mission is over.
+| Folder | Documents |
+| --- | --- |
 
-This section covers the networking fundamentals and specific configurations for the home lab.
+%% DATAVIEW_PUBLISHER: end %%
 
-## Contents
-- [[Knowledge Base/Networking/DHCP.md|DHCP]]: Dynamic Host Configuration Protocol.
-- [[Knowledge Base/Networking/DNS/index.md|DNS]]: Domain Name System.
-- [[Knowledge Base/Networking/Domain.md|Domain]]: Active Directory or other domain setups.
-- [[Knowledge Base/Networking/Firewall.md|Firewall]]: Traffic filtering and security.
-- [[Knowledge Base/Networking/ISP.md|ISP]]: Internet Service Provider details.
-- [[Knowledge Base/Networking/Router.md|Router]]: Traffic routing and gateways.
-- [[Knowledge Base/Networking/Security.md|Security]]: Network security concepts and strategy.
-- [[Knowledge Base/Networking/WiFi.md|WiFi]]: Wireless networking.
+## Recent Changes / Additions
+%% DATAVIEW_PUBLISHER: start
+```dataview
+TABLE 
+  file.ctime AS "Created", 
+  file.mtime AS "Updated"
+WHERE file.cday >= date(today) - dur(7 days)
+  OR file.mday >= date(today) - dur(7 days)
+WHERE contains(file.folder, this.file.folder)
+SORT file.mtime DESC
+LIMIT 20
+```
+%%
 
-## Sub-Sections
-- [[Knowledge Base/Networking/DNS/index.md|DNS Service Details]]: Specialized DNS records and servers.
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/_templates/Recent Activity|Recent Activity]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Folder|Folder]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Project|Project]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/AAR|AAR]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Post-Implementation Review|Post-Implementation Review]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/dailynote|dailynote]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Discovery Time|Discovery Time]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Network|Network]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Service|Service]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Person|Person]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily|Daily]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Issue|Issue]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/index|index]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Project Proposal|Project Proposal]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Base|Base]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily2|Daily2]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Policy|Policy]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Device|Device]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/LearningModule|LearningModule]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/IssueTest|IssueTest]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
 
-## Security & Filtering Tools
-- [[Knowledge Base/Networking/iptables.md|iptables]]: Linux kernel firewall utility.
-- [[Knowledge Base/Networking/Snort.md|Snort]]: Network Intrusion Detection System (IDS).
-- [[Knowledge Base/Networking/UFW.md|UFW]]: Uncomplicated Firewall (iptables frontend).
-- [[Knowledge Base/Networking/Unbound.md|Unbound]]: Validating, recursive, caching DNS resolver.
-- [[Knowledge Base/Networking/Zenarmor.md|Zenarmor]]: Next-generation firewall plugin.
-
-## Reference
-- [[Knowledge Base/Networking/pfSense.md|pfSense]]: Open-source firewall.
-- [[Knowledge Base/Networking/OPNsense.md|OPNsense]]: HardenedBSD firewall.
-
-## Tactical Notes
-- [[Knowledge Base/Networking/Tactical-SSH-GitHub-Keys.md|Tactical SSH: GitHub Keys]]: Rapid provisioning via public key retrieval.
+%% DATAVIEW_PUBLISHER: end %%

@@ -1,15 +1,57 @@
 ---
-title: Network Services (Concepts)
+title: /
 ---
-## Overview
-This section documents the conceptual services running within the Default Stack. For high-fidelity ground truth, refer to the internal documentation.
+## Contents:
+%% DATAVIEW_PUBLISHER: start
+```dataview
+TABLE join(sort(rows.file.link), " | ") as Documents
+FLATTEN regexreplace(file.folder, ".*/", "") as lastPart
+WHERE contains(file.folder, this.file.folder)
+GROUP BY lastPart as Folder
+SORT lastPart
+```
+%%
 
-## Core Services (Concepts)
-- [[Network/Services/Proxmox/index|Proxmox VE (Concept)]]
-- [[Network/Services/Ollama|Ollama AI Engine (Concept)]]
-- [[Network/Services/OpenClaw|OpenClaw C2 (Concept)]]
+| Folder | Documents |
+| --- | --- |
 
-## Learning Objectives
-- Understanding the relationship between a Hypervisor and its hosted services.
-- Exploring service-level security and authentication.
-- Managing AI workloads locally vs in the cloud.
+%% DATAVIEW_PUBLISHER: end %%
+
+## Recent Changes / Additions
+%% DATAVIEW_PUBLISHER: start
+```dataview
+TABLE 
+  file.ctime AS "Created", 
+  file.mtime AS "Updated"
+WHERE file.cday >= date(today) - dur(7 days)
+  OR file.mday >= date(today) - dur(7 days)
+WHERE contains(file.folder, this.file.folder)
+SORT file.mtime DESC
+LIMIT 20
+```
+%%
+
+| File | Created | Updated |
+| --- | --- |
+| [[_assets/_templates/Recent Activity|Recent Activity]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Folder|Folder]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
+| [[_assets/_templates/Project|Project]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/AAR|AAR]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Post-Implementation Review|Post-Implementation Review]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/dailynote|dailynote]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Discovery Time|Discovery Time]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Network|Network]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Service|Service]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Person|Person]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily|Daily]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Issue|Issue]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/index|index]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Project Proposal|Project Proposal]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Base|Base]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Daily2|Daily2]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Policy|Policy]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/Device|Device]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/LearningModule|LearningModule]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+| [[_assets/_templates/IssueTest|IssueTest]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
+
+%% DATAVIEW_PUBLISHER: end %%
