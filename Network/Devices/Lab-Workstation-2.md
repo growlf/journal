@@ -1,8 +1,8 @@
-# Lab-1-Workstation-Ubuntu
+# Lab-Workstation-2
 > **Status:** [[ACTIVE]]
-> **Last Update:** [[2026-04-12]]
-> **OS:** Ubuntu 24.04 (Dockerized Ollama)
-> **Identity:** `bmsadmin` via BMS-Workstations Key
+> **Last Update:** [[2026-04-23]]
+> **OS:** Linux Baseline (Ideal Lab Node)
+> **Identity:** `[USER]` via Local SSH Key
 
 ## Optimization Profile
 - **Instruction Set:** AVX2 (Optimized)

@@ -1,4 +1,5 @@
 ---
+
 Active: true
 Cores: 24
 IP: 10.0.0.200
@@ -18,13 +19,7 @@ tags:
 - devices
 type: Laptop
 ---
-# Sanitized View
-> [!NOTE] Public Version
-> This is a sanitized version of the internal documentation for community and learning purposes.
 
-# Sanitized View
-> [!NOTE] Public Version
-> This is a sanitized version of the internal documentation for community and learning purposes.
 
 # Description
 - Last Updated: **`=this.Updated`**

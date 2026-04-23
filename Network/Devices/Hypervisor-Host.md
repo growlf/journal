@@ -1,4 +1,5 @@
 ---
+
 Active: true
 Cores: 16
 IP: 10.0.2.10
@@ -18,13 +19,7 @@ tags:
 - devices
 type: server
 ---
-# Sanitized View
-> [!NOTE] Public Version
-> This is a sanitized version of the internal documentation for community and learning purposes.
 
-# Sanitized View
-> [!NOTE] Public Version
-> This is a sanitized version of the internal documentation for community and learning purposes.
 
 # Description
 - Last Updated: **`=this.Updated`**
