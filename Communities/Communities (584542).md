@@ -1,5 +1,5 @@
 ---
-title: _assets/templates
+title: Untitled
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

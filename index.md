@@ -34,7 +34,7 @@ After years in the industry, my current focus includes:
 - **Instruction:** Teaching the next generation at BTC.
 - **Community Building:** Leading at Cascade STEAM and LinuxFest NW.
 - **Consulting:** Helping non-profits and educational organizations find their footing.
-- **Engagement:** Active involvement in various local [[Communities]].
+- **Engagement:** Active involvement in various local [[Communities/index]].
 
 ## Skills
 - **Mentorship & Instruction:** Curriculum development and passing the torch to the next generation.
