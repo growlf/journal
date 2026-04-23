@@ -38,10 +38,12 @@ Built and documented through real-world homelab experience on Intel Arc hardware
 
 ## Quick start
 
+The source code for this stack is maintained in the **[[growlf/ai-stack]](https://github.com/growlf/ai-stack)** repository. This repository contains the production-ready Docker Compose files, systemd unit definitions, and automation scripts used to deploy the NetYeti AI Lab.
+
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/phoenix-ai-stack.git
-cd phoenix-ai-stack
+git clone https://github.com/growlf/ai-stack.git
+cd ai-stack
 
 # 2. Configure
 cp .env.example .env

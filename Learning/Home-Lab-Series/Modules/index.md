@@ -1,44 +1,16 @@
+# 🎓 Self-Healing Lab: Curriculum Modules
+
+Welcome to the structured learning path for the **NetYeti "Self-Healing Lab."** This curriculum is designed to take you from a bare-metal server to a fully automated, AI-augmented infrastructure.
+
+## 📚 Learning Modules
+
+1.  **[[00-Philosophy]]**: The **Primary (P)** concept. Understand the "NetYeti Way"—Local-First, GitOps, and PACE.
+2.  **[[01-Physical]]**: Hardware selection and layout. Why we chose the "2026 Baseline Architecture" (Meteor Lake/Arc).
+3.  **[[02-Proxmox]]**: Deploying the foundation. Virtualization, networking, and ZFS storage.
+4.  **[[03-GitOps]]**: Automating the forest. Using Ansible and OpenTofu to ensure logic parity across the lab.
+5.  **[[04-AI-C2]]**: Connecting the Brain. Deploying Ollama, OpenClaw, and the Gemini-CLI for autonomous management.
+6.  **[[05-Obsidian]]**: The Unified Knowledge Base. Building the "Battle Book" and automating documentation sync.
+
 ---
-title: Learning/Home-Lab-Series/Modules
----
-## Contents:
-%% DATAVIEW_PUBLISHER: start
-```dataview
-TABLE join(sort(rows.file.link), " | ") as Documents
-FLATTEN regexreplace(file.folder, ".*/", "") as lastPart
-WHERE contains(file.folder, this.file.folder)
-GROUP BY lastPart as Folder
-SORT lastPart
-```
-%%
-
-| Folder | Documents |
-| --- | --- |
-
-%% DATAVIEW_PUBLISHER: end %%
-
-## Recent Changes / Additions
-%% DATAVIEW_PUBLISHER: start
-```dataview
-TABLE 
-  file.ctime AS "Created", 
-  file.mtime AS "Updated"
-WHERE file.cday >= date(today) - dur(7 days)
-  OR file.mday >= date(today) - dur(7 days)
-WHERE contains(file.folder, this.file.folder)
-SORT file.mtime DESC
-LIMIT 20
-```
-%%
-
-| File | Created | Updated |
-| --- | --- |
-| [[Learning/Home-Lab-Series/Modules/index|index]] | 12:26 AM - April 16, 2026 | 12:26 AM - April 16, 2026 |
-| [[Learning/Home-Lab-Series/Modules/00-Philosophy|00-Philosophy]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Learning/Home-Lab-Series/Modules/05-Obsidian|05-Obsidian]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Learning/Home-Lab-Series/Modules/02-Proxmox|02-Proxmox]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Learning/Home-Lab-Series/Modules/03-GitOps|03-GitOps]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Learning/Home-Lab-Series/Modules/04-AI-C2|04-AI-C2]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-| [[Learning/Home-Lab-Series/Modules/01-Physical|01-Physical]] | 2:06 PM - April 14, 2026 | 2:06 PM - April 14, 2026 |
-
-%% DATAVIEW_PUBLISHER: end %%
+> [!tip] Teachable Moment: "One Step at a Time"
+> Don't rush the physical layer. A stable house is built on a solid foundation. Ensure your Proxmox networking is 100% stable before you start deploying the Swarm.
