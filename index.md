@@ -110,6 +110,10 @@ The ongoing evolution of my self-hosted environment. Documented in the [[Learnin
 
 ---
 
+## Discords:
+<iframe src="https://discord.com/widget?id=1233571739741589544&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe><iframe src="https://discord.com/widget?id=663548562558418955&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+---
+
 ## 🕒 Recent Activity
 %% DATAVIEW_PUBLISHER: start
 ```dataview
@@ -142,3 +146,6 @@ LIMIT 10
 
 ---
 *Last Updated: 2026-04-12*
+
+
+

@@ -1,5 +1,5 @@
 ---
-title: Ansible Automated Lab Manual
+title: Global Herd Variables
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

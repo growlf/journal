@@ -1,5 +1,5 @@
 ---
-title: Ansible Automated Lab Manual
+title: Reusable Automation Roles
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

@@ -1,5 +1,5 @@
 ---
-title: Ansible Automated Lab Manual
+title: Lab Inventory Map
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

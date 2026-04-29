@@ -1,5 +1,5 @@
 ---
-title: Learning/Home-Lab-Series/AI-Stack
+title: AI-Stack
 ---
 # AI-Stack
 

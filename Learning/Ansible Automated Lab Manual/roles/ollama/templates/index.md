@@ -1,5 +1,5 @@
 ---
-title: Ansible Automated Lab Manual/roles/ollama
+title: Ollama Role Templates
 ---
 ## Contents:
 %% DATAVIEW_PUBLISHER: start

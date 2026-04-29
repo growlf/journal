@@ -1,3 +1,6 @@
+---
+title: Ansible Automated Lab Manual
+---
 # 🛠️ Automated Lab Manual: Ansible
 
 Welcome to the **NetYeti Ansible Repository**. This folder contains the automation logic used to manage the "Ideal" version of our lab. It serves as a teachable resource for scaling infrastructure, performing network discovery, and maintaining the **Ollama Herd**.

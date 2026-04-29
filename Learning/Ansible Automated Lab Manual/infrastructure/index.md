@@ -1,3 +1,6 @@
+---
+title: Lab Infrastructure Logic
+---
 # 🏗️ Lab Infrastructure Logic
 
 This directory contains the "Under-the-Hood" automation used to maintain the NetYeti Lab's consistency and logic parity across different nodes.
